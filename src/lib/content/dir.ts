@@ -6,5 +6,6 @@ import path from 'node:path';
  */
 export function contentDir(): string {
   const set = process.env.WORDCRAFT_CONTENT_DIR?.trim();
-  return set ? path.resolve(process.cwd(), set) : path.join(process.cwd(), 'content');
+  // The library folder is chosen at run time on the learner's own computer, so the bundler must not try to trace it.
+  return set ? path.resolve(/*turbopackIgnore: true*/ process.cwd(), set) : path.join(/*turbopackIgnore: true*/ process.cwd(), 'content');
 }

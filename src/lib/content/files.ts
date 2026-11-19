@@ -44,7 +44,7 @@ export function indexContentFiles(dir: string): { items: ContentFile[]; problems
   const seen = new Set<string>();
 
   for (const kind of CONTENT_KINDS) {
-    for (const full of walk(path.join(dir, FOLDERS[kind]))) {
+    for (const full of walk(path.join(/*turbopackIgnore: true*/ dir, FOLDERS[kind]))) {
       const rel = path.relative(dir, full).split(path.sep).join('/');
       let text: string;
       try {
