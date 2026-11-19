@@ -2,6 +2,7 @@ import { getDb } from '@/lib/db';
 import { getModels } from '@/lib/settings';
 import { getMonthlyCapUsd, getMonthlySpendUsd } from '@/lib/ai/budget';
 import { hasApiKey } from '@/lib/ai/client';
+import Link from 'next/link';
 import SettingsForm from './SettingsForm';
 
 export const dynamic = 'force-dynamic';
@@ -25,6 +26,14 @@ export default function SettingsPage() {
         <p className="muted">
           The key is read from <code>ANTHROPIC_API_KEY</code> in <code>.env.local</code> and never shown or sent to the
           browser. Edit that file, then restart the app.
+        </p>
+      </section>
+
+      <section className="panel" aria-labelledby="content-h">
+        <h2 id="content-h">Library content</h2>
+        <p className="muted">Read new entries, approve them for learners, or say what needs work.</p>
+        <p>
+          <Link href="/content">Review library content</Link>
         </p>
       </section>
 

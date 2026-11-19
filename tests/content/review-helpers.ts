@@ -7,7 +7,7 @@ import { seedContent } from '@/lib/content/seed';
 import { makeContentDir, CATEGORIES_YAML } from './helpers';
 
 /** A valid expression written as real YAML, so a test can change one line and compare the bytes. */
-export function yamlEntry(o: { slug: string; status?: 'draft' | 'published' | null; examples?: number; eol?: string; text?: string }): string {
+export function yamlEntry(o: { slug: string; status?: 'draft' | 'published' | null; examples?: number; eol?: string; text?: string; relations?: { to: string; type: string }[] }): string {
   const eol = o.eol ?? '\n';
   const n = o.examples ?? 3;
   const lines = [
@@ -28,7 +28,7 @@ export function yamlEntry(o: { slug: string; status?: 'draft' | 'published' | nu
     '  - one way to say it',
     'examples:',
     ...Array.from({ length: n }, (_, i) => [`  - text: Example ${i + 1} with ${o.slug}.`, '    setting: narration']).flat(),
-    'relations: []',
+    ...(o.relations && o.relations.length ? ['relations:', ...o.relations.flatMap((r) => [`  - to: ${r.to}`, `    type: ${r.type}`])] : ['relations: []']),
     'mistakes: []',
   ];
   return lines.join(eol) + eol;

@@ -6,8 +6,14 @@ import TodayPanel from "@/components/progress/TodayPanel";
 export const dynamic = "force-dynamic";
 
 export default function Dashboard() {
-  const today = getToday(getDb());
+  const db = getDb();
+  const today = getToday(db);
   const due = today.dueCards;
+  // Drafts the learner has not looked at yet. A cheap count; the review page has the full picture.
+  const drafts =
+    db.get<{ n: number }>(
+      "SELECT COUNT(*) AS n FROM expressions e WHERE e.status = 'draft' AND NOT EXISTS (SELECT 1 FROM content_reviews r WHERE r.kind = 'expression' AND r.slug = e.slug)",
+    )?.n ?? 0;
   return (
     <>
       <h1>From a plain thought to a written sentence</h1>
@@ -28,6 +34,11 @@ export default function Dashboard() {
       </figure>
 
       <TodayPanel today={today} />
+      {drafts > 0 && (
+        <p className="drafts-note" data-testid="drafts-note">
+          <Link href="/content">{drafts} {drafts === 1 ? "draft is" : "drafts are"} waiting for your review</Link>
+        </p>
+      )}
 
       <div className="tiles">
         {due > 0 && (

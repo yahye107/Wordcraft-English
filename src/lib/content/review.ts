@@ -156,3 +156,30 @@ export function getNotes(db: Db, dir: string): ReviewNote[] {
   }
   return out;
 }
+
+export type AreaCoverage = { slug: string; name: string; published: number; draft: number; total: number };
+
+/** Published and draft entries per top-level area (subcategories count towards their area). */
+export function getAreaCoverage(db: Db): AreaCoverage[] {
+  const cats = db.all<{ id: number; slug: string; name: string; parent_id: number | null }>('SELECT id, slug, name, parent_id FROM categories ORDER BY sort, name');
+  const byId = new Map(cats.map((c) => [c.id, c]));
+  const areas = new Map<number, AreaCoverage>(
+    cats.filter((c) => c.parent_id === null).map((c) => [c.id, { slug: c.slug, name: c.name, published: 0, draft: 0, total: 0 }]),
+  );
+  const topOf = (id: number): number | null => {
+    let cur = byId.get(id);
+    for (let guard = 0; cur && cur.parent_id !== null && guard < 10; guard++) cur = byId.get(cur.parent_id);
+    return cur ? cur.id : null;
+  };
+  for (const r of db.all<{ status: string; category_id: number }>(
+    'SELECT e.status AS status, ec.category_id AS category_id FROM expressions e JOIN expression_categories ec ON ec.expression_id = e.id AND ec.is_primary = 1',
+  )) {
+    const top = topOf(r.category_id);
+    const area = top === null ? undefined : areas.get(top);
+    if (!area) continue;
+    if (r.status === 'draft') area.draft++;
+    else area.published++;
+    area.total++;
+  }
+  return [...areas.values()];
+}

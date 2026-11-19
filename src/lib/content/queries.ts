@@ -23,17 +23,18 @@ export type ContrastGroupDetail = {
   slug: string;
   title: string;
   explanation: string;
-  members: { slug: string; text: string; note: string; example: string }[];
+  members: { slug: string; text: string; note: string; example: string; draft: boolean }[];
 };
 
 export type ExpressionDetail = ExpressionSummary & {
+  status: 'draft' | 'published';
   pos: string | null;
   contextualMeaning: string;
   usageNotes: string;
   categories: { slug: string; name: string }[];
   tags: { kind: string; slug: string }[];
   examples: { text: string; setting: string; contextNote: string | null }[];
-  relations: { slug: string; text: string; type: string; note: string | null }[];
+  relations: { slug: string; text: string; type: string; note: string | null; draft: boolean }[];
   contrastGroups: ContrastGroupDetail[];
   mistakes: { wrong: string; right: string; explanation: string }[];
 };
@@ -144,33 +145,38 @@ export function listExpressions(
   return rows.map(toSummary);
 }
 
-function loadGroup(db: Db, groupId: number, slug: string, title: string, explanation: string): ContrastGroupDetail {
-  const members = db.all<{ slug: string; text: string; note: string; example: string }>(
-    `SELECT e.slug, e.text, m.note, m.example
-     FROM contrast_group_members m JOIN expressions e ON e.id = m.expression_id
-     WHERE m.group_id = ? AND e.status = 'published' ORDER BY m.sort`,
-    [groupId],
-  );
+/** `includeDraft` is for the learner's own review preview only; every learner-facing caller leaves it off. */
+type Visibility = { includeDraft?: boolean };
+
+function loadGroup(db: Db, groupId: number, slug: string, title: string, explanation: string, vis: Visibility = {}): ContrastGroupDetail {
+  const members = db
+    .all<{ slug: string; text: string; note: string; example: string; status: string }>(
+      `SELECT e.slug, e.text, m.note, m.example, e.status
+       FROM contrast_group_members m JOIN expressions e ON e.id = m.expression_id
+       WHERE m.group_id = ? ${vis.includeDraft ? '' : "AND e.status = 'published'"} ORDER BY m.sort`,
+      [groupId],
+    )
+    .map((m) => ({ slug: m.slug, text: m.text, note: m.note, example: m.example, draft: m.status !== 'published' }));
   return { slug, title, explanation, members };
 }
 
 /** A contrast needs at least two words a learner can see; a group left with one is hidden until more are published. */
 const MIN_VISIBLE_MEMBERS = 2;
 
-export function getContrastGroup(db: Db, slug: string): ContrastGroupDetail | undefined {
+export function getContrastGroup(db: Db, slug: string, vis: Visibility = {}): ContrastGroupDetail | undefined {
   const g = db.get<{ id: number; slug: string; title: string; explanation: string }>(
     'SELECT id, slug, title, explanation FROM contrast_groups WHERE slug = ?',
     [slug],
   );
   if (!g) return undefined;
-  const group = loadGroup(db, g.id, g.slug, g.title, g.explanation);
+  const group = loadGroup(db, g.id, g.slug, g.title, g.explanation, vis);
   return group.members.length >= MIN_VISIBLE_MEMBERS ? group : undefined;
 }
 
-export function getExpression(db: Db, slug: string): ExpressionDetail | undefined {
-  const row = db.get<ExprRow & { id: number; pos: string | null; contextual_meaning: string; usage_notes: string }>(
-    `SELECT id, slug, text, kind, pos, simple_meaning, contextual_meaning, usage_notes, intensity, register, level
-     FROM expressions WHERE slug = ? AND status = 'published'`,
+export function getExpression(db: Db, slug: string, vis: Visibility = {}): ExpressionDetail | undefined {
+  const row = db.get<ExprRow & { id: number; status: 'draft' | 'published'; pos: string | null; contextual_meaning: string; usage_notes: string }>(
+    `SELECT id, slug, text, kind, pos, simple_meaning, contextual_meaning, usage_notes, intensity, register, level, status
+     FROM expressions WHERE slug = ? ${vis.includeDraft ? '' : "AND status = 'published'"}`,
     [slug],
   );
   if (!row) return undefined;
@@ -191,11 +197,13 @@ export function getExpression(db: Db, slug: string): ExpressionDetail | undefine
       [row.id],
     )
     .map((x) => ({ text: x.text, setting: x.setting, contextNote: x.context_note }));
-  const relations = db.all<{ slug: string; text: string; type: string; note: string | null }>(
-    `SELECT e.slug, e.text, r.type, r.note FROM relations r JOIN expressions e ON e.id = r.to_id
-     WHERE r.from_id = ? AND e.status = 'published' ORDER BY r.id`,
-    [row.id],
-  );
+  const relations = db
+    .all<{ slug: string; text: string; type: string; note: string | null; status: string }>(
+      `SELECT e.slug, e.text, r.type, r.note, e.status FROM relations r JOIN expressions e ON e.id = r.to_id
+       WHERE r.from_id = ? ${vis.includeDraft ? '' : "AND e.status = 'published'"} ORDER BY r.id`,
+      [row.id],
+    )
+    .map((r) => ({ slug: r.slug, text: r.text, type: r.type, note: r.note, draft: r.status !== 'published' }));
   const mistakes = db.all<{ wrong: string; right: string; explanation: string }>(
     'SELECT wrong, right, explanation FROM mistakes WHERE expression_id = ? ORDER BY id',
     [row.id],
@@ -206,11 +214,12 @@ export function getExpression(db: Db, slug: string): ExpressionDetail | undefine
        JOIN contrast_group_members m ON m.group_id = g.id WHERE m.expression_id = ? ORDER BY g.title`,
       [row.id],
     )
-    .map((g) => loadGroup(db, g.id, g.slug, g.title, g.explanation))
+    .map((g) => loadGroup(db, g.id, g.slug, g.title, g.explanation, vis))
     .filter((g) => g.members.length >= MIN_VISIBLE_MEMBERS);
 
   return {
     ...toSummary(row),
+    status: row.status,
     pos: row.pos,
     contextualMeaning: row.contextual_meaning,
     usageNotes: row.usage_notes,
