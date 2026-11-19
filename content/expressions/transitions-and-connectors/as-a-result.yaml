@@ -1,0 +1,35 @@
+slug: as-a-result
+text: as a result
+kind: phrase
+pos: adverb phrase
+simpleMeaning: Because of what was just mentioned.
+contextualMeaning: A clear and neutral way to link an effect to its cause.
+usageNotes: 'Use "As a result," at the start, or "as a result of + noun" in the middle: "as a result of the delay".'
+register: neutral
+level: intermediate
+status: published
+categories:
+  - cause-and-result
+tags:
+  - technique:transition
+  - technique:cause-effect
+searchPhrases:
+  - because of this
+  - so
+  - this led to
+examples:
+  - text: The heating failed. As a result, the class moved online.
+    setting: professional
+  - text: She practised daily and, as a result, improved quickly.
+    setting: everyday
+  - text: As a result of the storm, the match was cancelled.
+    setting: narration
+relations:
+  - to: consequently
+    type: synonym
+  - to: therefore
+    type: related
+mistakes:
+  - wrong: As a result the delay, we left.
+    right: As a result of the delay, we left.
+    explanation: '"As a result" needs "of" before a noun.'

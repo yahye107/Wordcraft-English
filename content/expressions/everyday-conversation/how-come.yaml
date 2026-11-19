@@ -1,0 +1,30 @@
+slug: how-come
+text: how come
+kind: phrase
+simpleMeaning: An informal way to ask "why?", often with a hint of surprise.
+contextualMeaning: The speaker is curious or surprised about the reason for something.
+usageNotes: 'Word order is not inverted: "How come you didn’t call?" not "How come did you…?".'
+register: informal
+level: intermediate
+status: published
+categories:
+  - reactions
+  - small-talk
+tags:
+  - situation:asking-why
+searchPhrases:
+  - why
+  - for what reason
+  - why is that
+examples:
+  - text: “How come you’re up so early?”
+    setting: dialogue
+  - text: “How come nobody told me?” she asked.
+    setting: dialogue
+  - text: How come the shop is closed today?
+    setting: everyday
+relations: []
+mistakes:
+  - wrong: How come did you leave?
+    right: How come you left?
+    explanation: After "how come", use normal statement order.

@@ -1,0 +1,30 @@
+slug: a-sea-of
+text: a sea of
+kind: collocation
+simpleMeaning: A very large number or amount of people or things, seen as a wide sea.
+contextualMeaning: A metaphor that makes a crowd or a mass feel endless and moving.
+usageNotes: 'Pattern: "a sea of + plural noun": faces, umbrellas, paperwork. One strong image is better than several.'
+register: neutral
+level: intermediate
+status: published
+categories:
+  - metaphors
+tags:
+  - technique:metaphor
+  - technique:imagery
+searchPhrases:
+  - a huge crowd or amount
+  - a large mass of something
+  - filled with so many
+examples:
+  - text: From the stage, she saw a sea of faces.
+    setting: narration
+  - text: A sea of umbrellas filled the bridge.
+    setting: narration
+  - text: He sat behind a sea of unopened mail.
+    setting: narration
+relations: []
+mistakes:
+  - wrong: A sea of water filled the cup.
+    right: The cup was full of water.
+    explanation: A sea of is a metaphor for large numbers. A cup of water is just water.

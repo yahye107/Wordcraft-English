@@ -1,0 +1,31 @@
+slug: weathered
+text: weathered
+kind: word
+pos: adjective
+simpleMeaning: Changed and made rough by sun, wind, rain and time.
+contextualMeaning: A face, wall or boat that has lived outdoors. It suggests experience and survival.
+usageNotes: 'Use it to give a character history in one word: "a weathered face".'
+register: literary
+level: advanced
+status: published
+categories:
+  - appearance-and-surface
+tags:
+  - technique:imagery
+  - technique:characterisation
+searchPhrases:
+  - worn by sun, wind and age
+  - rough and aged
+  - showing years outdoors
+examples:
+  - text: The fisherman’s weathered face creased into a smile.
+    setting: narration
+  - text: A weathered fence leaned against the barn.
+    setting: narration
+  - text: Her weathered hands told the story of fifty harvests.
+    setting: narration
+relations: []
+mistakes:
+  - wrong: A weathered baby slept in the cot.
+    right: A tiny baby slept in the cot.
+    explanation: Weathered needs years of exposure; it does not fit a baby.

@@ -1,0 +1,29 @@
+slug: im-afraid-not
+text: I’m afraid not
+kind: phrase
+simpleMeaning: A polite way to say no, especially when you give bad news.
+contextualMeaning: The word "afraid" does not mean frightened here. It softens the refusal and shows regret.
+usageNotes: 'Use it in shops, offices and polite requests: "Is the manager in?" "I’m afraid not." You can also say "I’m afraid I can’t."'
+register: formal
+level: intermediate
+status: published
+categories:
+  - requests-and-refusals
+tags:
+  - situation:polite-refusal
+searchPhrases:
+  - sorry but no
+  - politely saying no
+  - unfortunately not
+examples:
+  - text: “Do you have this in blue?” “I’m afraid not.”
+    setting: dialogue
+  - text: I’m afraid I can’t help you with that.
+    setting: professional
+  - text: “Is the doctor free now?” “I’m afraid not; she’s with a patient.”
+    setting: dialogue
+relations: []
+mistakes:
+  - wrong: I’m afraid of saying no.
+    right: I’m afraid I have to say no.
+    explanation: The polite phrase has no "of" and does not mean scared.

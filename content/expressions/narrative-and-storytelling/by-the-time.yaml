@@ -1,0 +1,29 @@
+slug: by-the-time
+text: by the time
+kind: phrase
+simpleMeaning: At or before the point when something happens.
+contextualMeaning: It tells the reader that one event was already complete when another began. It often brings regret or surprise.
+usageNotes: 'Pattern: "By the time + subject + verb, [earlier event had already happened]". Use present for future: "By the time you arrive, we will have left."'
+register: neutral
+level: intermediate
+status: published
+categories:
+  - time-and-transition
+tags:
+  - technique:time
+searchPhrases:
+  - when something finally happened
+  - when she got there it was already
+  - at the point that
+examples:
+  - text: By the time she arrived, the shop had closed.
+    setting: narration
+  - text: By the time I looked up, the train was gone.
+    setting: narration
+  - text: By the time you read this, I will be on a plane.
+    setting: everyday
+relations: []
+mistakes:
+  - wrong: By the time she will arrive, we will have left.
+    right: By the time she arrives, we will have left.
+    explanation: After "by the time" for the future, use the present simple, not "will".

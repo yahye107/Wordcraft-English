@@ -1,0 +1,29 @@
+slug: i-would-recommend
+text: I would recommend
+kind: phrase
+simpleMeaning: A polite and professional way to suggest what should be done.
+contextualMeaning: It sounds careful and respectful. It is common in reports and emails when giving advice.
+usageNotes: 'Patterns: "I would recommend + -ing" or "I would recommend that we + base verb".'
+register: formal
+level: intermediate
+status: published
+categories:
+  - meetings-and-reports
+tags:
+  - situation:giving-advice
+searchPhrases:
+  - I suggest
+  - my advice is
+  - recommending an action
+examples:
+  - text: I would recommend postponing the launch.
+    setting: professional
+  - text: I would recommend that we hire a second designer.
+    setting: professional
+  - text: I would recommend starting with a small test.
+    setting: professional
+relations: []
+mistakes:
+  - wrong: I would recommend to postpone the launch.
+    right: I would recommend postponing the launch.
+    explanation: After recommend use -ing or a "that" clause, not "to + verb".

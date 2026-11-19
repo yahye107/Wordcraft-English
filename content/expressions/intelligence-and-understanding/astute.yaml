@@ -1,0 +1,32 @@
+slug: astute
+text: astute
+kind: word
+pos: adjective
+simpleMeaning: Quick to see the truth of a situation, especially about people or money.
+contextualMeaning: Clever in a practical, watchful way. The person notices what others miss.
+usageNotes: 'Use it for judgement: "an astute observer / businessman / remark".'
+register: formal
+level: advanced
+status: published
+categories:
+  - sharp-minds
+tags:
+  - technique:characterisation
+searchPhrases:
+  - quick to understand people and situations
+  - clever and observant
+  - shrewd
+examples:
+  - text: An astute investor, she sold before the market fell.
+    setting: narration
+  - text: “That’s an astute point,” the professor said.
+    setting: dialogue
+  - text: He made an astute guess about their plan.
+    setting: narration
+relations:
+  - to: naive
+    type: antonym
+mistakes:
+  - wrong: He is astute at nothing.
+    right: He is astute about money.
+    explanation: "Astute needs an area of judgement: about money, in business."

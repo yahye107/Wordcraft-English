@@ -1,0 +1,30 @@
+slug: in-light-of
+text: in light of
+kind: phrase
+simpleMeaning: Because of new information, or taking something into account.
+contextualMeaning: Introduces a reason or a change in view after new facts appear.
+usageNotes: 'Pattern: "In light of + noun phrase, [decision]". It is not the same as "in spite of".'
+register: formal
+level: advanced
+status: published
+categories:
+  - academic-writing
+  - meetings-and-reports
+tags:
+  - situation:giving-reasons
+searchPhrases:
+  - because of new information
+  - considering this
+  - given what we now know
+examples:
+  - text: In light of the new data, we have changed the plan.
+    setting: professional
+  - text: In light of recent events, the event is postponed.
+    setting: professional
+  - text: The board reconsidered in light of public concern.
+    setting: professional
+relations: []
+mistakes:
+  - wrong: In light of the rain, we went anyway.
+    right: In spite of the rain, we went anyway.
+    explanation: In light of gives a reason. "In spite of" means despite.

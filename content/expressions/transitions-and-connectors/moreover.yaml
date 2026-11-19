@@ -1,0 +1,31 @@
+slug: moreover
+text: moreover
+kind: word
+pos: adverb
+simpleMeaning: Adds another point that supports or strengthens what you just said.
+contextualMeaning: "It stacks arguments: the second point is meant to be at least as strong as the first."
+usageNotes: Use it in essays and reports with a comma after it. Do not use it to add something weaker or unrelated.
+register: formal
+level: advanced
+status: published
+categories:
+  - adding-and-sequencing
+tags:
+  - technique:transition
+  - technique:addition
+searchPhrases:
+  - also and more importantly
+  - what is more
+  - in addition
+examples:
+  - text: The plan is cheap. Moreover, it is fast.
+    setting: professional
+  - text: She is skilled; moreover, she is kind.
+    setting: everyday
+  - text: The method is simple and, moreover, reliable.
+    setting: academic
+relations: []
+mistakes:
+  - wrong: Moreover, but it is late.
+    right: Moreover, it is late.
+    explanation: Moreover already adds a point, so it does not need "but".

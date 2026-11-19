@@ -1,0 +1,34 @@
+slug: faltered
+text: faltered
+kind: word
+pos: verb (past)
+simpleMeaning: Lost strength, confidence or control for a moment, especially while moving or speaking.
+contextualMeaning: A visible wobble. The voice, step or courage weakens at a hard moment.
+usageNotes: 'Use it for a voice that breaks, steps that slow, or courage that slips: "her voice faltered".'
+intensity: 3
+register: literary
+level: advanced
+status: published
+categories:
+  - hesitation
+tags:
+  - emotion:uncertainty
+  - technique:body-language
+searchPhrases:
+  - lost confidence for a moment
+  - stumbled in speech
+  - weakened
+examples:
+  - text: Her voice faltered when she reached the last line of the speech.
+    setting: narration
+  - text: He never faltered, even when the road grew steep.
+    setting: narration
+  - text: “I—” Her confidence faltered. “I don’t know what to say.”
+    setting: dialogue
+relations:
+  - to: hesitated
+    type: related
+mistakes:
+  - wrong: The strong speaker faltered like a rock.
+    right: The strong speaker held firm like a rock.
+    explanation: Faltered means weakened. A rock does not falter.

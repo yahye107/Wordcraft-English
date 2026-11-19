@@ -1,0 +1,32 @@
+slug: simile-with-like
+text: simile with “like”
+kind: pattern
+simpleMeaning: Compare one thing with another using "like", to help the reader picture the first one.
+contextualMeaning: A simile tells the reader what something is similar to. The best ones are specific and surprising.
+usageNotes: 'Pattern: [thing] + verb + like + [fresh image]. Check that the comparison shows something real about the thing (sound, shape, movement, feeling). Avoid worn-out ones such as "like a mouse".'
+register: literary
+level: intermediate
+status: published
+categories:
+  - similes
+tags:
+  - technique:simile
+  - technique:imagery
+searchPhrases:
+  - compare one thing to another
+  - figurative language
+  - like comparison
+examples:
+  - text: Her laugh rattled like loose change.
+    setting: narration
+  - text: The old house sat at the end of the lane like a tired animal.
+    setting: narration
+  - text: He moved through the crowd like a needle through cloth.
+    setting: narration
+relations:
+  - to: simile-with-as-as
+    type: related
+mistakes:
+  - wrong: She ran like a fast runner.
+    right: She ran like a startled deer.
+    explanation: A simile must compare two different things. A runner is not different from a runner.

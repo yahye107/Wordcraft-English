@@ -1,0 +1,36 @@
+slug: bewildered
+text: bewildered
+kind: word
+pos: adjective
+simpleMeaning: Very confused, often because too many things are happening or everything is strange.
+contextualMeaning: A disorienting feeling. The person is lost in a situation, not only stuck on one question.
+usageNotes: 'Often used for crowds, new places and sudden change: "bewildered by the noise".'
+intensity: 4
+register: neutral
+level: advanced
+status: published
+categories:
+  - confusion-and-ignorance
+tags:
+  - emotion:confusion
+  - emotion:shock
+searchPhrases:
+  - lost and confused
+  - dazed
+  - too many things at once
+examples:
+  - text: The tourist looked bewildered in the crowded station.
+    setting: narration
+  - text: “What is happening?” she asked, bewildered.
+    setting: dialogue
+  - text: He was bewildered by the speed of the changes.
+    setting: narration
+relations:
+  - to: baffled
+    type: related
+  - to: puzzled
+    type: weaker
+mistakes:
+  - wrong: I was bewildered by the easy question.
+    right: I was puzzled by the strange question.
+    explanation: Bewildered suggests being overwhelmed, not mild confusion.

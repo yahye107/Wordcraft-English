@@ -1,0 +1,36 @@
+slug: puzzled
+text: puzzled
+kind: word
+pos: adjective
+simpleMeaning: Unable to understand something and trying to work it out.
+contextualMeaning: Mild confusion with curiosity. It often shows on the face as a frown.
+usageNotes: "Good for a small mystery: a strange message, an unexpected answer."
+intensity: 1
+register: neutral
+level: beginner
+status: published
+categories:
+  - confusion-and-ignorance
+tags:
+  - emotion:confusion
+  - technique:facial-expression
+searchPhrases:
+  - not understanding
+  - frowning in thought
+  - thinking hard about something odd
+examples:
+  - text: She looked puzzled by the odd note.
+    setting: narration
+  - text: “Why would he say that?” Ana asked, puzzled.
+    setting: dialogue
+  - text: The doctors were puzzled by the results.
+    setting: professional
+relations:
+  - to: baffled
+    type: stronger
+  - to: bewildered
+    type: stronger
+mistakes:
+  - wrong: I was puzzled because I understood everything.
+    right: I was relaxed because I understood everything.
+    explanation: Puzzled means you do not understand.

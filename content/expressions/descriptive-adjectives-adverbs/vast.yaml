@@ -1,0 +1,31 @@
+slug: vast
+text: vast
+kind: word
+pos: adjective
+simpleMeaning: Extremely large in area, number or amount.
+contextualMeaning: "A size that is hard to take in: deserts, oceans, crowds, sums of money."
+usageNotes: 'Often used for spaces and quantities: "a vast desert", "a vast majority", "a vast amount of data".'
+register: neutral
+level: intermediate
+status: published
+categories:
+  - size-and-quality
+tags:
+  - technique:imagery
+  - technique:setting
+searchPhrases:
+  - extremely large
+  - huge in area or amount
+  - endless
+examples:
+  - text: A vast desert stretched to the horizon.
+    setting: narration
+  - text: The vast majority of students agreed.
+    setting: academic
+  - text: “It’s vast,” she whispered, looking up at the cathedral.
+    setting: dialogue
+relations: []
+mistakes:
+  - wrong: A vast tiny insect crawled on the leaf.
+    right: A tiny insect crawled on the leaf.
+    explanation: Vast means very large, so it conflicts with tiny.

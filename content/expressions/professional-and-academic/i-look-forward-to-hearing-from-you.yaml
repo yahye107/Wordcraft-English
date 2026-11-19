@@ -1,0 +1,29 @@
+slug: i-look-forward-to-hearing-from-you
+text: I look forward to hearing from you
+kind: phrase
+simpleMeaning: A polite way to end an email and show that you expect a reply.
+contextualMeaning: It closes the message, signals you are waiting for an answer, and keeps the tone courteous.
+usageNotes: 'Remember: "look forward to" is followed by -ing, not the base verb.'
+register: formal
+level: intermediate
+status: published
+categories:
+  - email-phrases
+tags:
+  - situation:email-closing
+searchPhrases:
+  - closing line of a formal email
+  - waiting for a reply
+  - ending a letter politely
+examples:
+  - text: I look forward to hearing from you.
+    setting: professional
+  - text: We look forward to welcoming you in June.
+    setting: professional
+  - text: I look forward to discussing the details next week.
+    setting: professional
+relations: []
+mistakes:
+  - wrong: I look forward to hear from you.
+    right: I look forward to hearing from you.
+    explanation: In this phrase "to" is a preposition, so the verb takes -ing.

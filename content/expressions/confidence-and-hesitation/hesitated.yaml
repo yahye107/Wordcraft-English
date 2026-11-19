@@ -1,0 +1,34 @@
+slug: hesitated
+text: hesitated
+kind: word
+pos: verb (past)
+simpleMeaning: Paused before doing or saying something because you were not sure.
+contextualMeaning: A moment of doubt. The reader senses a choice and a risk.
+usageNotes: 'Often with "before" or "to": "hesitated before knocking". A one-line pause can add tension.'
+intensity: 2
+register: neutral
+level: intermediate
+status: published
+categories:
+  - hesitation
+tags:
+  - emotion:uncertainty
+  - technique:internal-thought
+searchPhrases:
+  - paused before acting
+  - wasn’t sure whether to
+  - held back for a moment
+examples:
+  - text: She hesitated at the door, her hand on the handle.
+    setting: narration
+  - text: “I…” He hesitated. “Maybe we should wait.”
+    setting: dialogue
+  - text: Don’t hesitate to contact us if you need help.
+    setting: professional
+relations:
+  - to: faltered
+    type: related
+mistakes:
+  - wrong: He hesitated to run away at once.
+    right: He ran away at once.
+    explanation: Hesitated means he paused, so it cannot mean "at once".

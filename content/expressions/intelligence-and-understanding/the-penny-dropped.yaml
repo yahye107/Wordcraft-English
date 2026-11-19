@@ -1,0 +1,29 @@
+slug: the-penny-dropped
+text: the penny dropped
+kind: idiom
+simpleMeaning: Someone finally understood something that had been unclear.
+contextualMeaning: The click of understanding after confusion. It often comes a little late and may bring a laugh.
+usageNotes: Mostly British. "The penny dropped when she saw the photo." Do not use it for slow gradual learning.
+register: conversational
+level: advanced
+status: published
+categories:
+  - grasping-ideas
+tags:
+  - situation:realisation
+searchPhrases:
+  - suddenly understood
+  - finally got it
+  - the meaning became clear
+examples:
+  - text: "Then the penny dropped: the gift was from Dad."
+    setting: narration
+  - text: “Oh!” Sam said. “Now the penny’s dropped.”
+    setting: dialogue
+  - text: It took ten minutes before the penny dropped.
+    setting: everyday
+relations: []
+mistakes:
+  - wrong: The penny dropped slowly over many years.
+    right: Over the years she slowly came to understand.
+    explanation: The idiom is about one moment of understanding.

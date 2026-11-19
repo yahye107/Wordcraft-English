@@ -1,0 +1,31 @@
+slug: gingerly
+text: gingerly
+kind: word
+pos: adverb
+simpleMeaning: In a very careful way, to avoid pain, damage or noise.
+contextualMeaning: Each movement is slow and small because something may break, hurt or wake someone.
+usageNotes: "Use it with a movement verb: stepped, touched, lifted, opened. It carries suspense as well as care."
+register: literary
+level: advanced
+status: published
+categories:
+  - manner-adverbs
+tags:
+  - technique:movement
+  - technique:manner
+searchPhrases:
+  - very carefully
+  - with great caution
+  - as if it might hurt or break
+examples:
+  - text: She stepped gingerly onto the frozen pond.
+    setting: narration
+  - text: He touched the bruise gingerly.
+    setting: narration
+  - text: Gingerly, the boy lifted the lid.
+    setting: narration
+relations: []
+mistakes:
+  - wrong: He ran gingerly down the stairs.
+    right: He crept gingerly down the stairs.
+    explanation: Gingerly means slow and careful, so it does not fit "ran".

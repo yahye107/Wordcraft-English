@@ -1,0 +1,32 @@
+slug: naive
+text: naive
+kind: word
+pos: adjective
+simpleMeaning: Lacking experience and too ready to believe or trust.
+contextualMeaning: An innocent view of the world. It can be sweet or foolish.
+usageNotes: Can be mild or critical. "It was naive to think…". It does not mean stupid; it means unexperienced.
+register: neutral
+level: intermediate
+status: published
+categories:
+  - confusion-and-ignorance
+tags:
+  - technique:characterisation
+searchPhrases:
+  - trusting without experience
+  - too innocent
+  - believes everything
+examples:
+  - text: He was naive enough to believe the stranger’s promise.
+    setting: narration
+  - text: “Don’t be naive,” she said. “Nobody gives money for free.”
+    setting: dialogue
+  - text: The naive young clerk signed without reading.
+    setting: narration
+relations:
+  - to: astute
+    type: antonym
+mistakes:
+  - wrong: He is naive because he failed maths.
+    right: He is not good at maths.
+    explanation: Naive is about trust and experience, not about intelligence or marks.

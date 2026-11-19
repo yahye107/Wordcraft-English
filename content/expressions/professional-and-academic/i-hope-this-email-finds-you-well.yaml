@@ -1,0 +1,29 @@
+slug: i-hope-this-email-finds-you-well
+text: I hope this email finds you well
+kind: phrase
+simpleMeaning: A polite opening line for an email that wishes the reader well.
+contextualMeaning: A standard friendly start in business email, used before getting to the point.
+usageNotes: It is safe but common. For people you know, a warmer line such as "I hope you had a good weekend" feels more personal.
+register: formal
+level: intermediate
+status: published
+categories:
+  - email-phrases
+tags:
+  - situation:email-opening
+searchPhrases:
+  - polite email opening
+  - start a formal email
+  - greeting in an email
+examples:
+  - text: Dear Mr Hall, I hope this email finds you well.
+    setting: professional
+  - text: Hi Priya, I hope this email finds you well. I’m writing about the schedule.
+    setting: professional
+  - text: I hope this email finds you well, and I apologise for the delay in replying.
+    setting: professional
+relations: []
+mistakes:
+  - wrong: I hope this email finds you well, what is your price?
+    right: I hope this email finds you well. Could you tell me your price?
+    explanation: Keep the greeting separate, then ask the question in a polite new sentence.

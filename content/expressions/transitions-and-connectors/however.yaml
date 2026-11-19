@@ -1,0 +1,35 @@
+slug: however
+text: however
+kind: word
+pos: adverb
+simpleMeaning: Introduces something that contrasts with what was just said.
+contextualMeaning: A pivot. The first idea is true, and the second pushes against it.
+usageNotes: 'At the start of a sentence, put a comma after it: "However, …". Between two clauses use a semicolon before and a comma after: "…; however, …". Not for joining two clauses with just a comma.'
+register: formal
+level: intermediate
+status: published
+categories:
+  - contrast-connectors
+tags:
+  - technique:transition
+  - technique:contrast
+searchPhrases:
+  - but
+  - on the other hand
+  - although that is true
+examples:
+  - text: The design was elegant. However, it was very expensive.
+    setting: academic
+  - text: The team trained hard; however, they lost the final.
+    setting: academic
+  - text: I’d love to help. However, I’m away that week.
+    setting: professional
+relations:
+  - to: nevertheless
+    type: related
+  - to: even-so
+    type: related
+mistakes:
+  - wrong: I like it, however it is too small.
+    right: I like it; however, it is too small.
+    explanation: A comma alone cannot join two full clauses with "however". Use a semicolon, or start a new sentence.

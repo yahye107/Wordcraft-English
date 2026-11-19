@@ -1,0 +1,30 @@
+slug: little-did-she-know
+text: little did she know
+kind: idiom
+simpleMeaning: She did not know what was about to happen.
+contextualMeaning: The narrator hints that something important or bad is coming, which the character cannot see.
+usageNotes: 'It inverts the word order: "Little did he know that…", "Little did they realise…". Use sparingly or it becomes a cliché.'
+register: literary
+level: advanced
+status: published
+categories:
+  - pacing-and-suspense
+tags:
+  - technique:suspense
+  - technique:foreshadowing
+searchPhrases:
+  - she didn’t know what would happen
+  - something bad is coming
+  - foreshadowing
+examples:
+  - text: Little did she know that the letter would change her life.
+    setting: narration
+  - text: Little did they realise how close the storm was.
+    setting: narration
+  - text: He locked the door, little knowing who was already inside.
+    setting: narration
+relations: []
+mistakes:
+  - wrong: Little she knew about the storm.
+    right: Little did she know about the storm.
+    explanation: The auxiliary "did" comes before the subject after "little".

@@ -1,0 +1,31 @@
+slug: a-heartbeat-later
+text: a heartbeat later
+kind: phrase
+simpleMeaning: A very short moment later.
+contextualMeaning: A rhythm tool. It puts a tiny pause between two events, which builds tension.
+usageNotes: "Use it to split a fast sequence: the first thing happens, the heartbeat passes, then the second. Do not repeat it in the same scene."
+register: literary
+level: advanced
+status: published
+categories:
+  - pacing-and-suspense
+  - time-and-transition
+tags:
+  - technique:pacing
+  - technique:suspense
+searchPhrases:
+  - a moment later
+  - almost immediately after
+  - right after
+examples:
+  - text: The lights flickered. A heartbeat later, they died.
+    setting: narration
+  - text: A heartbeat later, the door opened.
+    setting: narration
+  - text: She hesitated, and a heartbeat later, she jumped.
+    setting: narration
+relations: []
+mistakes:
+  - wrong: A heartbeat later, the next winter came.
+    right: Months later, the next winter came.
+    explanation: A heartbeat means one tiny moment, not a long time.

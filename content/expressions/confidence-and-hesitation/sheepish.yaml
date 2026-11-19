@@ -1,0 +1,34 @@
+slug: sheepish
+text: sheepish
+kind: word
+pos: adjective
+simpleMeaning: Slightly embarrassed because you did something silly or wrong.
+contextualMeaning: A small, human embarrassment, often with a half-smile. It is not deep shame.
+usageNotes: 'Use with grin, look, smile or expression: "a sheepish grin". It is mild and sometimes charming.'
+intensity: 2
+register: neutral
+level: advanced
+status: published
+categories:
+  - embarrassment
+tags:
+  - emotion:embarrassment
+  - technique:facial-expression
+searchPhrases:
+  - slightly embarrassed
+  - caught doing something silly
+  - looking guilty
+examples:
+  - text: He gave a sheepish grin and handed back the stolen biscuit.
+    setting: narration
+  - text: “Sorry,” she said, looking sheepish. “I forgot.”
+    setting: dialogue
+  - text: The boys looked sheepish when the teacher walked in.
+    setting: narration
+relations:
+  - to: mortified
+    type: stronger
+mistakes:
+  - wrong: She felt sheepish after her friend’s death.
+    right: She felt devastated after her friend’s death.
+    explanation: Sheepish is mild embarrassment, not suited to grief.

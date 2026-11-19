@@ -1,0 +1,37 @@
+slug: self-assured
+text: self-assured
+kind: word
+pos: adjective
+simpleMeaning: Confident in a calm way, because you trust your own ability.
+contextualMeaning: A quiet confidence that does not need to show off. It is usually admired.
+usageNotes: Use it for a person who speaks and moves easily. It is positive, unlike "cocky" or "arrogant".
+intensity: 3
+register: neutral
+level: advanced
+status: published
+categories:
+  - confidence
+tags:
+  - emotion:confidence
+  - technique:characterisation
+searchPhrases:
+  - calmly confident
+  - sure of himself
+  - poised
+examples:
+  - text: The self-assured young pianist took her seat without a glance at the crowd.
+    setting: narration
+  - text: “I’ll handle it,” he said in a self-assured voice.
+    setting: dialogue
+  - text: She gave a self-assured presentation and answered every question.
+    setting: professional
+relations:
+  - to: cocky
+    type: related
+    note: cocky shows off
+  - to: arrogant
+    type: stronger
+mistakes:
+  - wrong: He was self-assured but he doubted himself.
+    right: He seemed self-assured but he doubted himself.
+    explanation: Self-assured means sure of yourself. Add "seemed" to show the doubt is hidden.

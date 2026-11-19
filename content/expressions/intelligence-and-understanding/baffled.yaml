@@ -1,0 +1,35 @@
+slug: baffled
+text: baffled
+kind: word
+pos: adjective
+simpleMeaning: Completely unable to understand or explain something.
+contextualMeaning: A puzzle that cannot be solved. The person has tried and still has no answer.
+usageNotes: Stronger than puzzled; often used for mysteries, odd behaviour, or complex systems.
+intensity: 3
+register: neutral
+level: intermediate
+status: published
+categories:
+  - confusion-and-ignorance
+tags:
+  - emotion:confusion
+searchPhrases:
+  - completely unable to understand
+  - stumped
+  - no idea how
+examples:
+  - text: Police were baffled by the missing painting.
+    setting: narration
+  - text: “I’m baffled,” he said. “It worked yesterday.”
+    setting: dialogue
+  - text: The mechanic stared, baffled, at the silent engine.
+    setting: narration
+relations:
+  - to: puzzled
+    type: weaker
+  - to: bewildered
+    type: related
+mistakes:
+  - wrong: She was baffled and understood the whole plan.
+    right: She was baffled and could not follow the plan.
+    explanation: Baffled means not understanding.

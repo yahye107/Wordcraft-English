@@ -1,0 +1,13 @@
+slug: therefore-consequently-as-a-result
+title: Therefore, consequently, as a result
+explanation: Three ways to show a result. Therefore draws a logical conclusion, consequently follows a chain of real events, and as a result is the neutral everyday choice.
+members:
+  - expression: therefore
+    note: Draws a conclusion from reasons.
+    example: All tickets are sold; therefore, we must add a second show.
+  - expression: consequently
+    note: Shows one real event leading to another.
+    example: The storm cut the power; consequently, the shop closed.
+  - expression: as-a-result
+    note: Neutral and clear; needs "of" before a noun.
+    example: As a result of the delay, we missed the train.

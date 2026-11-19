@@ -1,0 +1,31 @@
+slug: the-next-thing-he-knew
+text: the next thing he knew
+kind: idiom
+simpleMeaning: Suddenly something had happened, and he did not notice how.
+contextualMeaning: A story jump that shows confusion or speed. The reader is carried over the gap.
+usageNotes: Use it to skip time or show disorientation. It fits storytelling in speech and narration.
+register: conversational
+level: intermediate
+status: published
+categories:
+  - time-and-transition
+  - pacing-and-suspense
+tags:
+  - technique:time
+  - technique:pacing
+searchPhrases:
+  - suddenly
+  - before he realised
+  - time jumped forward
+examples:
+  - text: The next thing he knew, he was on the floor.
+    setting: narration
+  - text: I closed my eyes, and the next thing I knew, it was morning.
+    setting: narration
+  - text: “The next thing I knew, the whole room was laughing,” she said.
+    setting: dialogue
+relations: []
+mistakes:
+  - wrong: The next thing he know, he fell.
+    right: The next thing he knew, he fell.
+    explanation: Use the past tense "knew" in a past story.

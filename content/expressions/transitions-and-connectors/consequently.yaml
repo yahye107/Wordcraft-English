@@ -1,0 +1,35 @@
+slug: consequently
+text: consequently
+kind: word
+pos: adverb
+simpleMeaning: As a result of something that happened.
+contextualMeaning: "Focuses on a real chain of events: one thing caused another."
+usageNotes: Use it for results in the real world, such as events and decisions. "Therefore" fits arguments better; "consequently" fits cause and effect.
+register: formal
+level: advanced
+status: published
+categories:
+  - cause-and-result
+tags:
+  - technique:transition
+  - technique:cause-effect
+searchPhrases:
+  - as a result
+  - because of this
+  - so
+examples:
+  - text: Funds were cut. Consequently, the school closed its library.
+    setting: professional
+  - text: He missed the deadline and, consequently, lost the contract.
+    setting: professional
+  - text: The river flooded; consequently, the road was closed for days.
+    setting: narration
+relations:
+  - to: therefore
+    type: related
+  - to: as-a-result
+    type: synonym
+mistakes:
+  - wrong: Consequently of the rain, we stayed in.
+    right: Because of the rain, we stayed in. / Consequently, we stayed in.
+    explanation: '"Consequently" does not take "of". Use "as a consequence of" or "because of".'

@@ -1,0 +1,29 @@
+slug: fair-enough
+text: fair enough
+kind: phrase
+simpleMeaning: I accept what you said as reasonable, even if I did not agree at first.
+contextualMeaning: A calm, sometimes reluctant yes. The speaker admits the other person has a point.
+usageNotes: It means "I accept that", not "I love that". It can also close a short disagreement.
+register: conversational
+level: intermediate
+status: published
+categories:
+  - reactions
+tags:
+  - situation:accepting-a-point
+searchPhrases:
+  - I accept that
+  - okay then
+  - that’s reasonable
+examples:
+  - text: “I’d rather stay home.” “Fair enough.”
+    setting: dialogue
+  - text: “It’s cheaper online.” “Fair enough, I’ll order it.”
+    setting: dialogue
+  - text: He shrugged. “Fair enough.”
+    setting: narration
+relations: []
+mistakes:
+  - wrong: “Your cake is delicious!” “Fair enough!”
+    right: “Your cake is delicious!” “Thank you!”
+    explanation: Fair enough responds to a point or reason, not a compliment.

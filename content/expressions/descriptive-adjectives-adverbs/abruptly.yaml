@@ -1,0 +1,31 @@
+slug: abruptly
+text: abruptly
+kind: word
+pos: adverb
+simpleMeaning: Suddenly and unexpectedly, often with a sharp end.
+contextualMeaning: Something stops, starts or changes without preparation. It can be rude or surprising.
+usageNotes: "Use it for sudden stops: speech, music, a decision, a walk. Put it before the verb for impact."
+register: neutral
+level: intermediate
+status: published
+categories:
+  - manner-adverbs
+tags:
+  - technique:pacing
+  - technique:manner
+searchPhrases:
+  - suddenly and without warning
+  - all at once
+  - sharply
+examples:
+  - text: The music stopped abruptly.
+    setting: narration
+  - text: “Enough,” he said abruptly, and stood up.
+    setting: dialogue
+  - text: She abruptly changed the subject.
+    setting: narration
+relations: []
+mistakes:
+  - wrong: The sun rose abruptly and slowly.
+    right: The sun rose slowly.
+    explanation: Abruptly means sudden, so it cannot be slow.

@@ -1,0 +1,35 @@
+slug: nevertheless
+text: nevertheless
+kind: word
+pos: adverb
+simpleMeaning: In spite of what was just said.
+contextualMeaning: A stronger, more formal concession than "however". The first point is real, but the second still stands.
+usageNotes: Use it to show persistence or a surprising result. It is common in essays and reports.
+register: formal
+level: advanced
+status: published
+categories:
+  - contrast-connectors
+tags:
+  - technique:transition
+  - technique:contrast
+searchPhrases:
+  - despite that
+  - all the same
+  - in spite of this
+examples:
+  - text: The road was closed. Nevertheless, they reached the village by dark.
+    setting: narration
+  - text: The results are limited; nevertheless, they are promising.
+    setting: academic
+  - text: The risks are real. Nevertheless, we should proceed.
+    setting: professional
+relations:
+  - to: however
+    type: related
+  - to: even-so
+    type: related
+mistakes:
+  - wrong: Nevertheless he was tired, he kept walking.
+    right: Although he was tired, he kept walking. / He was tired; nevertheless, he kept walking.
+    explanation: Nevertheless is an adverb. It cannot start a clause like "although".

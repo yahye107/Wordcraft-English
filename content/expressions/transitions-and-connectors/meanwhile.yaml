@@ -1,0 +1,32 @@
+slug: meanwhile
+text: meanwhile
+kind: word
+pos: adverb
+simpleMeaning: During the time that something else is happening.
+contextualMeaning: Switches attention to another place or person at the same moment. It is a basic storytelling transition.
+usageNotes: 'Use it to join two scenes or actions. Put it first in the sentence with a comma: "Meanwhile, …".'
+register: neutral
+level: intermediate
+status: published
+categories:
+  - adding-and-sequencing
+  - time-and-transition
+tags:
+  - technique:transition
+  - technique:time
+searchPhrases:
+  - at the same time
+  - while that was happening
+  - in the meantime
+examples:
+  - text: The guests laughed in the garden. Meanwhile, the cook burnt the cake.
+    setting: narration
+  - text: Dad filled in the form. Meanwhile, the kids played outside.
+    setting: everyday
+  - text: Meanwhile, back at the office, no one noticed.
+    setting: narration
+relations: []
+mistakes:
+  - wrong: Meanwhile the next day, she left.
+    right: The next day, she left.
+    explanation: Meanwhile means at the same time, not later.

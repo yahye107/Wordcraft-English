@@ -1,0 +1,30 @@
+slug: no-worries
+text: no worries
+kind: phrase
+simpleMeaning: A relaxed way to say "it is fine" or "you’re welcome".
+contextualMeaning: A friendly reply to thanks or an apology. It makes the other person feel at ease.
+usageNotes: Use it in casual speech. In formal emails, say "You’re welcome" or "That’s no trouble".
+register: informal
+level: beginner
+status: published
+categories:
+  - reactions
+  - small-talk
+tags:
+  - situation:casual-reply
+searchPhrases:
+  - it’s fine
+  - don’t mention it
+  - that’s okay
+examples:
+  - text: “Sorry I’m late.” “No worries.”
+    setting: dialogue
+  - text: “Thanks for the lift!” “No worries, anytime.”
+    setting: dialogue
+  - text: No worries if you can’t make it.
+    setting: everyday
+relations: []
+mistakes:
+  - wrong: Dear Sir, no worries about the delay.
+    right: Dear Sir, thank you for your patience about the delay.
+    explanation: It is too casual for a formal message.

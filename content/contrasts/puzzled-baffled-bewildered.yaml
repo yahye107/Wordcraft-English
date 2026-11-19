@@ -1,0 +1,13 @@
+slug: puzzled-baffled-bewildered
+title: Puzzled, baffled, bewildered
+explanation: Three kinds of confusion. Puzzled is mild and curious, baffled is stuck with no answer, and bewildered is lost in a confusing situation.
+members:
+  - expression: puzzled
+    note: Mild confusion while you try to work something out.
+    example: He was puzzled by the strange knock.
+  - expression: baffled
+    note: You have tried and still cannot find an answer.
+    example: Experts were baffled by the signal.
+  - expression: bewildered
+    note: Lost and overwhelmed by a confusing situation.
+    example: The child looked bewildered in the crowded airport.

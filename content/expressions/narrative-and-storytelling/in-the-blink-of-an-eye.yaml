@@ -1,0 +1,30 @@
+slug: in-the-blink-of-an-eye
+text: in the blink of an eye
+kind: idiom
+simpleMeaning: Very quickly, almost instantly.
+contextualMeaning: Used to speed up the pace of a scene or to stress how fast a change happened.
+usageNotes: It is a common image, so use it where speed is the point. For fresher variety try "in an instant" or "before she could breathe".
+register: neutral
+level: intermediate
+status: published
+categories:
+  - pacing-and-suspense
+  - time-and-transition
+tags:
+  - technique:pacing
+searchPhrases:
+  - very quickly
+  - in an instant
+  - almost at once
+examples:
+  - text: In the blink of an eye, the room went dark.
+    setting: narration
+  - text: Years passed in the blink of an eye.
+    setting: narration
+  - text: “It was over in the blink of an eye,” the driver said.
+    setting: dialogue
+relations: []
+mistakes:
+  - wrong: It happened slowly in the blink of an eye.
+    right: It happened in the blink of an eye.
+    explanation: The idiom means very fast, so "slowly" clashes with it.

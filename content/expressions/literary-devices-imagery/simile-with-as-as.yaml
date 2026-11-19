@@ -1,0 +1,32 @@
+slug: simile-with-as-as
+text: simile with “as … as”
+kind: pattern
+simpleMeaning: 'Compare one quality with an example of it: "as quiet as snow".'
+contextualMeaning: This pattern makes one quality vivid by pointing to something that has that quality strongly.
+usageNotes: "Pattern: as + adjective + as + [image]. Think of the quality first, then find an unusual image that has it."
+register: literary
+level: intermediate
+status: published
+categories:
+  - similes
+tags:
+  - technique:simile
+  - technique:imagery
+searchPhrases:
+  - as quiet as
+  - as cold as
+  - comparison of quality
+examples:
+  - text: The corridor was as silent as a held breath.
+    setting: narration
+  - text: She stayed as calm as a lake at dawn.
+    setting: narration
+  - text: His excuses were as thin as paper.
+    setting: narration
+relations:
+  - to: simile-with-like
+    type: related
+mistakes:
+  - wrong: She was as quiet as a mouse.
+    right: She was as quiet as a folded letter.
+    explanation: The first is a very common phrase, so it has lost its effect. Look for a fresher image.

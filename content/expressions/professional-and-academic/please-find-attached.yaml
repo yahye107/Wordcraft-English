@@ -1,0 +1,29 @@
+slug: please-find-attached
+text: please find attached
+kind: phrase
+simpleMeaning: A formal way to say that a document is attached to the email.
+contextualMeaning: It introduces a file, such as a report, invoice or CV.
+usageNotes: In less formal emails, "I’ve attached" or "I’m attaching" sounds more natural. Always mention what the file is.
+register: formal
+level: intermediate
+status: published
+categories:
+  - email-phrases
+tags:
+  - situation:email-attachment
+searchPhrases:
+  - I attached a file
+  - attached to this email
+  - sending a document
+examples:
+  - text: Please find attached the invoice for March.
+    setting: professional
+  - text: Please find attached my CV and a short cover letter.
+    setting: professional
+  - text: I’ve attached the draft; please let me know your thoughts.
+    setting: professional
+relations: []
+mistakes:
+  - wrong: Please find attached.
+    right: Please find attached the meeting notes.
+    explanation: Say what the attachment is, so the reader knows what to expect.

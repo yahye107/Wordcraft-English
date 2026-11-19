@@ -1,0 +1,30 @@
+slug: gleaming
+text: gleaming
+kind: word
+pos: adjective
+simpleMeaning: Shining brightly, especially because something is clean, smooth or polished.
+contextualMeaning: "A surface catching light: metal, water, teeth, a floor. It suggests care or newness."
+usageNotes: Use it for smooth surfaces. For soft or dim light, choose "glowing" or "glimmering".
+register: literary
+level: advanced
+status: published
+categories:
+  - appearance-and-surface
+tags:
+  - technique:imagery
+searchPhrases:
+  - shining brightly
+  - polished and bright
+  - sparkling clean
+examples:
+  - text: The gleaming car sat outside the hotel.
+    setting: narration
+  - text: Gleaming pots hung above the kitchen stove.
+    setting: narration
+  - text: The floor was so gleaming that she could see her face in it.
+    setting: narration
+relations: []
+mistakes:
+  - wrong: A gleaming old rag lay in the corner.
+    right: A grubby old rag lay in the corner.
+    explanation: Gleaming suggests polish or cleanliness, not an old rag.

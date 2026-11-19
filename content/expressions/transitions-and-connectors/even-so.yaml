@@ -1,0 +1,35 @@
+slug: even-so
+text: even so
+kind: phrase
+pos: adverb phrase
+simpleMeaning: Despite that, but in a natural spoken-style way.
+contextualMeaning: A friendly concession. It accepts the first point and moves on.
+usageNotes: Less formal than "nevertheless". Put a comma after it. Good in essays that want an easy voice and in speech.
+register: neutral
+level: intermediate
+status: published
+categories:
+  - contrast-connectors
+tags:
+  - technique:transition
+  - technique:contrast
+searchPhrases:
+  - despite that
+  - still
+  - but anyway
+examples:
+  - text: The film is long. Even so, I didn’t want it to end.
+    setting: everyday
+  - text: “It’s raining.” “Even so, I’d like to walk.”
+    setting: dialogue
+  - text: Sales were low. Even so, the shop stayed open.
+    setting: professional
+relations:
+  - to: however
+    type: related
+  - to: nevertheless
+    type: related
+mistakes:
+  - wrong: Even so it was late we stayed.
+    right: It was late. Even so, we stayed.
+    explanation: Even so ends the first idea. Start a new sentence or use "even though" instead.

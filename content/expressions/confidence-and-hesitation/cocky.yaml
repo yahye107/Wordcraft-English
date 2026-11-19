@@ -1,0 +1,37 @@
+slug: cocky
+text: cocky
+kind: word
+pos: adjective
+simpleMeaning: Too confident, in a way that annoys other people.
+contextualMeaning: Confidence that shows off. The person expects to win and lets everyone know.
+usageNotes: Informal and a little critical. For a stronger, more formal word use "arrogant".
+intensity: 3
+register: informal
+level: intermediate
+status: published
+categories:
+  - confidence
+tags:
+  - emotion:confidence
+  - emotion:pride
+  - technique:characterisation
+searchPhrases:
+  - too sure of himself
+  - swaggering
+  - showing off
+examples:
+  - text: The cocky striker grinned at the goalkeeper before the penalty.
+    setting: narration
+  - text: “Don’t get cocky,” the coach warned. “We haven’t won yet.”
+    setting: dialogue
+  - text: A cocky answer from the new hire made the room go quiet.
+    setting: narration
+relations:
+  - to: self-assured
+    type: related
+  - to: arrogant
+    type: stronger
+mistakes:
+  - wrong: She is cocky and always modest.
+    right: She is confident and always modest.
+    explanation: Cocky implies showing off, so it conflicts with modest.

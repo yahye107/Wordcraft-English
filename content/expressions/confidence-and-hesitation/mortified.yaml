@@ -1,0 +1,34 @@
+slug: mortified
+text: mortified
+kind: word
+pos: adjective
+simpleMeaning: So embarrassed that you wish you could disappear.
+contextualMeaning: "The embarrassment is strong and public: a spill, a wrong word, being caught."
+usageNotes: "Strong. Pair it with a visible reaction: a red face, covering the face, leaving the room."
+intensity: 5
+register: neutral
+level: advanced
+status: published
+categories:
+  - embarrassment
+tags:
+  - emotion:embarrassment
+  - emotion:shame
+searchPhrases:
+  - extremely embarrassed
+  - wanted the ground to open up
+  - burning with shame
+examples:
+  - text: She was mortified when her phone rang during the silence.
+    setting: narration
+  - text: “I called her by the wrong name,” he groaned. “I’m mortified.”
+    setting: dialogue
+  - text: The speaker was mortified to find his slides upside down.
+    setting: professional
+relations:
+  - to: sheepish
+    type: weaker
+mistakes:
+  - wrong: I was mortified that I was five minutes late.
+    right: I was a little embarrassed that I was five minutes late.
+    explanation: Mortified is extreme. Use mild words for small mistakes.

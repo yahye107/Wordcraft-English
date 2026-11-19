@@ -1,0 +1,30 @@
+slug: sounds-good
+text: sounds good
+kind: phrase
+simpleMeaning: I agree with that plan or idea.
+contextualMeaning: A quick, friendly yes to a suggestion about plans.
+usageNotes: 'Short and casual, fine for texts and speech. Add a small extra for warmth: "Sounds good to me".'
+register: informal
+level: beginner
+status: published
+categories:
+  - reactions
+  - requests-and-refusals
+tags:
+  - situation:agreeing
+searchPhrases:
+  - I like that plan
+  - okay with me
+  - agree to a suggestion
+examples:
+  - text: “Dinner at seven?” “Sounds good.”
+    setting: dialogue
+  - text: “Let’s meet outside the station.” “Sounds great!”
+    setting: dialogue
+  - text: Sounds good to me; I’ll bring dessert.
+    setting: everyday
+relations: []
+mistakes:
+  - wrong: Sounds good the food.
+    right: The food sounds good.
+    explanation: The thing that is judged is the subject, or the phrase stands alone.

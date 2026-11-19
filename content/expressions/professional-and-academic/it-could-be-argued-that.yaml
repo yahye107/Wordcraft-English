@@ -1,0 +1,29 @@
+slug: it-could-be-argued-that
+text: it could be argued that
+kind: phrase
+simpleMeaning: A careful way to introduce a view that some people hold, without stating it as a fact.
+contextualMeaning: Used in essays to present an idea you can support, while showing you know it can be challenged.
+usageNotes: Follow it with a claim and then evidence. Do not use it for plain facts.
+register: formal
+level: advanced
+status: published
+categories:
+  - academic-writing
+tags:
+  - situation:academic-hedging
+searchPhrases:
+  - one possible view is
+  - a careful way to give an opinion
+  - a hedge in essays
+examples:
+  - text: It could be argued that the policy has failed.
+    setting: academic
+  - text: It could be argued that the novel is less about love than power.
+    setting: academic
+  - text: It could be argued that remote work improves productivity.
+    setting: professional
+relations: []
+mistakes:
+  - wrong: It could be argued that water boils at 100 degrees.
+    right: Water boils at 100 degrees at sea level.
+    explanation: Hedges are for arguable ideas, not facts.

@@ -1,0 +1,35 @@
+slug: therefore
+text: therefore
+kind: word
+pos: adverb
+simpleMeaning: Shows a logical result of what has just been said.
+contextualMeaning: "A conclusion drawn from facts: because of that, this follows."
+usageNotes: Use it when the result follows from reasons. Put a comma after it at the start of a sentence.
+register: formal
+level: intermediate
+status: published
+categories:
+  - cause-and-result
+tags:
+  - technique:transition
+  - technique:cause-effect
+searchPhrases:
+  - so
+  - for that reason
+  - which means
+examples:
+  - text: The bridge is unsafe. Therefore, it will be closed.
+    setting: professional
+  - text: She was the only candidate; therefore, she was chosen.
+    setting: academic
+  - text: I think, therefore I am.
+    setting: academic
+relations:
+  - to: consequently
+    type: related
+  - to: as-a-result
+    type: related
+mistakes:
+  - wrong: He was late, therefore he missed the bus.
+    right: He was late; therefore, he missed the bus.
+    explanation: Use a semicolon or a full stop before therefore, not a comma alone.

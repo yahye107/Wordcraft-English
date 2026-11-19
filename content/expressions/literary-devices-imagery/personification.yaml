@@ -1,0 +1,30 @@
+slug: personification
+text: personification
+kind: pattern
+simpleMeaning: Describing a thing, an idea or a place as if it were a living person.
+contextualMeaning: The writer gives an object a human action or feeling, which makes the scene vivid and sets a mood.
+usageNotes: 'Pattern: [non-human subject] + human verb. Keep it to one image in a passage. Choose a verb that matches the mood: "groaned" for tired, "crept" for threat.'
+register: literary
+level: advanced
+status: published
+categories:
+  - imagery-and-personification
+tags:
+  - technique:personification
+  - technique:imagery
+searchPhrases:
+  - giving human actions to objects
+  - object acts like a person
+  - figurative language
+examples:
+  - text: The old fridge groaned and coughed through the night.
+    setting: narration
+  - text: Fog crept into the village and sat on every roof.
+    setting: narration
+  - text: Hunger gnawed at him all afternoon.
+    setting: narration
+relations: []
+mistakes:
+  - wrong: The wind whispered, like a person whispering.
+    right: The wind whispered through the trees.
+    explanation: Personification states the human action directly. Adding "like" turns it into a weaker simile.
