@@ -1,0 +1,18 @@
+slug: l11-2-earns-its-place
+lesson: avoiding-repeated-tags
+level: intermediate
+prompt: Does the stronger tag earn its place, or is it not needed?
+explanation: A stronger tag is worth it when the manner of speaking matters to the scene. For ordinary remarks, said is enough.
+type: identify
+items:
+  - text: “Don’t move,” she whispered. (the thief is outside the door)
+    answer: earns its place
+  - text: “I’m hungry,” he exclaimed. (a plain remark at the table)
+    answer: not needed
+  - text: “Get out!” she snapped. (after a betrayal)
+    answer: earns its place
+  - text: “It’s Tuesday,” she declared. (a casual remark)
+    answer: not needed
+choices:
+  - earns its place
+  - not needed

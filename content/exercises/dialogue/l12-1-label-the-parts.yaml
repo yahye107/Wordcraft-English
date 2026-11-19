@@ -1,0 +1,19 @@
+slug: l12-1-label-the-parts
+lesson: a-short-scene
+level: advanced
+prompt: Label each piece of the scene.
+explanation: Drawled is a speech verb, so it forms a tag. The eyes and the sink are actions, so they are beats. A question in the character’s mind is a thought.
+type: identify
+items:
+  - text: “Oh, I’m thrilled,” he drawled.
+    answer: tag
+  - text: Nia’s eyes stung.
+    answer: beat
+  - text: Why isn’t he shouting?
+    answer: thought
+  - text: He did not look up from the sink.
+    answer: beat
+choices:
+  - tag
+  - beat
+  - thought

@@ -1,0 +1,18 @@
+slug: l8-2-sincere-or-sarcastic
+lesson: sarcasm-and-subtext
+level: advanced
+prompt: Is each line sincere or sarcastic?
+explanation: The scene and the beat decide the tone. The words alone do not.
+type: identify
+items:
+  - text: “Brilliant idea,” Ravi drawled, staring at the flooded kitchen.
+    answer: sarcastic
+  - text: “Brilliant idea,” Ravi said, hugging her.
+    answer: sincere
+  - text: “Oh, perfect,” she muttered, as the last bus drove past.
+    answer: sarcastic
+  - text: “Perfect,” she said, holding up the finished cake.
+    answer: sincere
+choices:
+  - sincere
+  - sarcastic

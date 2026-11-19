@@ -1,0 +1,9 @@
+slug: l10-3-fix-the-thought
+lesson: inner-thoughts-and-reactions
+level: advanced
+prompt: Write this as a direct thought with a comma before the tag.
+explanation: Like speech, a thought followed by a tag takes a comma, and the tag stays in lower case.
+type: fix_punctuation
+broken: Not again. she thought.
+accepted:
+  - Not again, she thought.

@@ -1,0 +1,12 @@
+slug: l6-1-the-hidden-lie
+lesson: faces-and-bodies-with-speech
+level: intermediate
+prompt: “I’m not upset.” Which beat suggests she is not telling the truth?
+explanation: Looking away contradicts calm words. A plain nod or standing does not, and “was glad” tells instead of shows.
+type: choose
+options:
+  - Her gaze dropped to the floor.
+  - She nodded.
+  - She stood up.
+  - She was glad.
+answer: 0

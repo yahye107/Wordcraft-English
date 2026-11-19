@@ -1,0 +1,18 @@
+slug: l10-1-speech-or-thought
+lesson: inner-thoughts-and-reactions
+level: advanced
+prompt: Is each line speech or thought?
+explanation: Speech sits in quotation marks. Thought is introduced by “thought” or “wondered” and has no quotation marks.
+type: identify
+items:
+  - text: “I’ll be there at six.”
+    answer: speech
+  - text: Not again, she thought.
+    answer: thought
+  - text: “Can you hear me?”
+    answer: speech
+  - text: He wondered whether she had noticed.
+    answer: thought
+choices:
+  - speech
+  - thought

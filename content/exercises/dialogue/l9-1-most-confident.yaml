@@ -1,0 +1,12 @@
+slug: l9-1-most-confident
+lesson: confidence-and-frustration
+level: advanced
+prompt: Which line sounds the most confident?
+explanation: A short, complete statement with no hedging sounds sure. The others ask permission, hesitate or fade.
+type: choose
+options:
+  - “I think maybe we could start at nine, if that’s okay?”
+  - “We start at nine.”
+  - “Um, well, nine, perhaps?”
+  - “Nine… I suppose.”
+answer: 1

@@ -1,0 +1,12 @@
+slug: l5-1-show-not-tell
+lesson: showing-emotion-in-dialogue
+level: intermediate
+prompt: Which version shows the emotion through action, rather than telling it?
+explanation: The pen thrown across the room is something the reader can see. The other versions name the feeling.
+type: choose
+options:
+  - “I hate this,” she said angrily.
+  - “I hate this.” She hurled the pen across the room.
+  - “I hate this,” she said bitterly.
+  - “I hate this,” she said in an angry voice.
+answer: 1

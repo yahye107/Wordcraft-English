@@ -1,0 +1,45 @@
+slug: inner-thoughts-and-reactions
+lab: dialogue
+title: Inner thoughts and reactions
+summary: Show what a character thinks and how they react, without confusing thought with speech.
+level: advanced
+sort: 10
+sections:
+  - heading: Speech, thought and narration
+    paragraphs:
+      - Speech is what a character says aloud. Thought is what they think. The reader must always know which is which, so mark thoughts differently from speech.
+    examples:
+      - text: "{speech|“I’m fine.”} {thought|I’m not fine,} {tag|she thought.}"
+        note: The quotation marks belong to speech only. The thought has none, and a tag names whose thought it is.
+  - heading: Direct and reported thought
+    paragraphs:
+      - A direct thought gives the words as the character thinks them. A reported thought tells the reader what the character thought, in the narrator’s words. Both are fine. Choose one style and keep to it in a scene.
+    bullets:
+      - "Direct: Not again, she thought."
+      - "Reported: She wondered whether he would call."
+      - Many writers use italics for direct thought, but plain text with a tag is clear enough.
+    examples:
+      - text: "{thought|Not again,} {tag|she thought.}"
+        note: A direct thought in a few words.
+      - text: "{thought|She wondered whether he would call.}"
+        note: "A reported thought: the narrator tells us what she wondered."
+  - heading: A reaction beat after hearing something
+    paragraphs:
+      - "When a character hears surprising news, show the reaction before or instead of a thought: a pause, a breath, a changed face. The reader reads the feeling from the body first."
+    examples:
+      - text: |-
+          {speech|“The shop is closing.”}
+
+          {beat|Ines stopped with the key halfway to the lock.}
+        note: The reaction is a stopped hand. No thought is needed.
+  - heading: Do not explain what the reader already sees
+    paragraphs:
+      - If a beat shows the reaction, a thought that explains it is usually too much. Add a thought only when it gives the reader something new.
+    examples:
+      - text: "{speech|“We’re moving to Leeds.”} {beat|Her pen stopped.} {thought|Leeds. Four hours from Gran.}"
+        note: A beat and one short thought that adds something the beat cannot show.
+related:
+  - it-dawned-on-her
+  - pondered
+  - hesitated
+  - brooded

@@ -1,0 +1,13 @@
+slug: l11-3-move-the-tag
+lesson: avoiding-repeated-tags
+level: intermediate
+prompt: Instead of searching for new verbs, vary where the tag ___ in the sentence.
+explanation: A tag can come first, last, in the middle, or not at all. Moving it changes the rhythm without a new verb.
+type: fill_blank
+accepted:
+  - sits
+  - goes
+  - comes
+  - appears
+  - falls
+  - is placed

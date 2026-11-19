@@ -1,0 +1,8 @@
+slug: l8-3-the-opposite
+lesson: sarcasm-and-subtext
+level: advanced
+prompt: Sarcasm is speech whose real meaning is the ___ of its words.
+explanation: The speaker says one thing and means the reverse.
+type: fill_blank
+accepted:
+  - opposite

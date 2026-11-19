@@ -1,0 +1,12 @@
+slug: l5-4-fear-beat
+lesson: showing-emotion-in-dialogue
+level: intermediate
+prompt: “Did you hear that?” Which beat best shows fear?
+explanation: Where she looks is a concrete detail. “Was very afraid” and “fearfully” tell instead of show.
+type: choose
+options:
+  - Nell’s eyes went to the dark window.
+  - Nell was very afraid.
+  - Nell smiled.
+  - Nell said it fearfully.
+answer: 0

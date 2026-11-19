@@ -1,0 +1,49 @@
+slug: showing-emotion-in-dialogue
+lab: dialogue
+title: Showing emotion in dialogue
+summary: Let the words and one small action carry the feeling, instead of an adverb that announces it.
+level: intermediate
+sort: 5
+sections:
+  - heading: Tell with an adverb, or show with the body
+    paragraphs:
+      - It is easy to write “she said angrily”. The adverb tells the reader the emotion, but the reader does not feel it. A stronger way is to let the words and a small action carry the feeling.
+    examples:
+      - text: "{speech|“I’m fine,”} {tag|she said angrily.}"
+        note: This tells the emotion with an adverb. It works, but it is flat.
+      - text: "{speech|“I’m fine.”} {beat|She slammed the drawer shut.}"
+        note: This shows the emotion through an action. The reader sees the anger.
+  - heading: Match the words to the feeling
+    paragraphs:
+      - The speech itself should sound like the feeling. Angry people may speak in short, hard sentences. Happy people may rush. Scared people may stop and start.
+    examples:
+      - text: "{speech|“Out. Now.”} {beat|Her finger trembled by the door.}"
+        note: Short, hard words show a tight anger.
+      - text: "{speech|“You came, you actually came, I can’t believe it!”} {beat|Jo bounced on her toes.}"
+        note: A rush of words and a bouncing body show joy.
+  - heading: Choose a beat that fits the feeling
+    paragraphs:
+      - Pick one beat, not three. A single clear detail is stronger than a list.
+    bullets:
+      - "Anger: clenched fists, a tight jaw, something slammed."
+      - "Joy: a grin, a bounce, a laugh that escapes."
+      - "Sadness: a look away, a voice that drops, shoulders that sag."
+      - "Fear: a tremble, a step back, a glance at the door."
+    examples:
+      - text: "{speech|“It’s not your fault.”} {beat|Sami’s shoulders sagged.}"
+        note: Sadness shown by a single body detail.
+      - text: "{speech|“Did you hear that?”} {beat|Nell’s eyes went to the dark window.}"
+        note: Fear is shown by where she looks.
+  - heading: When an adverb is fine
+    paragraphs:
+      - Adverbs are not forbidden. If the speech is neutral but the manner matters, a short adverb can help. Use it sparingly, and never to say what the speech already shows.
+    examples:
+      - text: "{speech|“Thanks,”} {tag|he said quietly.}"
+        note: "A small adverb that adds something the words do not: the volume."
+related:
+  - clenched
+  - furious
+  - seething
+  - apprehensive
+  - terrified
+  - sheepish

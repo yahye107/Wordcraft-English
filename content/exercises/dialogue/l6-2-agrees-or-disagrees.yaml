@@ -1,0 +1,18 @@
+slug: l6-2-agrees-or-disagrees
+lesson: faces-and-bodies-with-speech
+level: intermediate
+prompt: Does the body agree with the words, or disagree?
+explanation: When the beat contradicts the speech, the reader senses the truth is the beat.
+type: identify
+items:
+  - text: “I love it.” She beamed.
+    answer: agrees
+  - text: “I love it.” She glanced at the exit.
+    answer: disagrees
+  - text: “Sure, I’m calm.” His knee bounced under the table.
+    answer: disagrees
+  - text: “Congratulations.” He gripped her hand warmly.
+    answer: agrees
+choices:
+  - agrees
+  - disagrees

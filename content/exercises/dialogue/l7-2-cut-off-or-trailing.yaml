@@ -1,0 +1,18 @@
+slug: l7-2-cut-off-or-trailing
+lesson: hesitation-and-uncertainty
+level: intermediate
+prompt: Is the speaker cut off, or trailing off?
+explanation: A dash cuts the line short. An ellipsis lets it drift away.
+type: identify
+items:
+  - text: “If you’d just—”
+    answer: cut off
+  - text: “I suppose we could try…”
+    answer: trailing off
+  - text: “Wait—” She grabbed his sleeve.
+    answer: cut off
+  - text: “I thought maybe…” His voice faded.
+    answer: trailing off
+choices:
+  - cut off
+  - trailing off

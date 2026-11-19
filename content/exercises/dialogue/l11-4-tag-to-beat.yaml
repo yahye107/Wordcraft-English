@@ -1,0 +1,12 @@
+slug: l11-4-tag-to-beat
+lesson: avoiding-repeated-tags
+level: intermediate
+prompt: Which version replaces the tag in “I told you so,” Max said, with a beat?
+explanation: A beat is an action in its own sentence. The other versions keep a tag.
+type: choose
+options:
+  - “I told you so.” Max leaned back, grinning.
+  - “I told you so,” Max said again.
+  - “I told you so,” Max said loudly.
+  - “I told you so,” Max said, saying it.
+answer: 0

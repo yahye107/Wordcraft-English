@@ -1,0 +1,61 @@
+slug: avoiding-repeated-tags
+lab: dialogue
+title: Avoiding repeated tags
+summary: Why plain tags can repeat, why fancy tags should not, and how to vary the rhythm of a scene.
+level: intermediate
+sort: 11
+sections:
+  - heading: Why said is enough
+    paragraphs:
+      - Repeating “said” does not bother readers. Repeating fancy tags does. Several lines of “declared”, “retorted” and “exclaimed” make the writing busy and self-conscious.
+    examples:
+      - text: |-
+          {speech|“We should leave,”} {tag|Ana said.}
+
+          {speech|“Not yet,”} {tag|Ben said.}
+        note: Plain tags repeated pass unnoticed.
+      - text: |-
+          {speech|“We should leave,”} {tag|Ana declared.}
+
+          {speech|“Not yet,”} {tag|Ben retorted.}
+        note: Fancy tags on every line draw attention to themselves.
+  - heading: When a stronger tag earns its place
+    paragraphs:
+      - A stronger tag is worth using when the manner of speaking changes the meaning. Look at the families in the library to choose the right one.
+    bullets:
+      - "Whispered: so no one hears."
+      - "Murmured: soft and gentle."
+      - "Muttered: grumbling."
+      - "Snapped: short and angry."
+      - "Protested: objecting."
+    examples:
+      - text: "{speech|“Don’t move,”} {tag|she whispered.} {speech|“He’s right outside.”}"
+        note: "A whisper is needed here: the danger is close."
+  - heading: Replace a tag with a beat
+    paragraphs:
+      - Often the best replacement for a tag is a beat. It names the speaker and adds something to see.
+    examples:
+      - text: "{speech|“I told you so,”} {tag|Max said.}"
+        note: A plain tag.
+      - text: "{speech|“I told you so.”} {beat|Max leaned back, grinning.}"
+        note: A beat gives the same information and shows the mood as well.
+  - heading: Vary the rhythm, not the verb
+    paragraphs:
+      - To avoid sameness, change where the tag sits and how often it appears, rather than hunting for new verbs. Sometimes the tag comes first, sometimes after, sometimes in the middle, and sometimes not at all.
+    examples:
+      - text: |-
+          {tag|Ana said,} {speech|“We should leave.”}
+
+          {speech|“Not yet.”}
+
+          {speech|“Please,”} {tag|Ana said,} {speech|“it’s getting late.”}
+        note: "Tag first, no tag, tag in the middle: three patterns with one verb."
+related:
+  - whispered
+  - murmured
+  - muttered
+  - mumbled
+  - snapped
+  - protested
+  - exclaimed
+  - remarked

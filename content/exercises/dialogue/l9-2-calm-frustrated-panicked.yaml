@@ -1,0 +1,19 @@
+slug: l9-2-calm-frustrated-panicked
+lesson: confidence-and-frustration
+level: advanced
+prompt: What does the rhythm of each line suggest?
+explanation: Long even sentences sound calm, short repeated ones sound frustrated, and a rush of words with no pauses sounds panicked.
+type: identify
+items:
+  - text: “I have considered the options, and this is the best one.”
+    answer: calm
+  - text: “No. No. That’s not what I said. Again.”
+    answer: frustrated
+  - text: “Run run run we have to go now they’re coming!”
+    answer: panicked
+  - text: “Let’s sit down and think it through.”
+    answer: calm
+choices:
+  - calm
+  - frustrated
+  - panicked

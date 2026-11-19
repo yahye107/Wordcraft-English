@@ -1,0 +1,18 @@
+slug: l5-2-tells-or-shows
+lesson: showing-emotion-in-dialogue
+level: intermediate
+prompt: Does each line tell the emotion or show it?
+explanation: Telling names the feeling with an adverb or a label. Showing gives an action or detail the reader can picture.
+type: identify
+items:
+  - text: “Leave me alone,” he said sadly.
+    answer: tells
+  - text: “Leave me alone.” He turned his face to the wall.
+    answer: shows
+  - text: “I’m scared,” she said fearfully.
+    answer: tells
+  - text: “Don’t go in there.” Her hand shook on the rail.
+    answer: shows
+choices:
+  - tells
+  - shows

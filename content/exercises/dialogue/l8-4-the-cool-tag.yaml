@@ -1,0 +1,12 @@
+slug: l8-4-the-cool-tag
+lesson: sarcasm-and-subtext
+level: advanced
+prompt: Which tag best suits a cool, sarcastic voice?
+explanation: Drawled suggests slow, lazy, unimpressed speech. The other tags suggest secrecy, excitement or nerves.
+type: choose
+options:
+  - drawled
+  - whispered
+  - exclaimed
+  - stammered
+answer: 0

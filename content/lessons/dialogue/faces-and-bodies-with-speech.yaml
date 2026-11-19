@@ -1,0 +1,58 @@
+slug: faces-and-bodies-with-speech
+lab: dialogue
+title: Faces and bodies with speech
+summary: Use a look, a posture or a gesture next to speech, and match it to the feeling.
+level: intermediate
+sort: 6
+sections:
+  - heading: Faces carry feeling
+    paragraphs:
+      - A face can say what the words do not. A smile, a frown or a glance can agree with the speech, or disagree with it.
+    examples:
+      - text: "{speech|“That sounds wonderful,”} {beat|Rhea’s smile never reached her eyes.}"
+        note: The face disagrees with the words. The reader senses she does not mean it.
+      - text: "{beat|He glared at the empty plate.} {speech|“Who ate my dinner?”}"
+        note: The glare shows the anger before the question is asked.
+  - heading: Bodies say it too
+    paragraphs:
+      - Posture, hands and gestures work the same way. Choose the one that fits the person and the moment.
+    bullets:
+      - "Posture: slouched shoulders, a squared stance, leaning in or away."
+      - "Hands: clenched fists, fidgeting fingers, a gripped railing."
+      - "Gestures: a shrug, folded arms, a hand waved away."
+    examples:
+      - text: "{speech|“I’ll do it myself.”} {beat|He folded his arms.}"
+        note: A closed posture shows stubbornness.
+      - text: "{beat|Mira squared her shoulders.} {speech|“I’m ready.”}"
+        note: The straightened body shows courage before she speaks.
+  - heading: Match the gesture to the feeling
+    paragraphs:
+      - Make sure the gesture fits the feeling. A gesture that does not fit makes the reader doubt the scene.
+    bullets:
+      - "Shrugged: does not know, or does not care."
+      - "Clenched: anger or effort held in."
+      - "Fidgeted: nervousness or boredom."
+      - "Grinned: open, friendly happiness."
+      - "Smirked: smug or mocking."
+    examples:
+      - text: "{speech|“I don’t know,”} {beat|Dan shrugged.}"
+        note: A shrug fits not knowing.
+      - text: "{speech|“Of course I’m not nervous.”} {beat|Her fingers wouldn’t stay still.}"
+        note: The fidgeting contradicts the words and reveals the nerves.
+  - heading: Avoid the same gesture every time
+    paragraphs:
+      - "Many first drafts use nods, shrugs and smiles again and again. Pick a less common detail that belongs to the particular person: a thumb on a ring, a glance at the clock, a cough."
+    examples:
+      - text: "{speech|“We’ll see.”} {beat|Granddad turned the ring on his finger.}"
+        note: A personal detail is more memorable than a stock shrug.
+related:
+  - grinned
+  - smirked
+  - beamed
+  - glared
+  - stared
+  - shrugged
+  - slouched
+  - fidgeted
+  - clenched
+  - squared-his-shoulders

@@ -1,0 +1,12 @@
+slug: l10-2-direct-thought
+lesson: inner-thoughts-and-reactions
+level: advanced
+prompt: Which line is a direct thought?
+explanation: A direct thought gives the words as the character thinks them and is tagged with “thought”.
+type: choose
+options:
+  - Not again, she thought.
+  - She said not again.
+  - “Not again,” she said.
+  - She did it again.
+answer: 0

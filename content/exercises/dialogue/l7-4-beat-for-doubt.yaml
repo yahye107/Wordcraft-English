@@ -1,0 +1,10 @@
+slug: l7-4-beat-for-doubt
+lesson: hesitation-and-uncertainty
+level: intermediate
+prompt: A beat such as a glance at the door can show hesitation without any broken ___.
+explanation: The glance does the work, so the speech can stay clean.
+type: fill_blank
+accepted:
+  - words
+  - speech
+  - sentences

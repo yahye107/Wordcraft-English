@@ -1,0 +1,12 @@
+slug: l11-5-rewrite-the-tags
+lesson: avoiding-repeated-tags
+level: intermediate
+prompt: "Rewrite this exchange: “We should leave,” Ana declared. “Not yet,” Ben retorted. “Please,” Ana exclaimed. “Fine,” Ben conceded. Use at most one stronger tag and include at least one beat and one untagged line."
+explanation: Read your version and ask where each tag is doing real work.
+type: free_write
+checklist:
+  - At most one stronger tag remains.
+  - At least one tag is replaced by a beat.
+  - At least one line has no tag.
+  - It is still clear who speaks each line.
+sample: “We should leave,” Ana said. “Not yet.” Ben didn’t look up from the game. “Please.” She picked up her coat. “Fine.”

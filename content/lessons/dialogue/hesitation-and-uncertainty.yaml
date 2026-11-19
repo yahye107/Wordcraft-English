@@ -1,0 +1,49 @@
+slug: hesitation-and-uncertainty
+lab: dialogue
+title: Hesitation and uncertainty
+summary: Show a speaker who is unsure with a few breaks, small words and a telling beat.
+level: intermediate
+sort: 7
+sections:
+  - heading: Broken speech shows doubt
+    paragraphs:
+      - People who are unsure rarely speak in neat sentences. They stop, start again and trail off. You can show this with a few well-placed breaks.
+    examples:
+      - text: "{speech|“I—I’m not sure I should say.”}"
+        note: A single dash shows a stumble at the very start.
+      - text: "{speech|“Well, I thought maybe… if it’s not too much trouble…”}"
+        note: Ellipses show a voice drifting.
+  - heading: Dashes and ellipses mean different things
+    paragraphs:
+      - Both marks are strong. A page full of them tires the reader, so use them with care.
+    bullets:
+      - "A dash (—) is a sudden stop or an interruption: “If you’d just—”"
+      - "An ellipsis (…) is a fade or a pause: “I suppose…”"
+      - Use one or the other in a line, not both, and not on every line.
+    examples:
+      - text: |-
+          {speech|“Listen, I—”}
+
+          {speech|“No,”} {tag|Lena said.} {speech|“You listen.”}
+        note: The dash shows the first speaker is cut off.
+      - text: "{speech|“I suppose we could try…”} {beat|His voice faded.}"
+        note: An ellipsis shows the voice trailing off, and the beat confirms it.
+  - heading: Fillers and small words
+    paragraphs:
+      - Natural speech has little words such as “um”, “well” and “I mean”. A few make dialogue sound real. Too many make it hard to read.
+    examples:
+      - text: "{speech|“Um, so, I was wondering whether—well, never mind.”}"
+        note: Several fillers and a dash show a speaker losing nerve.
+  - heading: Let a beat show the doubt
+    paragraphs:
+      - A beat can show hesitation without any broken words. A pause, a glance away or a hand to the mouth tells the reader that the speaker is unsure.
+    examples:
+      - text: "{speech|“I could help.”} {beat|Her eyes went to the door.}"
+        note: The words offer help, but the glance shows she wants to leave.
+      - text: "{beat|Tomas cleared his throat.} {speech|“About the money.”}"
+        note: A cough before speaking shows he dreads the topic.
+related:
+  - stammered
+  - hesitated
+  - faltered
+  - mumbled

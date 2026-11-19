@@ -1,0 +1,48 @@
+slug: sarcasm-and-subtext
+lab: dialogue
+title: Sarcasm and subtext
+summary: "Make the reader hear a tone they cannot hear: sarcasm, and the meaning under the words."
+level: advanced
+sort: 8
+sections:
+  - heading: Saying one thing and meaning another
+    paragraphs:
+      - Sarcasm is speech whose real meaning is the opposite of its words. In writing, the reader cannot hear your tone, so you must supply a clue.
+    examples:
+      - text: "{speech|“Great weather for a picnic,”} {tag|Ivy remarked,} {beat|watching the rain bounce off the table.}"
+        note: The words say one thing and the scene says another. That gap is the sarcasm.
+  - heading: Clues that signal sarcasm
+    paragraphs:
+      - Use one or two clues. If every clue is present, the sarcasm feels heavy-handed.
+    bullets:
+      - A scene that contradicts the words, such as rain or a broken plan.
+      - "A beat: an eye roll, a flat look, a smirk."
+      - A tag such as remarked or drawled that suggests a cool voice.
+      - An exaggerated phrase, such as “Wonderful. Just wonderful.”
+    examples:
+      - text: "{speech|“Oh, brilliant plan,”} {tag|Ravi drawled.} {speech|“What could go wrong?”}"
+        note: A drawl and an exaggerated phrase signal the tone.
+      - text: "{speech|“Wonderful. Just wonderful.”} {beat|Her smile didn’t move.}"
+        note: A fixed smile marks the words as not sincere.
+  - heading: "Subtext: what is not said"
+    paragraphs:
+      - Subtext is the meaning under the words. Two people may talk about dinner while they are really arguing about trust. The beats and the details let the reader notice the gap.
+    examples:
+      - text: |-
+          {speech|“Did you eat?”} {beat|He kept his eyes on the screen.}
+
+          {speech|“Yes.”}
+
+          {beat|She set one plate on the table.}
+        note: They talk about food. The unspoken subject is that he has been avoiding her.
+  - heading: Keep the line true to the character
+    paragraphs:
+      - Not every character is sarcastic. Give sarcasm to people who would use it, and make sure the reader can see why they speak that way.
+    examples:
+      - text: "{speech|“Sure. Take your time.”} {beat|Mara checked her watch for the fourth time.}"
+        note: The repeated glance at her watch shows impatience, which turns the polite words into sarcasm.
+related:
+  - remarked
+  - drawled
+  - smirked
+  - muttered

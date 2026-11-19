@@ -1,0 +1,52 @@
+slug: confidence-and-frustration
+lab: dialogue
+title: Confidence and frustration
+summary: Use rhythm and sentence length to make a steady voice sound steady and a frustrated voice sound strained.
+level: advanced
+sort: 9
+sections:
+  - heading: A confident speaker
+    paragraphs:
+      - Confident speech is steady. Sentences are complete and end firmly. There are few fillers, and the speaker rarely asks for permission.
+    examples:
+      - text: "{speech|“We start at nine. I’ll lead.”} {beat|Priya didn’t look at her notes.}"
+        note: Complete, firm sentences and no glance at notes show confidence.
+      - text: "{speech|“That’s the plan,”} {tag|Marcus said,} {speech|“and it will work.”}"
+        note: An even rhythm and a flat statement. No hedging.
+  - heading: A frustrated speaker
+    paragraphs:
+      - Frustration breaks the rhythm. Sentences get shorter, words repeat, and a speaker may ask the same question again.
+    examples:
+      - text: "{speech|“No. No, that’s not what I said. Again. From the top.”} {beat|Dev pressed his thumbs to his eyes.}"
+        note: Repeated words and short sentences show patience wearing thin.
+      - text: "{speech|“How many times? How many times do I have to ask?”}"
+        note: A repeated question shows rising frustration.
+  - heading: Use sentence length to control the voice
+    paragraphs:
+      - The shape of a line is a tool. Before you add a tag, ask what the rhythm already says.
+    bullets:
+      - "Long, even sentences: calm, thinking, in control."
+      - "Short, hard sentences: anger or urgency."
+      - "Run-on sentences: panic or excitement, a rush of words."
+      - "Broken sentences: doubt (see the lesson on hesitation)."
+    examples:
+      - text: "{speech|“I have considered every option, and this is the one that serves us best.”}"
+        note: A long, even sentence sounds in control.
+      - text: "{speech|“Stop. Think. Listen.”}"
+        note: Three short words sound urgent.
+  - heading: Put them side by side
+    paragraphs:
+      - The strongest scenes put a confident voice next to a frustrated one. The contrast makes both clearer.
+    examples:
+      - text: |-
+          {speech|“We start at nine.”} {beat|Priya turned a page.}
+
+          {speech|“But the client—no, listen, the client said—”} {beat|Marcus dragged a hand through his hair.}
+        note: One steady speaker and one breaking speaker. The rhythm shows who is in control.
+related:
+  - self-assured
+  - cocky
+  - exasperated
+  - snapped
+  - faltered
+  - composed

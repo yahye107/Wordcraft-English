@@ -1,0 +1,12 @@
+slug: l5-3-pick-the-verb
+lesson: showing-emotion-in-dialogue
+level: intermediate
+prompt: “I’m fine.” She ___ the drawer shut.
+explanation: A strong action verb such as slammed shows anger without naming it. Any forceful verb that fits works.
+type: fill_blank
+accepted:
+  - slammed
+  - banged
+  - shoved
+  - kicked
+  - crashed

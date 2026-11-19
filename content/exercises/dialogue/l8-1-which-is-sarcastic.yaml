@@ -1,0 +1,12 @@
+slug: l8-1-which-is-sarcastic
+lesson: sarcasm-and-subtext
+level: advanced
+prompt: It is pouring with rain. Which line is sarcastic?
+explanation: The words praise the weather while the scene shows the opposite. That gap is the sarcasm.
+type: choose
+options:
+  - “What lovely weather,” she said, watching the rain pour down.
+  - “It’s raining,” she said.
+  - “I like rain,” she said gently.
+  - “Let’s bring an umbrella,” she said.
+answer: 0

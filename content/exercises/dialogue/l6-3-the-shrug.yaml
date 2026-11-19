@@ -1,0 +1,8 @@
+slug: l6-3-the-shrug
+lesson: faces-and-bodies-with-speech
+level: intermediate
+prompt: A shrug usually shows that a person does not ___, or does not care.
+explanation: A shrug stands in for “I don’t know” or “it doesn’t matter”.
+type: fill_blank
+accepted:
+  - know

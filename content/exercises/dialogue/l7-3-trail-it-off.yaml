@@ -1,0 +1,10 @@
+slug: l7-3-trail-it-off
+lesson: hesitation-and-uncertainty
+level: intermediate
+prompt: This speaker’s voice drifts away. Add the right mark at the end.
+explanation: An ellipsis (…) shows a line that fades away. Three full stops are also accepted.
+type: fix_punctuation
+broken: “I suppose we could try”
+accepted:
+  - “I suppose we could try…”
+  - “I suppose we could try...”

@@ -1,0 +1,53 @@
+slug: a-short-scene
+lab: dialogue
+title: A short scene
+summary: A whole scene that combines tags, beats, hesitation, sarcasm and a thought, with a note on every choice.
+level: advanced
+sort: 12
+sections:
+  - heading: A scene put together
+    paragraphs:
+      - This short scene uses the techniques of the whole lab. Read it once for the story, then read the notes below it.
+    examples:
+      - text: |-
+          {beat|Nia held the pieces of the vase in both hands.} {speech|“It was already cracked.”}
+
+          {speech|“Was it?”} {tag|Tomas asked.} {beat|He did not look up from the sink.}
+
+          {speech|“Mum will—”}
+
+          {speech|“Mum won’t find out.”} {beat|He dried the last plate and set it down very carefully.}
+
+          {speech|“You’re not even angry.”}
+
+          {speech|“Oh, I’m thrilled,”} {tag|he drawled.} {speech|“Nothing makes my evening like broken china.”}
+
+          {thought|Why isn’t he shouting?} {beat|Nia’s eyes stung.} {speech|“I’m sorry.”}
+        note: Read it as a story first. Notice how rarely a tag appears.
+  - heading: What each choice does
+    paragraphs:
+      - Notice how few tags there are. Each one has a job.
+    bullets:
+      - The opening beat names Nia and shows the broken vase before she speaks.
+      - One plain tag (“asked”) names Tomas for the first time.
+      - The dash in “Mum will—” shows Nia being cut off.
+      - Two speakers with clear turns need no tags in the middle.
+      - The drawled tag and the exaggerated phrase signal sarcasm.
+      - A single thought shows what Nia feels without a speech.
+      - A short beat and plain speech end the scene with the apology.
+  - heading: Try it yourself
+    paragraphs:
+      - "Choose a situation and write your own scene of eight to twelve lines. Plan the order: who speaks first, where the beats go, where hesitation or sarcasm appears, and where one thought would help. Then check your scene against the notes above."
+    examples:
+      - text: |-
+          {beat|Dad stirred the pot without turning round.} {speech|“Dinner’s in ten.”}
+
+          {speech|“I’m not hungry.”}
+
+          {speech|“Hm.”} {beat|He put a second bowl on the table anyway.}
+        note: "A tiny scene: one beat names Dad, the turns carry the rest, and the last beat shows he cares."
+related:
+  - drawled
+  - stammered
+  - glared
+  - composed

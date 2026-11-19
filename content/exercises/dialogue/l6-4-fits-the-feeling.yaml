@@ -1,0 +1,12 @@
+slug: l6-4-fits-the-feeling
+lesson: faces-and-bodies-with-speech
+level: intermediate
+prompt: Which gesture fits held-in anger?
+explanation: A clenched jaw shows anger being kept under control. The other gestures show other feelings.
+type: choose
+options:
+  - He clenched his jaw.
+  - He giggled.
+  - He yawned.
+  - He waved cheerfully.
+answer: 0

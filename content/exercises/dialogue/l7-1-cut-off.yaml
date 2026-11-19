@@ -1,0 +1,12 @@
+slug: l7-1-cut-off
+lesson: hesitation-and-uncertainty
+level: intermediate
+prompt: Which mark shows a speaker being cut off?
+explanation: A dash is a sudden stop or interruption. An ellipsis is a fade or a pause.
+type: choose
+options:
+  - A dash (—)
+  - An ellipsis (…)
+  - A semicolon (;)
+  - A colon (:)
+answer: 0

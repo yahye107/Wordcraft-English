@@ -1,0 +1,11 @@
+slug: l9-3-short-and-hard
+lesson: confidence-and-frustration
+level: advanced
+prompt: Short, hard sentences usually sound urgent or ___.
+explanation: Short sentences with little softening suggest urgency, anger or a lack of patience.
+type: fill_blank
+accepted:
+  - angry
+  - frustrated
+  - tense
+  - impatient

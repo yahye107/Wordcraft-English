@@ -1,0 +1,12 @@
+slug: l11-1-fix-the-paragraph
+lesson: avoiding-repeated-tags
+level: intermediate
+prompt: A scene uses “declared”, “retorted” and “exclaimed” on every line. What is the best fix?
+explanation: Plain tags, beats and untagged lines let the speech stand out. Adverbs and stronger tags make the problem worse.
+type: choose
+options:
+  - Replace most of them with “said”, a beat, or no tag
+  - Add an adverb to each one
+  - Use even stronger tags
+  - Make the lines longer
+answer: 0
