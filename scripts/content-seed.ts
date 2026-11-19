@@ -1,10 +1,11 @@
 import path from 'node:path';
 import { loadContent } from '../src/lib/content/load';
+import { contentDir } from '../src/lib/content/dir';
 import { seedContent } from '../src/lib/content/seed';
 import { openDb } from '../src/lib/db';
 import { migrate } from '../src/lib/db/migrate';
 
-const dir = path.join(process.cwd(), 'content');
+const dir = contentDir();
 const { bundle, errors } = loadContent(dir);
 
 if (errors.length > 0) {

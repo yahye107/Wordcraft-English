@@ -367,4 +367,22 @@ CREATE INDEX IF NOT EXISTS idx_novel_created ON novel_analyses(created_at);
 CREATE INDEX IF NOT EXISTS idx_notebook_created ON notebook_entries(created_at);
 `,
   },
+  {
+    version: 10,
+    name: 'content_reviews',
+    sql: `
+-- Learner data: the learner's review verdicts on library content. Never touched by content seeding.
+-- The fingerprint is a hash of the content file when it was reviewed, so a later edit shows as "changed".
+CREATE TABLE content_reviews (
+  id INTEGER PRIMARY KEY,
+  kind TEXT NOT NULL,
+  slug TEXT NOT NULL,
+  verdict TEXT NOT NULL CHECK (verdict IN ('approved','needs-work')),
+  note TEXT NOT NULL DEFAULT '',
+  fingerprint TEXT NOT NULL,
+  reviewed_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')),
+  UNIQUE (kind, slug)
+);
+`,
+  },
 ];

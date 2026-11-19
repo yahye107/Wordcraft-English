@@ -4,6 +4,7 @@ import path from 'node:path';
 import { migrate } from './migrate';
 import { MIGRATIONS } from './migrations';
 import { ensureSeeded } from '@/lib/content/bootstrap';
+import { contentDir } from '@/lib/content/dir';
 
 type Param = string | number | bigint | null | Uint8Array;
 
@@ -68,7 +69,7 @@ export function getDb(): Db {
     const file = process.env.WORDCRAFT_DB ?? path.join(process.cwd(), 'data', 'wordcraft.sqlite');
     const db = openDb(file);
     migrate(db);
-    ensureSeeded(db, path.join(process.cwd(), 'content'));
+    ensureSeeded(db, contentDir());
     globalForDb.__wordcraftDb = db;
     globalForDb.__wordcraftDbVersion = MIGRATIONS.length;
   } else if (globalForDb.__wordcraftDbVersion !== MIGRATIONS.length) {

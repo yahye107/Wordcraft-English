@@ -15,7 +15,7 @@ import {
 
 export type ContentError = { file: string; message: string };
 
-function walk(dir: string): string[] {
+export function walk(dir: string): string[] {
   if (!fs.existsSync(dir)) return [];
   const out: string[] = [];
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {

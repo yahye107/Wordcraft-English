@@ -1,7 +1,8 @@
 import path from 'node:path';
 import { loadContent } from '../src/lib/content/load';
+import { contentDir } from '../src/lib/content/dir';
 
-const dir = process.argv[2] ? path.resolve(process.argv[2]) : path.join(process.cwd(), 'content');
+const dir = process.argv[2] ? path.resolve(process.argv[2]) : contentDir();
 const { bundle, errors } = loadContent(dir);
 
 if (errors.length > 0) {
