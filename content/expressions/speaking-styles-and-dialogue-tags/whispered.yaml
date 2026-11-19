@@ -1,0 +1,38 @@
+slug: whispered
+text: whispered
+kind: word
+pos: verb (past)
+simpleMeaning: Spoke very quietly, using breath more than voice, so that only someone close could hear.
+contextualMeaning: "Used when the speaker does not want to be overheard, or when the place demands silence: a library, a sleeping house, a secret."
+usageNotes: 'Choose "whispered" when the reason for the quiet is secrecy or silence. Add an adverb only when it tells the reader something new: "whispered urgently" shows high stakes, but "whispered quietly" repeats itself.'
+register: neutral
+level: beginner
+status: published
+categories:
+  - quiet-speech
+tags:
+  - situation:secret-talk
+  - technique:dialogue-tag
+searchPhrases:
+  - spoke quietly
+  - said softly
+  - spoke in a low voice
+  - spoke so no one could hear
+examples:
+  - text: “Don’t wake the baby,” she whispered, easing the door shut.
+    setting: dialogue
+  - text: He leaned across the desk and whispered the answer to me.
+    setting: narration
+  - text: In the dark theatre, Mina whispered, “Is that the villain?”
+    setting: dialogue
+relations:
+  - to: murmured
+    type: related
+    note: also quiet, but gentler and not secret
+  - to: muttered
+    type: related
+    note: also low, but grumbling
+mistakes:
+  - wrong: “Everyone, listen!” she whispered.
+    right: “Everyone, listen!” she called.
+    explanation: A call to a group and an exclamation mark do not match a whisper. Match the verb to the volume the words need.

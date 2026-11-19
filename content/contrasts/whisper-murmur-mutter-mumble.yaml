@@ -1,0 +1,16 @@
+slug: whisper-murmur-mutter-mumble
+title: Whispered, murmured, muttered, mumbled
+explanation: "All four are quiet, but each tells the reader something different: secrecy (whispered), gentleness (murmured), grumbling (muttered) or poor clarity (mumbled)."
+members:
+  - expression: whispered
+    note: Breath, not voice. The speaker does not want to be overheard.
+    example: “Don’t move,” she whispered. “He’s right outside.”
+  - expression: murmured
+    note: Low and soft, often kind, tender or sleepy.
+    example: “Sleep now,” he murmured, stroking her hair.
+  - expression: muttered
+    note: Low and grumbling. The speaker is annoyed.
+    example: “Typical,” Dara muttered as the bus pulled away.
+  - expression: mumbled
+    note: Unclear speech from shyness, tiredness or not caring.
+    example: “’S fine,” Tom mumbled, and went red.

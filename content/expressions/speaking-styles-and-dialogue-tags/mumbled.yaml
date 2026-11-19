@@ -1,0 +1,35 @@
+slug: mumbled
+text: mumbled
+kind: word
+pos: verb (past)
+simpleMeaning: Spoke unclearly, with closed lips or little energy, so the words are hard to understand.
+contextualMeaning: The problem is clarity, not secrecy. Shyness, tiredness, embarrassment or not caring can all cause it.
+usageNotes: Use it when the reader should feel that the words were not quite caught. Often followed by "What?" or "Sorry?" in the next line.
+register: neutral
+level: intermediate
+status: published
+categories:
+  - quiet-speech
+tags:
+  - emotion:shyness
+  - situation:shy-speech
+  - technique:dialogue-tag
+searchPhrases:
+  - spoke unclearly
+  - said something hard to hear
+  - spoke shyly
+examples:
+  - text: “Sorry, what?” “Nothing,” he mumbled into his scarf.
+    setting: dialogue
+  - text: The little girl mumbled her name and looked at her shoes.
+    setting: narration
+  - text: He mumbled an apology that nobody could hear.
+    setting: narration
+relations:
+  - to: muttered
+    type: related
+    note: muttered shows irritation, mumbled shows unclear speech
+mistakes:
+  - wrong: He mumbled the instructions clearly and carefully.
+    right: He read the instructions clearly and carefully.
+    explanation: To mumble is to speak unclearly, so it cannot be clear.

@@ -1,0 +1,339 @@
+categories:
+  - slug: emotions-and-feelings
+    name: Emotions and feelings
+    description: Naming what a person feels, including mixed and hard-to-name feelings.
+    children:
+      - slug: mixed-feelings
+        name: Mixed feelings
+        description: Feeling two things at once.
+      - slug: emotional-reactions
+        name: Emotional reactions
+        description: How a feeling hits and what it does to a person.
+      - slug: calm-and-composure
+        name: Calm and composure
+        description: Staying steady when feelings run high.
+  - slug: anger-and-frustration
+    name: Anger, frustration and resentment
+    description: From mild irritation to hot rage and old grudges.
+    children:
+      - slug: irritation
+        name: Irritation and annoyance
+        description: Small, sharp, everyday anger.
+      - slug: rage
+        name: Rage and fury
+        description: Anger at full strength.
+      - slug: resentment
+        name: Resentment and bitterness
+        description: Anger that is held for a long time.
+  - slug: happiness-and-joy
+    name: Happiness, excitement and joy
+    description: Pleasure in all its sizes.
+    children:
+      - slug: delight-and-excitement
+        name: Delight and excitement
+        description: Bright, energetic happiness.
+      - slug: contentment
+        name: Contentment and satisfaction
+        description: Quiet, settled happiness.
+      - slug: relief-and-gratitude
+        name: Relief and gratitude
+        description: Happiness after worry, or because of kindness.
+  - slug: sadness-and-disappointment
+    name: Sadness, grief and disappointment
+    description: Loss, letdown and low moods.
+    children:
+      - slug: sorrow-and-grief
+        name: Sorrow and grief
+        description: Deep sadness, often after a loss.
+      - slug: disappointment
+        name: Disappointment
+        description: When hopes are not met.
+      - slug: loneliness
+        name: Loneliness
+        description: Feeling cut off from other people.
+  - slug: fear-and-anxiety
+    name: Fear, anxiety and nervousness
+    description: Danger, worry and unease.
+    children:
+      - slug: fear-and-dread
+        name: Fear and dread
+        description: Fear of something real or coming.
+      - slug: nervousness
+        name: Nervousness and worry
+        description: Tension before something uncertain.
+      - slug: unease
+        name: Unease and suspicion
+        description: A quiet feeling that something is wrong.
+  - slug: love-and-admiration
+    name: Love, affection and admiration
+    description: Warmth towards other people.
+    children:
+      - slug: affection
+        name: Affection and tenderness
+        description: Gentle, caring feeling.
+      - slug: admiration
+        name: Admiration and respect
+        description: Looking up to someone.
+      - slug: attraction
+        name: Attraction and longing
+        description: Being drawn to someone or something.
+  - slug: facial-expressions
+    name: Facial expressions
+    description: What a face shows.
+    children:
+      - slug: smiles-and-laughter
+        name: Smiles and laughter
+        description: Happy and amused faces.
+      - slug: frowns-and-scowls
+        name: Frowns and scowls
+        description: Unhappy, angry or doubtful faces.
+      - slug: eyes-and-gaze
+        name: Eyes and gaze
+        description: Looking, staring and avoiding eyes.
+  - slug: body-language-and-gestures
+    name: Body language and gestures
+    description: What the body says without words.
+    children:
+      - slug: posture
+        name: Posture and stance
+        description: How a person stands, sits or holds themselves.
+      - slug: hands-and-gestures
+        name: Hands and gestures
+        description: Movements of the hands, arms and shoulders.
+      - slug: nervous-habits
+        name: Nervous habits
+        description: Small movements that reveal tension.
+  - slug: speaking-styles-and-dialogue-tags
+    name: Speaking styles and dialogue tags
+    description: Verbs and phrases for how people speak.
+    children:
+      - slug: quiet-speech
+        name: Quiet and unclear speech
+        description: Low, soft or hard-to-hear speech.
+      - slug: loud-speech
+        name: Loud and forceful speech
+        description: Raised voices and sharp words.
+      - slug: speech-attitude
+        name: Speech showing attitude
+        description: "How a speaker sounds: sharp, hesitant, mocking."
+  - slug: thinking-and-decision-making
+    name: Thinking, reasoning and decision-making
+    description: Mental activity in a character or in your own writing.
+    children:
+      - slug: reasoning
+        name: Reasoning and weighing up
+        description: Thinking something through.
+      - slug: deciding
+        name: Deciding and committing
+        description: Making up one's mind.
+      - slug: realising
+        name: Realising and remembering
+        description: Sudden or slow understanding.
+  - slug: movement-and-actions
+    name: Movement and physical actions
+    description: How people and things move.
+    children:
+      - slug: walking-and-moving
+        name: Walking and moving
+        description: Ways of going from one place to another.
+      - slug: quick-movement
+        name: Quick and sudden movement
+        description: Hurrying, darting, lunging.
+      - slug: handling-objects
+        name: Handling objects
+        description: Picking up, putting down, gripping.
+  - slug: physical-sensations
+    name: Physical sensations and reactions
+    description: What the body feels.
+    children:
+      - slug: pain-and-discomfort
+        name: Pain and discomfort
+        description: Aches, stings and strain.
+      - slug: temperature
+        name: Heat and cold
+        description: Feeling warm, chilled, flushed.
+      - slug: tiredness-and-energy
+        name: Tiredness and energy
+        description: Exhaustion and liveliness.
+  - slug: weather-and-environment
+    name: Weather and environmental descriptions
+    description: Sky, light, sound and air around a scene.
+    children:
+      - slug: weather
+        name: Weather
+        description: Rain, wind, heat and storms.
+      - slug: light-and-dark
+        name: Light and darkness
+        description: Brightness, shadow and glow.
+      - slug: sound-and-smell
+        name: Sounds and smells
+        description: What a place sounds and smells like.
+  - slug: nature-and-landscapes
+    name: Nature, landscapes and surroundings
+    description: Land, water, plants and places.
+    children:
+      - slug: landscapes
+        name: Landscapes
+        description: Hills, fields, deserts, coasts.
+      - slug: water-and-shore
+        name: Water and shore
+        description: Seas, rivers and what lies beside them.
+      - slug: plants-and-animals
+        name: Plants and animals
+        description: Trees, flowers, birds and creatures.
+  - slug: personality-and-character
+    name: Personality and character descriptions
+    description: Describing who someone is.
+    children:
+      - slug: admirable-traits
+        name: Admirable traits
+        description: Qualities we respect.
+      - slug: difficult-traits
+        name: Difficult traits
+        description: Qualities that cause trouble.
+      - slug: temperament
+        name: Temperament and manner
+        description: The general way a person is.
+  - slug: relationships-and-social
+    name: Relationships and social interactions
+    description: How people relate to each other.
+    children:
+      - slug: friendship-and-trust
+        name: Friendship and trust
+        description: Closeness between people.
+      - slug: family-ties
+        name: Family ties
+        description: Parents, siblings and belonging.
+      - slug: social-situations
+        name: Social situations
+        description: Parties, strangers, awkward moments.
+  - slug: conflict-and-arguments
+    name: Conflict, arguments and disagreements
+    description: When people clash.
+    children:
+      - slug: arguing
+        name: Arguing and quarrelling
+        description: Open disagreement.
+      - slug: tension-and-hostility
+        name: Tension and hostility
+        description: Conflict that is felt rather than shouted.
+      - slug: making-peace
+        name: Making peace
+        description: Ending or softening a conflict.
+  - slug: agreement-disagreement-persuasion
+    name: Agreement, disagreement and persuasion
+    description: Taking a position and moving others.
+    children:
+      - slug: agreeing
+        name: Agreeing
+        description: Saying yes in different ways.
+      - slug: disagreeing
+        name: Disagreeing politely and firmly
+        description: Saying no without starting a fight.
+      - slug: persuading
+        name: Persuading and urging
+        description: Trying to change someone's mind.
+  - slug: confidence-and-hesitation
+    name: Confidence, hesitation and uncertainty
+    description: Certainty, doubt and self-consciousness.
+    children:
+      - slug: confidence
+        name: Confidence and boldness
+        description: Acting without doubt.
+      - slug: hesitation
+        name: Hesitation and doubt
+        description: Holding back.
+      - slug: embarrassment
+        name: Embarrassment and shyness
+        description: Feeling exposed or awkward.
+  - slug: intelligence-and-understanding
+    name: Intelligence, ignorance and understanding
+    description: Knowing, not knowing and learning.
+    children:
+      - slug: sharp-minds
+        name: Sharp minds
+        description: Quick, clever and wise people.
+      - slug: confusion-and-ignorance
+        name: Confusion and ignorance
+        description: Not understanding.
+      - slug: grasping-ideas
+        name: Grasping ideas
+        description: Finally getting it.
+  - slug: literary-devices-imagery
+    name: Literary expressions, metaphors, similes and imagery
+    description: Figurative language that makes writing vivid.
+    children:
+      - slug: similes
+        name: Similes
+        description: Comparisons using like or as.
+      - slug: metaphors
+        name: Metaphors
+        description: Saying one thing is another.
+      - slug: imagery-and-personification
+        name: Imagery and personification
+        description: Sensory pictures and living objects.
+  - slug: transitions-and-connectors
+    name: Transitions and connecting expressions
+    description: Words that join ideas.
+    children:
+      - slug: contrast-connectors
+        name: Contrast and concession
+        description: However, even so, although.
+      - slug: cause-and-result
+        name: Cause and result
+        description: Because, therefore, as a result.
+      - slug: adding-and-sequencing
+        name: Adding and sequencing
+        description: Moreover, first, meanwhile.
+  - slug: descriptive-adjectives-adverbs
+    name: Descriptive adjectives and adverbs
+    description: Precise describing words.
+    children:
+      - slug: appearance-and-surface
+        name: Appearance and surface
+        description: How things look and feel to the eye or hand.
+      - slug: manner-adverbs
+        name: Adverbs of manner
+        description: How an action is done.
+      - slug: size-and-quality
+        name: Size, amount and quality
+        description: Big, tiny, plentiful, rare.
+  - slug: professional-and-academic
+    name: Professional and academic vocabulary
+    description: Language for work and study.
+    children:
+      - slug: email-phrases
+        name: Email phrases
+        description: Opening, asking, thanking, closing.
+      - slug: academic-writing
+        name: Academic writing
+        description: Arguing and hedging in essays.
+      - slug: meetings-and-reports
+        name: Meetings and reports
+        description: Summarising, proposing, recommending.
+  - slug: everyday-conversation
+    name: Everyday conversational expressions
+    description: Natural spoken English.
+    children:
+      - slug: small-talk
+        name: Greetings and small talk
+        description: Starting and keeping a chat going.
+      - slug: reactions
+        name: Reactions
+        description: Showing surprise, sympathy and interest.
+      - slug: requests-and-refusals
+        name: Requests and refusals
+        description: Asking and saying no politely.
+  - slug: narrative-and-storytelling
+    name: Narrative and storytelling expressions
+    description: Moves a storyteller makes.
+    children:
+      - slug: openings-and-endings
+        name: Openings and endings
+        description: Starting and finishing a scene or story.
+      - slug: pacing-and-suspense
+        name: Pacing and suspense
+        description: Speeding up, slowing down, holding back.
+      - slug: time-and-transition
+        name: Time and scene transitions
+        description: Moving through time and place.

@@ -1,0 +1,36 @@
+slug: murmured
+text: murmured
+kind: word
+pos: verb (past)
+simpleMeaning: Spoke in a low, soft, steady voice, often without much force.
+contextualMeaning: Gentle, private or dreamy speech. The tone is usually calm, tender or drowsy. It is not a secret and not a complaint.
+usageNotes: Use it for comfort, affection, half-sleep, or polite quiet replies. If the quiet voice carries irritation, use "muttered" instead.
+register: neutral
+level: intermediate
+status: published
+categories:
+  - quiet-speech
+tags:
+  - situation:comforting
+  - technique:dialogue-tag
+searchPhrases:
+  - spoke softly and gently
+  - said in a low soothing voice
+examples:
+  - text: “Mm, that’s lovely,” he murmured, half asleep.
+    setting: dialogue
+  - text: The nurse murmured reassurances until the boy’s breathing slowed.
+    setting: narration
+  - text: She murmured her thanks and slipped out of the room.
+    setting: narration
+relations:
+  - to: whispered
+    type: related
+    note: whispers hide the voice; murmurs keep it
+  - to: muttered
+    type: related
+    note: muttering is grumbly
+mistakes:
+  - wrong: He murmured furiously at the referee.
+    right: He muttered furiously at the referee.
+    explanation: A murmur is gentle. Anger kept under the breath is muttering.

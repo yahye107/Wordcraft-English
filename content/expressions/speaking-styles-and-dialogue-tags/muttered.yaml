@@ -1,0 +1,39 @@
+slug: muttered
+text: muttered
+kind: word
+pos: verb (past)
+simpleMeaning: Said something in a low voice, not meant for everyone, usually because of annoyance.
+contextualMeaning: The speaker is unhappy, irritated or rude, and keeps it half hidden. Others may hear it or may not.
+usageNotes: Use it to show grumbling, complaint or private commentary. It can also describe someone talking to themselves.
+register: neutral
+level: intermediate
+status: published
+categories:
+  - quiet-speech
+  - speech-attitude
+tags:
+  - emotion:irritation
+  - situation:grumbling
+  - technique:dialogue-tag
+searchPhrases:
+  - grumbled under his breath
+  - complained quietly
+  - said something rude quietly
+examples:
+  - text: “Not again,” Jonas muttered, staring at the empty fridge.
+    setting: dialogue
+  - text: She muttered something rude and went back to her work.
+    setting: narration
+  - text: The old man muttered to himself all the way down the lane.
+    setting: narration
+relations:
+  - to: mumbled
+    type: related
+    note: mumbled is unclear; muttered is grumpy
+  - to: murmured
+    type: related
+    note: softer and kinder
+mistakes:
+  - wrong: She muttered a loving goodbye.
+    right: She murmured a loving goodbye.
+    explanation: Muttering suggests complaint. Use "murmured" for tenderness.
