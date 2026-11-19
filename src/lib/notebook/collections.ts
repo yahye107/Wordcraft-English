@@ -26,10 +26,12 @@ export function deleteCollection(db: Db, id: number): { ok: true } | Fail {
 }
 
 export function listCollections(db: Db): { id: number; name: string; count: number }[] {
-  return db.all<{ id: number; name: string; count: number }>(
-    `SELECT c.id, c.name, (SELECT COUNT(*) FROM entry_collections ec WHERE ec.collection_id = c.id) AS count
-     FROM collections c ORDER BY lower(c.name)`,
-  );
+  return db
+    .all<{ id: number; name: string; count: number }>(
+      `SELECT c.id, c.name, (SELECT COUNT(*) FROM entry_collections ec WHERE ec.collection_id = c.id) AS count
+       FROM collections c ORDER BY lower(c.name)`,
+    )
+    .map((c) => ({ id: c.id, name: c.name, count: c.count })); // plain objects, safe to pass to client components
 }
 
 export function setEntryCollections(db: Db, entryId: number, collectionIds: number[]): { ok: true } | Fail {

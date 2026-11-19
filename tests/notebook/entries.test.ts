@@ -80,6 +80,20 @@ describe('addCustom', () => {
   });
 });
 
+describe('plain objects', () => {
+  it('returns plain objects so entries can be passed to client components', () => {
+    const db = setup();
+    const { entry } = saveFromLibrary(db, 'crestfallen')!;
+    addExample(db, entry.id, 'A sentence.');
+    const c = createCollection(db, 'Plain');
+    if (c.ok) setEntryCollections(db, entry.id, [c.id]);
+    const e = getEntry(db, entry.id)!;
+    expect(Object.getPrototypeOf(e.examples[0])).toBe(Object.prototype);
+    expect(Object.getPrototypeOf(e.collections[0])).toBe(Object.prototype);
+    expect(Object.getPrototypeOf(listCollections(db)[0])).toBe(Object.prototype);
+  });
+});
+
 describe('updating and deleting', () => {
   it('updates meaning and notes and rejects over-long ones', () => {
     const db = setup();

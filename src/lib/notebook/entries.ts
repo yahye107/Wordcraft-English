@@ -38,11 +38,16 @@ function hydrate(db: Db, r: Row): Entry {
     myNotes: r.my_notes,
     source: r.source,
     createdAt: r.created_at,
-    examples: db.all<{ id: number; text: string }>('SELECT id, text FROM notebook_examples WHERE entry_id = ? ORDER BY id', [r.id]),
-    collections: db.all<{ id: number; name: string }>(
-      'SELECT c.id, c.name FROM entry_collections ec JOIN collections c ON c.id = ec.collection_id WHERE ec.entry_id = ? ORDER BY c.name',
-      [r.id],
-    ),
+    // map to plain objects: database rows have no prototype and cannot be passed to client components
+    examples: db
+      .all<{ id: number; text: string }>('SELECT id, text FROM notebook_examples WHERE entry_id = ? ORDER BY id', [r.id])
+      .map((x) => ({ id: x.id, text: x.text })),
+    collections: db
+      .all<{ id: number; name: string }>(
+        'SELECT c.id, c.name FROM entry_collections ec JOIN collections c ON c.id = ec.collection_id WHERE ec.entry_id = ? ORDER BY c.name',
+        [r.id],
+      )
+      .map((c) => ({ id: c.id, name: c.name })),
     library: lib ? { slug: lib.slug, text: lib.text, simpleMeaning: lib.simple_meaning, contextualMeaning: lib.contextual_meaning } : null,
   };
 }
