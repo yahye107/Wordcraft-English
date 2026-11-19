@@ -7,7 +7,7 @@ export const isFeedType = (v: unknown): v is FeedType => typeof v === 'string' &
 
 export type FeedItem =
   | { kind: 'writing'; sessionId: number; title: string; mode: string; versions: number; words: number; at: string }
-  | { kind: 'lessons'; lessonSlug: string | null; title: string; attempts: number; correct: number; at: string }
+  | { kind: 'lessons'; lessonSlug: string | null; lab: 'dialogue' | 'sentence' | null; title: string; attempts: number; correct: number; at: string }
   | { kind: 'reviews'; count: number; remembered: number; at: string }
   | { kind: 'passage'; id: number; title: string; preview: string; aiUsed: boolean; at: string }
   | { kind: 'notebook'; count: number; at: string };
@@ -84,8 +84,8 @@ export function getFeed(db: Db, opts: { type?: FeedType; mode?: string; limit?: 
 
   if (want('lessons')) {
     const rows = db
-      .all<{ slug: string | null; title: string | null; correct: number | null; created_at: string }>(
-        `SELECT l.slug AS slug, l.title AS title, a.correct AS correct, a.created_at AS created_at
+      .all<{ slug: string | null; lab: 'dialogue' | 'sentence' | null; title: string | null; correct: number | null; created_at: string }>(
+        `SELECT l.slug AS slug, l.lab AS lab, l.title AS title, a.correct AS correct, a.created_at AS created_at
          FROM exercise_attempts a
          LEFT JOIN exercises e ON e.slug = a.exercise_slug
          LEFT JOIN lessons l ON l.id = e.lesson_id
@@ -97,6 +97,7 @@ export function getFeed(db: Db, opts: { type?: FeedType; mode?: string; limit?: 
       groupByDay(rows, rows.length >= bound, tz, (r) => r.slug ?? '', (g) => ({
         kind: 'lessons' as const,
         lessonSlug: g[0].slug,
+        lab: g[0].lab,
         title: g[0].title ?? REMOVED,
         attempts: g.length,
         correct: g.filter((r) => r.correct === 1).length,
