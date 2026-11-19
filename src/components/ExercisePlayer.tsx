@@ -6,12 +6,14 @@ import FillBlank from "./exercises/FillBlank";
 import Identify from "./exercises/Identify";
 import FixPunctuation from "./exercises/FixPunctuation";
 import FreeWrite from "./exercises/FreeWrite";
+import Reorder from "./exercises/Reorder";
 
 const TYPE_LABEL: Record<string, string> = {
   choose: "Choose",
   fill_blank: "Fill the blank",
   identify: "Label each one",
   fix_punctuation: "Fix the punctuation",
+  reorder: "Put in order",
   free_write: "Write",
 };
 
@@ -35,6 +37,9 @@ export default function ExercisePlayer({ exercise, index }: { exercise: PublicEx
       )}
       {exercise.type === "fix_punctuation" && (
         <FixPunctuation slug={exercise.slug} prompt={exercise.prompt} broken={p.broken as string} />
+      )}
+      {exercise.type === "reorder" && (
+        <Reorder slug={exercise.slug} prompt={exercise.prompt} fragments={p.fragments as string[]} />
       )}
       {exercise.type === "free_write" && (
         <FreeWrite slug={exercise.slug} prompt={exercise.prompt} checklist={p.checklist as string[]} />
