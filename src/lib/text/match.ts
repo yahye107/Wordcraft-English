@@ -63,6 +63,23 @@ function phraseRegex(text: string): RegExp | null {
   }
 }
 
+/** Where one expression first appears in a passage (`hay` is `norm(passage)`), or null. Pure. */
+export function matchExpression(exprText: string, hay: string, tokens: Token[]): { start: number; end: number } | null {
+  const word = norm(exprText).trim().toLowerCase();
+  if (/^\p{L}+$/u.test(word)) {
+    const stems = word.length >= 5 ? stemsOf(word) : [];
+    const t = tokens.find((tok) => matchesWord(word, stems, tok.lower));
+    return t ? { start: t.start, end: t.end } : null;
+  }
+  const m = phraseRegex(exprText)?.exec(hay);
+  return m && m[0].length > 0 ? { start: m.index, end: m.index + m[0].length } : null;
+}
+
+/** True when the passage contains the expression (inflected single words and a changed possessive count). */
+export function containsExpression(exprText: string, passage: string): boolean {
+  return matchExpression(exprText, norm(passage), tokenise(passage)) !== null;
+}
+
 /** Library expressions found in the passage: first match of each, no overlaps, in order of position. */
 export function findHits(db: Db, s: string, tokens: Token[]): { hits: Hit[]; exprs: Map<string, Expr> } {
   const exprs = new Map<string, Expr>();
@@ -72,16 +89,8 @@ export function findHits(db: Db, s: string, tokens: Token[]): { hits: Hit[]; exp
 
   for (const e of rows) {
     exprs.set(e.slug, { slug: e.slug, text: e.text, simple_meaning: e.simple_meaning, level: e.level });
-    const word = norm(e.text).trim().toLowerCase();
-    if (/^\p{L}+$/u.test(word)) {
-      const stems = word.length >= 5 ? stemsOf(word) : [];
-      const t = tokens.find((tok) => matchesWord(word, stems, tok.lower));
-      if (t) all.push({ slug: e.slug, start: t.start, end: t.end });
-    } else {
-      const re = phraseRegex(e.text);
-      const m = re?.exec(hay);
-      if (m && m[0].length > 0) all.push({ slug: e.slug, start: m.index, end: m.index + m[0].length });
-    }
+    const m = matchExpression(e.text, hay, tokens);
+    if (m) all.push({ slug: e.slug, start: m.start, end: m.end });
   }
 
   // Earlier first, and the longer match wins when two overlap.

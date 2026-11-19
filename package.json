@@ -11,7 +11,10 @@
     "test:watch": "vitest",
     "content:validate": "tsx scripts/content-validate.ts",
     "content:seed": "tsx scripts/content-seed.ts",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "content:lint": "tsx scripts/content-lint.ts",
+    "content:report": "tsx scripts/content-report.ts",
+    "content:notes": "tsx scripts/content-notes.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.10.0",
