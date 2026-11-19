@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { getDb } from "@/lib/db";
-import { countDue } from "@/lib/notebook/review";
+import { getToday } from "@/lib/progress/today";
+import TodayPanel from "@/components/progress/TodayPanel";
 
 export const dynamic = "force-dynamic";
 
 export default function Dashboard() {
-  const due = countDue(getDb());
+  const today = getToday(getDb());
+  const due = today.dueCards;
   return (
     <>
       <h1>From a plain thought to a written sentence</h1>
@@ -24,6 +26,8 @@ export default function Dashboard() {
           Show the feeling through the body. Find the expression in Explore, then write your own.
         </figcaption>
       </figure>
+
+      <TodayPanel today={today} />
 
       <div className="tiles">
         {due > 0 && (

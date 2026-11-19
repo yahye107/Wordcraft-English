@@ -648,3 +648,41 @@ fieldset { border: 0; margin: 0 0 0.75rem; padding: 0; min-width: 0; }
 .minibar-col { width: 24px; border-radius: 4px 4px 0 0; background: var(--cobalt); }
 .minibar-value { font-size: 0.8rem; color: var(--ink); min-height: 1em; }
 .minibar-label { font-size: 0.78rem; color: var(--ink-2); }
+
+.today { margin: 0 0 2rem; padding: 1.1rem 1.25rem; border: 1px solid var(--rule); border-radius: var(--radius-lg); background: var(--surface); max-width: 46rem; }
+.today h2 { margin: 0 0 0.75rem; font-size: 1.15rem; }
+.today-grid { display: grid; gap: 1.25rem 2rem; grid-template-columns: 1fr; }
+@media (min-width: 640px) { .today-grid { grid-template-columns: 1.4fr 1fr; } }
+.today-next { display: grid; gap: 0.5rem; align-content: start; }
+.today-next p { margin: 0; }
+.today-main { justify-self: start; }
+.today-more { list-style: none; margin: 0.25rem 0 0; padding: 0; display: grid; gap: 0.2rem; }
+.today-more a { display: inline-flex; align-items: center; min-height: 44px; }
+.today-week { display: grid; gap: 0.5rem; align-content: start; }
+.streak { margin: 0; font-family: var(--font-serif); font-size: 1.25rem; font-weight: 600; }
+.week-strip { list-style: none; margin: 0; padding: 0; display: flex; gap: 6px; }
+.week-day { display: grid; justify-items: center; gap: 4px; width: 28px; }
+.week-mark { width: 20px; height: 20px; border-radius: 50%; border: 2px solid var(--rule); box-sizing: border-box; }
+.week-day.on .week-mark { background: var(--marker); border-color: var(--marker); }
+.week-letter { font-size: 0.75rem; color: var(--ink-2); }
+.today-note { margin: 0; font-size: 0.9rem; }
+.today-link { display: inline-flex; align-items: center; min-height: 44px; }
+
+.progress-page > section { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
+.progress-page > section:first-of-type { border-top: 0; padding-top: 0; }
+.progress-page h2 { margin: 0; }
+.progress-page h3 { margin: 0 0 0.25rem; font-size: 1.05rem; }
+.stats { display: flex; flex-wrap: wrap; gap: 1.25rem 2.25rem; }
+.stat { display: grid; gap: 0.1rem; }
+.stat-value { font-family: var(--font-serif); font-size: 1.8rem; font-weight: 600; line-height: 1.1; }
+.stat-label { font-size: 0.9rem; color: var(--ink-2); }
+.stat-note { font-size: 0.85rem; color: var(--ink-2); }
+.meters { display: grid; gap: 0.9rem; }
+.progress-links { margin-top: 2.5rem; }
+.feed-day { margin-bottom: 1.5rem; }
+.feed-day h2 { font-size: 1.05rem; margin: 0 0 0.6rem; color: var(--ink-2); font-family: var(--font-ui); font-weight: 600; }
+.progress-page .table { margin: 0.5rem 0 0.75rem; }
+.progress-page .chart-numbers { margin-top: 0.25rem; }
+.progress-page [data-testid='repeat-errors'] { display: grid; gap: 0.25rem; }
+.progress-page [data-testid='repeat-errors'] p { margin: 0.25rem 0; }
+@media (pointer: coarse) { .chip, .btn.small { min-height: 44px; } }
