@@ -1,0 +1,37 @@
+slug: enormous
+text: enormous
+kind: word
+pos: adjective
+simpleMeaning: Extremely large.
+contextualMeaning: "Enormous means far bigger than usual: houses, crowds, problems."
+usageNotes: "Use it for size and also for amounts and effects: an enormous crowd; an enormous effort."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - size-and-quality
+tags:
+  - technique:imagery
+  - technique:setting
+searchPhrases:
+  - extremely large
+  - huge
+  - very big
+examples:
+  - text: An enormous oak tree stood in the middle of the field.
+    setting: narration
+  - text: We have an enormous amount of work today.
+    setting: everyday
+  - text: The decision had an enormous impact on the region.
+    setting: academic
+relations:
+  - to: tiny
+    type: antonym
+  - to: massive
+    type: related
+  - to: vast
+    type: related
+mistakes:
+  - wrong: The elephant was very enormous.
+    right: The elephant was enormous.
+    explanation: Enormous already means very big, so very is not needed.

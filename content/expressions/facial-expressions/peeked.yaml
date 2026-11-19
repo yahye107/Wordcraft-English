@@ -1,0 +1,33 @@
+slug: peeked
+text: peeked
+kind: word
+pos: verb (past)
+simpleMeaning: Looked quickly and secretly, often through a small gap.
+contextualMeaning: A peek is short and cheeky. It can be curious or sneaky.
+usageNotes: "Use it for secret looks: she peeked through the curtains. Add at, through or around."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - eyes-and-gaze
+tags:
+  - technique:facial-expression
+  - technique:movement
+searchPhrases:
+  - looked secretly
+  - took a quick look
+  - sneaked a look
+examples:
+  - text: She peeked through the curtains.
+    setting: narration
+  - text: I peeked at my present before the party.
+    setting: everyday
+  - text: “Don’t peek!” she laughed.
+    setting: dialogue
+relations:
+  - to: stared
+    type: weaker
+mistakes:
+  - wrong: He peeked long at the screen.
+    right: He peeked at the screen.
+    explanation: A peek is short, so it does not go with long.

@@ -29,6 +29,8 @@ relations:
     type: related
   - to: tongue-in-cheek
     type: related
+  - to: giggled
+    type: antonym
 mistakes:
   - wrong: She laughed deadpan.
     right: She spoke in a deadpan voice.

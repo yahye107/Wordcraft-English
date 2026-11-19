@@ -1,0 +1,35 @@
+slug: retorted
+text: retorted
+kind: word
+pos: verb (past)
+simpleMeaning: Answered quickly and sharply, often to defend yourself.
+contextualMeaning: A retort is a quick, clever or angry comeback. It carries a little fight into the dialogue.
+usageNotes: "Use it as a tag for a sharp comeback: “You started it,” she retorted. It is stronger than replied."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - speech-attitude
+tags:
+  - technique:dialogue-tag
+  - situation:conflict
+searchPhrases:
+  - answered back sharply
+  - came back with a sharp answer
+  - snapped back
+examples:
+  - text: “You started it,” she retorted.
+    setting: dialogue
+  - text: “Look who’s talking,” he retorted.
+    setting: narration
+  - text: When I said he was late, he retorted that I was later.
+    setting: everyday
+relations:
+  - to: replied
+    type: stronger
+  - to: snapped
+    type: related
+mistakes:
+  - wrong: She retorted softly and kindly.
+    right: She replied softly and kindly.
+    explanation: Retorted is sharp, so it does not go with soft or kind.

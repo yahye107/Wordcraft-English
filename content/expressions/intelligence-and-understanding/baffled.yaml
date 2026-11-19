@@ -29,6 +29,8 @@ relations:
     type: weaker
   - to: bewildered
     type: related
+  - to: figured-out
+    type: antonym
 mistakes:
   - wrong: She was baffled and understood the whole plan.
     right: She was baffled and could not follow the plan.

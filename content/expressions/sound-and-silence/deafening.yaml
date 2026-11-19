@@ -31,6 +31,10 @@ relations:
     type: stronger
   - to: you-could-hear-a-pin-drop
     type: antonym
+  - to: as-quiet-as-a-mouse
+    type: antonym
+  - to: whispered
+    type: antonym
 mistakes:
   - wrong: The noise was deafened.
     right: The noise was deafening.

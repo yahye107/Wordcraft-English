@@ -27,6 +27,8 @@ examples:
 relations:
   - to: composed
     type: antonym
+  - to: a-knot-in-the-stomach
+    type: weaker
 mistakes:
   - wrong: I feel jittering.
     right: I feel jittery.

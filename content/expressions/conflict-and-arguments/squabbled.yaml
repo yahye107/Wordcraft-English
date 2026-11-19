@@ -26,6 +26,8 @@ examples:
 relations:
   - to: bickered
     type: related
+  - to: argued
+    type: weaker
 mistakes:
   - wrong: The two nations squabbled and went to war.
     right: The two nations quarrelled and went to war.

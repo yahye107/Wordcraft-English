@@ -1,0 +1,34 @@
+slug: drowning-in
+text: drowning in
+kind: phrase
+simpleMeaning: Having far too much of something to deal with.
+contextualMeaning: "A metaphor from water: work, debt or paper pile up like waves."
+usageNotes: "Use it for overwhelming amounts: drowning in emails. It is informal and shows stress."
+register: informal
+level: intermediate
+status: draft
+categories:
+  - metaphors
+tags:
+  - technique:imagery
+  - emotion:anxiety
+searchPhrases:
+  - too much to handle
+  - buried in work
+  - overwhelmed by amounts
+examples:
+  - text: I’m drowning in emails.
+    setting: everyday
+  - text: She was drowning in debt and too proud to say so.
+    setting: narration
+  - text: The team is drowning in paperwork.
+    setting: professional
+relations:
+  - to: unruffled
+    type: antonym
+  - to: overwhelmed
+    type: related
+mistakes:
+  - wrong: I am drowning of work.
+    right: I am drowning in work.
+    explanation: Use in after drowning.

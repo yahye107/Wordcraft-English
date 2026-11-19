@@ -27,6 +27,10 @@ examples:
 relations:
   - to: grinned
     type: related
+  - to: giggled
+    type: related
+  - to: cackled
+    type: weaker
 mistakes:
   - wrong: The audience chuckled loudly for five minutes.
     right: The audience roared with laughter for five minutes.

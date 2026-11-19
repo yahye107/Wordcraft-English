@@ -1,0 +1,32 @@
+slug: on-the-same-page
+text: on the same page
+kind: idiom
+simpleMeaning: Sharing the same understanding or plan.
+contextualMeaning: Being on the same page means that people agree about what they are doing and why.
+usageNotes: "Use it in work and teams: let’s make sure we are on the same page. It is informal and common in offices."
+register: conversational
+level: intermediate
+status: draft
+categories:
+  - agreeing
+tags:
+  - situation:agreeing
+  - situation:work
+searchPhrases:
+  - agree about the plan
+  - understand the same thing
+  - in agreement
+examples:
+  - text: Before the launch, we need to be on the same page.
+    setting: professional
+  - text: We weren’t on the same page about the holiday.
+    setting: everyday
+  - text: “Are we on the same page?” she asked.
+    setting: dialogue
+relations:
+  - to: i-beg-to-differ
+    type: antonym
+mistakes:
+  - wrong: We are on same page.
+    right: We are on the same page.
+    explanation: "The idiom needs the: on the same page."

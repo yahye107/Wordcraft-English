@@ -30,6 +30,10 @@ relations:
   - to: elated
     type: related
     note: content is calm; elated is high-energy
+  - to: thrilled
+    type: weaker
+  - to: delighted
+    type: weaker
 mistakes:
   - wrong: She is a content woman.
     right: She is a contented woman. / She is content.

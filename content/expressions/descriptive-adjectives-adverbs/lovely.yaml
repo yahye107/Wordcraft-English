@@ -1,0 +1,35 @@
+slug: lovely
+text: lovely
+kind: word
+pos: adjective
+simpleMeaning: Beautiful, kind or very nice.
+contextualMeaning: Lovely is warm and friendly. It is very common in British English.
+usageNotes: "Use it for people, places, gifts and weather: a lovely day. It is positive and general."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - size-and-quality
+tags:
+  - technique:setting
+  - emotion:happiness
+searchPhrases:
+  - beautiful and nice
+  - very pleasant
+  - kind and charming
+examples:
+  - text: What a lovely garden!
+    setting: everyday
+  - text: She had a lovely smile.
+    setting: narration
+  - text: “Thank you, that’s lovely,” he said.
+    setting: dialogue
+relations:
+  - to: pleasant
+    type: stronger
+  - to: splendid
+    type: weaker
+mistakes:
+  - wrong: He is lovely at football.
+    right: He is brilliant at football.
+    explanation: Lovely describes charm or beauty, not skill.

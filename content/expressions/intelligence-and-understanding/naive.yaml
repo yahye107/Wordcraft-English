@@ -26,6 +26,8 @@ examples:
 relations:
   - to: astute
     type: antonym
+  - to: clever
+    type: antonym
 mistakes:
   - wrong: He is naive because he failed maths.
     right: He is not good at maths.

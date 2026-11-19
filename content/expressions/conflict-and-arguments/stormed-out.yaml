@@ -1,0 +1,32 @@
+slug: stormed-out
+text: stormed out
+kind: phrase
+simpleMeaning: Left angrily and noisily, often after an argument.
+contextualMeaning: Storming out shows anger and the end of a conversation. The door often slams.
+usageNotes: "Use it for angry exits: she stormed out of the room. It is stronger than left and often ends a scene."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - arguing
+tags:
+  - situation:conflict
+  - technique:movement
+searchPhrases:
+  - left angrily
+  - walked out in anger
+  - left after a fight
+examples:
+  - text: She stormed out of the room and slammed the door.
+    setting: narration
+  - text: He stormed out of the meeting.
+    setting: everyday
+  - text: “Where is he?” “He stormed out an hour ago.”
+    setting: dialogue
+relations:
+  - to: made-up
+    type: antonym
+mistakes:
+  - wrong: She stormed out from the room.
+    right: She stormed out of the room.
+    explanation: "Use of after out: out of the room."

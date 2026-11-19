@@ -31,6 +31,8 @@ relations:
   - to: resentful
     type: related
     note: resentful is older, slower anger
+  - to: resentful
+    type: stronger
 mistakes:
   - wrong: She seethed with loud shouts.
     right: She seethed in silence.

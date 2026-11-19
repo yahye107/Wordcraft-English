@@ -28,6 +28,8 @@ examples:
 relations:
   - to: numb
     type: antonym
+  - to: drowning-in
+    type: related
 mistakes:
   - wrong: I was overwhelmed of work.
     right: I was overwhelmed by work.

@@ -1,0 +1,16 @@
+slug: answered-replied-retorted-snapped
+title: Answered, replied, retorted, snapped
+explanation: Four tags for a reply. Answered is the plain one, replied is a little more formal, retorted is a quick, sharp comeback, and snapped is angry and short.
+members:
+  - expression: answered
+    note: Plain and neutral.
+    example: “Fine,” he answered.
+  - expression: replied
+    note: Neutral, a little more formal.
+    example: “I’ll think about it,” she replied.
+  - expression: retorted
+    note: A quick, sharp comeback.
+    example: “That’s not true,” she retorted.
+  - expression: snapped
+    note: Angry and short.
+    example: “Leave me alone,” he snapped.

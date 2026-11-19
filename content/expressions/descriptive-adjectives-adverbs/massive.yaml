@@ -1,0 +1,35 @@
+slug: massive
+text: massive
+kind: word
+pos: adjective
+simpleMeaning: Very big, heavy and solid.
+contextualMeaning: "Massive adds weight to size: a massive rock, a massive building, a massive loss."
+usageNotes: "Use it for things that are big and heavy, and for large amounts: a massive crowd. In talk it also means very important."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - size-and-quality
+tags:
+  - technique:imagery
+  - technique:setting
+searchPhrases:
+  - very big and heavy
+  - huge and solid
+  - very large in size
+examples:
+  - text: A massive rock blocked the path.
+    setting: narration
+  - text: They made a massive mistake.
+    setting: everyday
+  - text: The city built a massive new stadium.
+    setting: academic
+relations:
+  - to: tiny
+    type: antonym
+  - to: enormous
+    type: related
+mistakes:
+  - wrong: The mouse was massive.
+    right: The elephant was massive.
+    explanation: Massive is big and heavy, so it does not describe a mouse.

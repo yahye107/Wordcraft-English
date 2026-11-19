@@ -1,0 +1,35 @@
+slug: splendid
+text: splendid
+kind: word
+pos: adjective
+simpleMeaning: Excellent, impressive and wonderful.
+contextualMeaning: "Splendid praises quality and grandeur: a splendid view, a splendid idea."
+usageNotes: "Use it for views, ideas, buildings and performances. It sounds a little old-fashioned and cheerful: that is splendid!"
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - size-and-quality
+tags:
+  - technique:imagery
+  - emotion:admiration
+searchPhrases:
+  - excellent and impressive
+  - wonderful
+  - magnificent
+examples:
+  - text: A splendid view stretched across the valley.
+    setting: narration
+  - text: That’s a splendid idea!
+    setting: everyday
+  - text: The palace is a splendid example of baroque design.
+    setting: academic
+relations:
+  - to: lovely
+    type: stronger
+  - to: delightful
+    type: stronger
+mistakes:
+  - wrong: It was a splendid and ugly view.
+    right: It was a splendid and wide view.
+    explanation: Splendid is praise, so it does not go with ugly.

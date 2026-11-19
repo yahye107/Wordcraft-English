@@ -26,6 +26,8 @@ examples:
 relations:
   - to: naive
     type: antonym
+  - to: clueless
+    type: antonym
 mistakes:
   - wrong: He is astute at nothing.
     right: He is astute about money.

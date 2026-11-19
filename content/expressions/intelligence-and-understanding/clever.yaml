@@ -1,0 +1,33 @@
+slug: clever
+text: clever
+kind: word
+pos: adjective
+simpleMeaning: Quick to learn and good at finding smart solutions.
+contextualMeaning: Clever praises quick thinking and good tricks, not only knowledge.
+usageNotes: "Use it for people, ideas and answers: a clever plan. It can also suggest sly, as in too clever by half."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - sharp-minds
+tags:
+  - technique:characterisation
+  - emotion:admiration
+searchPhrases:
+  - quick and smart
+  - good at ideas
+  - smart
+examples:
+  - text: She is a clever girl who learns fast.
+    setting: everyday
+  - text: He came up with a clever plan.
+    setting: narration
+  - text: “That’s clever,” he said.
+    setting: dialogue
+relations:
+  - to: naive
+    type: antonym
+mistakes:
+  - wrong: He is clever to maths.
+    right: He is clever at maths.
+    explanation: Use at after clever.

@@ -28,6 +28,10 @@ relations:
     type: related
   - to: gazed
     type: related
+  - to: peeked
+    type: stronger
+  - to: glanced
+    type: antonym
 mistakes:
   - wrong: He stared at his watch very quickly.
     right: He glanced at his watch.

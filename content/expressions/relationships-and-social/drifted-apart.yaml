@@ -23,7 +23,9 @@ examples:
     setting: dialogue
   - text: The two brothers drifted apart when one moved abroad.
     setting: narration
-relations: []
+relations:
+  - to: tight-knit
+    type: antonym
 mistakes:
   - wrong: They drifted apart suddenly after a big argument.
     right: They fell out after a big argument.

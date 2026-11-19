@@ -1,0 +1,32 @@
+slug: to-sum-up
+text: to sum up
+kind: phrase
+simpleMeaning: Used to introduce a short summary of the main points.
+contextualMeaning: A signpost phrase for the end of a paragraph, a talk or an essay.
+usageNotes: "Use it at the start of a closing sentence: to sum up, the data show a clear trend. It is more spoken than in conclusion."
+register: formal
+level: intermediate
+status: draft
+categories:
+  - academic-writing
+tags:
+  - situation:work
+  - technique:transition
+searchPhrases:
+  - to give a short summary
+  - to finish
+  - in short
+examples:
+  - text: To sum up, the results support the first theory.
+    setting: academic
+  - text: To sum up, we need two more weeks.
+    setting: professional
+  - text: “To sum up,” he said, “we agree.”
+    setting: dialogue
+relations:
+  - to: therefore
+    type: related
+mistakes:
+  - wrong: To sum up of this point.
+    right: To sum up, we agree.
+    explanation: To sum up is followed by a comma and a full clause.

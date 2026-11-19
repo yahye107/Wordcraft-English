@@ -1,0 +1,31 @@
+slug: long-time-no-see
+text: long time no see
+kind: phrase
+simpleMeaning: A friendly greeting for someone you have not seen for a long time.
+contextualMeaning: It is a playful, grammar-bending phrase that is accepted in speech.
+usageNotes: "Use it when you meet an old friend: long time no see! Do not use it in formal writing."
+register: informal
+level: beginner
+status: draft
+categories:
+  - small-talk
+tags:
+  - situation:social
+searchPhrases:
+  - I have not seen you for ages
+  - greeting an old friend
+  - we have not met in a long time
+examples:
+  - text: “Long time no see!” she said, hugging him.
+    setting: dialogue
+  - text: Hi, Tom! Long time no see.
+    setting: everyday
+  - text: He grinned. “Long time no see.”
+    setting: narration
+relations:
+  - to: reminisced
+    type: related
+mistakes:
+  - wrong: Long time no seeing.
+    right: Long time no see.
+    explanation: The fixed phrase uses see.

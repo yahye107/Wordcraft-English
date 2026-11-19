@@ -27,6 +27,10 @@ examples:
 relations:
   - to: sprawling
     type: related
+  - to: enormous
+    type: related
+  - to: tiny
+    type: antonym
 mistakes:
   - wrong: A vast tiny insect crawled on the leaf.
     right: A tiny insect crawled on the leaf.

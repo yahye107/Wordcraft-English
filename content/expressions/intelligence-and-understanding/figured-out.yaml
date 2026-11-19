@@ -1,0 +1,32 @@
+slug: figured-out
+text: figured out
+kind: phrase
+simpleMeaning: Found the answer or understood something after thinking about it.
+contextualMeaning: Figuring out is a thinking moment with some effort and a result.
+usageNotes: "Use it for puzzles, problems and people: I figured out the code. It is informal and common."
+register: conversational
+level: beginner
+status: draft
+categories:
+  - grasping-ideas
+tags:
+  - situation:realisation
+  - technique:internal-thought
+searchPhrases:
+  - worked out
+  - solved
+  - understood at last
+examples:
+  - text: I finally figured out how the machine works.
+    setting: everyday
+  - text: She figured out the answer on the bus.
+    setting: narration
+  - text: “Did you figure it out?” he asked.
+    setting: dialogue
+relations:
+  - to: baffled
+    type: antonym
+mistakes:
+  - wrong: I figured out the answer it.
+    right: I figured it out.
+    explanation: "A pronoun goes in the middle: figured it out."

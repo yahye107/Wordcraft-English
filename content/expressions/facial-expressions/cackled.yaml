@@ -1,0 +1,35 @@
+slug: cackled
+text: cackled
+kind: word
+pos: verb (past)
+simpleMeaning: Laughed in a loud, harsh, high way.
+contextualMeaning: A cackle belongs to witches, villains and very amused old people. It is loud and wild.
+usageNotes: "Use it for harsh, wild laughter, often with an evil or crazy feeling: the witch cackled."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - smiles-and-laughter
+tags:
+  - technique:facial-expression
+  - technique:characterisation
+searchPhrases:
+  - harsh loud laugh
+  - laughed like a witch
+  - wild laughing
+examples:
+  - text: The old woman cackled and clapped her hands.
+    setting: narration
+  - text: My grandad cackled at his own joke.
+    setting: everyday
+  - text: “Fools!” he cackled. “You will never find it.”
+    setting: dialogue
+relations:
+  - to: chuckled
+    type: stronger
+  - to: giggled
+    type: stronger
+mistakes:
+  - wrong: She cackled softly and sweetly.
+    right: She laughed softly and sweetly.
+    explanation: Cackled is loud and harsh, so it does not go with soft or sweet.

@@ -29,6 +29,8 @@ relations:
     type: antonym
   - to: sweltering
     type: related
+  - to: as-cold-as-ice
+    type: antonym
 mistakes:
   - wrong: The soup was scorching cold.
     right: The soup was scorching hot.

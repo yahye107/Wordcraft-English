@@ -1,0 +1,35 @@
+slug: delightful
+text: delightful
+kind: word
+pos: adjective
+simpleMeaning: Very pleasing and charming.
+contextualMeaning: Delightful is more formal and a little old-fashioned. It praises something that gives joy.
+usageNotes: "Use it for people, places and moments: a delightful cottage. It is polite and warm."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - size-and-quality
+tags:
+  - technique:setting
+  - emotion:happiness
+searchPhrases:
+  - very charming
+  - full of joy
+  - charming and pleasing
+examples:
+  - text: We had a delightful dinner.
+    setting: everyday
+  - text: The delightful old town was full of flowers.
+    setting: narration
+  - text: It was a delightful presentation from start to finish.
+    setting: professional
+relations:
+  - to: pleasant
+    type: stronger
+  - to: splendid
+    type: weaker
+mistakes:
+  - wrong: The delightful news was terrible.
+    right: The terrible news was a shock.
+    explanation: Delightful is very positive, so it cannot describe terrible news.

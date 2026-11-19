@@ -1,0 +1,35 @@
+slug: pleasant
+text: pleasant
+kind: word
+pos: adjective
+simpleMeaning: Nice and enjoyable, in a mild way.
+contextualMeaning: Pleasant is gentle and safe. It tells the reader that something was agreeable, not thrilling.
+usageNotes: "Use it for weather, people and moments: a pleasant evening. It is a little plain; use lovely or delightful for more feeling."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - size-and-quality
+tags:
+  - technique:setting
+  - emotion:contentment
+searchPhrases:
+  - nice and enjoyable
+  - agreeable
+  - not unpleasant
+examples:
+  - text: We had a pleasant evening in the garden.
+    setting: everyday
+  - text: A pleasant breeze moved the curtains.
+    setting: narration
+  - text: “What a pleasant surprise!” she said.
+    setting: dialogue
+relations:
+  - to: delightful
+    type: weaker
+  - to: lovely
+    type: weaker
+mistakes:
+  - wrong: The food was pleasant delicious.
+    right: The food was delicious.
+    explanation: Delicious is stronger than pleasant, so use only one.

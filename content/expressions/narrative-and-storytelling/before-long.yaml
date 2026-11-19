@@ -1,0 +1,34 @@
+slug: before-long
+text: before long
+kind: phrase
+simpleMeaning: Soon; after only a short time.
+contextualMeaning: A smooth, quiet way to skip time without a big announcement.
+usageNotes: "Use it for a short, natural jump: before long, they were friends. It is gentler than suddenly."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - time-and-transition
+tags:
+  - technique:transition
+  - technique:pacing
+searchPhrases:
+  - soon
+  - in a short time
+  - not long after
+examples:
+  - text: Before long, they were laughing together.
+    setting: narration
+  - text: Before long we were lost.
+    setting: everyday
+  - text: Before long, the team will need new software.
+    setting: professional
+relations:
+  - to: all-of-a-sudden
+    type: antonym
+  - to: at-long-last
+    type: related
+mistakes:
+  - wrong: Before long time, he came.
+    right: Before long, he came.
+    explanation: The fixed phrase has no time after long.

@@ -22,7 +22,9 @@ examples:
     setting: professional
   - text: I look forward to discussing the details next week.
     setting: professional
-relations: []
+relations:
+  - to: please-let-me-know
+    type: related
 mistakes:
   - wrong: I look forward to hear from you.
     right: I look forward to hearing from you.

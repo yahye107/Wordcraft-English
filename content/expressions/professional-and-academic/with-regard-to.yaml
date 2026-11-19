@@ -1,0 +1,32 @@
+slug: with-regard-to
+text: with regard to
+kind: phrase
+simpleMeaning: About, or concerning.
+contextualMeaning: A formal phrase for introducing a topic in emails and reports.
+usageNotes: "Use it in formal writing: with regard to your request. Careful writers use the singular regard, not regards."
+register: formal
+level: advanced
+status: draft
+categories:
+  - email-phrases
+tags:
+  - situation:work
+  - technique:tone
+searchPhrases:
+  - concerning
+  - about
+  - a formal way to say about
+examples:
+  - text: With regard to your request, we need more time.
+    setting: professional
+  - text: With regard to the second question, the evidence is limited.
+    setting: academic
+  - text: With regard to dinner, we will eat at seven.
+    setting: everyday
+relations:
+  - to: in-light-of
+    type: related
+mistakes:
+  - wrong: With regards to your email, thank you.
+    right: With regard to your email, thank you.
+    explanation: The fixed formal phrase uses regard, not regards.

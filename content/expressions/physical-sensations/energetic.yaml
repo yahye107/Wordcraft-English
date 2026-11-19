@@ -29,6 +29,8 @@ relations:
     type: antonym
   - to: exhausted
     type: antonym
+  - to: drained
+    type: antonym
 mistakes:
   - wrong: He was energy.
     right: He was energetic.

@@ -24,7 +24,9 @@ examples:
     setting: dialogue
   - text: The tight-knit family gathered every Sunday.
     setting: everyday
-relations: []
+relations:
+  - to: drifted-apart
+    type: antonym
 mistakes:
   - wrong: He is a very tight-knit man.
     right: He belongs to a tight-knit family.

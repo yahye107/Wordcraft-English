@@ -26,6 +26,8 @@ examples:
 relations:
   - to: lingered
     type: related
+  - to: rushed
+    type: antonym
 mistakes:
   - wrong: She bided for her time.
     right: She bided her time.

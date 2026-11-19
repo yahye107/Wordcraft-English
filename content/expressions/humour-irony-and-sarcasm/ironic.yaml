@@ -27,6 +27,8 @@ examples:
 relations:
   - to: wry
     type: related
+  - to: sincere
+    type: antonym
 mistakes:
   - wrong: It’s ironic that it rained on my birthday.
     right: It’s unlucky that it rained on my birthday.

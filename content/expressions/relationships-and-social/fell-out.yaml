@@ -28,6 +28,8 @@ relations:
     type: antonym
   - to: got-along
     type: antonym
+  - to: made-up
+    type: antonym
 mistakes:
   - wrong: We fell out from each other.
     right: We fell out with each other.

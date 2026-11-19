@@ -1,0 +1,35 @@
+slug: tense
+text: tense
+kind: word
+pos: adjective
+simpleMeaning: Full of worry or anger, so that people feel unable to relax.
+contextualMeaning: A tense room or voice makes the reader hold their breath.
+usageNotes: "Use it for atmosphere, silence and people: a tense silence. It is neutral and common in thrillers."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - tension-and-hostility
+tags:
+  - emotion:tension
+  - technique:suspense
+searchPhrases:
+  - full of tension
+  - nervous and strained
+  - difficult atmosphere
+examples:
+  - text: A tense silence filled the room.
+    setting: narration
+  - text: I felt tense before the exam.
+    setting: everyday
+  - text: “Why are you so tense?” she asked.
+    setting: dialogue
+relations:
+  - to: composed
+    type: antonym
+  - to: hostile
+    type: weaker
+mistakes:
+  - wrong: The tense was high.
+    right: The tension was high.
+    explanation: Tension is the noun. Tense is the adjective.

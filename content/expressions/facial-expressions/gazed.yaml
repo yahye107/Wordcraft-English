@@ -28,6 +28,8 @@ examples:
 relations:
   - to: stared
     type: related
+  - to: glanced
+    type: antonym
 mistakes:
   - wrong: He gazed at the bill in anger.
     right: He glared at the bill in anger.

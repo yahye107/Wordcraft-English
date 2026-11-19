@@ -30,6 +30,8 @@ relations:
     type: related
   - to: beamed
     type: related
+  - to: beamed
+    type: antonym
 mistakes:
   - wrong: She smirked with joy at the party.
     right: She beamed with joy at the party.

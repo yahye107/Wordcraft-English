@@ -1,0 +1,33 @@
+slug: bold
+text: bold
+kind: word
+pos: adjective
+simpleMeaning: Brave and confident, ready to take risks.
+contextualMeaning: A bold person or choice is not afraid of attention or danger.
+usageNotes: "Use it for people, plans, colours and choices: a bold move. It is positive. It can also mean too forward."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - confidence
+tags:
+  - emotion:confidence
+  - technique:characterisation
+searchPhrases:
+  - brave and confident
+  - not afraid to take risks
+  - strong and daring
+examples:
+  - text: She made a bold move and spoke first.
+    setting: narration
+  - text: That was a bold choice of colour.
+    setting: everyday
+  - text: The company announced a bold new plan.
+    setting: professional
+relations:
+  - to: timid
+    type: antonym
+mistakes:
+  - wrong: He is boldness.
+    right: He is bold.
+    explanation: Boldness is the noun. Bold is the adjective.

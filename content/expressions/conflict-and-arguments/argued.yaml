@@ -31,6 +31,12 @@ relations:
     type: related
   - to: squabbled
     type: related
+  - to: conceded
+    type: antonym
+  - to: squabbled
+    type: stronger
+  - to: quarrelled
+    type: weaker
 mistakes:
   - wrong: They argued to each other.
     right: They argued with each other.

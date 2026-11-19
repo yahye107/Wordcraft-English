@@ -1,0 +1,34 @@
+slug: made-up
+text: made up
+kind: phrase
+simpleMeaning: Became friends again after an argument.
+contextualMeaning: To make up is the happy end of a fight. It is warm and simple.
+usageNotes: "Use it for friends and couples: they argued, but soon made up. Do not mix it up with making up a story, which means inventing one."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - making-peace
+tags:
+  - situation:conflict
+  - emotion:relief
+searchPhrases:
+  - became friends again
+  - ended an argument
+  - forgave each other
+examples:
+  - text: We argued, but we made up the next day.
+    setting: everyday
+  - text: The sisters made up over a cup of tea.
+    setting: narration
+  - text: “Let’s make up,” she said, smiling.
+    setting: dialogue
+relations:
+  - to: stormed-out
+    type: antonym
+  - to: fell-out
+    type: antonym
+mistakes:
+  - wrong: We made up each other.
+    right: We made up with each other.
+    explanation: Use with before the person you make up with.

@@ -1,0 +1,34 @@
+slug: replied
+text: replied
+kind: word
+pos: verb (past)
+simpleMeaning: Said or wrote something in answer to what someone said.
+contextualMeaning: A reply can answer a question or a remark. It is a little more formal than answered.
+usageNotes: "Use it as a neutral tag: “Maybe,” she replied. It is common in speech and in letters and emails."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - speech-attitude
+tags:
+  - technique:dialogue-tag
+searchPhrases:
+  - answered in speech or writing
+  - wrote back
+  - said in return
+examples:
+  - text: “Maybe,” she replied.
+    setting: dialogue
+  - text: I replied to his email this morning.
+    setting: everyday
+  - text: He replied with a shrug.
+    setting: narration
+relations:
+  - to: answered
+    type: synonym
+  - to: retorted
+    type: weaker
+mistakes:
+  - wrong: She replied him quickly.
+    right: She replied to him quickly.
+    explanation: Reply needs to before the person.

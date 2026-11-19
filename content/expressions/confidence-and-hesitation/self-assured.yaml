@@ -31,6 +31,10 @@ relations:
     note: cocky shows off
   - to: arrogant
     type: stronger
+  - to: blushed
+    type: antonym
+  - to: faltered
+    type: antonym
 mistakes:
   - wrong: He was self-assured but he doubted himself.
     right: He seemed self-assured but he doubted himself.

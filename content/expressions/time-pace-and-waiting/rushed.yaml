@@ -29,6 +29,8 @@ relations:
     type: antonym
   - to: lingered
     type: antonym
+  - to: bided-her-time
+    type: antonym
 mistakes:
   - wrong: He rushed to home.
     right: He rushed home.

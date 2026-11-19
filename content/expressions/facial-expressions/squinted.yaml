@@ -1,0 +1,35 @@
+slug: squinted
+text: squinted
+kind: word
+pos: verb (past)
+simpleMeaning: Looked with the eyes partly closed, because of bright light or poor sight.
+contextualMeaning: Squinting shows bright sun, weak eyes or doubt.
+usageNotes: "Use it for bright light and unclear sight: she squinted at the sign."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - eyes-and-gaze
+tags:
+  - technique:facial-expression
+  - technique:physical-reaction
+searchPhrases:
+  - looked with half-closed eyes
+  - looked into the sun
+  - tried to see clearly
+examples:
+  - text: She squinted at the sign in the bright sun.
+    setting: narration
+  - text: I squinted at the screen without my glasses.
+    setting: everyday
+  - text: “I can’t see,” he said, squinting.
+    setting: dialogue
+relations:
+  - to: peered
+    type: related
+  - to: glared
+    type: related
+mistakes:
+  - wrong: He squinted with wide eyes.
+    right: He squinted at the bright sun.
+    explanation: To squint, the eyes are partly closed, so they cannot be wide.

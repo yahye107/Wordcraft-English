@@ -1,0 +1,33 @@
+slug: clueless
+text: clueless
+kind: word
+pos: adjective
+simpleMeaning: Knowing nothing about something, or unable to understand.
+contextualMeaning: Clueless is informal and a little funny. It says someone has no idea.
+usageNotes: "Use it in talk: I was completely clueless. It can sound rude if aimed at someone else."
+register: informal
+level: intermediate
+status: draft
+categories:
+  - confusion-and-ignorance
+tags:
+  - emotion:confusion
+  - technique:characterisation
+searchPhrases:
+  - no idea
+  - completely lost
+  - knowing nothing
+examples:
+  - text: I’m clueless about cars.
+    setting: everyday
+  - text: He stood there, clueless and embarrassed.
+    setting: narration
+  - text: “You’re clueless,” she laughed.
+    setting: dialogue
+relations:
+  - to: astute
+    type: antonym
+mistakes:
+  - wrong: I am clueless of the answer.
+    right: I am clueless about the answer.
+    explanation: Use about after clueless.

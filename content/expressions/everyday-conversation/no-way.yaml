@@ -1,0 +1,32 @@
+slug: no-way
+text: no way
+kind: phrase
+simpleMeaning: Used to say that you cannot believe something, or that you refuse.
+contextualMeaning: "A short, strong reaction in speech: surprise or refusal."
+usageNotes: "Use it in dialogue: No way! It is informal; in formal writing use that is impossible."
+register: informal
+level: beginner
+status: draft
+categories:
+  - reactions
+tags:
+  - situation:social
+  - emotion:surprise
+searchPhrases:
+  - I do not believe it
+  - absolutely not
+  - that cannot be true
+examples:
+  - text: “No way!” she cried. “You won?”
+    setting: dialogue
+  - text: There is no way I am going out in this rain.
+    setting: everyday
+  - text: He stared at her. No way, he thought.
+    setting: narration
+relations:
+  - to: sounds-good
+    type: antonym
+mistakes:
+  - wrong: No ways!
+    right: No way!
+    explanation: Way is singular in this expression.

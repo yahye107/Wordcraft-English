@@ -26,6 +26,8 @@ examples:
 relations:
   - to: windswept
     type: related
+  - to: the-wind-whispered
+    type: antonym
 mistakes:
   - wrong: The gusty was strong.
     right: The wind was gusty.

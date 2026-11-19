@@ -28,6 +28,8 @@ examples:
 relations:
   - to: faltered
     type: related
+  - to: made-up-her-mind
+    type: antonym
 mistakes:
   - wrong: He hesitated to run away at once.
     right: He ran away at once.

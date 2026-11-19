@@ -27,6 +27,8 @@ examples:
 relations:
   - to: vast
     type: related
+  - to: tiny
+    type: antonym
 mistakes:
   - wrong: The sprawling room was small and neat.
     right: The sprawling garden was big and wild.

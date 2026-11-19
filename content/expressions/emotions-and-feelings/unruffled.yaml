@@ -27,6 +27,10 @@ examples:
 relations:
   - to: flustered
     type: antonym
+  - to: on-edge
+    type: antonym
+  - to: drowning-in
+    type: antonym
 mistakes:
   - wrong: She was unruffled to the news.
     right: She was unruffled by the news.

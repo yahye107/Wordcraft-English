@@ -1,0 +1,34 @@
+slug: as-cold-as-ice
+text: as cold as ice
+kind: idiom
+simpleMeaning: Very cold, or very unfriendly.
+contextualMeaning: A fixed comparison in which ice is the cold thing. It can describe a hand, a voice or a look.
+usageNotes: "Use it for temperature or a cold manner: her hands were as cold as ice. It is a cliché, so a fresh image is stronger."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - similes
+tags:
+  - technique:simile
+  - technique:imagery
+searchPhrases:
+  - very cold
+  - extremely unfriendly
+  - icy
+examples:
+  - text: Her hands were as cold as ice.
+    setting: narration
+  - text: The water was as cold as ice.
+    setting: everyday
+  - text: “His voice was as cold as ice,” she said.
+    setting: dialogue
+relations:
+  - to: scorching
+    type: antonym
+  - to: freezing
+    type: related
+mistakes:
+  - wrong: The room was as cold than ice.
+    right: The room was as cold as ice.
+    explanation: "The pattern is as and an adjective and as again: as cold as ice."

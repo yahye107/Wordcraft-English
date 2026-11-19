@@ -27,6 +27,8 @@ examples:
 relations:
   - to: strolled
     type: related
+  - to: darted
+    type: antonym
 mistakes:
   - wrong: She sauntered in fear through the forest.
     right: She crept in fear through the forest.

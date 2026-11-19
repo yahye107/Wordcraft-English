@@ -29,6 +29,8 @@ relations:
     type: antonym
   - to: glinted
     type: stronger
+  - to: dim
+    type: antonym
 mistakes:
   - wrong: The lamp was dazzled.
     right: The lamp was dazzling.

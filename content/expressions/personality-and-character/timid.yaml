@@ -27,6 +27,10 @@ examples:
 relations:
   - to: cocky
     type: antonym
+  - to: bold
+    type: antonym
+  - to: arrogant
+    type: antonym
 mistakes:
   - wrong: He is timidity.
     right: He is timid.

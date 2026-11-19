@@ -32,6 +32,8 @@ relations:
   - to: muttered
     type: related
     note: also low, but grumbling
+  - to: deafening
+    type: antonym
 mistakes:
   - wrong: “Everyone, listen!” she whispered.
     right: “Everyone, listen!” she called.

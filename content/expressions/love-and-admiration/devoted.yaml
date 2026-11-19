@@ -27,6 +27,8 @@ examples:
 relations:
   - to: cherished
     type: related
+  - to: infatuated
+    type: antonym
 mistakes:
   - wrong: She is devoted for her family.
     right: She is devoted to her family.

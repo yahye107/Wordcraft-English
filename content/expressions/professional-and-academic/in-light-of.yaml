@@ -23,7 +23,9 @@ examples:
     setting: professional
   - text: The board reconsidered in light of public concern.
     setting: professional
-relations: []
+relations:
+  - to: with-regard-to
+    type: related
 mistakes:
   - wrong: In light of the rain, we went anyway.
     right: In spite of the rain, we went anyway.

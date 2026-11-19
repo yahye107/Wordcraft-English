@@ -1,0 +1,16 @@
+slug: peeked-peered-squinted-glanced
+title: Peeked, peered, squinted, glanced
+explanation: Four kinds of looking. Glanced is one quick look, peeked is a quick secret look, peered is a close look at something hard to see, and squinted is looking with narrowed eyes.
+members:
+  - expression: glanced
+    note: One very quick look.
+    example: He glanced at the clock and sighed.
+  - expression: peeked
+    note: A quick, secret look.
+    example: She peeked through the door.
+  - expression: peered
+    note: A close look at something hard to see.
+    example: The captain peered into the fog.
+  - expression: squinted
+    note: A look with half-closed eyes.
+    example: He squinted at the bright window.

@@ -28,6 +28,8 @@ examples:
 relations:
   - to: anxious
     type: related
+  - to: jittery
+    type: stronger
 mistakes:
   - wrong: She had a knot in her head.
     right: She had a knot in her stomach.

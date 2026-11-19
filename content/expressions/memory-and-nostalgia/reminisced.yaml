@@ -27,6 +27,10 @@ examples:
 relations:
   - to: nostalgic
     type: related
+  - to: forgot
+    type: antonym
+  - to: long-time-no-see
+    type: related
 mistakes:
   - wrong: They reminisced the old days.
     right: They reminisced about the old days.

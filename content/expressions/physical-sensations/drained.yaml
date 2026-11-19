@@ -25,7 +25,9 @@ examples:
     setting: dialogue
   - text: The nurses were drained by the double shift.
     setting: professional
-relations: []
+relations:
+  - to: energetic
+    type: antonym
 mistakes:
   - wrong: She felt drained to sleep.
     right: She felt drained and wanted to sleep.

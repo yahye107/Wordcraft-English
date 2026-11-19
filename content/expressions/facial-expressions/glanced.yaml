@@ -26,6 +26,12 @@ examples:
 relations:
   - to: stared
     type: related
+  - to: gazed
+    type: antonym
+  - to: stared
+    type: antonym
+  - to: peered
+    type: antonym
 mistakes:
   - wrong: She glanced at the painting for an hour.
     right: She gazed at the painting for an hour.

@@ -30,6 +30,8 @@ relations:
     type: related
   - to: glanced
     type: related
+  - to: squinted
+    type: related
 mistakes:
   - wrong: She glared happily at the baby.
     right: She gazed happily at the baby.

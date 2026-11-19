@@ -30,6 +30,10 @@ relations:
     type: related
   - to: despondent
     type: related
+  - to: despondent
+    type: weaker
+  - to: cheerful
+    type: antonym
 mistakes:
   - wrong: I felt sorrowful about my low mark.
     right: I felt disappointed about my low mark.

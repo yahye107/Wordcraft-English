@@ -29,6 +29,8 @@ relations:
     type: related
   - to: as-a-result
     type: related
+  - to: to-sum-up
+    type: related
 mistakes:
   - wrong: He was late, therefore he missed the bus.
     right: He was late; therefore, he missed the bus.

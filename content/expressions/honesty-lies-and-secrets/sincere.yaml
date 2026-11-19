@@ -29,6 +29,8 @@ relations:
     type: antonym
   - to: sarcastic
     type: antonym
+  - to: ironic
+    type: antonym
 mistakes:
   - wrong: He was a sincerely person.
     right: He was a sincere person.

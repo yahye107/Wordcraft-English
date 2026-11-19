@@ -29,6 +29,8 @@ examples:
 relations:
   - to: jittery
     type: antonym
+  - to: tense
+    type: antonym
 mistakes:
   - wrong: She composed when she heard the news.
     right: She stayed composed when she heard the news.

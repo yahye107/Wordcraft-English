@@ -30,6 +30,10 @@ relations:
     type: related
   - to: smirked
     type: related
+  - to: snickered
+    type: antonym
+  - to: smirked
+    type: antonym
 mistakes:
   - wrong: He beamed at his enemy’s defeat.
     right: He smirked at his enemy’s defeat.

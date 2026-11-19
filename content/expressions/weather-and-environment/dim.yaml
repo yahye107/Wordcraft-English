@@ -23,7 +23,9 @@ examples:
     setting: narration
   - text: “It’s too dim to read,” Gran said.
     setting: dialogue
-relations: []
+relations:
+  - to: dazzling
+    type: antonym
 mistakes:
   - wrong: The sun was dim at noon in the desert.
     right: The sun was fierce at noon in the desert.

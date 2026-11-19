@@ -29,6 +29,8 @@ relations:
     type: antonym
   - to: sweltering
     type: antonym
+  - to: as-cold-as-ice
+    type: related
 mistakes:
   - wrong: I am freeze.
     right: I am freezing.

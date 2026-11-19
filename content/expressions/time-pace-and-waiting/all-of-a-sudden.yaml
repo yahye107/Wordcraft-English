@@ -26,6 +26,8 @@ examples:
 relations:
   - to: little-by-little
     type: antonym
+  - to: before-long
+    type: antonym
 mistakes:
   - wrong: All of sudden the door opened.
     right: All of a sudden the door opened.

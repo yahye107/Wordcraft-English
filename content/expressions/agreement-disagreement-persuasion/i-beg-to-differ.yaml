@@ -22,7 +22,9 @@ examples:
     setting: dialogue
   - text: With respect, I beg to differ on the second point.
     setting: professional
-relations: []
+relations:
+  - to: on-the-same-page
+    type: antonym
 mistakes:
   - wrong: I begged to differ with him angrily.
     right: I strongly disagreed with him.

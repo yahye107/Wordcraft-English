@@ -1,0 +1,16 @@
+slug: tiny-enormous-massive-vast
+title: Tiny, enormous, massive, vast
+explanation: Four words for size. Tiny is very small, enormous is very big, massive is big and heavy, and vast is big in a wide, open way.
+members:
+  - expression: tiny
+    note: Very small, often delicate.
+    example: A tiny bird sat on the wire.
+  - expression: enormous
+    note: Very big, far more than usual.
+    example: The enormous dog filled the doorway.
+  - expression: massive
+    note: Big and heavy, solid.
+    example: A massive stone wall surrounded the town.
+  - expression: vast
+    note: Big in a wide, open way, such as land or sea.
+    example: A vast desert stretched in every direction.

@@ -30,6 +30,8 @@ relations:
     type: related
   - to: bickered
     type: related
+  - to: argued
+    type: stronger
 mistakes:
   - wrong: They quarrelled about the weather for fun.
     right: They chatted about the weather for fun.

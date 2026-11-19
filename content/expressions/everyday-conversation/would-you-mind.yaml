@@ -1,0 +1,32 @@
+slug: would-you-mind
+text: would you mind
+kind: phrase
+simpleMeaning: A polite way to ask someone to do something.
+contextualMeaning: Would you mind plus the -ing form asks politely and gives the other person a way to say no.
+usageNotes: "Use it for polite requests: would you mind opening the window? The polite answer is No, not at all."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - requests-and-refusals
+tags:
+  - situation:social
+  - technique:tone
+searchPhrases:
+  - polite request
+  - could you please
+  - asking politely
+examples:
+  - text: Would you mind opening the window?
+    setting: everyday
+  - text: Would you mind sending me the file?
+    setting: professional
+  - text: “Would you mind waiting?” he asked.
+    setting: dialogue
+relations:
+  - to: please-let-me-know
+    type: related
+mistakes:
+  - wrong: Would you mind to open it?
+    right: Would you mind opening it?
+    explanation: After mind, use the -ing form.

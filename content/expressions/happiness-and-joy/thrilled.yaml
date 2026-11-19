@@ -30,6 +30,8 @@ relations:
     type: related
   - to: elated
     type: related
+  - to: content
+    type: stronger
 mistakes:
   - wrong: I am thrilling about the trip.
     right: I am thrilled about the trip.

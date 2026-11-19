@@ -27,6 +27,8 @@ examples:
 relations:
   - to: forlorn
     type: antonym
+  - to: sorrowful
+    type: antonym
 mistakes:
   - wrong: He felt cheerfully.
     right: He felt cheerful.

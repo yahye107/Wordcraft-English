@@ -1,0 +1,32 @@
+slug: at-long-last
+text: at long last
+kind: idiom
+simpleMeaning: Finally, after a long wait.
+contextualMeaning: A phrase that carries relief or satisfaction at the end of a long process.
+usageNotes: "Use it for a welcome end: at long last, the rain stopped. It is a little formal and emotional."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - openings-and-endings
+tags:
+  - technique:transition
+  - emotion:relief
+searchPhrases:
+  - finally
+  - after a long time
+  - in the end
+examples:
+  - text: At long last, the rain stopped.
+    setting: narration
+  - text: At long last, we found a flat.
+    setting: everyday
+  - text: “At long last,” she sighed, “we are home.”
+    setting: dialogue
+relations:
+  - to: before-long
+    type: related
+mistakes:
+  - wrong: At last long, it was over.
+    right: At long last, it was over.
+    explanation: The fixed order is at long last.

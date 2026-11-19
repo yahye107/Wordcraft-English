@@ -25,7 +25,9 @@ examples:
     setting: professional
   - text: After an hour of debate, the council conceded the point.
     setting: narration
-relations: []
+relations:
+  - to: argued
+    type: antonym
 mistakes:
   - wrong: She conceded happily and quickly.
     right: She agreed happily and quickly.

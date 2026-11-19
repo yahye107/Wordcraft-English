@@ -30,6 +30,8 @@ relations:
     type: related
   - to: uneasy
     type: related
+  - to: unruffled
+    type: antonym
 mistakes:
   - wrong: I am at edge.
     right: I am on edge.

@@ -1,0 +1,33 @@
+slug: hostile
+text: hostile
+kind: word
+pos: adjective
+simpleMeaning: Unfriendly and ready to fight or argue.
+contextualMeaning: A hostile look, crowd or voice shows open dislike.
+usageNotes: "Use it for people, looks and places: a hostile crowd. It is stronger than unfriendly and means active opposition."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - tension-and-hostility
+tags:
+  - situation:conflict
+  - emotion:anger
+searchPhrases:
+  - unfriendly and aggressive
+  - showing dislike
+  - ready to attack
+examples:
+  - text: The villagers gave the stranger a hostile stare.
+    setting: narration
+  - text: The meeting became hostile when prices were mentioned.
+    setting: everyday
+  - text: The study found hostile attitudes towards newcomers.
+    setting: academic
+relations:
+  - to: tense
+    type: stronger
+mistakes:
+  - wrong: He was hostility to me.
+    right: He was hostile to me.
+    explanation: Hostility is the noun. Hostile is the adjective.

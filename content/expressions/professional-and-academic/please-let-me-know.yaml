@@ -1,0 +1,34 @@
+slug: please-let-me-know
+text: please let me know
+kind: phrase
+simpleMeaning: A polite way to ask someone to tell you something.
+contextualMeaning: Common in emails, it invites a reply without sounding like an order.
+usageNotes: "Use it at the end of an email: please let me know if you have any questions. It is polite and clear."
+register: formal
+level: beginner
+status: draft
+categories:
+  - email-phrases
+tags:
+  - situation:work
+  - technique:tone
+searchPhrases:
+  - polite ask to tell me
+  - invite a reply
+  - email ending
+examples:
+  - text: Please let me know if the time suits you.
+    setting: professional
+  - text: Please let me know when you arrive.
+    setting: everyday
+  - text: “Please let me know,” she said.
+    setting: dialogue
+relations:
+  - to: i-look-forward-to-hearing-from-you
+    type: related
+  - to: would-you-mind
+    type: related
+mistakes:
+  - wrong: Please let me to know.
+    right: Please let me know.
+    explanation: After let, use the base verb without to.

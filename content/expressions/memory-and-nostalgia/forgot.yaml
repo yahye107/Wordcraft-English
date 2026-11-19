@@ -31,6 +31,8 @@ relations:
     type: antonym
   - to: slipped-her-mind
     type: synonym
+  - to: reminisced
+    type: antonym
 mistakes:
   - wrong: I have forgot his name.
     right: I have forgotten his name.

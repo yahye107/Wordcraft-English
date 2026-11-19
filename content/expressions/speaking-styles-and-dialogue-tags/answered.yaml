@@ -1,0 +1,32 @@
+slug: answered
+text: answered
+kind: word
+pos: verb (past)
+simpleMeaning: Said something in response to a question.
+contextualMeaning: Answered is the plain, neutral tag for a response. It adds no feeling.
+usageNotes: "Use it as a simple dialogue tag after a question: “Yes,” he answered. It is plainer than replied."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - speech-attitude
+tags:
+  - technique:dialogue-tag
+searchPhrases:
+  - said in response
+  - gave a reply
+  - responded to a question
+examples:
+  - text: “Yes,” she answered, “I did.”
+    setting: dialogue
+  - text: I answered the phone on the second ring.
+    setting: everyday
+  - text: He answered without looking up.
+    setting: narration
+relations:
+  - to: replied
+    type: synonym
+mistakes:
+  - wrong: She answered to him.
+    right: She answered him.
+    explanation: Answer takes the person directly, with no to.

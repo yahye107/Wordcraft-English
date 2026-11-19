@@ -28,6 +28,8 @@ relations:
     type: related
   - to: second-guessed
     type: antonym
+  - to: hesitated
+    type: antonym
 mistakes:
   - wrong: She made up her minds.
     right: She made up her mind.

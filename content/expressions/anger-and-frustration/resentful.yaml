@@ -28,6 +28,8 @@ examples:
 relations:
   - to: seething
     type: related
+  - to: seething
+    type: weaker
 mistakes:
   - wrong: He was resentful about the sudden rain.
     right: He was annoyed about the sudden rain.

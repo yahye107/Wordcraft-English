@@ -26,6 +26,8 @@ examples:
 relations:
   - to: shuffled
     type: antonym
+  - to: sauntered
+    type: antonym
 mistakes:
   - wrong: The elephant darted heavily.
     right: The elephant lumbered.

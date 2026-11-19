@@ -1,0 +1,39 @@
+slug: giggled
+text: giggled
+kind: word
+pos: verb (past)
+simpleMeaning: Laughed in a high, light way, often because of fun or nerves.
+contextualMeaning: Giggling is playful and a little childish. It can show nerves, joy or shyness.
+usageNotes: "Use it for children and for light, nervous laughter: the girls giggled behind their hands."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - smiles-and-laughter
+tags:
+  - technique:facial-expression
+  - emotion:happiness
+searchPhrases:
+  - laughed in a light way
+  - laughed nervously
+  - small high laugh
+examples:
+  - text: The girls giggled behind their hands.
+    setting: narration
+  - text: We giggled all through the film.
+    setting: everyday
+  - text: “Stop it,” she giggled. “You’re tickling me.”
+    setting: dialogue
+relations:
+  - to: chuckled
+    type: related
+  - to: cackled
+    type: weaker
+  - to: sobbed
+    type: antonym
+  - to: deadpan
+    type: antonym
+mistakes:
+  - wrong: He giggled loud and deep.
+    right: He chuckled deeply.
+    explanation: Giggled is light and high, so it does not go with deep.

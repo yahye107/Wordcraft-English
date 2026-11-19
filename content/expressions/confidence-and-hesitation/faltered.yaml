@@ -28,6 +28,8 @@ examples:
 relations:
   - to: hesitated
     type: related
+  - to: self-assured
+    type: antonym
 mistakes:
   - wrong: The strong speaker faltered like a rock.
     right: The strong speaker held firm like a rock.

@@ -1,0 +1,32 @@
+slug: the-wind-whispered
+text: the wind whispered
+kind: phrase
+simpleMeaning: Describing wind as if it were a person speaking softly.
+contextualMeaning: Personification gives human actions to nature. A whispering wind feels gentle, secret or sad.
+usageNotes: "Use it for soft, steady wind in quiet scenes: the wind whispered through the trees. Change the verb for other moods: howled, sighed, muttered."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - imagery-and-personification
+tags:
+  - technique:imagery
+  - technique:sound
+searchPhrases:
+  - wind sounding like a voice
+  - nature as a person
+  - soft wind in the trees
+examples:
+  - text: The wind whispered through the long grass.
+    setting: narration
+  - text: Today the wind whispered; yesterday it howled.
+    setting: everyday
+  - text: In the poem, the wind whispered secrets to the sleeping town.
+    setting: academic
+relations:
+  - to: gusty
+    type: antonym
+mistakes:
+  - wrong: The wind whispered with a loud roar.
+    right: The wind howled with a loud roar.
+    explanation: Whispered is soft, so it does not go with loud.

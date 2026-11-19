@@ -1,0 +1,39 @@
+slug: tiny
+text: tiny
+kind: word
+pos: adjective
+simpleMeaning: Extremely small.
+contextualMeaning: Tiny is stronger than small. It makes the reader look closely.
+usageNotes: "Use it for objects, people and details: a tiny kitten. It can be charming or fragile."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - size-and-quality
+tags:
+  - technique:imagery
+  - technique:setting
+searchPhrases:
+  - very small
+  - extremely little
+  - small as a pin
+examples:
+  - text: A tiny kitten slept in the basket.
+    setting: narration
+  - text: The flat was tiny, but it was ours.
+    setting: everyday
+  - text: Please check every tiny detail before you send the report.
+    setting: professional
+relations:
+  - to: enormous
+    type: antonym
+  - to: massive
+    type: antonym
+  - to: vast
+    type: antonym
+  - to: sprawling
+    type: antonym
+mistakes:
+  - wrong: It was a more tiny box.
+    right: It was a tinier box.
+    explanation: The comparative of tiny is tinier.

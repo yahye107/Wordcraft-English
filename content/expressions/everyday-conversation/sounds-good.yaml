@@ -23,7 +23,9 @@ examples:
     setting: dialogue
   - text: Sounds good to me; I’ll bring dessert.
     setting: everyday
-relations: []
+relations:
+  - to: no-way
+    type: antonym
 mistakes:
   - wrong: Sounds good the food.
     right: The food sounds good.

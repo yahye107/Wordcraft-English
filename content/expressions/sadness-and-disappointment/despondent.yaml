@@ -30,6 +30,8 @@ relations:
     type: related
   - to: heartbroken
     type: related
+  - to: sorrowful
+    type: stronger
 mistakes:
   - wrong: I was despondent for a minute when I dropped my pen.
     right: I was annoyed for a minute when I dropped my pen.

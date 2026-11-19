@@ -24,7 +24,9 @@ examples:
     setting: dialogue
   - text: His arrogant tone made the team angry.
     setting: everyday
-relations: []
+relations:
+  - to: timid
+    type: antonym
 mistakes:
   - wrong: She is arrogant because she is sure about her skill.
     right: She is confident because she is sure about her skill.

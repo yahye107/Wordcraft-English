@@ -1,0 +1,32 @@
+slug: as-quiet-as-a-mouse
+text: as quiet as a mouse
+kind: idiom
+simpleMeaning: Very quiet and hardly noticed.
+contextualMeaning: A gentle comparison for a person who makes no sound, often a child or someone hiding.
+usageNotes: "Use it for quiet people and careful movements: she crept in, as quiet as a mouse. It is light and slightly funny."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - similes
+tags:
+  - technique:simile
+  - technique:sound
+searchPhrases:
+  - very quiet
+  - making no noise
+  - silent and careful
+examples:
+  - text: She crept in, as quiet as a mouse.
+    setting: narration
+  - text: The baby was as quiet as a mouse all evening.
+    setting: everyday
+  - text: “Be as quiet as a mouse,” he whispered.
+    setting: dialogue
+relations:
+  - to: deafening
+    type: antonym
+mistakes:
+  - wrong: She was as quiet like a mouse.
+    right: She was as quiet as a mouse.
+    explanation: Use as, not like, in the pattern as quiet as.

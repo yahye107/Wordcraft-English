@@ -1,0 +1,33 @@
+slug: blushed
+text: blushed
+kind: word
+pos: verb (past)
+simpleMeaning: Turned red in the face because of embarrassment or shyness.
+contextualMeaning: Blushing is a body signal the reader can see at once. It shows shame, shyness or love.
+usageNotes: "Use it for sudden embarrassment: he blushed when she praised him. It is a reaction nobody chooses."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - embarrassment
+tags:
+  - emotion:embarrassment
+  - technique:physical-reaction
+searchPhrases:
+  - face went red
+  - turned red with shyness
+  - felt embarrassed
+examples:
+  - text: He blushed when she smiled at him.
+    setting: narration
+  - text: I blushed when the teacher read my name.
+    setting: everyday
+  - text: “Stop,” she said, blushing. “You’re embarrassing me.”
+    setting: dialogue
+relations:
+  - to: self-assured
+    type: antonym
+mistakes:
+  - wrong: She blushed her face.
+    right: She blushed.
+    explanation: Blush does not take an object.

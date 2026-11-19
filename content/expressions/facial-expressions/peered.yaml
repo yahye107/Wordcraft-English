@@ -1,0 +1,35 @@
+slug: peered
+text: peered
+kind: word
+pos: verb (past)
+simpleMeaning: Looked closely at something that is hard to see.
+contextualMeaning: "Peering shows effort: bad light, small print or a long distance."
+usageNotes: "Use it with at, into or through: he peered into the dark. It suggests narrowed eyes."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - eyes-and-gaze
+tags:
+  - technique:facial-expression
+  - technique:setting
+searchPhrases:
+  - looked hard to see
+  - looked closely
+  - strained to see
+examples:
+  - text: He peered into the darkness.
+    setting: narration
+  - text: She peered at the small print.
+    setting: everyday
+  - text: “What is it?” he said, peering over her shoulder.
+    setting: dialogue
+relations:
+  - to: squinted
+    type: related
+  - to: glanced
+    type: antonym
+mistakes:
+  - wrong: He peered the window.
+    right: He peered through the window.
+    explanation: Peer needs at, into or through before the thing.

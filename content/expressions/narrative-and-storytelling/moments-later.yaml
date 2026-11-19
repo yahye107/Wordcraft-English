@@ -1,0 +1,32 @@
+slug: moments-later
+text: moments later
+kind: phrase
+simpleMeaning: A short time afterwards.
+contextualMeaning: A quick transition that jumps ahead by a few moments, often to build suspense.
+usageNotes: "Use it to move the story forward: moments later, the door opened. Put a comma after it."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - time-and-transition
+tags:
+  - technique:transition
+  - technique:pacing
+searchPhrases:
+  - a short time afterwards
+  - soon after
+  - a few seconds later
+examples:
+  - text: Moments later, the door opened.
+    setting: narration
+  - text: She left, and moments later the phone rang.
+    setting: everyday
+  - text: “Moments later,” he said, “the lights went out.”
+    setting: dialogue
+relations:
+  - to: a-heartbeat-later
+    type: related
+mistakes:
+  - wrong: Moments after, the door opened.
+    right: Moments later, the door opened.
+    explanation: The fixed phrase is moments later.

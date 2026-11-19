@@ -24,7 +24,9 @@ examples:
     setting: narration
   - text: She hesitated, and a heartbeat later, she jumped.
     setting: narration
-relations: []
+relations:
+  - to: moments-later
+    type: related
 mistakes:
   - wrong: A heartbeat later, the next winter came.
     right: Months later, the next winter came.

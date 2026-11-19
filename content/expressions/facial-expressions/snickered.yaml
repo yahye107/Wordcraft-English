@@ -1,0 +1,33 @@
+slug: snickered
+text: snickered
+kind: word
+pos: verb (past)
+simpleMeaning: Laughed quietly and unkindly, often at someone’s mistake.
+contextualMeaning: A snicker hides a mean kind of amusement. It is a small, private mockery.
+usageNotes: "Use it for sly, unkind laughter: the boys snickered when he tripped."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - smiles-and-laughter
+tags:
+  - technique:facial-expression
+  - situation:conflict
+searchPhrases:
+  - laughed behind your hand
+  - laughed unkindly
+  - sneaky laugh
+examples:
+  - text: The boys snickered when he tripped.
+    setting: narration
+  - text: Someone at the back snickered at his answer.
+    setting: everyday
+  - text: “Don’t snicker,” the teacher said.
+    setting: dialogue
+relations:
+  - to: beamed
+    type: antonym
+mistakes:
+  - wrong: She snickered with joy.
+    right: She laughed with joy.
+    explanation: A snicker is sly and unkind, so it does not suit joy.

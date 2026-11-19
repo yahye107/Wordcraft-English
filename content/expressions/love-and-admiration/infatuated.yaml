@@ -27,6 +27,8 @@ examples:
 relations:
   - to: smitten
     type: related
+  - to: devoted
+    type: antonym
 mistakes:
   - wrong: He was infatuated by love.
     right: He was infatuated with her.
