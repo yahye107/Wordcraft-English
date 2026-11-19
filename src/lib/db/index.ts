@@ -2,6 +2,7 @@ import { DatabaseSync } from 'node:sqlite';
 import fs from 'node:fs';
 import path from 'node:path';
 import { migrate } from './migrate';
+import { MIGRATIONS } from './migrations';
 import { ensureSeeded } from '@/lib/content/bootstrap';
 
 type Param = string | number | bigint | null | Uint8Array;
@@ -55,9 +56,13 @@ export function openDb(file: string): Db {
   };
 }
 
-const globalForDb = globalThis as unknown as { __wordcraftDb?: Db };
+const globalForDb = globalThis as unknown as { __wordcraftDb?: Db; __wordcraftDbVersion?: number };
 
-/** App-wide singleton, migrated on first use. Survives dev hot reloads. */
+/**
+ * App-wide singleton, migrated on first use. It survives dev hot reloads, so it also remembers how many
+ * migrations the code had when it was opened: if a migration is added while the dev server runs,
+ * the next call applies it instead of failing with "no such table".
+ */
 export function getDb(): Db {
   if (!globalForDb.__wordcraftDb) {
     const file = process.env.WORDCRAFT_DB ?? path.join(process.cwd(), 'data', 'wordcraft.sqlite');
@@ -65,6 +70,10 @@ export function getDb(): Db {
     migrate(db);
     ensureSeeded(db, path.join(process.cwd(), 'content'));
     globalForDb.__wordcraftDb = db;
+    globalForDb.__wordcraftDbVersion = MIGRATIONS.length;
+  } else if (globalForDb.__wordcraftDbVersion !== MIGRATIONS.length) {
+    migrate(globalForDb.__wordcraftDb);
+    globalForDb.__wordcraftDbVersion = MIGRATIONS.length;
   }
   return globalForDb.__wordcraftDb;
 }
