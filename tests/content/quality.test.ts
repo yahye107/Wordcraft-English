@@ -3,9 +3,9 @@ import path from 'node:path';
 import { loadContent } from '@/lib/content/load';
 import { lintBundle } from '@/lib/content/lint';
 
-// The warning count of the library when the linter was added (starter set: 92, now 89). It may only go down: fix a
+// The warning count of the library when the linter was added (starter set: 92, now 86). It may only go down: fix a
 // warning, lower this number. New content is held to zero warnings by the expansion tests.
-const BASELINE_WARNINGS = 89;
+const BASELINE_WARNINGS = 86;
 
 const { bundle, errors } = loadContent(path.resolve(__dirname, '../../content'));
 const issues = lintBundle(bundle);

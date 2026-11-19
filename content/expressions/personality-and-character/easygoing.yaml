@@ -26,6 +26,8 @@ examples:
 relations:
   - to: stubborn
     type: antonym
+  - to: quick-tempered
+    type: antonym
 mistakes:
   - wrong: She is easygoing about her exam and checks each answer ten times.
     right: She is anxious about her exam and checks each answer ten times.

@@ -1,0 +1,33 @@
+slug: glistened
+text: glistened
+kind: word
+pos: verb (past)
+simpleMeaning: Shone with a wet, bright surface.
+contextualMeaning: "Glistening is the shine of wet things: grass after rain, tears, skin."
+usageNotes: "Use it for wet or oily surfaces: the road glistened after the rain. For dry metal, glinted fits better."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - water-and-shore
+tags:
+  - technique:imagery
+  - technique:setting
+searchPhrases:
+  - shone because wet
+  - sparkled with water
+  - shiny with rain
+examples:
+  - text: The grass glistened after the rain.
+    setting: narration
+  - text: Sweat glistened on his forehead.
+    setting: everyday
+  - text: Tears glistened in her eyes.
+    setting: narration
+relations:
+  - to: glinted
+    type: related
+mistakes:
+  - wrong: The desert sand glistened wet.
+    right: The wet sand glistened.
+    explanation: Glistened is a shine on wet or oily things, and desert sand is dry.

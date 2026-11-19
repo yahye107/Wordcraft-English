@@ -1,0 +1,34 @@
+slug: fell-out
+text: fell out
+kind: phrase
+simpleMeaning: Stopped being friendly after an argument.
+contextualMeaning: Falling out is a break in a friendship or family, often after a disagreement.
+usageNotes: "Use it for friends and relatives: they fell out over money. Add with: she fell out with her sister."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - friendship-and-trust
+tags:
+  - situation:conflict
+  - technique:characterisation
+searchPhrases:
+  - stopped being friends
+  - had a big argument
+  - broke up a friendship
+examples:
+  - text: I fell out with my best friend last year.
+    setting: everyday
+  - text: The brothers fell out over their father’s will.
+    setting: narration
+  - text: “We fell out years ago,” she said.
+    setting: dialogue
+relations:
+  - to: patched-things-up
+    type: antonym
+  - to: got-along
+    type: antonym
+mistakes:
+  - wrong: We fell out from each other.
+    right: We fell out with each other.
+    explanation: Use with after fell out.

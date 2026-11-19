@@ -28,6 +28,8 @@ examples:
 relations:
   - to: barren
     type: antonym
+  - to: rugged
+    type: antonym
 mistakes:
   - wrong: The desert was lush and dry.
     right: The oasis was lush; the desert was dry.

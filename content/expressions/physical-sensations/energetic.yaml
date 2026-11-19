@@ -1,0 +1,35 @@
+slug: energetic
+text: energetic
+kind: word
+pos: adjective
+simpleMeaning: Full of energy and ready to move.
+contextualMeaning: An energetic person moves fast, talks fast and makes others feel awake.
+usageNotes: "Use it for people, children, pets and activities: an energetic walk. It is positive and lively."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - tiredness-and-energy
+tags:
+  - technique:characterisation
+  - technique:movement
+searchPhrases:
+  - full of energy
+  - lively
+  - always moving
+examples:
+  - text: She is an energetic child who never sits still.
+    setting: everyday
+  - text: The energetic puppy ran in circles.
+    setting: narration
+  - text: We are looking for an energetic team member.
+    setting: professional
+relations:
+  - to: weary
+    type: antonym
+  - to: exhausted
+    type: antonym
+mistakes:
+  - wrong: He was energy.
+    right: He was energetic.
+    explanation: Energy is a noun. Energetic is the adjective.

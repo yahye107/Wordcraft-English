@@ -1,0 +1,32 @@
+slug: looked-up-to
+text: looked up to
+kind: phrase
+simpleMeaning: Admired and respected someone.
+contextualMeaning: "You look up to someone who sets a good example: a teacher, a parent, an older friend."
+usageNotes: "Use it for role models: he looked up to his older sister. The opposite is looked down on."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - family-ties
+tags:
+  - emotion:admiration
+  - technique:characterisation
+searchPhrases:
+  - admired and respected
+  - saw as a role model
+  - had great respect for
+examples:
+  - text: I looked up to my teacher.
+    setting: everyday
+  - text: The boy looked up to his older brother.
+    setting: narration
+  - text: “Who do you look up to?” she asked.
+    setting: dialogue
+relations:
+  - to: looked-down-on
+    type: antonym
+mistakes:
+  - wrong: He looked up at his father as a hero.
+    right: He looked up to his father as a hero.
+    explanation: Looked up to means admired. Looked up at only describes where he looked.

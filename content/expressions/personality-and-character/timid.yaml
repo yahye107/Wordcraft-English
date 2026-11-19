@@ -1,0 +1,33 @@
+slug: timid
+text: timid
+kind: word
+pos: adjective
+simpleMeaning: Shy and afraid to take risks or speak up.
+contextualMeaning: A timid person avoids attention and is afraid of mistakes.
+usageNotes: "Use it for people, animals and voices: a timid smile. It is gentle and sometimes slightly negative."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - temperament
+tags:
+  - technique:characterisation
+  - emotion:nervousness
+searchPhrases:
+  - shy and nervous
+  - afraid to speak up
+  - not brave
+examples:
+  - text: A timid girl stood at the edge of the group.
+    setting: narration
+  - text: He gave a timid knock on the door.
+    setting: everyday
+  - text: “Um… hello?” she said in a timid voice.
+    setting: dialogue
+relations:
+  - to: cocky
+    type: antonym
+mistakes:
+  - wrong: He is timidity.
+    right: He is timid.
+    explanation: Timidity is the noun. Timid is the adjective.

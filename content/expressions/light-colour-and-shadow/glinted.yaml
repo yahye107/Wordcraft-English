@@ -28,6 +28,8 @@ relations:
     type: weaker
   - to: flickered
     type: related
+  - to: glistened
+    type: related
 mistakes:
   - wrong: The moon glinted all night.
     right: The moon shone all night.

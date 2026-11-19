@@ -1,0 +1,33 @@
+slug: limped
+text: limped
+kind: word
+pos: verb (past)
+simpleMeaning: Walked unevenly because of an injured leg or foot.
+contextualMeaning: A limp shows pain or age and makes the reader feel sympathy.
+usageNotes: "Use it for walking: he limped to the door. It tells the reader about pain without saying the word."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - walking-and-moving
+tags:
+  - technique:movement
+  - technique:physical-reaction
+searchPhrases:
+  - walked with a hurt leg
+  - walked unevenly
+  - walked with difficulty
+examples:
+  - text: He limped to the door, holding his knee.
+    setting: narration
+  - text: She limped for a week after the match.
+    setting: everyday
+  - text: “It’s nothing,” he said, limping towards the car.
+    setting: dialogue
+relations:
+  - to: strode
+    type: antonym
+mistakes:
+  - wrong: He limped his leg.
+    right: He limped on his hurt leg.
+    explanation: Limp does not take the leg directly; use on.

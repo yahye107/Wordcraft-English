@@ -31,6 +31,8 @@ relations:
     type: related
   - to: arrogant
     type: stronger
+  - to: timid
+    type: antonym
 mistakes:
   - wrong: She is cocky and always modest.
     right: She is confident and always modest.

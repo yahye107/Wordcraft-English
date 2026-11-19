@@ -1,0 +1,33 @@
+slug: bloomed
+text: bloomed
+kind: word
+pos: verb (past)
+simpleMeaning: Opened into flowers.
+contextualMeaning: Blooming is the moment a plant shows its colour. It is also used for people and ideas that grow well.
+usageNotes: "Use it for flowers, trees and gardens: the roses bloomed in June. Figuratively: a friendship bloomed."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - plants-and-animals
+tags:
+  - technique:imagery
+  - technique:setting
+searchPhrases:
+  - flowers opened
+  - came into flower
+  - flowered
+examples:
+  - text: The roses bloomed all along the wall.
+    setting: narration
+  - text: Our garden bloomed early last year.
+    setting: everyday
+  - text: “Everything has bloomed at once,” she said happily.
+    setting: dialogue
+relations:
+  - to: withered
+    type: antonym
+mistakes:
+  - wrong: The tree bloomed fruit.
+    right: The tree bloomed with flowers.
+    explanation: Bloom means that flowers open. Fruit is a later stage.

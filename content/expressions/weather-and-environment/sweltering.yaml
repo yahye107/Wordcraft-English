@@ -1,0 +1,35 @@
+slug: sweltering
+text: sweltering
+kind: word
+pos: adjective
+simpleMeaning: Uncomfortably hot, with heavy, sticky air.
+contextualMeaning: Sweltering suggests hot, sticky air, not only sunshine.
+usageNotes: "Use it for hot, heavy weather and rooms: a sweltering night. It is about discomfort."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - weather
+tags:
+  - technique:setting
+  - technique:physical-reaction
+searchPhrases:
+  - hot and sticky
+  - too hot to sleep
+  - oppressive heat
+examples:
+  - text: The bus was sweltering.
+    setting: everyday
+  - text: It was a sweltering July afternoon.
+    setting: narration
+  - text: “It’s sweltering in here,” she complained.
+    setting: dialogue
+relations:
+  - to: freezing
+    type: antonym
+  - to: scorching
+    type: related
+mistakes:
+  - wrong: The sweltering cold hurt his hands.
+    right: The freezing cold hurt his hands.
+    explanation: Sweltering means very hot, so it does not go with cold.

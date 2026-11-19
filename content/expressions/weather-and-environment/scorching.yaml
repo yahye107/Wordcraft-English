@@ -1,0 +1,35 @@
+slug: scorching
+text: scorching
+kind: word
+pos: adjective
+simpleMeaning: Extremely hot.
+contextualMeaning: "Scorching suggests heat that burns: sun, sand, summer days."
+usageNotes: "Use it for weather and surfaces: a scorching afternoon. It is stronger than hot."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - weather
+tags:
+  - technique:setting
+  - technique:imagery
+searchPhrases:
+  - extremely hot
+  - burning heat
+  - boiling weather
+examples:
+  - text: It was a scorching day, so we stayed inside.
+    setting: everyday
+  - text: The scorching sun beat down on the desert.
+    setting: narration
+  - text: “It’s scorching out there,” he said.
+    setting: dialogue
+relations:
+  - to: freezing
+    type: antonym
+  - to: sweltering
+    type: related
+mistakes:
+  - wrong: The soup was scorching cold.
+    right: The soup was scorching hot.
+    explanation: Scorching means very hot.

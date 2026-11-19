@@ -1,0 +1,33 @@
+slug: tiptoed
+text: tiptoed
+kind: word
+pos: verb (past)
+simpleMeaning: Walked quietly on the front of the feet so that nobody hears.
+contextualMeaning: Tiptoeing shows secrecy, politeness or fear of waking someone.
+usageNotes: "Use it with past, across or around: she tiptoed past the bedroom. It is light and often a little funny."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - walking-and-moving
+tags:
+  - technique:movement
+  - technique:suspense
+searchPhrases:
+  - walked very quietly
+  - walked on your toes
+  - crept quietly
+examples:
+  - text: She tiptoed past her parents’ bedroom.
+    setting: narration
+  - text: We tiptoed into the kitchen so we would not wake the baby.
+    setting: everyday
+  - text: “Why are you tiptoeing?” he whispered.
+    setting: dialogue
+relations:
+  - to: strode
+    type: antonym
+mistakes:
+  - wrong: He tiptoed noisily across the floor.
+    right: He tiptoed quietly across the floor.
+    explanation: Tiptoed is quiet, so it does not go with noisily.

@@ -23,7 +23,9 @@ examples:
     setting: narration
   - text: The little boy darted across the garden.
     setting: narration
-relations: []
+relations:
+  - to: shuffled
+    type: antonym
 mistakes:
   - wrong: The elephant darted heavily.
     right: The elephant lumbered.

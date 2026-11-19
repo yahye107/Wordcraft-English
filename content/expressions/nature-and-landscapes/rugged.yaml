@@ -1,0 +1,33 @@
+slug: rugged
+text: rugged
+kind: word
+pos: adjective
+simpleMeaning: Rough, rocky and uneven.
+contextualMeaning: Rugged land looks wild and difficult. It can be beautiful and hard at the same time.
+usageNotes: "Use it for coasts, mountains, and also faces: a rugged face. It is positive and strong."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - landscapes
+tags:
+  - technique:setting
+  - technique:imagery
+searchPhrases:
+  - rough and rocky
+  - wild landscape
+  - craggy
+examples:
+  - text: A rugged coastline stretched along the horizon.
+    setting: narration
+  - text: We hiked across rugged hills all day.
+    setting: everyday
+  - text: The rugged terrain made farming difficult.
+    setting: academic
+relations:
+  - to: lush
+    type: antonym
+mistakes:
+  - wrong: The rugged field was flat and smooth.
+    right: The rugged hill was steep and rocky.
+    explanation: Rugged means rough, so it does not go with smooth.

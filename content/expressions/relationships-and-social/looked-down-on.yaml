@@ -1,0 +1,32 @@
+slug: looked-down-on
+text: looked down on
+kind: phrase
+simpleMeaning: Thought someone was less important or less clever than you.
+contextualMeaning: Looking down on people is proud and unkind.
+usageNotes: "Use it for people and groups: they looked down on newcomers. It shows pride and is negative."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - social-situations
+tags:
+  - technique:characterisation
+  - situation:conflict
+searchPhrases:
+  - felt better than others
+  - showed no respect
+  - thought less of someone
+examples:
+  - text: He looked down on people who worked with their hands.
+    setting: everyday
+  - text: The older girls looked down on the new pupils.
+    setting: narration
+  - text: “Don’t look down on him,” she said.
+    setting: dialogue
+relations:
+  - to: looked-up-to
+    type: antonym
+mistakes:
+  - wrong: She looked down at him as a fool.
+    right: She looked down on him as a fool.
+    explanation: Looked down on means to think less of someone. Looked down at only describes a direction.

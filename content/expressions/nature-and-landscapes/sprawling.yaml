@@ -1,0 +1,33 @@
+slug: sprawling
+text: sprawling
+kind: word
+pos: adjective
+simpleMeaning: Spreading over a large area in an untidy way.
+contextualMeaning: A sprawling city or garden grows outwards with no clear shape.
+usageNotes: "Use it for cities, gardens and houses: a sprawling estate. It suggests size and a lack of order."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - landscapes
+tags:
+  - technique:setting
+  - technique:imagery
+searchPhrases:
+  - spread over a large area
+  - big and untidy
+  - stretching out
+examples:
+  - text: A sprawling city lay below the hill.
+    setting: narration
+  - text: They live in a sprawling old house.
+    setting: everyday
+  - text: The study looks at sprawling suburbs and their traffic.
+    setting: academic
+relations:
+  - to: vast
+    type: related
+mistakes:
+  - wrong: The sprawling room was small and neat.
+    right: The sprawling garden was big and wild.
+    explanation: Sprawling means large and untidy, so it does not go with small and neat.

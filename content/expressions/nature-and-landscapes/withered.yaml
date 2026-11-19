@@ -1,0 +1,33 @@
+slug: withered
+text: withered
+kind: word
+pos: verb (past)
+simpleMeaning: Became dry and weak, and began to die.
+contextualMeaning: Withered plants show a lack of water or age. Withered hopes show loss.
+usageNotes: "Use it for plants, and also for hope or beauty: the flowers withered in the heat."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - plants-and-animals
+tags:
+  - technique:imagery
+  - emotion:sadness
+searchPhrases:
+  - dried up and died
+  - became dry and weak
+  - shrivelled
+examples:
+  - text: The flowers withered in the heat.
+    setting: narration
+  - text: My plants withered while I was away.
+    setting: everyday
+  - text: Without investment, the village industry withered.
+    setting: academic
+relations:
+  - to: bloomed
+    type: antonym
+mistakes:
+  - wrong: The tree withered with fresh green leaves.
+    right: The tree withered and lost its leaves.
+    explanation: Withered means dry and weak, so it does not go with fresh.

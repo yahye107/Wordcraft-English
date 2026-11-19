@@ -24,7 +24,9 @@ examples:
     setting: narration
   - text: Her windswept hair stuck to her face.
     setting: narration
-relations: []
+relations:
+  - to: gusty
+    type: related
 mistakes:
   - wrong: The windswept room was warm and still.
     right: The still room was warm and quiet.

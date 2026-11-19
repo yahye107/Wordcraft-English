@@ -1,0 +1,33 @@
+slug: selfish
+text: selfish
+kind: word
+pos: adjective
+simpleMeaning: Caring only about yourself and not about other people.
+contextualMeaning: A selfish choice puts your own wish first, even when it hurts others.
+usageNotes: "Use it for people and choices: a selfish decision. It is a clear, negative word."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - difficult-traits
+tags:
+  - technique:characterisation
+  - situation:conflict
+searchPhrases:
+  - only thinks of himself
+  - does not share
+  - greedy
+examples:
+  - text: It was selfish of him to leave early.
+    setting: everyday
+  - text: She was a selfish child who never shared.
+    setting: narration
+  - text: “Don’t be so selfish,” Mum said.
+    setting: dialogue
+relations:
+  - to: generous
+    type: antonym
+mistakes:
+  - wrong: He is a selfishness man.
+    right: He is a selfish man.
+    explanation: Selfishness is the noun. Selfish is the adjective.

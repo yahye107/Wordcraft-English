@@ -1,0 +1,35 @@
+slug: weary
+text: weary
+kind: word
+pos: adjective
+simpleMeaning: Very tired, in body or in spirit.
+contextualMeaning: "Weary is deeper than sleepy: it comes from long effort, worry or sadness."
+usageNotes: "Use it for faces, voices, travellers and sighs: a weary smile. It is a little formal. Add of to say what you are tired of."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - tiredness-and-energy
+tags:
+  - technique:physical-reaction
+  - emotion:sadness
+searchPhrases:
+  - very tired
+  - worn out
+  - tired of everything
+examples:
+  - text: He gave a weary smile and sat down.
+    setting: narration
+  - text: I’m weary after the long journey.
+    setting: everyday
+  - text: The weary soldiers marched on through the night.
+    setting: academic
+relations:
+  - to: exhausted
+    type: weaker
+  - to: energetic
+    type: antonym
+mistakes:
+  - wrong: She was weary to the news.
+    right: She was weary of the news.
+    explanation: Use of after weary to say what you are tired of.

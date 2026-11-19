@@ -1,0 +1,33 @@
+slug: quick-tempered
+text: quick-tempered
+kind: word
+pos: adjective
+simpleMeaning: Easily and quickly made angry.
+contextualMeaning: A quick-tempered person flares up over small things and often calms down soon.
+usageNotes: "Use it for people: a quick-tempered boss. Hot-headed is similar and a little more dramatic."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - temperament
+tags:
+  - technique:characterisation
+  - emotion:anger
+searchPhrases:
+  - gets angry quickly
+  - has a short temper
+  - explodes easily
+examples:
+  - text: My uncle is quick-tempered but never holds a grudge.
+    setting: everyday
+  - text: The quick-tempered captain shouted at the crew.
+    setting: narration
+  - text: We need a calm manager, not a quick-tempered one.
+    setting: professional
+relations:
+  - to: easygoing
+    type: antonym
+mistakes:
+  - wrong: He is quick temper.
+    right: He is quick-tempered.
+    explanation: Quick-tempered is an adjective with a hyphen and -ed.

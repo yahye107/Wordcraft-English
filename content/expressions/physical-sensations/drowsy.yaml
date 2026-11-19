@@ -1,0 +1,33 @@
+slug: drowsy
+text: drowsy
+kind: word
+pos: adjective
+simpleMeaning: Sleepy and slow, as if you could fall asleep at any moment.
+contextualMeaning: "Drowsy is warm and heavy: after lunch, on a long drive, after medicine."
+usageNotes: "Use it for the feeling just before sleep: a drowsy afternoon. It is gentler than exhausted."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - tiredness-and-energy
+tags:
+  - technique:physical-reaction
+  - technique:setting
+searchPhrases:
+  - sleepy
+  - half asleep
+  - heavy-eyed
+examples:
+  - text: The warm room made me drowsy.
+    setting: everyday
+  - text: A drowsy silence filled the afternoon.
+    setting: narration
+  - text: “I feel drowsy,” she yawned.
+    setting: dialogue
+relations:
+  - to: exhausted
+    type: weaker
+mistakes:
+  - wrong: He felt drowsiness.
+    right: He felt drowsy.
+    explanation: Drowsy is the adjective. Drowsiness is the noun.

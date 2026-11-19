@@ -25,6 +25,8 @@ examples:
 relations:
   - to: quarrelled
     type: antonym
+  - to: fell-out
+    type: antonym
 mistakes:
   - wrong: They patched up things.
     right: They patched things up. / They patched up their quarrel.

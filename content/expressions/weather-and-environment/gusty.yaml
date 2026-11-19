@@ -1,0 +1,32 @@
+slug: gusty
+text: gusty
+kind: word
+pos: adjective
+simpleMeaning: With sudden strong bursts of wind.
+contextualMeaning: A gusty day tugs at hats and doors. It is wilder than breezy.
+usageNotes: "Use it for days, weather and places: a gusty afternoon. For the wind itself, use gusts: gusts of wind."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - weather
+tags:
+  - technique:setting
+searchPhrases:
+  - windy in short bursts
+  - strong wind
+  - blustery
+examples:
+  - text: It was too gusty for a picnic.
+    setting: everyday
+  - text: A gusty wind pulled at her scarf.
+    setting: narration
+  - text: “Hold your hat,” he called. “It’s gusty up here.”
+    setting: dialogue
+relations:
+  - to: windswept
+    type: related
+mistakes:
+  - wrong: The gusty was strong.
+    right: The wind was gusty.
+    explanation: Gusty is an adjective, so it needs a noun or the verb be.

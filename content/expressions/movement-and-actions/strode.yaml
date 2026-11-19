@@ -29,6 +29,10 @@ relations:
     type: antonym
   - to: trudged
     type: antonym
+  - to: limped
+    type: antonym
+  - to: tiptoed
+    type: antonym
 mistakes:
   - wrong: She strode slowly with tired legs.
     right: She trudged with tired legs.

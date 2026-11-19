@@ -1,0 +1,33 @@
+slug: generous
+text: generous
+kind: word
+pos: adjective
+simpleMeaning: Willing to give time, money or help freely.
+contextualMeaning: A generous person shares without counting. It is a warm trait in a character.
+usageNotes: "Use it for people, gifts and acts: a generous donation. It is positive. The opposite is selfish or mean."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - admirable-traits
+tags:
+  - technique:characterisation
+  - emotion:kindness
+searchPhrases:
+  - gives a lot
+  - kind with money
+  - not selfish
+examples:
+  - text: She is generous with her time.
+    setting: everyday
+  - text: A generous host, he filled every glass twice.
+    setting: narration
+  - text: The company made a generous offer.
+    setting: professional
+relations:
+  - to: selfish
+    type: antonym
+mistakes:
+  - wrong: He is generous of money.
+    right: He is generous with money.
+    explanation: Use with after generous.

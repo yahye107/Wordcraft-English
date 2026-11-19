@@ -1,0 +1,32 @@
+slug: got-along
+text: got along
+kind: phrase
+simpleMeaning: Had a friendly relationship with someone.
+contextualMeaning: Getting along means no trouble and no tension. It is basic and positive.
+usageNotes: "Use it with with: she gets along with everyone. The past tense is got along."
+register: conversational
+level: beginner
+status: draft
+categories:
+  - friendship-and-trust
+tags:
+  - situation:social
+  - technique:characterisation
+searchPhrases:
+  - was friendly with
+  - had a good relationship
+  - did not argue
+examples:
+  - text: I get along well with my neighbours; we got along from the first day.
+    setting: everyday
+  - text: The two sisters got along better than anyone expected.
+    setting: narration
+  - text: “We always got along,” he said.
+    setting: dialogue
+relations:
+  - to: fell-out
+    type: antonym
+mistakes:
+  - wrong: We got along very good.
+    right: We got along very well.
+    explanation: Use the adverb well after a verb, not the adjective good.

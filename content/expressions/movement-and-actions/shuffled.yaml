@@ -1,0 +1,33 @@
+slug: shuffled
+text: shuffled
+kind: word
+pos: verb (past)
+simpleMeaning: Walked slowly, without lifting the feet properly.
+contextualMeaning: Shuffling shows age, tiredness or not wanting to go.
+usageNotes: "Use it for tired or unwilling walking: they shuffled out of the room. It is also used for cards and papers."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - walking-and-moving
+tags:
+  - technique:movement
+  - technique:characterisation
+searchPhrases:
+  - walked dragging your feet
+  - walked slowly and tiredly
+  - moved without wanting to
+examples:
+  - text: The old man shuffled across the room in his slippers.
+    setting: narration
+  - text: We shuffled forward in the queue.
+    setting: everyday
+  - text: “Come on,” she said. “Stop shuffling and hurry up.”
+    setting: dialogue
+relations:
+  - to: darted
+    type: antonym
+mistakes:
+  - wrong: He shuffled quickly to the door.
+    right: He shuffled slowly to the door.
+    explanation: Shuffled is slow, so it does not go with quickly.

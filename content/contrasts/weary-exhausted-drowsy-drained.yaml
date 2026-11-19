@@ -1,0 +1,16 @@
+slug: weary-exhausted-drowsy-drained
+title: Weary, exhausted, drowsy, drained
+explanation: "Four words for being tired. Drowsy is sleepy and soft, weary is tired from long effort or worry, drained is empty of energy, and exhausted is the strongest: nothing is left."
+members:
+  - expression: drowsy
+    note: Sleepy and soft, ready to doze.
+    example: The drowsy children fell asleep in the car.
+  - expression: weary
+    note: Tired from long effort, worry or sadness.
+    example: The weary nurse sat down at last.
+  - expression: drained
+    note: Empty of energy after a strong feeling or effort.
+    example: She felt drained after the argument.
+  - expression: exhausted
+    note: "The strongest: no energy left at all."
+    example: The runners were exhausted at the finish line.

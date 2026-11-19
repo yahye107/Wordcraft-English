@@ -1,0 +1,35 @@
+slug: freezing
+text: freezing
+kind: word
+pos: adjective
+simpleMeaning: Extremely cold.
+contextualMeaning: Freezing is the everyday word for very cold weather or a very cold room.
+usageNotes: "Use it for weather and feelings: it was freezing; my hands were freezing. It is informal and strong."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - weather
+tags:
+  - technique:setting
+  - technique:physical-reaction
+searchPhrases:
+  - extremely cold
+  - below zero cold
+  - very cold
+examples:
+  - text: It was freezing in the classroom.
+    setting: everyday
+  - text: The wind was freezing and cut through his coat.
+    setting: narration
+  - text: “I’m freezing,” she said, rubbing her arms.
+    setting: dialogue
+relations:
+  - to: scorching
+    type: antonym
+  - to: sweltering
+    type: antonym
+mistakes:
+  - wrong: I am freeze.
+    right: I am freezing.
+    explanation: "Use the -ing form: freezing."

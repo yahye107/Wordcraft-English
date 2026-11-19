@@ -1,0 +1,36 @@
+slug: exhausted
+text: exhausted
+kind: word
+pos: adjective
+simpleMeaning: Completely tired, with no energy left.
+contextualMeaning: Exhausted is the strong word for tired. It covers body and mind.
+usageNotes: "Use it after hard work, travel or worry: she was exhausted. Do not use it for mild tiredness."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - tiredness-and-energy
+tags:
+  - technique:physical-reaction
+searchPhrases:
+  - extremely tired
+  - no energy left
+  - worn out
+examples:
+  - text: I was exhausted after the marathon.
+    setting: everyday
+  - text: He fell into bed, exhausted.
+    setting: narration
+  - text: “I’m exhausted,” she said. “Can we go home?”
+    setting: dialogue
+relations:
+  - to: weary
+    type: stronger
+  - to: drowsy
+    type: stronger
+  - to: energetic
+    type: antonym
+mistakes:
+  - wrong: I am exhausting.
+    right: I am exhausted.
+    explanation: Exhausted describes how you feel. Exhausting describes what makes you tired.

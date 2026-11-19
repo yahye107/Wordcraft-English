@@ -24,7 +24,9 @@ examples:
     setting: academic
   - text: “It’s vast,” she whispered, looking up at the cathedral.
     setting: dialogue
-relations: []
+relations:
+  - to: sprawling
+    type: related
 mistakes:
   - wrong: A vast tiny insect crawled on the leaf.
     right: A tiny insect crawled on the leaf.
