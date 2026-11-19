@@ -18,7 +18,7 @@ export default defineConfig({
   ],
   webServer: {
     // Seeds a separate database, builds, and serves the production build.
-    command: `npm run content:seed && npm run build && npm run start -- -p ${PORT}`,
+    command: `node scripts/reset-e2e-db.mjs && npm run content:seed && npm run build && npm run start -- -p ${PORT}`,
     url: `http://localhost:${PORT}`,
     timeout: 300_000,
     reuseExistingServer: false,
