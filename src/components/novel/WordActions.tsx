@@ -22,7 +22,7 @@ export default function WordActions({ slug, text, meaning, label }: { slug?: str
 
   return (
     <span className="word-action">
-      <button type="button" className="btn secondary small" disabled={state !== "idle"} onClick={() => void save()} aria-label={`${label}: ${slug ?? text}`}>
+      <button type="button" className="btn secondary small" disabled={state !== "idle"} onClick={() => void save()} aria-label={`${state === "saved" ? "Saved" : label}: ${slug ?? text}`}>
         {state === "saved" ? "Saved ✓" : state === "busy" ? "Saving…" : label}
       </button>
       <span role="status" aria-live="polite" className="wrong-text">{error}</span>

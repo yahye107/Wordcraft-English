@@ -140,7 +140,7 @@ describe('techniques', () => {
 describe('robustness', () => {
   it('never throws on empty and odd text and returns plain objects', () => {
     const db = setup([{ slug: 'vast', text: 'vast' }]);
-    for (const t of ['', '   ', '...', '“', 'a'.repeat(800), '😀 😀', 'مرحبا vast بالعالم', '{tag|x}']) {
+    for (const t of ['', '   ', '...', '“', 'a'.repeat(800), '😀 😀', 'مرحبا vast بالعالم', '{tag|x}', '<script>alert(1)</script> **bold** [link](x) vast']) {
       expect(() => analyseLocalPassage(db, t), t).not.toThrow();
     }
     const r = analyseLocalPassage(db, 'A vast field.');

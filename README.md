@@ -14,5 +14,5 @@ On first start the library is loaded from `content/` into `data/wordcraft.sqlite
 ## Tech notes
 
 - SQLite driver: Node's built-in `node:sqlite` (FTS5 verified on Node 26). No native build step.
-- Optional AI features need `ANTHROPIC_API_KEY` in `.env.local` (see `.env.example`). The app works without it.
+- Optional AI features need `ANTHROPIC_API_KEY` in `.env.local` (see `.env.example`). The app works without it. The Novel lab (`/novel`) analyses pasted passages locally with no key; the tutor layer needs one.
 - Tests: `npm test` (Vitest), `npm run test:e2e` (Playwright).
