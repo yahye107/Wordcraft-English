@@ -1,5 +1,5 @@
 import type { Db } from '@/lib/db';
-import type { CategoryNode, ContentBundle, ExpressionFile } from './schemas';
+import type { CategoryNode, ContentBundle, ExerciseFile, ExpressionFile } from './schemas';
 
 export type SeedResult = { added: number; updated: number; removed: number };
 
@@ -58,6 +58,59 @@ function ftsRow(db: Db, id: number, e: ExpressionFile): void {
       [...e.tags.map((t) => `${tagName(t)} ${t.split(':')[0]}`), ...categoryNames(db, id)].join(' '),
     ],
   );
+}
+
+/** Split an exercise into what the learner sees and the answer key. */
+function splitExercise(x: ExerciseFile): { payload: unknown; answer: unknown } {
+  switch (x.type) {
+    case 'choose':
+      return { payload: { options: x.options }, answer: { answer: x.answer } };
+    case 'fill_blank':
+      return { payload: {}, answer: { accepted: x.accepted } };
+    case 'identify':
+      return { payload: { items: x.items.map((i) => i.text), choices: x.choices }, answer: { answers: x.items.map((i) => i.answer) } };
+    case 'fix_punctuation':
+      return { payload: { broken: x.broken }, answer: { accepted: x.accepted } };
+    case 'free_write':
+      return { payload: { checklist: x.checklist }, answer: x.sample ? { sample: x.sample } : {} };
+  }
+}
+
+function seedLessons(db: Db, bundle: ContentBundle): void {
+  const keepLessons = new Set<string>();
+  for (const l of bundle.lessons) {
+    keepLessons.add(l.slug);
+    db.run(
+      `INSERT INTO lessons (slug, lab, title, summary, level, sort, body_json) VALUES (?, ?, ?, ?, ?, ?, ?)
+       ON CONFLICT(slug) DO UPDATE SET lab=excluded.lab, title=excluded.title, summary=excluded.summary,
+         level=excluded.level, sort=excluded.sort, body_json=excluded.body_json`,
+      [l.slug, l.lab, l.title, l.summary, l.level, l.sort, JSON.stringify({ sections: l.sections, related: l.related })],
+    );
+  }
+  for (const row of db.all<{ slug: string }>('SELECT slug FROM lessons')) {
+    if (!keepLessons.has(row.slug)) db.run('DELETE FROM lessons WHERE slug = ?', [row.slug]); // exercises cascade
+  }
+
+  const keepExercises = new Set<string>();
+  const perLesson = new Map<string, number>();
+  for (const x of bundle.exercises) {
+    keepExercises.add(x.slug);
+    const lessonId = db.get<{ id: number }>('SELECT id FROM lessons WHERE slug = ?', [x.lesson])!.id;
+    const order = perLesson.get(x.lesson) ?? 0;
+    perLesson.set(x.lesson, order + 1);
+    const { payload, answer } = splitExercise(x);
+    db.run(
+      `INSERT INTO exercises (slug, lesson_id, type, level, prompt, payload_json, answer_json, explanation, sort)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+       ON CONFLICT(slug) DO UPDATE SET lesson_id=excluded.lesson_id, type=excluded.type, level=excluded.level,
+         prompt=excluded.prompt, payload_json=excluded.payload_json, answer_json=excluded.answer_json,
+         explanation=excluded.explanation, sort=excluded.sort`,
+      [x.slug, lessonId, x.type, x.level, x.prompt, JSON.stringify(payload), JSON.stringify(answer), x.explanation, order],
+    );
+  }
+  for (const row of db.all<{ slug: string }>('SELECT slug FROM exercises')) {
+    if (!keepExercises.has(row.slug)) db.run('DELETE FROM exercises WHERE slug = ?', [row.slug]);
+  }
 }
 
 /**
@@ -152,6 +205,8 @@ export function seedContent(db: Db, bundle: ContentBundle): SeedResult {
     for (const g of db.all<{ slug: string }>('SELECT slug FROM contrast_groups')) {
       if (!keepGroups.has(g.slug)) db.run('DELETE FROM contrast_groups WHERE slug = ?', [g.slug]);
     }
+
+    seedLessons(db, bundle);
 
     return { added, updated, removed };
   });

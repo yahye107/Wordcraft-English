@@ -149,4 +149,45 @@ CREATE TABLE ai_cache (
 );
 `,
   },
+  {
+    version: 3,
+    name: 'lessons_exercises',
+    sql: `
+CREATE TABLE lessons (
+  id INTEGER PRIMARY KEY,
+  slug TEXT NOT NULL UNIQUE,
+  lab TEXT NOT NULL,
+  title TEXT NOT NULL,
+  summary TEXT NOT NULL,
+  level TEXT NOT NULL,
+  sort INTEGER NOT NULL DEFAULT 0,
+  body_json TEXT NOT NULL
+);
+CREATE INDEX idx_lessons_lab ON lessons(lab, sort);
+
+CREATE TABLE exercises (
+  id INTEGER PRIMARY KEY,
+  slug TEXT NOT NULL UNIQUE,
+  lesson_id INTEGER NOT NULL REFERENCES lessons(id) ON DELETE CASCADE,
+  type TEXT NOT NULL,
+  level TEXT NOT NULL,
+  prompt TEXT NOT NULL,
+  payload_json TEXT NOT NULL,
+  answer_json TEXT NOT NULL,
+  explanation TEXT NOT NULL,
+  sort INTEGER NOT NULL DEFAULT 0
+);
+CREATE INDEX idx_exercises_lesson ON exercises(lesson_id, sort);
+
+-- Learner data. No foreign key on purpose: changing or deleting an exercise must never delete history.
+CREATE TABLE exercise_attempts (
+  id INTEGER PRIMARY KEY,
+  exercise_slug TEXT NOT NULL,
+  answer_json TEXT NOT NULL,
+  correct INTEGER,
+  created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now'))
+);
+CREATE INDEX idx_attempts_exercise ON exercise_attempts(exercise_slug);
+`,
+  },
 ];
