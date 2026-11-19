@@ -1,0 +1,14 @@
+slug: s4-2-build-the-sentence
+lesson: expressing-contrast
+level: intermediate
+prompt: Put the pieces in order.
+explanation: Although begins the subordinate clause, followed by a comma and the main clause.
+type: reorder
+fragments:
+  - Although
+  - the soup was hot,
+  - the room was freezing.
+accepted:
+  - - 0
+    - 1
+    - 2

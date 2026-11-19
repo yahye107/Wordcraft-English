@@ -1,0 +1,44 @@
+slug: participial-phrases
+lab: sentence
+title: Participial phrases
+summary: Add an action or a picture to a sentence with an -ing or -ed phrase, and avoid the dangling mistake.
+level: intermediate
+sort: 2
+sections:
+  - heading: What a participial phrase does
+    paragraphs:
+      - A participial phrase begins with an -ing word (shaking) or an -ed word (tired). It adds an action or a description to the main clause, so one sentence can carry two things at once.
+    examples:
+      - text: "{part|Shaking the rain from her coat,} {main|Mina stepped inside.}"
+        note: "An opening phrase: the action comes first."
+      - text: "{main|Mina stepped inside,} {part|shaking the rain from her coat.}"
+        note: "A closing phrase: the action comes with the main one."
+  - heading: The comma
+    paragraphs:
+      - An opening phrase takes a comma after it. A closing phrase usually takes a comma before it.
+    examples:
+      - text: "{part|Tired from the climb,} {main|they rested.}"
+        note: An -ed phrase at the start, with a comma.
+      - text: "{main|He waited by the door,} {part|holding the letter.}"
+        note: An -ing phrase at the end, with a comma before it.
+  - heading: Avoid the dangling phrase
+    paragraphs:
+      - The action in the phrase must belong to the subject of the main clause. If it does not, the sentence says something silly. “Walking to school, the rain began” says the rain was walking.
+    bullets:
+      - "Wrong: Walking to school, the rain began."
+      - "Right: Walking to school, Tom felt the rain begin."
+    examples:
+      - text: "{part|Walking to school,} {main|Tom felt the rain begin.}"
+        note: Tom is the walker and the subject of the main clause.
+  - heading: Use it in a new situation
+    paragraphs:
+      - The same pattern in two different scenes.
+    examples:
+      - text: "{part|Peering through the keyhole,} {main|the boy held his breath.}"
+        note: The boy peers and holds his breath, so the phrase fits the subject.
+      - text: "{main|The cat crossed the roof,} {part|balancing on the narrow edge.}"
+        note: A closing phrase adds how the cat moved.
+related:
+  - gazed
+  - darted
+  - gripped

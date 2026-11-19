@@ -1,0 +1,18 @@
+slug: s1-1-main-or-sub
+lesson: subordinate-clauses
+level: beginner
+prompt: Is each group of words a main clause or a subordinate clause?
+explanation: A main clause can stand alone. A subordinate clause starts with a word such as because or although and needs a main clause.
+type: identify
+items:
+  - text: The door opened.
+    answer: main clause
+  - text: because the wind pushed it
+    answer: subordinate clause
+  - text: Although she was tired
+    answer: subordinate clause
+  - text: She kept walking.
+    answer: main clause
+choices:
+  - main clause
+  - subordinate clause

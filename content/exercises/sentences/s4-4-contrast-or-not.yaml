@@ -1,0 +1,18 @@
+slug: s4-4-contrast-or-not
+lesson: expressing-contrast
+level: intermediate
+prompt: Does each sentence show contrast?
+explanation: But and although set two ideas against each other. So and because show cause and result.
+type: identify
+items:
+  - text: She was tired but she kept going.
+    answer: contrast
+  - text: She was tired, so she went to bed.
+    answer: not contrast
+  - text: Although it rained, we went out.
+    answer: contrast
+  - text: We went out because it stopped raining.
+    answer: not contrast
+choices:
+  - contrast
+  - not contrast

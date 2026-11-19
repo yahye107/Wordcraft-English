@@ -1,0 +1,11 @@
+slug: s1-4-choose-the-link
+lesson: subordinate-clauses
+level: beginner
+prompt: ___ the rain stopped, we went outside.
+explanation: A time word such as when, after or once begins the subordinate clause.
+type: fill_blank
+accepted:
+  - when
+  - after
+  - once
+  - as soon as

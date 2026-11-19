@@ -1,0 +1,12 @@
+slug: s4-3-comma-before-but
+lesson: expressing-contrast
+level: intermediate
+prompt: Which sentence links two contrasting ideas correctly?
+explanation: But joins two contrasting main clauses, with a comma before it. Because and so show cause and result, not contrast.
+type: choose
+options:
+  - The soup was hot, but the room was freezing.
+  - The soup was hot but, the room was freezing.
+  - The soup was hot, because the room was freezing.
+  - The soup was hot, so the room was freezing.
+answer: 0

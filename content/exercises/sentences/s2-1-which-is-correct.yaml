@@ -1,0 +1,12 @@
+slug: s2-1-which-is-correct
+lesson: participial-phrases
+level: intermediate
+prompt: Which sentence is correct?
+explanation: The walker (Tom) must be the subject of the main clause. In the first sentence the rain seems to be walking.
+type: choose
+options:
+  - Walking to school, the rain began.
+  - Walking to school, Tom felt the rain begin.
+  - Walking to school the rain began.
+  - Tom, walking to school the rain began.
+answer: 1

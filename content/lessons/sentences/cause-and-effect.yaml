@@ -1,0 +1,41 @@
+slug: cause-and-effect
+lab: sentence
+title: Cause and effect
+summary: Show why something happened, or what followed, with the right linking word.
+level: intermediate
+sort: 3
+sections:
+  - heading: Showing a reason
+    paragraphs:
+      - Use because, since or as to give the reason for something. The reason can come after the result or before it.
+    examples:
+      - text: "{main|The match was cancelled} {link|because} {sub|the pitch was flooded.}"
+        note: Result first, then the reason.
+      - text: "{link|Since} {sub|the pitch was flooded,} {main|the match was cancelled.}"
+        note: Reason first, then a comma.
+  - heading: Showing a result
+    paragraphs:
+      - Use so inside a sentence, or a word such as therefore, as a result or consequently across two sentences.
+    examples:
+      - text: "{main|The pitch was flooded,} {link|so} {main|the match was cancelled.}"
+        note: So joins two main clauses with a comma.
+      - text: "{main|The pitch was flooded.} {link|As a result,} {main|the match was cancelled.}"
+        note: A linking phrase starts a new sentence, with a comma after it.
+  - heading: Put the effect first for impact
+    paragraphs:
+      - Sometimes the effect is more interesting than the cause. Show it first and let the reader wonder why. Then reveal the cause.
+    examples:
+      - text: "{main|The lights went out.} {main|A fallen branch had cut the cable.}"
+        note: The reader sees the effect before they know the reason.
+  - heading: Use it in a new situation
+    paragraphs:
+      - The same ideas in a kitchen.
+    examples:
+      - text: "{main|The soup boiled over} {link|because} {sub|nobody was watching the pan.}"
+        note: A reason clause after the result.
+      - text: "{main|Nobody watched the pan.} {link|Consequently,} {main|the soup boiled over.}"
+        note: The same cause and effect as two sentences.
+related:
+  - therefore
+  - consequently
+  - as-a-result

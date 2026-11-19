@@ -1,0 +1,9 @@
+slug: s1-2-add-the-comma
+lesson: subordinate-clauses
+level: beginner
+prompt: Add the missing comma.
+explanation: When the subordinate clause comes first, a comma follows it.
+type: fix_punctuation
+broken: When the bell rang the children ran outside.
+accepted:
+  - When the bell rang, the children ran outside.

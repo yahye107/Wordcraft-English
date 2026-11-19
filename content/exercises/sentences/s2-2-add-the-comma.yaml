@@ -1,0 +1,9 @@
+slug: s2-2-add-the-comma
+lesson: participial-phrases
+level: intermediate
+prompt: Add the missing comma.
+explanation: An opening participial phrase is followed by a comma.
+type: fix_punctuation
+broken: Holding the letter he waited by the door.
+accepted:
+  - Holding the letter, he waited by the door.

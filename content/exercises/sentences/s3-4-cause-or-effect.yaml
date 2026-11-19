@@ -1,0 +1,18 @@
+slug: s3-4-cause-or-effect
+lesson: cause-and-effect
+level: intermediate
+prompt: In “The bus arrived late because the road was icy,” and similar sentences, is each part a cause or an effect?
+explanation: The cause is the reason. The effect is what happened because of it.
+type: identify
+items:
+  - text: The road was icy.
+    answer: cause
+  - text: The bus arrived late.
+    answer: effect
+  - text: Everyone got soaked.
+    answer: effect
+  - text: It rained all afternoon.
+    answer: cause
+choices:
+  - cause
+  - effect

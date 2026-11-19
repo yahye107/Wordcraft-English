@@ -1,0 +1,10 @@
+slug: s3-3-result-phrase
+lesson: cause-and-effect
+level: intermediate
+prompt: The pitch was flooded. ___, the match was cancelled.
+explanation: These linking words show that the second sentence is the result of the first.
+type: fill_blank
+accepted:
+  - as a result
+  - therefore
+  - consequently

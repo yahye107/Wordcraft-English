@@ -1,0 +1,42 @@
+slug: expressing-contrast
+lab: sentence
+title: Expressing contrast
+summary: Set two ideas against each other inside one sentence or across two.
+level: intermediate
+sort: 4
+sections:
+  - heading: Contrast inside one sentence
+    paragraphs:
+      - Use but, yet, although, though or while to show that two ideas pull against each other.
+    examples:
+      - text: "{main|The soup was hot,} {link|but} {main|the room was freezing.}"
+        note: But joins two main clauses with a comma.
+      - text: "{link|Although} {sub|the soup was hot,} {main|the room was freezing.}"
+        note: Although begins a subordinate clause, with a comma after it.
+  - heading: Contrast across two sentences
+    paragraphs:
+      - Use however, nevertheless or even so to start a new sentence that pushes against the one before it. Put a comma after the linking word.
+    examples:
+      - text: "{main|The plan was simple.} {link|However,} {main|nothing went as expected.}"
+        note: A new sentence turns the idea.
+      - text: "{main|He was exhausted.} {link|Even so,} {main|he kept working.}"
+        note: Even so says “in spite of that”.
+  - heading: Punctuation
+    paragraphs:
+      - Each way of linking has its own punctuation.
+    bullets:
+      - "But: a comma before it joins two main clauses."
+      - "Although: a comma after the clause when it comes first."
+      - "However: use a full stop or a semicolon before it, and a comma after."
+  - heading: Use it in a new situation
+    paragraphs:
+      - Contrast in a seaside setting.
+    examples:
+      - text: "{main|The beach was beautiful;} {link|however,} {main|the water was too cold to swim.}"
+        note: A semicolon and however join two related sentences.
+      - text: "{main|She smiled,} {link|yet} {main|her eyes stayed sad.}"
+        note: Yet gives a sharper, more literary contrast.
+related:
+  - however
+  - nevertheless
+  - even-so

@@ -1,0 +1,14 @@
+slug: s2-4-build-the-sentence
+lesson: participial-phrases
+level: intermediate
+prompt: Put the pieces in order.
+explanation: The participial phrase opens the sentence and is followed by a comma and the main clause.
+type: reorder
+fragments:
+  - Peering
+  - through the keyhole,
+  - the boy held his breath.
+accepted:
+  - - 0
+    - 1
+    - 2

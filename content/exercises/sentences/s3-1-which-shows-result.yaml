@@ -1,0 +1,12 @@
+slug: s3-1-which-shows-result
+lesson: cause-and-effect
+level: intermediate
+prompt: Which word shows a result?
+explanation: So introduces what followed. Because introduces the reason.
+type: choose
+options:
+  - so
+  - because
+  - although
+  - while
+answer: 0

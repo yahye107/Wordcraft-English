@@ -1,0 +1,10 @@
+slug: s4-1-fix-however
+lesson: expressing-contrast
+level: intermediate
+prompt: Correct the punctuation around however.
+explanation: However needs a full stop or a semicolon before it and a comma after it.
+type: fix_punctuation
+broken: The plan was simple however nothing went as expected.
+accepted:
+  - The plan was simple; however, nothing went as expected.
+  - The plan was simple. However, nothing went as expected.

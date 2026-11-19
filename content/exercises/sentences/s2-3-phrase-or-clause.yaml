@@ -1,0 +1,18 @@
+slug: s2-3-phrase-or-clause
+lesson: participial-phrases
+level: intermediate
+prompt: Is each part a participial phrase or a main clause?
+explanation: A participial phrase starts with an -ing or -ed word and cannot stand alone. A main clause has its own subject and verb.
+type: identify
+items:
+  - text: Shaking the rain from her coat
+    answer: participial phrase
+  - text: Mina stepped inside
+    answer: main clause
+  - text: balancing on the narrow edge
+    answer: participial phrase
+  - text: The cat crossed the roof
+    answer: main clause
+choices:
+  - participial phrase
+  - main clause

@@ -1,0 +1,14 @@
+slug: s3-2-build-the-sentence
+lesson: cause-and-effect
+level: intermediate
+prompt: Put the pieces in order.
+explanation: The cause comes first, then so, then the result.
+type: reorder
+fragments:
+  - The pitch was flooded,
+  - so
+  - the match was cancelled.
+accepted:
+  - - 0
+    - 1
+    - 2

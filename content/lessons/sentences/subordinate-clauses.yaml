@@ -1,0 +1,50 @@
+slug: subordinate-clauses
+lab: sentence
+title: Subordinate clauses
+summary: Join an idea to its reason, time, condition or contrast inside one sentence.
+level: beginner
+sort: 1
+sections:
+  - heading: Main and subordinate clauses
+    paragraphs:
+      - "A main clause can stand alone as a sentence: “The door opened.” A subordinate clause cannot. It begins with a word such as because, although, when, while or if, and it needs a main clause beside it."
+    examples:
+      - text: "{main|The door opened} {sub|because the wind pushed it.}"
+        note: The main clause stands alone. The subordinate clause adds the reason.
+      - text: "{sub|Although she was tired,} {main|she kept walking.}"
+        note: The subordinate clause alone is not a sentence. Together they are.
+  - heading: Where the comma goes
+    paragraphs:
+      - When the subordinate clause comes first, put a comma after it. When it comes second, you usually need no comma.
+    bullets:
+      - "Right: When the bell rang, the children ran outside."
+      - "Right: The children ran outside when the bell rang."
+      - "Wrong: When the bell rang the children ran outside. (the comma is missing)"
+    examples:
+      - text: "{sub|When the bell rang,} {main|the children ran outside.}"
+        note: "Subordinate clause first: a comma follows it."
+      - text: "{main|The children ran outside} {sub|when the bell rang.}"
+        note: "Subordinate clause second: no comma."
+  - heading: Why writers use them
+    paragraphs:
+      - A subordinate clause shows how two ideas are related, so one sentence can hold an event and its reason, time, condition or contrast.
+    bullets:
+      - "Reason: because, since"
+      - "Time: when, while, before, after"
+      - "Condition: if, unless"
+      - "Contrast: although, though"
+    examples:
+      - text: "{main|He locked the gate} {sub|before he went inside.}"
+        note: "Time: one thing happens before another."
+      - text: "{sub|If you hurry,} {main|you will catch the train.}"
+        note: "Condition: one thing depends on another."
+  - heading: Use it in a new situation
+    paragraphs:
+      - The same pattern works anywhere. Here it is in a market.
+    examples:
+      - text: "{sub|While the vendor counted the change,} {main|Anya watched the crowd.}"
+        note: Time clause first, with a comma.
+      - text: "{main|The stall closed early} {sub|because the rain had begun.}"
+        note: Reason clause second, no comma.
+related:
+  - however

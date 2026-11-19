@@ -1,0 +1,14 @@
+slug: s1-3-build-the-sentence
+lesson: subordinate-clauses
+level: beginner
+prompt: Put the pieces in order to make one sentence.
+explanation: The subordinate clause comes first (with its comma), and then the main clause.
+type: reorder
+fragments:
+  - she kept walking.
+  - Although
+  - she was tired,
+accepted:
+  - - 1
+    - 2
+    - 0
