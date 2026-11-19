@@ -109,7 +109,8 @@ const COMMON_LONG_WORDS = new Set(
     'talking waiting wanting trying getting nothing question another between country everybody anybody ' +
     'children daughter brother mother father husband friends people believed started wanted decided stopped ' +
     'finally quickly slowly usually actually completely absolutely seemed continued following afternoon tonight ' +
-    'yesterday tomorrow weekend suppose happened without whether during several nothing instead enough'
+    'yesterday tomorrow weekend suppose happened without whether during several nothing instead enough ' +
+    'sentence sentences language beautiful wonderful dangerous important possible whatever everything'
   ).split(/\s+/),
 );
 

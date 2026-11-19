@@ -1,11 +1,21 @@
 import Annotated from "./Annotated";
 
 /** A key to the marks used in a lab's examples. The kind is shown by style as well as colour. */
-export default function AnnotationLegend({ lab = "dialogue" }: { lab?: "dialogue" | "sentence" }) {
+export default function AnnotationLegend({ lab = "dialogue" }: { lab?: "dialogue" | "sentence" | "novel" }) {
   return (
     <aside className="legend" aria-label="How examples are marked">
       <p className="legend-title">How the examples are marked</p>
-      {lab === "sentence" ? (
+      {lab === "novel" ? (
+        <ul>
+          <li><Annotated text="{speech|“Speech”}" /> <span className="muted">what is said</span></li>
+          <li><Annotated text="{tag|she said}" /> <span className="muted">dialogue tag: who spoke</span></li>
+          <li><Annotated text="{beat|She shrugged.}" /> <span className="muted">action beat: what the body does</span></li>
+          <li><Annotated text="{main|The door opened}" /> <span className="muted">main clause</span></li>
+          <li><Annotated text="{sub|because the wind pushed it}" /> <span className="muted">subordinate clause</span></li>
+          <li><Annotated text="{part|shaking the rain from her coat}" /> <span className="muted">participial phrase</span></li>
+          <li><Annotated text="{link|However,}" /> <span className="muted">linking word</span></li>
+        </ul>
+      ) : lab === "sentence" ? (
         <ul>
           <li><Annotated text="{main|The door opened}" /> <span className="muted">main clause: can stand alone</span></li>
           <li><Annotated text="{sub|because the wind pushed it}" /> <span className="muted">subordinate clause: needs a main clause</span></li>

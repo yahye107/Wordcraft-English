@@ -579,3 +579,28 @@ fieldset { border: 0; margin: 0 0 0.75rem; padding: 0; min-width: 0; }
 .table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
 .table th, .table td { text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid var(--rule); }
 .history-link { display: grid; gap: 0.3rem; color: var(--ink); text-decoration: none; }
+
+/* ---------- Novel lab ---------- */
+
+.notice { font-size: 0.95rem; max-width: var(--measure); }
+.novel-form { max-width: 46rem; margin-bottom: 2.5rem; }
+.counter { color: var(--ink-2); font-size: 0.9rem; }
+.counter.over { color: var(--wrong); font-weight: 600; }
+.novel-view { display: grid; gap: 2.25rem; margin-top: 1.25rem; max-width: 46rem; }
+.novel-view section > h2 { margin: 0; padding-top: 1.25rem; border-top: 1px solid var(--rule); }
+.novel-view section:first-child > h2 { padding-top: 0; border-top: 0; }
+.novel-view h3 { margin: 0 0 0.35rem; font-size: 1.05rem; }
+.novel-view .guess { margin: 0; }
+.novel-view .legend { margin: 0; }
+.novel-view .marked-text { font-size: 1.2rem; }
+.found-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.4rem; }
+.technique { padding: 0.9rem 0 0.9rem 1rem; border-left: 4px solid var(--marker); }
+.technique h3 { margin-bottom: 0.2rem; }
+.technique p { margin: 0.3rem 0; }
+.word-item { display: grid; gap: 0.35rem; }
+.word-item p { margin: 0; }
+.word-action { display: inline-flex; align-items: center; gap: 0.5rem; }
+.rhythm { list-style: none; margin: 0; padding: 0 0 0.25rem; display: flex; align-items: flex-end; gap: 4px; min-height: 72px; border-bottom: 2px solid var(--rule); overflow-x: auto; }
+.rhythm-bar { flex: 0 0 14px; border-radius: 3px 3px 0 0; background: var(--rule); }
+.rhythm-dialogue, .rhythm-mixed { background: var(--marker); }
+.novel-view .btn.small { min-height: 44px; }
