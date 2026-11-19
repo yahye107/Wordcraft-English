@@ -6,9 +6,10 @@ A personal English writing-development platform. See `docs/superpowers/specs/` f
 
 ```
 npm install
-npm run content:seed   # load content/ into data/wordcraft.sqlite
 npm run dev
 ```
+
+On first start the library is loaded from `content/` into `data/wordcraft.sqlite` automatically. After you edit or add content files, run `npm run content:validate` and then `npm run content:seed` to apply the changes.
 
 ## Tech notes
 

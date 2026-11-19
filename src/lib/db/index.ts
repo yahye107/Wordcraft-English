@@ -2,6 +2,7 @@ import { DatabaseSync } from 'node:sqlite';
 import fs from 'node:fs';
 import path from 'node:path';
 import { migrate } from './migrate';
+import { ensureSeeded } from '@/lib/content/bootstrap';
 
 type Param = string | number | bigint | null | Uint8Array;
 
@@ -62,6 +63,7 @@ export function getDb(): Db {
     const file = process.env.WORDCRAFT_DB ?? path.join(process.cwd(), 'data', 'wordcraft.sqlite');
     const db = openDb(file);
     migrate(db);
+    ensureSeeded(db, path.join(process.cwd(), 'content'));
     globalForDb.__wordcraftDb = db;
   }
   return globalForDb.__wordcraftDb;
