@@ -26,6 +26,8 @@ examples:
 relations:
   - to: weighed-up
     type: related
+  - to: second-guessed
+    type: antonym
 mistakes:
   - wrong: She made up her minds.
     right: She made up her mind.

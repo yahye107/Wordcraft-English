@@ -1,0 +1,35 @@
+slug: wept
+text: wept
+kind: word
+pos: verb (past)
+simpleMeaning: Cried, usually quietly, because of strong feeling.
+contextualMeaning: Wept is a fuller, more serious word than cried. It suits grief and deep emotion.
+usageNotes: "Use it in narration for grief or joy: she wept at the funeral. It is more formal than cried."
+register: literary
+level: intermediate
+status: draft
+categories:
+  - sorrow-and-grief
+tags:
+  - emotion:sadness
+  - emotion:grief
+searchPhrases:
+  - cried quietly
+  - shed tears
+  - cried with grief
+examples:
+  - text: She wept quietly at the back of the church.
+    setting: narration
+  - text: I wept with relief when the test came back clear.
+    setting: everyday
+  - text: The poet wept for the lost city.
+    setting: academic
+relations:
+  - to: sobbed
+    type: weaker
+  - to: sobbed
+    type: related
+mistakes:
+  - wrong: She weeped all night.
+    right: She wept all night.
+    explanation: The past tense of weep is wept.

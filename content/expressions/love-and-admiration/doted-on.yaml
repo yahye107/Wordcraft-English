@@ -1,0 +1,32 @@
+slug: doted-on
+text: doted on
+kind: phrase
+simpleMeaning: Showed great love and attention to someone, often too much.
+contextualMeaning: Doting is soft and sometimes spoiling, such as grandparents doting on a grandchild.
+usageNotes: "Use it for parents, grandparents and pet owners: they doted on the baby. It is warm and slightly amused."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - affection
+tags:
+  - emotion:love
+  - situation:family
+searchPhrases:
+  - spoiled with love
+  - gave lots of attention
+  - adored and fussed over
+examples:
+  - text: The old couple doted on their grandson.
+    setting: narration
+  - text: My aunt dotes on her little dog; she doted on the last one too.
+    setting: everyday
+  - text: “Grandad doted on you,” Mum said.
+    setting: dialogue
+relations:
+  - to: fond-of
+    type: stronger
+mistakes:
+  - wrong: He doted her.
+    right: He doted on her.
+    explanation: Dote needs on before the person.

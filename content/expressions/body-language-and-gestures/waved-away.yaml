@@ -1,0 +1,32 @@
+slug: waved-away
+text: waved away
+kind: phrase
+simpleMeaning: Used a hand movement to refuse something or send it away.
+contextualMeaning: A waved-away offer or thanks shows modesty, impatience or a wish not to talk about it.
+usageNotes: "Use it for offers, thanks, apologies and people: she waved away his apology. The thing or person comes right after away."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - hands-and-gestures
+tags:
+  - technique:body-language
+  - technique:characterisation
+searchPhrases:
+  - refused with a hand gesture
+  - brushed aside
+  - sent away with a wave
+examples:
+  - text: She waved away the waiter’s offer of dessert.
+    setting: narration
+  - text: He waved away my thanks and went back to work.
+    setting: everyday
+  - text: “Don’t mention it,” he said, as he waved away her apology.
+    setting: dialogue
+relations:
+  - to: beckoned
+    type: antonym
+mistakes:
+  - wrong: He waved away from me.
+    right: He waved me away.
+    explanation: Waved away takes the person or thing directly.

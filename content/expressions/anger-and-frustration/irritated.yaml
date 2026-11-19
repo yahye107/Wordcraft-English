@@ -31,6 +31,8 @@ relations:
   - to: exasperated
     type: stronger
     note: irritated after many tries
+  - to: fuming
+    type: weaker
 mistakes:
   - wrong: I am very irritated person.
     right: I am easily irritated.

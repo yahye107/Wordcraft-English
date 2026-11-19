@@ -28,6 +28,8 @@ relations:
   - to: bittersweet
     type: related
     note: one moment with two sides
+  - to: torn
+    type: related
 mistakes:
   - wrong: I am ambivalent; I don’t care at all.
     right: I am indifferent; I don’t care at all.

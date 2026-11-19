@@ -29,6 +29,8 @@ relations:
   - to: brooded
     type: related
     note: brooding is unhappy and repeating
+  - to: wondered
+    type: related
 mistakes:
   - wrong: He pondered quickly and made a snap decision.
     right: He thought quickly and made a snap decision.

@@ -1,0 +1,32 @@
+slug: bit-her-tongue
+text: bit her tongue
+kind: idiom
+simpleMeaning: Stopped herself from saying something angry or unkind.
+contextualMeaning: "Biting your tongue shows self-control: the words are ready, but they are not spoken."
+usageNotes: "Use it when someone holds back an angry reply to keep the peace: she bit her tongue. It is neutral and common."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - irritation
+tags:
+  - emotion:anger
+  - technique:characterisation
+searchPhrases:
+  - stopped herself from saying it
+  - held back an angry reply
+  - kept quiet to avoid a fight
+examples:
+  - text: He bit his tongue instead of shouting back.
+    setting: narration
+  - text: I wanted to answer, but I bit my tongue.
+    setting: everyday
+  - text: “I had to bite my tongue,” she told me.
+    setting: dialogue
+relations:
+  - to: snapped
+    type: antonym
+mistakes:
+  - wrong: She bit her mouth.
+    right: She bit her tongue.
+    explanation: The idiom uses tongue.

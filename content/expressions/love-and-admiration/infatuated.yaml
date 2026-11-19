@@ -1,0 +1,33 @@
+slug: infatuated
+text: infatuated
+kind: word
+pos: adjective
+simpleMeaning: Very strongly attracted to someone, in a way that may not last.
+contextualMeaning: Infatuation is a rush of feeling, often for someone you hardly know. It suggests the feeling may fade.
+usageNotes: "Use it with with: infatuated with her. It can sound a little critical, as if the love is not wise."
+register: neutral
+level: advanced
+status: draft
+categories:
+  - attraction
+tags:
+  - emotion:love
+  - technique:characterisation
+searchPhrases:
+  - crazy about someone new
+  - cannot stop thinking about them
+  - swept away by attraction
+examples:
+  - text: He was infatuated with his teacher.
+    setting: narration
+  - text: I was infatuated with her for about a month.
+    setting: everyday
+  - text: The novel follows a young man infatuated with an actress.
+    setting: academic
+relations:
+  - to: smitten
+    type: related
+mistakes:
+  - wrong: He was infatuated by love.
+    right: He was infatuated with her.
+    explanation: Use with and the person after infatuated.

@@ -29,6 +29,8 @@ relations:
     type: stronger
   - to: content
     type: weaker
+  - to: pleased
+    type: stronger
 mistakes:
   - wrong: I am delighted for the news.
     right: I am delighted by/at/with the news.

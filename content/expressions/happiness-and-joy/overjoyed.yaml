@@ -1,0 +1,35 @@
+slug: overjoyed
+text: overjoyed
+kind: word
+pos: adjective
+simpleMeaning: Extremely happy about something.
+contextualMeaning: Overjoyed is happiness spilling over. It is stronger than pleased and close to thrilled.
+usageNotes: "Use it for big good news: overjoyed at the birth. It is followed by at, by or to hear."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - delight-and-excitement
+tags:
+  - emotion:happiness
+  - technique:facial-expression
+searchPhrases:
+  - extremely happy
+  - full of joy
+  - jumping for joy
+examples:
+  - text: She was overjoyed to see her brother again.
+    setting: narration
+  - text: We were overjoyed at the news.
+    setting: everyday
+  - text: “I’m overjoyed,” she cried.
+    setting: dialogue
+relations:
+  - to: over-the-moon
+    type: synonym
+  - to: pleased
+    type: stronger
+mistakes:
+  - wrong: He was overjoyed from the gift.
+    right: He was overjoyed at the gift.
+    explanation: Use at or by after overjoyed.

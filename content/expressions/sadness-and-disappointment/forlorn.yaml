@@ -28,6 +28,8 @@ examples:
 relations:
   - to: sorrowful
     type: related
+  - to: cheerful
+    type: antonym
 mistakes:
   - wrong: I felt forlorn at the party; it was loud and fun.
     right: I felt out of place at the party; it was loud and fun.

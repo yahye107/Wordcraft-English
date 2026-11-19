@@ -1,0 +1,35 @@
+slug: whimpered
+text: whimpered
+kind: word
+pos: verb (past)
+simpleMeaning: Made soft, weak crying sounds, from fear, pain or sadness.
+contextualMeaning: A whimper is small and trembling. It suits children, animals and frightened people.
+usageNotes: "Use it for sounds more than words: the dog whimpered. For speech, add the words: he whimpered, “Please.”"
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - sorrow-and-grief
+tags:
+  - emotion:fear
+  - emotion:sadness
+searchPhrases:
+  - cried softly
+  - made small frightened noises
+  - cried like a puppy
+examples:
+  - text: The puppy whimpered at the door.
+    setting: narration
+  - text: She whimpered when the nurse touched her arm.
+    setting: everyday
+  - text: “Please don’t go,” he whimpered.
+    setting: dialogue
+relations:
+  - to: sobbed
+    type: weaker
+  - to: numb
+    type: related
+mistakes:
+  - wrong: He whimpered loudly and angrily.
+    right: He whimpered softly.
+    explanation: Whimpered is soft and weak, so it does not go with loudly.

@@ -1,0 +1,32 @@
+slug: on-top-of-the-world
+text: on top of the world
+kind: idiom
+simpleMeaning: Extremely happy and full of energy.
+contextualMeaning: It pictures someone standing on the highest place. It fits a big happy moment, such as a win.
+usageNotes: "Use it for a high point: after the exam she felt on top of the world. It is informal and positive."
+register: informal
+level: intermediate
+status: draft
+categories:
+  - emotional-reactions
+tags:
+  - emotion:happiness
+  - emotion:pride
+searchPhrases:
+  - extremely happy
+  - full of joy
+  - feeling great
+examples:
+  - text: I felt on top of the world after the interview.
+    setting: everyday
+  - text: He walked home on top of the world.
+    setting: narration
+  - text: “I’m on top of the world,” she laughed.
+    setting: dialogue
+relations:
+  - to: over-the-moon
+    type: synonym
+mistakes:
+  - wrong: I am on the top world.
+    right: I am on top of the world.
+    explanation: The fixed idiom is on top of the world.

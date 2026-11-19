@@ -1,0 +1,33 @@
+slug: beckoned
+text: beckoned
+kind: word
+pos: verb (past)
+simpleMeaning: Used a hand or head movement to ask someone to come closer.
+contextualMeaning: Beckoning is quiet and often secret. It can be friendly or sinister.
+usageNotes: "Use it for a calling gesture, not a shout: she beckoned him over. Add with a finger or with a nod."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - hands-and-gestures
+tags:
+  - technique:body-language
+  - technique:movement
+searchPhrases:
+  - signalled to come here
+  - waved someone closer
+  - called with a hand
+examples:
+  - text: She beckoned him over with one finger.
+    setting: narration
+  - text: The waiter beckoned us to a table by the window.
+    setting: everyday
+  - text: A shadowy figure beckoned from the doorway.
+    setting: narration
+relations:
+  - to: waved-away
+    type: antonym
+mistakes:
+  - wrong: He beckoned for come.
+    right: He beckoned me to come.
+    explanation: After beckoned, use the person and to plus a verb.

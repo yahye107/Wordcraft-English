@@ -1,0 +1,37 @@
+slug: pleased
+text: pleased
+kind: word
+pos: adjective
+simpleMeaning: Happy about something that has happened or been done.
+contextualMeaning: Pleased is mild, polite happiness. It fits good news and small successes.
+usageNotes: "Use it for results and people: she was pleased with her grades. It is weaker than delighted and thrilled."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - contentment
+tags:
+  - emotion:happiness
+  - emotion:pride
+searchPhrases:
+  - happy with a result
+  - glad about something
+  - satisfied and happy
+examples:
+  - text: I’m pleased with my new job.
+    setting: everyday
+  - text: He looked pleased with himself.
+    setting: narration
+  - text: We are pleased to inform you that your application was successful.
+    setting: professional
+relations:
+  - to: over-the-moon
+    type: weaker
+  - to: overjoyed
+    type: weaker
+  - to: delighted
+    type: weaker
+mistakes:
+  - wrong: I am pleased of the result.
+    right: I am pleased with the result.
+    explanation: Use with or about after pleased.

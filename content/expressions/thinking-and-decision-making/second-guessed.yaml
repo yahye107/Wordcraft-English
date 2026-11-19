@@ -1,0 +1,33 @@
+slug: second-guessed
+text: second-guessed
+kind: word
+pos: verb (past)
+simpleMeaning: Doubted a decision you had already made and kept checking it.
+contextualMeaning: Second-guessing shows worry. The person cannot trust their own judgement.
+usageNotes: "Use it for decisions and people: she second-guessed every choice. It is usually negative."
+register: neutral
+level: advanced
+status: draft
+categories:
+  - deciding
+tags:
+  - technique:internal-thought
+  - emotion:uncertainty
+searchPhrases:
+  - doubted my own decision
+  - kept changing my mind
+  - questioned myself
+examples:
+  - text: I second-guessed myself all the way home.
+    setting: everyday
+  - text: He second-guessed every decision he made that week.
+    setting: narration
+  - text: “You second-guessed yourself again,” she said gently.
+    setting: dialogue
+relations:
+  - to: made-up-her-mind
+    type: antonym
+mistakes:
+  - wrong: He second guess himself.
+    right: He second-guessed himself.
+    explanation: "Use the past tense and a hyphen: second-guessed."

@@ -1,0 +1,33 @@
+slug: sniffled
+text: sniffled
+kind: word
+pos: verb (past)
+simpleMeaning: Breathed noisily through the nose, because of a cold or a little crying.
+contextualMeaning: A sniffle is a tiny sound. It shows a cold or small, held-back tears.
+usageNotes: "Use it for colds and quiet tears: he sniffled and wiped his nose. It is lighter than sobbed."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - sorrow-and-grief
+tags:
+  - emotion:sadness
+  - technique:physical-reaction
+searchPhrases:
+  - noisy nose and small tears
+  - cried a little
+  - had a runny nose
+examples:
+  - text: I sniffled all through the meeting.
+    setting: everyday
+  - text: The little girl sniffled and rubbed her eyes.
+    setting: narration
+  - text: “I’m fine,” he sniffled.
+    setting: dialogue
+relations:
+  - to: sobbed
+    type: weaker
+mistakes:
+  - wrong: He sniffled out all his tears.
+    right: He sniffled and wiped his eyes.
+    explanation: Sniffled is small, so it does not go with all his tears.

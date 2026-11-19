@@ -1,0 +1,39 @@
+slug: sobbed
+text: sobbed
+kind: word
+pos: verb (past)
+simpleMeaning: Cried noisily, with sharp, broken breaths.
+contextualMeaning: Sobbing is deep, uncontrolled crying. The whole body shakes.
+usageNotes: "Use it for strong crying: she sobbed into her hands. For quiet tears, wept or cried silently fits better."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - sorrow-and-grief
+tags:
+  - emotion:sadness
+  - technique:physical-reaction
+searchPhrases:
+  - cried loudly
+  - cried with heavy breaths
+  - cried hard
+examples:
+  - text: She sobbed into her pillow all night.
+    setting: narration
+  - text: The little boy sobbed when his balloon flew away.
+    setting: everyday
+  - text: “I can’t,” she sobbed. “I just can’t.”
+    setting: dialogue
+relations:
+  - to: wept
+    type: stronger
+  - to: sniffled
+    type: stronger
+  - to: whimpered
+    type: stronger
+  - to: wept
+    type: related
+mistakes:
+  - wrong: She sobbed quietly and loudly.
+    right: She sobbed loudly.
+    explanation: Sobbed is noisy, so it does not go with quietly.

@@ -1,0 +1,33 @@
+slug: petrified
+text: petrified
+kind: word
+pos: adjective
+simpleMeaning: So afraid that you cannot move or speak.
+contextualMeaning: Petrified means turned to stone. It is stronger than scared or afraid.
+usageNotes: "Use it for extreme fear: petrified of spiders. It is informal when used for small fears, so keep it for strong ones."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - fear-and-dread
+tags:
+  - emotion:fear
+  - technique:physical-reaction
+searchPhrases:
+  - frozen with fear
+  - extremely scared
+  - too frightened to move
+examples:
+  - text: I’m petrified of public speaking.
+    setting: everyday
+  - text: He stood petrified as the dog came closer.
+    setting: narration
+  - text: “I was petrified,” she said. “I couldn’t even scream.”
+    setting: dialogue
+relations:
+  - to: anxious
+    type: stronger
+mistakes:
+  - wrong: I am petrified from snakes.
+    right: I am petrified of snakes.
+    explanation: Use of after petrified.

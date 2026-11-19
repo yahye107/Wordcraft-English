@@ -28,6 +28,8 @@ examples:
 relations:
   - to: adore
     type: related
+  - to: infatuated
+    type: related
 mistakes:
   - wrong: They were smitten for ten years.
     right: They had been in love for ten years.

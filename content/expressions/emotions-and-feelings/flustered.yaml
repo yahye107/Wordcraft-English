@@ -1,0 +1,33 @@
+slug: flustered
+text: flustered
+kind: word
+pos: adjective
+simpleMeaning: Nervous and confused because you are in a hurry or surprised.
+contextualMeaning: Flustered people drop things, lose words and apologise too much. It is mild and often a little funny.
+usageNotes: "Use it for small pressure moments: the unexpected guest left her flustered. It is lighter than panicked."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - emotional-reactions
+tags:
+  - emotion:nervousness
+  - technique:physical-reaction
+searchPhrases:
+  - nervous and confused
+  - thrown off balance
+  - in a spin
+examples:
+  - text: I get flustered when people watch me work.
+    setting: everyday
+  - text: She looked flustered as she searched for her notes.
+    setting: narration
+  - text: “Sorry,” he said, flustered. “I lost my place.”
+    setting: dialogue
+relations:
+  - to: unruffled
+    type: antonym
+mistakes:
+  - wrong: He was fluster.
+    right: He was flustered.
+    explanation: "Use the -ed adjective: flustered."

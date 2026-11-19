@@ -1,0 +1,33 @@
+slug: wondered
+text: wondered
+kind: word
+pos: verb (past)
+simpleMeaning: Thought about something and wanted to know the answer.
+contextualMeaning: Wondering is gentle curiosity. It opens a question without forcing an answer.
+usageNotes: "Use it with if or whether, or a question word: she wondered if he knew. It is softer than asked herself."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - reasoning
+tags:
+  - technique:internal-thought
+  - emotion:curiosity
+searchPhrases:
+  - asked myself
+  - was curious about
+  - thought about a question
+examples:
+  - text: She wondered if he would ever come back.
+    setting: narration
+  - text: I wondered why nobody had called.
+    setting: everyday
+  - text: “I wondered,” he said, “whether you were free tonight.”
+    setting: dialogue
+relations:
+  - to: pondered
+    type: related
+mistakes:
+  - wrong: I wondered what time is it.
+    right: I wondered what time it was.
+    explanation: "Inside a reported question, use normal word order: what time it was."

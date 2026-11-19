@@ -1,0 +1,35 @@
+slug: numb
+text: numb
+kind: word
+pos: adjective
+simpleMeaning: Unable to feel anything, because of shock or deep sadness.
+contextualMeaning: Numb feelings come after a blow. The person seems calm, but inside nothing moves.
+usageNotes: "Use it for shock and grief: numb with shock. Numb also means unable to feel a part of the body, for example from cold."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - emotional-reactions
+tags:
+  - emotion:sadness
+  - technique:physical-reaction
+searchPhrases:
+  - felt nothing
+  - shocked and empty
+  - unable to feel
+examples:
+  - text: She sat numb with shock after the call.
+    setting: narration
+  - text: My fingers were numb from the cold.
+    setting: everyday
+  - text: “I feel numb,” he said. “I can’t even cry.”
+    setting: dialogue
+relations:
+  - to: overwhelmed
+    type: antonym
+  - to: whimpered
+    type: related
+mistakes:
+  - wrong: He was numb of the news.
+    right: He was numb with shock at the news.
+    explanation: Say numb with shock; numb of does not work.

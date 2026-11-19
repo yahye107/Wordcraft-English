@@ -26,6 +26,8 @@ examples:
 relations:
   - to: slouched
     type: antonym
+  - to: slumped
+    type: antonym
 mistakes:
   - wrong: She squared her shoulders in sadness.
     right: She squared her shoulders and faced the room.

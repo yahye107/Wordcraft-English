@@ -31,6 +31,8 @@ relations:
     type: related
   - to: protested
     type: related
+  - to: bit-her-tongue
+    type: antonym
 mistakes:
   - wrong: “I will now explain the whole history of the project,” she snapped.
     right: "“Enough,” she snapped. Then, calmer: “I will explain the whole history of the project.”"

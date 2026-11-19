@@ -1,0 +1,33 @@
+slug: torn
+text: torn
+kind: word
+pos: adjective
+simpleMeaning: Unable to choose because you want two different things.
+contextualMeaning: Torn shows an inner fight between two wishes or two duties.
+usageNotes: "Use it with between: torn between staying and leaving. It is about a choice, not only a mood."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - mixed-feelings
+tags:
+  - emotion:mixed-feelings
+  - situation:making-choices
+searchPhrases:
+  - cannot decide
+  - pulled in two directions
+  - in two minds
+examples:
+  - text: She was torn between staying and leaving.
+    setting: narration
+  - text: I’m torn between the blue one and the green one.
+    setting: everyday
+  - text: “I feel torn,” he admitted. “Both choices are good.”
+    setting: dialogue
+relations:
+  - to: ambivalent
+    type: related
+mistakes:
+  - wrong: I am torn of two jobs.
+    right: I am torn between two jobs.
+    explanation: Use between after torn when there are two choices.

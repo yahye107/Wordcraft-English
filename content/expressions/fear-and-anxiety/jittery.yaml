@@ -1,0 +1,33 @@
+slug: jittery
+text: jittery
+kind: word
+pos: adjective
+simpleMeaning: Nervous and unable to stay still.
+contextualMeaning: A jittery person shakes, taps and checks things. It often comes from too much coffee or worry.
+usageNotes: "Use it for nerves before an event: jittery before the exam. It is informal and physical."
+register: informal
+level: intermediate
+status: draft
+categories:
+  - nervousness
+tags:
+  - emotion:nervousness
+  - technique:physical-reaction
+searchPhrases:
+  - nervous and shaky
+  - cannot sit still
+  - full of nervous energy
+examples:
+  - text: I felt jittery before my interview.
+    setting: everyday
+  - text: The jittery boy tapped his foot all through the lesson.
+    setting: narration
+  - text: “I’m jittery,” she said. “Too much coffee.”
+    setting: dialogue
+relations:
+  - to: composed
+    type: antonym
+mistakes:
+  - wrong: I feel jittering.
+    right: I feel jittery.
+    explanation: "The adjective ends in -y: jittery."

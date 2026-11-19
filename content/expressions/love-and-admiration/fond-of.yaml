@@ -23,7 +23,11 @@ examples:
     setting: dialogue
   - text: He grew fond of the village and its slow mornings.
     setting: everyday
-relations: []
+relations:
+  - to: cherished
+    type: weaker
+  - to: doted-on
+    type: weaker
 mistakes:
   - wrong: I am fond to music.
     right: I am fond of music.

@@ -1,0 +1,33 @@
+slug: cheerful
+text: cheerful
+kind: word
+pos: adjective
+simpleMeaning: Happy and friendly in a bright, positive way.
+contextualMeaning: A cheerful person lifts the mood of a room. It is simple, sunny and warm.
+usageNotes: "Use it for people, voices and places: a cheerful greeting; a cheerful kitchen. It is mild and always positive."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - delight-and-excitement
+tags:
+  - emotion:happiness
+  - technique:characterisation
+searchPhrases:
+  - bright and happy
+  - in a good mood
+  - friendly and smiling
+examples:
+  - text: She is always cheerful in the morning.
+    setting: everyday
+  - text: A cheerful tune came from the kitchen.
+    setting: narration
+  - text: “Good morning!” he called in a cheerful voice.
+    setting: dialogue
+relations:
+  - to: forlorn
+    type: antonym
+mistakes:
+  - wrong: He felt cheerfully.
+    right: He felt cheerful.
+    explanation: After felt, use the adjective cheerful, not the adverb.

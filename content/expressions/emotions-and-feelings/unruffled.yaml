@@ -1,0 +1,33 @@
+slug: unruffled
+text: unruffled
+kind: word
+pos: adjective
+simpleMeaning: Calm and not upset, even when something surprising or difficult happens.
+contextualMeaning: An unruffled person stays calm when others panic. It sounds admiring and a little cool.
+usageNotes: "Use it for people and manner: she remained unruffled. It is more formal than calm."
+register: neutral
+level: advanced
+status: draft
+categories:
+  - calm-and-composure
+tags:
+  - emotion:calm
+  - technique:characterisation
+searchPhrases:
+  - calm under pressure
+  - not bothered
+  - cool-headed
+examples:
+  - text: He stayed unruffled while the crowd shouted.
+    setting: narration
+  - text: She was unruffled by the delay.
+    setting: everyday
+  - text: The manager’s unruffled tone calmed the whole team.
+    setting: academic
+relations:
+  - to: flustered
+    type: antonym
+mistakes:
+  - wrong: She was unruffled to the news.
+    right: She was unruffled by the news.
+    explanation: Use by after unruffled.

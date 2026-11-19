@@ -30,6 +30,8 @@ relations:
     type: related
   - to: terrified
     type: stronger
+  - to: petrified
+    type: weaker
 mistakes:
   - wrong: I am anxious to my exam.
     right: I am anxious about my exam.

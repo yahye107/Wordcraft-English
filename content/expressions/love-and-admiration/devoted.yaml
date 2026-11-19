@@ -1,0 +1,33 @@
+slug: devoted
+text: devoted
+kind: word
+pos: adjective
+simpleMeaning: Loving and loyal, ready to give time and care.
+contextualMeaning: A devoted friend, parent or fan stays loyal, even when it is hard.
+usageNotes: "Use it as an adjective or with to: a devoted friend; devoted to her children."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - affection
+tags:
+  - emotion:love
+  - emotion:trust
+searchPhrases:
+  - very loyal and loving
+  - faithful
+  - always there for you
+examples:
+  - text: He is devoted to his family.
+    setting: everyday
+  - text: She was a devoted teacher for forty years.
+    setting: narration
+  - text: “I’m devoted to you,” he said.
+    setting: dialogue
+relations:
+  - to: cherished
+    type: related
+mistakes:
+  - wrong: She is devoted for her family.
+    right: She is devoted to her family.
+    explanation: Use to after devoted.

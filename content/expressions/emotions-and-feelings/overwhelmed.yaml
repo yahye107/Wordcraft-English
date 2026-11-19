@@ -25,7 +25,9 @@ examples:
     setting: narration
   - text: We were overwhelmed with gratitude when the neighbours brought food.
     setting: everyday
-relations: []
+relations:
+  - to: numb
+    type: antonym
 mistakes:
   - wrong: I was overwhelmed of work.
     right: I was overwhelmed by work.

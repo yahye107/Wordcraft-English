@@ -1,0 +1,33 @@
+slug: fuming
+text: fuming
+kind: word
+pos: adjective
+simpleMeaning: Very angry, but quiet about it; the anger burns inside.
+contextualMeaning: "Fuming suggests smoke: heat held in. It is used for someone angry about something unfair."
+usageNotes: "Use it with be or look: she was fuming. It is informal and strong, but below furious."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - rage
+tags:
+  - emotion:anger
+  - technique:body-language
+searchPhrases:
+  - very angry inside
+  - burning with anger
+  - angry and silent
+examples:
+  - text: Dad was fuming when he saw the broken window.
+    setting: everyday
+  - text: She stood fuming at the bus stop.
+    setting: narration
+  - text: “I’m absolutely fuming,” he said.
+    setting: dialogue
+relations:
+  - to: irritated
+    type: stronger
+mistakes:
+  - wrong: He was fuming of the delay.
+    right: He was fuming about the delay.
+    explanation: Use about or at after fuming.

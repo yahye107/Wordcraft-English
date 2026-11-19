@@ -1,0 +1,35 @@
+slug: cherished
+text: cherished
+kind: word
+pos: verb (past)
+simpleMeaning: Loved and cared for someone or something very much.
+contextualMeaning: Cherish is tender and lasting. It is used for people, memories and small treasured things.
+usageNotes: "Use it for deep, gentle love: she cherished the letters. It is warmer than liked and more careful than loved."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - affection
+tags:
+  - emotion:love
+  - technique:characterisation
+searchPhrases:
+  - loved deeply
+  - treasured
+  - held dear
+examples:
+  - text: She cherished every letter he sent.
+    setting: narration
+  - text: I cherished those quiet evenings with my grandmother.
+    setting: everyday
+  - text: Many cultures cherished the old songs.
+    setting: academic
+relations:
+  - to: fond-of
+    type: stronger
+  - to: devoted
+    type: related
+mistakes:
+  - wrong: He cherished to see her.
+    right: He loved seeing her.
+    explanation: Cherish takes a person or a thing, not a verb.

@@ -1,0 +1,35 @@
+slug: over-the-moon
+text: over the moon
+kind: idiom
+simpleMeaning: Extremely happy and excited.
+contextualMeaning: A cheerful everyday idiom, very common in British English for good news such as a win or a baby.
+usageNotes: "Use it in talk or light narration: they were over the moon. It is informal and warm; do not use it in a serious report."
+register: informal
+level: intermediate
+status: draft
+categories:
+  - delight-and-excitement
+tags:
+  - emotion:happiness
+searchPhrases:
+  - extremely happy
+  - delighted and excited
+  - so pleased
+examples:
+  - text: I’m over the moon about the new job.
+    setting: everyday
+  - text: They were over the moon when the baby arrived.
+    setting: narration
+  - text: “We’re over the moon,” she said.
+    setting: dialogue
+relations:
+  - to: overjoyed
+    type: synonym
+  - to: pleased
+    type: stronger
+  - to: on-top-of-the-world
+    type: synonym
+mistakes:
+  - wrong: I am over the moon of joy.
+    right: I am over the moon.
+    explanation: The idiom is complete without of joy.

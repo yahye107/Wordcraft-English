@@ -1,0 +1,33 @@
+slug: slumped
+text: slumped
+kind: word
+pos: verb (past)
+simpleMeaning: Dropped heavily into a bent position because you are tired or sad.
+contextualMeaning: Slumped shoulders or a slumped body show defeat, tiredness or boredom.
+usageNotes: "Use it for posture: he slumped into the chair. It suggests low energy."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - posture
+tags:
+  - technique:body-language
+  - emotion:sadness
+searchPhrases:
+  - sat down heavily
+  - dropped your shoulders
+  - sagged in sadness
+examples:
+  - text: He slumped into the chair and closed his eyes.
+    setting: narration
+  - text: She slumped over her desk after the long shift.
+    setting: everyday
+  - text: Their shoulders slumped when the results came.
+    setting: narration
+relations:
+  - to: squared-his-shoulders
+    type: antonym
+mistakes:
+  - wrong: She slumped straight and proud.
+    right: She stood straight and proud.
+    explanation: Slump means to drop in a tired or sad way.
