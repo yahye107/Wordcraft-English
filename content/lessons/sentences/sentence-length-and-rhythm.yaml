@@ -1,0 +1,48 @@
+slug: sentence-length-and-rhythm
+lab: sentence
+title: Sentence length and rhythm
+summary: Use short, medium and long sentences deliberately, and change length at turning points.
+level: advanced
+sort: 11
+sections:
+  - heading: Short, medium and long
+    paragraphs:
+      - A short sentence has a few words. A medium sentence carries one idea with its details. A long sentence holds several actions or images in a single flow.
+    examples:
+      - text: "{main|He ran.}"
+        note: Short.
+      - text: "{main|He ran across the yard and through the gate.}"
+        note: Medium.
+      - text: "{main|He ran across the yard and through the gate, past the barking dogs and the washing flapping on its line.}"
+        note: Long, with details added one after another.
+  - heading: What length does
+    paragraphs:
+      - Length changes how the reader feels the moment.
+    bullets:
+      - "Short: speed, shock, certainty."
+      - "Medium: ordinary telling, steady pace."
+      - "Long: flow, thought, a building feeling."
+      - "A mix: variety that keeps the reader awake."
+  - heading: Vary the length
+    paragraphs:
+      - Several sentences of the same length become a drumbeat. Mix them, and the writing breathes.
+    examples:
+      - text: "{main|She opened the door. She stepped in. She looked around.}"
+        note: "Three sentences of the same shape: a drumbeat."
+      - text: "{main|She opened the door and stepped into a room that smelled of dust and old paper.} {main|Silence.}"
+        note: "One long sentence and one short one: a rhythm."
+  - heading: Change length at turning points
+    paragraphs:
+      - When something changes, change the sentence length too. A long sentence that ends in a very short one marks the turn.
+    examples:
+      - text: "{main|The afternoon went on and on, one slow hour after another, the clock above the board barely seeming to move.} {main|Then the bell.}"
+        note: A long, slow sentence and then a sharp two-word one.
+  - heading: Use it in a new situation
+    paragraphs:
+      - A dog waiting for a car.
+    examples:
+      - text: "{main|The dog watched the gate.} {main|Waited.} {main|When the car finally turned into the drive, he was already running, barking, spinning in circles, a blur of joy.}"
+        note: Short sentences for waiting, a long one for release.
+related:
+  - abruptly
+  - vast

@@ -1,0 +1,14 @@
+slug: s10-3-build-the-sentence
+lesson: combining-actions-and-dialogue
+level: intermediate
+prompt: Put the pieces in order.
+explanation: Speech first, then the tag, then the action phrase, each separated by a comma.
+type: reorder
+fragments:
+  - “Not yet,”
+  - the guide whispered,
+  - raising one hand.
+accepted:
+  - - 0
+    - 1
+    - 2

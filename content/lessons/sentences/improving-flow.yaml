@@ -1,0 +1,47 @@
+slug: improving-flow
+lab: sentence
+title: Improving flow
+summary: Link ideas smoothly, repeat a structure on purpose, cut filler, and read the result aloud.
+level: advanced
+sort: 12
+sections:
+  - heading: Link ideas with the right word
+    paragraphs:
+      - "Smooth writing shows how each sentence relates to the last. Choose the linking word that says the relationship: result, contrast, time or addition."
+    examples:
+      - text: "{main|The road was closed.} {link|As a result,} {main|we took the longer way.}"
+        note: A result link.
+      - text: "{main|We took the longer way,} {link|but} {main|nothing prepared us for the view.}"
+        note: A contrast link.
+  - heading: Repeat a structure on purpose
+    paragraphs:
+      - When ideas are equal, give them the same shape. This is called parallel structure, and it makes a list feel smooth and deliberate.
+    examples:
+      - text: "{main|She cleaned the kitchen,} {main|folded the washing} {main|and answered every letter.}"
+        note: Three actions with the same shape.
+  - heading: Cut filler
+    paragraphs:
+      - Filler words add length but not meaning. Look for very, really, just, that, started to and began to.
+    bullets:
+      - "Filler: The rain began to start falling very heavily."
+      - "Clean: The rain fell hard."
+      - Cut a word and see if the meaning is lost. If not, it was filler.
+    examples:
+      - text: "{main|The rain began to start falling very heavily.}"
+        note: Five words of filler around one idea.
+      - text: "{main|The rain fell hard.}"
+        note: The same idea in four words.
+  - heading: Read it aloud
+    paragraphs:
+      - Your ear catches what your eye misses. Read your writing aloud. Wherever you stumble, a sentence is too long, too repeated or badly linked. Fix the stumble.
+  - heading: Use it in a new situation
+    paragraphs:
+      - A shop and a queue.
+    examples:
+      - text: "{main|The shop was empty.} {link|Meanwhile,} {main|outside, the queue grew.}"
+        note: A time link joins two scenes that happen together.
+related:
+  - however
+  - meanwhile
+  - moreover
+  - therefore

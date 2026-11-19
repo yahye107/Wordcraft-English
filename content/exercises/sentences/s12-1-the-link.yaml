@@ -1,0 +1,12 @@
+slug: s12-1-the-link
+lesson: improving-flow
+level: advanced
+prompt: Which linking phrase fits? “The road was closed. ___, we took the longer way.”
+explanation: The second sentence is the result of the first, so as a result is the right link.
+type: choose
+options:
+  - As a result
+  - However
+  - Although
+  - While
+answer: 0

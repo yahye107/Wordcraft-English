@@ -1,0 +1,12 @@
+slug: s12-2-no-filler
+lesson: improving-flow
+level: advanced
+prompt: Which sentence has no filler?
+explanation: The first sentence says everything with no spare words. The others add filler.
+type: choose
+options:
+  - The rain fell hard.
+  - The rain began to start falling very heavily.
+  - The rain was just really falling hard.
+  - The rain sort of started to fall.
+answer: 0

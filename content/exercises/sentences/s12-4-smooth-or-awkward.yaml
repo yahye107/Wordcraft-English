@@ -1,0 +1,18 @@
+slug: s12-4-smooth-or-awkward
+lesson: improving-flow
+level: advanced
+prompt: Does each line read smoothly or awkwardly?
+explanation: Smooth lines link ideas and use parallel structure. Awkward lines repeat words and pile up “and”.
+type: identify
+items:
+  - text: The road was closed. As a result, we took the longer way.
+    answer: smooth
+  - text: She was cleaning and she was also doing the washing and she also was answering letters.
+    answer: awkward
+  - text: She cleaned the kitchen, folded the washing and answered every letter.
+    answer: smooth
+  - text: The road was closed. We took the longer way. The road was closed.
+    answer: awkward
+choices:
+  - smooth
+  - awkward

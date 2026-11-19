@@ -1,0 +1,18 @@
+slug: s9-2-builds-or-releases
+lesson: creating-suspense
+level: advanced
+prompt: Does each line build tension or release it?
+explanation: Unanswered facts and short sentences build tension. An explanation or a calm ending releases it.
+type: identify
+items:
+  - text: She stopped. Listened. Nothing.
+    answer: builds tension
+  - text: Everything was fine, and she went to bed happily.
+    answer: releases tension
+  - text: The phone rang once and stopped.
+    answer: builds tension
+  - text: It was only the wind, after all.
+    answer: releases tension
+choices:
+  - builds tension
+  - releases tension

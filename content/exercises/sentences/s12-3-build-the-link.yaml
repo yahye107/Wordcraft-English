@@ -1,0 +1,14 @@
+slug: s12-3-build-the-link
+lesson: improving-flow
+level: advanced
+prompt: Put the pieces in order.
+explanation: The cause, then the link, then the result.
+type: reorder
+fragments:
+  - The road was closed.
+  - As a result,
+  - we took the longer way.
+accepted:
+  - - 0
+    - 1
+    - 2

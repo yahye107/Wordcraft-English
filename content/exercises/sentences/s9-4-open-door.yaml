@@ -1,0 +1,10 @@
+slug: s9-4-open-door
+lesson: creating-suspense
+level: advanced
+prompt: The back door stood ___, though she had locked it.
+explanation: An open door that should be locked is a fact that raises a question and answers nothing.
+type: fill_blank
+accepted:
+  - open
+  - ajar
+  - wide

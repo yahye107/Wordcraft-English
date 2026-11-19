@@ -1,0 +1,14 @@
+slug: s11-4-build-the-turn
+lesson: sentence-length-and-rhythm
+level: advanced
+prompt: Put the pieces in order so the long sentence leads to a short one.
+explanation: The long sentence builds the slow feeling, and the short one marks the turn.
+type: reorder
+fragments:
+  - The afternoon went on and on,
+  - one slow hour after another.
+  - Then the bell.
+accepted:
+  - - 0
+    - 1
+    - 2

@@ -1,0 +1,14 @@
+slug: s9-3-build-the-beat
+lesson: creating-suspense
+level: advanced
+prompt: Put the pieces in order.
+explanation: The event comes first, then the pause, then the silence that follows.
+type: reorder
+fragments:
+  - The stairs creaked.
+  - Once.
+  - Then silence.
+accepted:
+  - - 0
+    - 1
+    - 2

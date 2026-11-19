@@ -1,0 +1,12 @@
+slug: s10-5-write-two
+lesson: combining-actions-and-dialogue
+level: intermediate
+prompt: "Write two sentences that each combine a line of speech with an action: one with the action after the tag and one with a clause that starts with as or while."
+explanation: Check each comma and ask who is performing the action.
+type: free_write
+checklist:
+  - One sentence has speech, a tag and an -ing action phrase in that order.
+  - One sentence uses as or while to set the moment.
+  - Commas are in the right places.
+  - The action belongs to the speaker.
+sample: “Watch your step,” Ines said, steadying the ladder. As the lid creaked open, Paolo whispered, “Don’t touch anything.”

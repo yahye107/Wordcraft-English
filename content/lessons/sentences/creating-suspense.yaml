@@ -1,0 +1,51 @@
+slug: creating-suspense
+lab: sentence
+title: Creating suspense
+summary: Hold information back, tighten the pace with short sentences, and end on the word that matters.
+level: advanced
+sort: 9
+sections:
+  - heading: Withhold information
+    paragraphs:
+      - Suspense grows when the reader knows something is wrong but not what. Give one unsettling fact and hold back the explanation.
+    examples:
+      - text: "{main|Someone had been in the house.} {detail|The back door stood open, though she had locked it.}"
+        note: A fact that raises a question and answers nothing.
+      - text: "{main|The phone rang once and stopped.}"
+        note: An incomplete event is more worrying than a finished one.
+  - heading: Short sentences tighten the pace
+    paragraphs:
+      - Short sentences, even single words, make the reader slow down and listen. The pauses between them feel like held breath.
+    examples:
+      - text: "{main|She stopped.} {main|Listened.} {main|Nothing.}"
+        note: Three very short sentences. The silence is part of the sentence.
+      - text: "{main|The stairs creaked.} {main|Once.} {main|Then silence.}"
+        note: The pauses between sentences build tension.
+  - heading: Delay the reveal
+    paragraphs:
+      - A longer sentence can delay the reveal by piling up actions before the point. The reader is carried forward by the structure and pays attention to the end.
+    examples:
+      - text: "{main|She lifted the lid,} {part|peered into the dark,} {main|and found it empty.}"
+        note: Actions build up, and the surprise lands in the last words.
+  - heading: End on the important word
+    paragraphs:
+      - The end of a sentence is its strongest place. Put the word you want remembered there.
+    examples:
+      - text: "{main|In the mirror, behind her own reflection, something moved.}"
+        note: The sentence ends on the moving thing.
+      - text: "{main|Something moved behind her in the mirror.}"
+        note: The same facts, but the sentence ends on a weak word.
+  - heading: Use it in a new situation
+    paragraphs:
+      - A stuck lift and a pair of footsteps.
+    examples:
+      - text: "{main|The lift stopped between floors.} {main|The lights flickered.} {main|Then they went out.}"
+        note: Three short sentences, each one worse than the last.
+      - text: "{main|He counted the footsteps,} {part|waiting for them to pass,} {sub|but they stopped at his door.}"
+        note: A long sentence that ends on the danger.
+related:
+  - uneasy
+  - apprehensive
+  - hesitated
+  - little-did-she-know
+  - a-heartbeat-later

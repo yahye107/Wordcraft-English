@@ -1,0 +1,12 @@
+slug: s9-1-ends-on-the-key-word
+lesson: creating-suspense
+level: advanced
+prompt: Which sentence ends on the word that matters most?
+explanation: The first version delays the reveal and ends on moved, the key action. The others end on weaker words.
+type: choose
+options:
+  - In the mirror, behind her own reflection, something moved.
+  - Something moved behind her in the mirror.
+  - There was something in the mirror behind her that moved.
+  - She saw movement.
+answer: 0

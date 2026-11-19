@@ -1,0 +1,9 @@
+slug: s10-1-punctuate
+lesson: combining-actions-and-dialogue
+level: intermediate
+prompt: Add the missing punctuation.
+explanation: A comma closes the speech inside the quote, and another comma separates the tag from the action phrase.
+type: fix_punctuation
+broken: “We’re late” Jo said grabbing her keys.
+accepted:
+  - “We’re late,” Jo said, grabbing her keys.

@@ -1,0 +1,18 @@
+slug: s11-1-short-or-long
+lesson: sentence-length-and-rhythm
+level: advanced
+prompt: Is each sentence short or long?
+explanation: A short sentence has only a few words. A long sentence holds several actions or images.
+type: identify
+items:
+  - text: He ran.
+    answer: short
+  - text: She crossed the yard, climbed the wall and dropped into the lane beyond, breathing hard.
+    answer: long
+  - text: Silence.
+    answer: short
+  - text: The afternoon went on and on, one slow hour after another.
+    answer: long
+choices:
+  - short
+  - long

@@ -1,0 +1,12 @@
+slug: s11-2-which-is-varied
+lesson: sentence-length-and-rhythm
+level: advanced
+prompt: Which version has the most varied rhythm?
+explanation: A long sentence followed by a very short one gives variety. The others keep the same length or shape.
+type: choose
+options:
+  - She opened the door. She stepped in. She looked around.
+  - She opened the door and stepped into a room that smelled of dust. Silence.
+  - She opened the door and she stepped in and she looked around.
+  - She opened. She stepped. She looked.
+answer: 1

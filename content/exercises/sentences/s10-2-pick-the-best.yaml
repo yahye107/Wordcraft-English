@@ -1,0 +1,12 @@
+slug: s10-2-pick-the-best
+lesson: combining-actions-and-dialogue
+level: intermediate
+prompt: Which sentence is punctuated correctly?
+explanation: The speech ends with a comma, the tag is lower case, and a comma introduces the participial phrase.
+type: choose
+options:
+  - “Sit down,” she said, pulling out a chair.
+  - “Sit down.” She said, pulling out a chair.
+  - “Sit down,” she pulled out a chair.
+  - “Sit down” she said pulling out a chair.
+answer: 0

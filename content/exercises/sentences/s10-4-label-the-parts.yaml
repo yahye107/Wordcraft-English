@@ -1,0 +1,19 @@
+slug: s10-4-label-the-parts
+lesson: combining-actions-and-dialogue
+level: intermediate
+prompt: "Label each part of: “We’re late,” Jo said, grabbing her keys. “Tea?” he asked."
+explanation: Speech is in quotation marks, a tag names the speaker, and an action phrase is an -ing phrase after the tag.
+type: identify
+items:
+  - text: “We’re late,”
+    answer: speech
+  - text: Jo said,
+    answer: tag
+  - text: grabbing her keys.
+    answer: action phrase
+  - text: “Tea?”
+    answer: speech
+choices:
+  - speech
+  - tag
+  - action phrase

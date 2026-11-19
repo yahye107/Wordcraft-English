@@ -1,0 +1,46 @@
+slug: combining-actions-and-dialogue
+lab: sentence
+title: Combining actions and dialogue
+summary: Hold a gesture and a line of speech in one sentence, with the right punctuation.
+level: intermediate
+sort: 10
+sections:
+  - heading: Speech and action in one sentence
+    paragraphs:
+      - A tag can carry an action as well. Add a participial phrase after the tag, or put the action first.
+    examples:
+      - text: "{speech|“We’re late,”} {main|Jo said,} {part|grabbing her keys.}"
+        note: The action follows the tag, after a comma.
+      - text: "{part|Grabbing her keys,} {main|Jo said,} {speech|“We’re late.”}"
+        note: The action comes first and the speech follows the tag.
+  - heading: Use a clause for timing
+    paragraphs:
+      - A time clause such as “as” or “while” links the speech to the action that happens at the same moment.
+    examples:
+      - text: "{sub|As the kettle clicked off,} {main|he said,} {speech|“Tea?”}"
+        note: The clause places the line at an exact moment.
+  - heading: Keep the action short
+    paragraphs:
+      - A short action fits easily beside speech. A long one pulls attention away from what is said.
+    examples:
+      - text: "{speech|“Sit down,”} {main|she said,} {part|pulling out a chair.}"
+        note: One short action that supports the words.
+  - heading: Keep the action with the speaker
+    paragraphs:
+      - The action in the phrase must belong to the person who speaks. If it does not, make it a separate sentence instead.
+    bullets:
+      - "Right: “Sit down,” she said, pulling out a chair."
+      - "Wrong: Pulling out a chair, “Sit down,” she said. (clumsy order)"
+      - "If someone else acts, write a new sentence: Tom pulled out a chair."
+  - heading: Use it in a new situation
+    paragraphs:
+      - On a guided walk.
+    examples:
+      - text: "{speech|“Not yet,”} {main|the guide whispered,} {part|raising one hand.}"
+        note: A whisper and a raised hand in one sentence.
+      - text: "{sub|While the others argued,} {main|Teo murmured,} {speech|“I’ll go first.”}"
+        note: A clause gives the setting and the speech follows.
+related:
+  - shrugged
+  - folded-her-arms
+  - whispered
