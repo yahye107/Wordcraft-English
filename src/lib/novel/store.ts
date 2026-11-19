@@ -54,8 +54,7 @@ export function saveAnalysis(
   const existing = db.get<{ id: number }>('SELECT id FROM novel_analyses WHERE excerpt_hash = ?', [hashOf(input.excerpt)]);
   if (existing) return { ok: true, id: existing.id, existing: true };
 
-  const count = db.get<{ n: number }>('SELECT COUNT(*) n FROM novel_analyses')!.n;
-  if (count >= NOVEL_LIMITS.stored) {
+  if (analysisCount(db) >= NOVEL_LIMITS.stored) {
     return fail(`You have ${NOVEL_LIMITS.stored} saved analyses, which is the limit. Delete some you no longer need.`);
   }
   const r = db.run(
@@ -64,6 +63,8 @@ export function saveAnalysis(
   );
   return { ok: true, id: r.lastInsertRowid, existing: false };
 }
+
+export const analysisCount = (db: Db): number => db.get<{ n: number }>('SELECT COUNT(*) n FROM novel_analyses')!.n;
 
 export function listAnalyses(db: Db, limit = NOVEL_LIMITS.stored): AnalysisSummary[] {
   return db
