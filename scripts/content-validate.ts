@@ -11,5 +11,5 @@ if (errors.length > 0) {
 }
 
 console.log(
-  `Content OK: ${bundle.expressions.length} expressions, ${bundle.contrasts.length} contrast groups.`,
+  `Content OK: ${bundle.expressions.length} expressions, ${bundle.contrasts.length} contrast groups, ${bundle.lessons.length} lessons, ${bundle.exercises.length} exercises.`,
 );

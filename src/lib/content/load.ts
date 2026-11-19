@@ -6,6 +6,8 @@ import {
   CategoriesFile,
   ContrastFile,
   ExpressionFile,
+  LessonFile,
+  ExerciseFile,
   type CategoryNode,
   type ContentBundle,
 } from './schemas';
@@ -53,7 +55,7 @@ function collectCategorySlugs(nodes: CategoryNode[], seen: Set<string>, errors: 
 /** Read and validate everything under a content directory. Collects every error. */
 export function loadContent(dir: string): { bundle: ContentBundle; errors: ContentError[] } {
   const errors: ContentError[] = [];
-  const bundle: ContentBundle = { categories: [], expressions: [], contrasts: [] };
+  const bundle: ContentBundle = { categories: [], expressions: [], contrasts: [], lessons: [], exercises: [] };
 
   const catFile = path.join(dir, 'categories.yaml');
   if (fs.existsSync(catFile)) {
@@ -91,6 +93,34 @@ export function loadContent(dir: string): { bundle: ContentBundle; errors: Conte
     bundle.contrasts.push(c);
   }
 
+  const lessonFiles = new Map<string, string>();
+  for (const file of walk(path.join(dir, 'lessons'))) {
+    const l = parseFile(dir, file, LessonFile, errors);
+    if (!l) continue;
+    const rel = path.relative(dir, file).split(path.sep).join('/');
+    const prior = lessonFiles.get(l.slug);
+    if (prior) {
+      errors.push({ file: rel, message: `duplicate lesson slug "${l.slug}" (also in ${prior}, ${rel})` });
+      continue;
+    }
+    lessonFiles.set(l.slug, rel);
+    bundle.lessons.push(l);
+  }
+
+  const exerciseFiles = new Map<string, string>();
+  for (const file of walk(path.join(dir, 'exercises'))) {
+    const x = parseFile(dir, file, ExerciseFile, errors);
+    if (!x) continue;
+    const rel = path.relative(dir, file).split(path.sep).join('/');
+    const prior = exerciseFiles.get(x.slug);
+    if (prior) {
+      errors.push({ file: rel, message: `duplicate exercise slug "${x.slug}" (also in ${prior}, ${rel})` });
+      continue;
+    }
+    exerciseFiles.set(x.slug, rel);
+    bundle.exercises.push(x);
+  }
+
   // Cross-reference checks
   const categorySlugs = new Set<string>();
   collectCategorySlugs(bundle.categories, categorySlugs, errors);
@@ -103,6 +133,18 @@ export function loadContent(dir: string): { bundle: ContentBundle; errors: Conte
     }
     for (const r of e.relations) {
       if (!expressionSlugs.has(r.to)) errors.push({ file: rel, message: `relation to unknown expression "${r.to}"` });
+    }
+  }
+  const lessonSlugs = new Set(bundle.lessons.map((l) => l.slug));
+  for (const l of bundle.lessons) {
+    const rel = lessonFiles.get(l.slug)!;
+    for (const r of l.related) {
+      if (!expressionSlugs.has(r)) errors.push({ file: rel, message: `related is an unknown expression "${r}"` });
+    }
+  }
+  for (const x of bundle.exercises) {
+    if (!lessonSlugs.has(x.lesson)) {
+      errors.push({ file: exerciseFiles.get(x.slug)!, message: `exercise belongs to unknown lesson "${x.lesson}"` });
     }
   }
   for (const c of bundle.contrasts) {
