@@ -154,12 +154,17 @@ function loadGroup(db: Db, groupId: number, slug: string, title: string, explana
   return { slug, title, explanation, members };
 }
 
+/** A contrast needs at least two words a learner can see; a group left with one is hidden until more are published. */
+const MIN_VISIBLE_MEMBERS = 2;
+
 export function getContrastGroup(db: Db, slug: string): ContrastGroupDetail | undefined {
   const g = db.get<{ id: number; slug: string; title: string; explanation: string }>(
     'SELECT id, slug, title, explanation FROM contrast_groups WHERE slug = ?',
     [slug],
   );
-  return g && loadGroup(db, g.id, g.slug, g.title, g.explanation);
+  if (!g) return undefined;
+  const group = loadGroup(db, g.id, g.slug, g.title, g.explanation);
+  return group.members.length >= MIN_VISIBLE_MEMBERS ? group : undefined;
 }
 
 export function getExpression(db: Db, slug: string): ExpressionDetail | undefined {
@@ -201,7 +206,8 @@ export function getExpression(db: Db, slug: string): ExpressionDetail | undefine
        JOIN contrast_group_members m ON m.group_id = g.id WHERE m.expression_id = ? ORDER BY g.title`,
       [row.id],
     )
-    .map((g) => loadGroup(db, g.id, g.slug, g.title, g.explanation));
+    .map((g) => loadGroup(db, g.id, g.slug, g.title, g.explanation))
+    .filter((g) => g.members.length >= MIN_VISIBLE_MEMBERS);
 
   return {
     ...toSummary(row),
