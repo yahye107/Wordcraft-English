@@ -12,6 +12,9 @@ function setup(): Db {
   return db;
 }
 
+const allFinite = (v: unknown): boolean =>
+  typeof v === 'number' ? Number.isFinite(v) : Array.isArray(v) ? v.every(allFinite) : v && typeof v === 'object' ? Object.values(v).every(allFinite) : true;
+
 let n = 0;
 function card(db: Db, c: { reps: number; interval: number; due: string }) {
   n++;
@@ -49,7 +52,7 @@ describe('getStudyStats: empty', () => {
       ['dialogue', 0, 0, 0, 0],
       ['sentence', 0, 0, 0, 0],
     ]);
-    expect(JSON.stringify(s)).not.toMatch(/NaN|Infinity|null.*null.*null.*null.*null.*null.*null.*null.*null.*null.*null.*null/);
+    expect(allFinite(s)).toBe(true);
   });
 });
 
