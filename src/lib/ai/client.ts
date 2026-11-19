@@ -13,6 +13,7 @@ export class AiUnavailableError extends Error {
 }
 
 export type AiRequest = {
+  feature: string;
   model: string;
   system: string;
   user: string;
@@ -35,10 +36,37 @@ export function hasApiKey(): boolean {
 
 /** True when AI calls can be attempted (a key is set, or the test mock is on). */
 export function aiConfigured(): boolean {
-  return hasApiKey() || (process.env.WORDCRAFT_AI_MOCK === '1' && mockResponder !== null);
+  return hasApiKey() || (process.env.WORDCRAFT_AI_MOCK === '1' && mockResponder !== null) || process.env.WORDCRAFT_AI_MOCK === 'fixture';
+}
+
+/**
+ * Test only (WORDCRAFT_AI_MOCK=fixture): canned replies so the end-to-end server can exercise the AI
+ * features without a key or a network call. Never active in normal use.
+ */
+function fixtureResponse(req: AiRequest): AiResponse {
+  const usage = { inputTokens: 100, outputTokens: 50 };
+  if (req.feature === 'tutor-feedback') {
+    const text = /<<<WRITING\n([\s\S]*?)\nWRITING>>>/.exec(req.user)?.[1] ?? '';
+    const first = text.trim().split(/\s+/)[0] ?? '';
+    const issues = first
+      ? [{
+          category: 'naturalness', type: 'fixture-issue', quote: first,
+          why: 'This is a fixed test comment about your opening word.',
+          hint1: 'Look at the very first word of your writing.',
+          hint2: 'Openings set the tone, so choose the first word on purpose.',
+          hint3: 'Try starting with a detail, a place or an action instead.',
+        }]
+      : [];
+    return { text: JSON.stringify({ issues, strengths: ['You wrote something real.'], overall: 'A fixed test overall comment.', nextStep: 'Change your opening.' }), ...usage };
+  }
+  if (req.feature === 'model-version') {
+    return { text: JSON.stringify({ text: 'This is one possible version of your writing for the test.' }), ...usage };
+  }
+  return { text: JSON.stringify({ terms: [], exclude: [], relation: null }), ...usage };
 }
 
 async function callModel(req: AiRequest): Promise<AiResponse> {
+  if (process.env.WORDCRAFT_AI_MOCK === 'fixture') return fixtureResponse(req);
   if (process.env.WORDCRAFT_AI_MOCK === '1' && mockResponder) return mockResponder(req);
 
   // Short timeout and one retry: a page waiting on the model must not hang for minutes.
@@ -77,10 +105,11 @@ export async function askClaude<T>(opts: {
   effort?: Effort;
 }): Promise<T> {
   if (isOverBudget(opts.db)) throw new AiUnavailableError('The monthly AI spend cap has been reached.');
-  if (!aiConfigured()) throw new AiUnavailableError('No ANTHROPIC_API_KEY is set.');
+  if (!aiConfigured()) throw new AiUnavailableError('No ANTHROPIC_API_KEY is set, so AI feedback is off.');
 
   const model = opts.model ?? getModels(opts.db)[opts.tier ?? 'main'];
   const req: AiRequest = {
+    feature: opts.feature,
     model,
     system: opts.system,
     user: opts.user,
