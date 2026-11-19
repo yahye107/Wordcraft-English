@@ -1,0 +1,152 @@
+export type Migration = { version: number; name: string; sql: string };
+
+/**
+ * Migrations live in code (not .sql files) so they bundle cleanly with Next.js.
+ * Append new migrations; never edit one that has shipped.
+ */
+export const MIGRATIONS: Migration[] = [
+  {
+    version: 1,
+    name: 'content',
+    sql: `
+CREATE TABLE categories (
+  id INTEGER PRIMARY KEY,
+  slug TEXT NOT NULL UNIQUE,
+  name TEXT NOT NULL,
+  description TEXT NOT NULL DEFAULT '',
+  parent_id INTEGER REFERENCES categories(id) ON DELETE CASCADE,
+  sort INTEGER NOT NULL DEFAULT 0
+);
+
+CREATE TABLE expressions (
+  id INTEGER PRIMARY KEY,
+  slug TEXT NOT NULL UNIQUE,
+  text TEXT NOT NULL,
+  kind TEXT NOT NULL,
+  pos TEXT,
+  simple_meaning TEXT NOT NULL,
+  contextual_meaning TEXT NOT NULL,
+  usage_notes TEXT NOT NULL,
+  intensity INTEGER,
+  register TEXT NOT NULL,
+  level TEXT NOT NULL,
+  status TEXT NOT NULL DEFAULT 'published'
+);
+CREATE INDEX idx_expressions_level ON expressions(level);
+CREATE INDEX idx_expressions_status ON expressions(status);
+
+CREATE TABLE expression_categories (
+  expression_id INTEGER NOT NULL REFERENCES expressions(id) ON DELETE CASCADE,
+  category_id INTEGER NOT NULL REFERENCES categories(id) ON DELETE CASCADE,
+  is_primary INTEGER NOT NULL DEFAULT 0,
+  PRIMARY KEY (expression_id, category_id)
+);
+CREATE INDEX idx_expcat_category ON expression_categories(category_id);
+
+CREATE TABLE examples (
+  id INTEGER PRIMARY KEY,
+  expression_id INTEGER NOT NULL REFERENCES expressions(id) ON DELETE CASCADE,
+  text TEXT NOT NULL,
+  setting TEXT NOT NULL,
+  context_note TEXT,
+  sort INTEGER NOT NULL DEFAULT 0
+);
+CREATE INDEX idx_examples_expression ON examples(expression_id);
+
+CREATE TABLE relations (
+  id INTEGER PRIMARY KEY,
+  from_id INTEGER NOT NULL REFERENCES expressions(id) ON DELETE CASCADE,
+  to_id INTEGER NOT NULL REFERENCES expressions(id) ON DELETE CASCADE,
+  type TEXT NOT NULL,
+  note TEXT
+);
+CREATE INDEX idx_relations_from ON relations(from_id);
+CREATE INDEX idx_relations_to ON relations(to_id);
+
+CREATE TABLE contrast_groups (
+  id INTEGER PRIMARY KEY,
+  slug TEXT NOT NULL UNIQUE,
+  title TEXT NOT NULL,
+  explanation TEXT NOT NULL
+);
+
+CREATE TABLE contrast_group_members (
+  group_id INTEGER NOT NULL REFERENCES contrast_groups(id) ON DELETE CASCADE,
+  expression_id INTEGER NOT NULL REFERENCES expressions(id) ON DELETE CASCADE,
+  note TEXT NOT NULL,
+  example TEXT NOT NULL,
+  sort INTEGER NOT NULL DEFAULT 0,
+  PRIMARY KEY (group_id, expression_id)
+);
+CREATE INDEX idx_cgm_expression ON contrast_group_members(expression_id);
+
+CREATE TABLE mistakes (
+  id INTEGER PRIMARY KEY,
+  expression_id INTEGER NOT NULL REFERENCES expressions(id) ON DELETE CASCADE,
+  wrong TEXT NOT NULL,
+  right TEXT NOT NULL,
+  explanation TEXT NOT NULL
+);
+CREATE INDEX idx_mistakes_expression ON mistakes(expression_id);
+
+CREATE TABLE tags (
+  id INTEGER PRIMARY KEY,
+  slug TEXT NOT NULL UNIQUE,
+  kind TEXT NOT NULL,
+  name TEXT NOT NULL
+);
+
+CREATE TABLE expression_tags (
+  expression_id INTEGER NOT NULL REFERENCES expressions(id) ON DELETE CASCADE,
+  tag_id INTEGER NOT NULL REFERENCES tags(id) ON DELETE CASCADE,
+  PRIMARY KEY (expression_id, tag_id)
+);
+CREATE INDEX idx_exptags_tag ON expression_tags(tag_id);
+
+CREATE TABLE search_phrases (
+  id INTEGER PRIMARY KEY,
+  expression_id INTEGER NOT NULL REFERENCES expressions(id) ON DELETE CASCADE,
+  phrase TEXT NOT NULL
+);
+CREATE INDEX idx_phrases_expression ON search_phrases(expression_id);
+
+-- rowid = expressions.id; populated by the seeder, not by triggers.
+CREATE VIRTUAL TABLE expressions_fts USING fts5(
+  slug UNINDEXED,
+  text,
+  meanings,
+  usage,
+  examples,
+  phrases,
+  tags,
+  tokenize = 'porter unicode61 remove_diacritics 2'
+);
+`,
+  },
+  {
+    version: 2,
+    name: 'settings_ai',
+    sql: `
+CREATE TABLE settings (
+  key TEXT PRIMARY KEY,
+  value TEXT NOT NULL
+);
+
+CREATE TABLE ai_usage (
+  id INTEGER PRIMARY KEY,
+  feature TEXT NOT NULL,
+  model TEXT NOT NULL,
+  input_tokens INTEGER NOT NULL DEFAULT 0,
+  output_tokens INTEGER NOT NULL DEFAULT 0,
+  est_cost_usd REAL NOT NULL DEFAULT 0,
+  created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now'))
+);
+
+CREATE TABLE ai_cache (
+  key TEXT PRIMARY KEY,
+  value TEXT NOT NULL,
+  created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now'))
+);
+`,
+  },
+];
