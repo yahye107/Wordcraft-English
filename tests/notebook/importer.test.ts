@@ -63,6 +63,24 @@ describe('parseObsidianNotes', () => {
     expect(parseObsidianNotes(text)).toEqual([{ text: 'lonely', meaning: '', source: 'B, p.1' }]);
   });
 
+  it('recognises callouts that are nested one level deeper, as in real Obsidian notes', () => {
+    const text = `> [!PDF|note] [[B.pdf#page=1|B, p.1]]
+> > alpha
+> first meaning
+> > [!PDF|note] [[B.pdf#page=2|B, p.2]]
+> > beta
+> second meaning
+> [!PDF|important] [[B.pdf#page=3|B, p.3]]
+> > gamma
+> third meaning
+`;
+    expect(parseObsidianNotes(text)).toEqual([
+      { text: 'alpha', meaning: 'first meaning', source: 'B, p.1' },
+      { text: 'beta', meaning: 'second meaning', source: 'B, p.2' },
+      { text: 'gamma', meaning: 'third meaning', source: 'B, p.3' },
+    ]);
+  });
+
   it('returns nothing for empty text or text with no callouts', () => {
     expect(parseObsidianNotes('')).toEqual([]);
     expect(parseObsidianNotes('Just some notes.\n\nNo callouts here.')).toEqual([]);

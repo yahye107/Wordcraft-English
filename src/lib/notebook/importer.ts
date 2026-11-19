@@ -5,8 +5,8 @@ import { LIMITS, fail, type Fail } from './limits';
 export type ParsedNote = { text: string; meaning: string; source: string | null };
 
 const MAX_NOTES = 5000;
-const CALLOUT_START = /^\s*>\s*\[!PDF\|/;
-const ANY_CALLOUT = /^\s*>\s*\[!/;
+const CALLOUT_START = /^(?:\s*>)+\s*\[!PDF\|/;
+const ANY_CALLOUT = /^(?:\s*>)+\s*\[!/;
 const QUOTE_PREFIX = /^(?:\s*>)+\s*/;
 
 /** The text shown for the link, such as "The Giver - Lois Lowry, p.3". */
