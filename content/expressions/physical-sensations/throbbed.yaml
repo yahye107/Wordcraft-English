@@ -1,0 +1,31 @@
+slug: throbbed
+text: throbbed
+kind: word
+pos: verb (past)
+simpleMeaning: Hurt with strong, regular pulses of pain.
+contextualMeaning: Pain that comes in beats, like a heartbeat. It is often in the head, a finger or a wound.
+usageNotes: 'Use it to show pain through the body: "her head throbbed". It can also describe loud music or feelings.'
+intensity: 3
+register: neutral
+level: intermediate
+status: published
+categories:
+  - pain-and-discomfort
+tags:
+  - technique:physical-reaction
+searchPhrases:
+  - pulsed with pain
+  - ached in beats
+  - hurt in waves
+examples:
+  - text: His ankle throbbed with every step.
+    setting: narration
+  - text: Her head throbbed after the long flight.
+    setting: narration
+  - text: “My thumb is throbbing,” he complained, sucking on it.
+    setting: dialogue
+relations: []
+mistakes:
+  - wrong: The pain throbbed constantly without change.
+    right: The pain was constant and dull.
+    explanation: Throbbing implies beats that come and go.

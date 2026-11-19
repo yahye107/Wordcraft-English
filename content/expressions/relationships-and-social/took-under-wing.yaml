@@ -1,0 +1,30 @@
+slug: took-under-wing
+text: took him under her wing
+kind: idiom
+simpleMeaning: Started to look after and guide someone younger or less experienced.
+contextualMeaning: A kind of protection and teaching. It often happens at school or at work.
+usageNotes: 'Change pronouns: "She took the new girl under her wing." It suggests care and some difference in age or experience.'
+register: neutral
+level: advanced
+status: published
+categories:
+  - friendship-and-trust
+  - family-ties
+tags:
+  - situation:mentoring
+searchPhrases:
+  - became his guide
+  - looked after a younger person
+  - mentored
+examples:
+  - text: An older nurse took her under her wing on the first day.
+    setting: narration
+  - text: “Don’t worry,” he said. “I’ll take you under my wing.”
+    setting: dialogue
+  - text: The manager took the young intern under his wing.
+    setting: professional
+relations: []
+mistakes:
+  - wrong: She took him under wing.
+    right: She took him under her wing.
+    explanation: "The idiom needs a possessive: her wing."

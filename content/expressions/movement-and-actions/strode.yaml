@@ -1,0 +1,35 @@
+slug: strode
+text: strode
+kind: word
+pos: verb (past)
+simpleMeaning: Walked with long, firm steps, as if you know where you are going.
+contextualMeaning: Confidence, purpose or anger. The body moves with force.
+usageNotes: 'Use it to show a strong entrance or decision: "strode into the room". Add a direction word: strode up, strode across.'
+register: literary
+level: advanced
+status: published
+categories:
+  - walking-and-moving
+tags:
+  - technique:movement
+  - emotion:confidence
+searchPhrases:
+  - walked with long confident steps
+  - marched purposefully
+  - walked boldly
+examples:
+  - text: She strode across the hall and demanded an answer.
+    setting: narration
+  - text: The captain strode onto the pitch to loud cheering.
+    setting: narration
+  - text: He strode off without a word, his jaw tight.
+    setting: narration
+relations:
+  - to: strolled
+    type: antonym
+  - to: trudged
+    type: antonym
+mistakes:
+  - wrong: She strode slowly with tired legs.
+    right: She trudged with tired legs.
+    explanation: Strode is confident and brisk. Tired, heavy steps are "trudged".

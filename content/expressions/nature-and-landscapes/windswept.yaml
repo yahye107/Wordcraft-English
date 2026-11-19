@@ -1,0 +1,31 @@
+slug: windswept
+text: windswept
+kind: word
+pos: adjective
+simpleMeaning: Open to strong winds and often looking bare or wild.
+contextualMeaning: "A picture of cliffs, moors and beaches where the wind shapes everything: bent trees, rough grass."
+usageNotes: Use it to set a wild, lonely mood. It can also describe hair or clothes blown by the wind.
+register: literary
+level: advanced
+status: published
+categories:
+  - landscapes
+tags:
+  - technique:setting
+  - technique:imagery
+searchPhrases:
+  - open and blown by wind
+  - wild and exposed
+  - bleak coast or hill
+examples:
+  - text: A windswept beach lay empty under the grey sky.
+    setting: narration
+  - text: They climbed the windswept moor at dawn.
+    setting: narration
+  - text: Her windswept hair stuck to her face.
+    setting: narration
+relations: []
+mistakes:
+  - wrong: The windswept room was warm and still.
+    right: The still room was warm and quiet.
+    explanation: Windswept needs wind and openness. It does not suit a calm, closed room.

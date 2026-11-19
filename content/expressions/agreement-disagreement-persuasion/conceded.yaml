@@ -1,0 +1,32 @@
+slug: conceded
+text: conceded
+kind: word
+pos: verb (past)
+simpleMeaning: Admitted that something is true or right, often after first resisting.
+contextualMeaning: The speaker gives a little. It signals a small defeat or a polite honest point.
+usageNotes: Use "conceded that…" or "conceded the point". It adds the idea of reluctance.
+register: formal
+level: advanced
+status: published
+categories:
+  - agreeing
+  - disagreeing
+tags:
+  - situation:giving-in
+  - technique:dialogue-tag
+searchPhrases:
+  - admitted reluctantly
+  - agreed after resisting
+  - gave in
+examples:
+  - text: “You’re right,” she conceded. “I should have asked.”
+    setting: dialogue
+  - text: He conceded that the plan had flaws.
+    setting: professional
+  - text: After an hour of debate, the council conceded the point.
+    setting: narration
+relations: []
+mistakes:
+  - wrong: She conceded happily and quickly.
+    right: She agreed happily and quickly.
+    explanation: Concede suggests reluctance, so it does not fit a quick, happy yes.

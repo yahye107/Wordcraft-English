@@ -1,0 +1,36 @@
+slug: persuaded
+text: persuaded
+kind: word
+pos: verb (past)
+simpleMeaning: Made someone agree or do something by giving reasons.
+contextualMeaning: The person changed their mind because of what was said. The tone is reasonable.
+usageNotes: 'Pattern: "persuaded someone to do something" or "persuaded someone that…". The result must be successful.'
+register: neutral
+level: intermediate
+status: published
+categories:
+  - persuading
+tags:
+  - situation:persuasion
+searchPhrases:
+  - made someone agree
+  - talked someone into
+  - changed someone’s mind with reasons
+examples:
+  - text: She persuaded her dad to buy the old piano.
+    setting: narration
+  - text: “I’ve persuaded them to wait,” said Ines.
+    setting: dialogue
+  - text: The report persuaded the board that change was needed.
+    setting: professional
+relations:
+  - to: urged
+    type: related
+  - to: coaxed
+    type: related
+  - to: badgered
+    type: related
+mistakes:
+  - wrong: I persuaded him but he said no.
+    right: I tried to persuade him but he said no.
+    explanation: Persuaded means success. If it failed, use "tried to persuade".

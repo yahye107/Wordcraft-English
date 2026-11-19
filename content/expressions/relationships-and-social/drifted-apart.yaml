@@ -1,0 +1,30 @@
+slug: drifted-apart
+text: drifted apart
+kind: phrase
+pos: phrasal verb
+simpleMeaning: Slowly stopped being close, without a fight.
+contextualMeaning: A friendship or marriage fades through time, distance or different lives, not through a single event.
+usageNotes: Shows a gentle, sad ending. "They drifted apart after school."
+register: neutral
+level: intermediate
+status: published
+categories:
+  - friendship-and-trust
+tags:
+  - situation:friendship-fading
+searchPhrases:
+  - slowly stopped being close
+  - lost touch
+  - grew distant
+examples:
+  - text: After university, the old friends slowly drifted apart.
+    setting: narration
+  - text: “We didn’t fight,” she said. “We just drifted apart.”
+    setting: dialogue
+  - text: The two brothers drifted apart when one moved abroad.
+    setting: narration
+relations: []
+mistakes:
+  - wrong: They drifted apart suddenly after a big argument.
+    right: They fell out after a big argument.
+    explanation: Drifted apart is slow. A sudden break is "fell out".

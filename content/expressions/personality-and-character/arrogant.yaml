@@ -1,0 +1,31 @@
+slug: arrogant
+text: arrogant
+kind: word
+pos: adjective
+simpleMeaning: Thinking you are better or more important than other people, and showing it.
+contextualMeaning: Overconfidence that looks down on others. Others are annoyed or hurt.
+usageNotes: 'Show with behaviour: interrupting, boasting, ignoring advice. Compare with "confident", which is positive.'
+register: neutral
+level: intermediate
+status: published
+categories:
+  - difficult-traits
+tags:
+  - technique:characterisation
+  - emotion:pride
+searchPhrases:
+  - thinks he is better than others
+  - too proud
+  - full of himself
+examples:
+  - text: The arrogant young chef ignored every suggestion.
+    setting: narration
+  - text: “Don’t be so arrogant,” Elif said. “You’re not always right.”
+    setting: dialogue
+  - text: His arrogant tone made the team angry.
+    setting: everyday
+relations: []
+mistakes:
+  - wrong: She is arrogant because she is sure about her skill.
+    right: She is confident because she is sure about her skill.
+    explanation: Arrogant is negative. Healthy self-belief is confidence.

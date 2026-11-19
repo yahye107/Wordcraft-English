@@ -1,0 +1,34 @@
+slug: coaxed
+text: coaxed
+kind: word
+pos: verb (past)
+simpleMeaning: Gently and patiently persuaded someone to do something.
+contextualMeaning: A soft approach for a shy, scared or unwilling person or animal.
+usageNotes: 'Use it for kindness and patience: "coaxed the cat out", "coaxed a smile out of him".'
+register: neutral
+level: advanced
+status: published
+categories:
+  - persuading
+tags:
+  - situation:persuasion
+searchPhrases:
+  - gently persuaded
+  - talked someone gently into
+  - sweet-talked
+examples:
+  - text: She coaxed the shy child out from behind the sofa.
+    setting: narration
+  - text: “Just one bite,” he coaxed.
+    setting: dialogue
+  - text: The nurse coaxed a smile from the little patient.
+    setting: narration
+relations:
+  - to: persuaded
+    type: related
+  - to: badgered
+    type: antonym
+mistakes:
+  - wrong: He coaxed her angrily to sign.
+    right: He pressed her angrily to sign.
+    explanation: Coax is soft and patient, so anger does not fit.

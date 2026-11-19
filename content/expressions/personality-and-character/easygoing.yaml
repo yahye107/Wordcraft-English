@@ -1,0 +1,32 @@
+slug: easygoing
+text: easygoing
+kind: word
+pos: adjective
+simpleMeaning: Relaxed and not easily worried or upset.
+contextualMeaning: A person who accepts changes and mistakes without fuss. It is a warm, friendly description.
+usageNotes: Often used for people you like to be around. It can sometimes hint at someone who does not push for what they want.
+register: conversational
+level: intermediate
+status: published
+categories:
+  - temperament
+tags:
+  - technique:characterisation
+searchPhrases:
+  - relaxed about things
+  - doesn’t get upset
+  - calm and flexible
+examples:
+  - text: Our new teacher is easygoing and always smiling.
+    setting: everyday
+  - text: “I’m easygoing,” Sam said. “Pizza or pasta, I don’t mind.”
+    setting: dialogue
+  - text: He had an easygoing manner that put everyone at ease.
+    setting: narration
+relations:
+  - to: stubborn
+    type: antonym
+mistakes:
+  - wrong: She is easygoing about her exam and checks each answer ten times.
+    right: She is anxious about her exam and checks each answer ten times.
+    explanation: Easygoing means relaxed, so it does not fit an anxious habit.

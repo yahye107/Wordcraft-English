@@ -1,0 +1,32 @@
+slug: made-up-her-mind
+text: made up her mind
+kind: idiom
+simpleMeaning: Finally decided what to do, after thinking about it.
+contextualMeaning: The moment a decision becomes firm. It suggests that doubt is over.
+usageNotes: 'Change the pronoun: "He made up his mind to leave." Often paired with "once…" or "at last".'
+register: conversational
+level: intermediate
+status: published
+categories:
+  - deciding
+tags:
+  - technique:internal-thought
+  - situation:making-choices
+searchPhrases:
+  - decided
+  - came to a decision
+  - chose at last
+examples:
+  - text: She made up her mind and booked the ticket that night.
+    setting: narration
+  - text: “I’ve made up my mind,” he said. “I’m staying.”
+    setting: dialogue
+  - text: Once Dad has made up his mind, nothing changes it.
+    setting: everyday
+relations:
+  - to: weighed-up
+    type: related
+mistakes:
+  - wrong: She made up her minds.
+    right: She made up her mind.
+    explanation: It is one mind, so the noun is singular.

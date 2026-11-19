@@ -1,0 +1,32 @@
+slug: stubborn
+text: stubborn
+kind: word
+pos: adjective
+simpleMeaning: Refusing to change your mind or way of doing things, even when others give good reasons.
+contextualMeaning: Firm in a way that others find tiring. It can be negative (unreasonable) or positive (strong-willed).
+usageNotes: 'Show it with action: arms folded, same answer repeated. "Stubborn as a mule" is a common comparison.'
+register: neutral
+level: beginner
+status: published
+categories:
+  - difficult-traits
+tags:
+  - technique:characterisation
+searchPhrases:
+  - won’t change his mind
+  - refuses to give in
+  - headstrong
+examples:
+  - text: Her stubborn father refused to see a doctor.
+    setting: narration
+  - text: “Don’t be so stubborn,” Mina said. “Just try it.”
+    setting: dialogue
+  - text: The stain was stubborn and would not come out.
+    setting: everyday
+relations:
+  - to: easygoing
+    type: antonym
+mistakes:
+  - wrong: He is stubborn and flexible.
+    right: He is stubborn and rarely changes his mind.
+    explanation: Stubborn means not flexible, so the two ideas conflict.

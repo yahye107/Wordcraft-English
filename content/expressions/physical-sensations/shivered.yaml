@@ -1,0 +1,33 @@
+slug: shivered
+text: shivered
+kind: word
+pos: verb (past)
+simpleMeaning: Shook slightly because you are cold, afraid or excited.
+contextualMeaning: A quick tremble that runs through the body. Cold is the usual cause, but fear or strong feeling can too.
+usageNotes: 'Use it for weather and for atmosphere: "she shivered, though the room was warm" hints at fear.'
+register: neutral
+level: intermediate
+status: published
+categories:
+  - temperature
+tags:
+  - technique:physical-reaction
+  - emotion:fear
+searchPhrases:
+  - trembled with cold
+  - shook slightly
+  - felt a chill
+examples:
+  - text: She shivered in the thin jacket.
+    setting: narration
+  - text: He shivered at the sound of footsteps behind him.
+    setting: narration
+  - text: “Are you cold?” “A little,” she said, shivering.
+    setting: dialogue
+relations:
+  - to: flushed
+    type: antonym
+mistakes:
+  - wrong: She shivered because of the hot sun.
+    right: She flushed in the hot sun.
+    explanation: Shiver means cold, fear or excitement. Heat makes people flush or sweat.

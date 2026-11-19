@@ -1,0 +1,32 @@
+slug: drained
+text: drained
+kind: word
+pos: adjective
+simpleMeaning: Feeling completely tired, with no energy left.
+contextualMeaning: Strength and feeling have gone out of the person. It can be physical or emotional.
+usageNotes: 'Use it after a long effort: "emotionally drained", "drained after the exam".'
+intensity: 4
+register: neutral
+level: intermediate
+status: published
+categories:
+  - tiredness-and-energy
+tags:
+  - technique:physical-reaction
+  - emotion:exhaustion
+searchPhrases:
+  - totally exhausted
+  - no energy left
+  - emptied out
+examples:
+  - text: She felt drained after the long argument.
+    setting: narration
+  - text: “I’m completely drained,” he said, dropping onto the sofa.
+    setting: dialogue
+  - text: The nurses were drained by the double shift.
+    setting: professional
+relations: []
+mistakes:
+  - wrong: She felt drained to sleep.
+    right: She felt drained and wanted to sleep.
+    explanation: Drained is an adjective; it is not followed by "to + verb".

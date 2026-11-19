@@ -1,0 +1,34 @@
+slug: lush
+text: lush
+kind: word
+pos: adjective
+simpleMeaning: Growing thickly and healthily, with rich green plants.
+contextualMeaning: A place that looks fresh, rich and full of life. It can also describe something rich and luxurious.
+usageNotes: Use it for gardens, valleys, forests and grass. "Lush green" is common, but try to add one specific detail so the picture is clear.
+register: neutral
+level: intermediate
+status: published
+categories:
+  - plants-and-animals
+  - landscapes
+tags:
+  - technique:setting
+  - technique:imagery
+searchPhrases:
+  - thick green plants
+  - full of healthy growth
+  - rich and green
+examples:
+  - text: The valley was lush after the spring rains.
+    setting: narration
+  - text: A lush lawn rolled down to the lake.
+    setting: narration
+  - text: “Look how lush the garden is,” Aunt Rosa said.
+    setting: dialogue
+relations:
+  - to: barren
+    type: antonym
+mistakes:
+  - wrong: The desert was lush and dry.
+    right: The oasis was lush; the desert was dry.
+    explanation: Lush means rich with plants, so it cannot describe dry desert.

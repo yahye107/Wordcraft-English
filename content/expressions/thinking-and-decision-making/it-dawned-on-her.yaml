@@ -1,0 +1,30 @@
+slug: it-dawned-on-her
+text: it dawned on her
+kind: idiom
+simpleMeaning: She slowly or suddenly began to understand something.
+contextualMeaning: A realisation arrives like daylight. It can be gradual, but the moment of understanding is clear.
+usageNotes: 'Pattern: "It dawned on her that…" or "The truth dawned on him." Change the pronoun. Good for plot twists and quiet turning points.'
+register: literary
+level: advanced
+status: published
+categories:
+  - realising
+tags:
+  - technique:internal-thought
+  - situation:realisation
+searchPhrases:
+  - suddenly realised
+  - the truth became clear
+  - finally understood
+examples:
+  - text: It slowly dawned on her that the letter had been meant for someone else.
+    setting: narration
+  - text: It dawned on Tom that he had left the oven on.
+    setting: narration
+  - text: “It just dawned on me,” she said. “We’ve been talking about different houses.”
+    setting: dialogue
+relations: []
+mistakes:
+  - wrong: It dawned on her the answer.
+    right: The answer dawned on her. / It dawned on her that…
+    explanation: Use a "that" clause, or make the realisation the subject.

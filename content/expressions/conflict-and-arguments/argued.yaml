@@ -1,0 +1,37 @@
+slug: argued
+text: argued
+kind: word
+pos: verb (past)
+simpleMeaning: Spoke with someone in an angry or serious way because you disagreed.
+contextualMeaning: The general word. There is real disagreement and often raised voices.
+usageNotes: 'Use "argued with someone about something". It can also mean giving reasons for an idea: "argued that…".'
+intensity: 3
+register: neutral
+level: beginner
+status: published
+categories:
+  - arguing
+tags:
+  - situation:conflict
+searchPhrases:
+  - disagreed with words
+  - had an argument
+  - exchanged angry words
+examples:
+  - text: The two brothers argued about money.
+    setting: narration
+  - text: “Don’t argue with me,” Dad said.
+    setting: dialogue
+  - text: She argued that the fee was unfair.
+    setting: professional
+relations:
+  - to: quarrelled
+    type: related
+  - to: bickered
+    type: related
+  - to: squabbled
+    type: related
+mistakes:
+  - wrong: They argued to each other.
+    right: They argued with each other.
+    explanation: The preposition is "with".

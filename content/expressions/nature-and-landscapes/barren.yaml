@@ -1,0 +1,33 @@
+slug: barren
+text: barren
+kind: word
+pos: adjective
+simpleMeaning: So dry or poor that few plants can grow there.
+contextualMeaning: Empty, lifeless land. It often carries a mood of loneliness or hopelessness.
+usageNotes: 'Use for deserts, rock and wasteland. It can also be figurative: "a barren life".'
+register: literary
+level: advanced
+status: published
+categories:
+  - landscapes
+tags:
+  - technique:setting
+  - technique:imagery
+searchPhrases:
+  - nothing grows
+  - empty and dry land
+  - bare and lifeless
+examples:
+  - text: The barren hills stretched to the horizon.
+    setting: narration
+  - text: Nothing but stone and dust covered the barren plain.
+    setting: narration
+  - text: “We can’t farm this barren soil,” the old man sighed.
+    setting: dialogue
+relations:
+  - to: lush
+    type: antonym
+mistakes:
+  - wrong: A barren forest full of animals.
+    right: A thick forest full of animals.
+    explanation: Barren means little life. A forest full of animals is the opposite.

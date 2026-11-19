@@ -1,0 +1,32 @@
+slug: drizzle
+text: drizzle
+kind: word
+pos: noun/verb
+simpleMeaning: Light rain in very small drops.
+contextualMeaning: Grey, soft, wet weather that does not stop people but makes everything damp and dull.
+usageNotes: 'Use it for mood: a gentle, gloomy, quiet day. "A fine drizzle" is common.'
+register: neutral
+level: intermediate
+status: published
+categories:
+  - weather
+tags:
+  - technique:setting
+searchPhrases:
+  - light rain
+  - fine rain
+  - misty rain
+examples:
+  - text: A fine drizzle fell on the empty street.
+    setting: narration
+  - text: It drizzled all morning, so we stayed in.
+    setting: everyday
+  - text: “Just a drizzle,” he said, pulling up his hood.
+    setting: dialogue
+relations:
+  - to: downpour
+    type: antonym
+mistakes:
+  - wrong: A heavy drizzle flooded the roads.
+    right: A heavy downpour flooded the roads.
+    explanation: Drizzle is light by definition.

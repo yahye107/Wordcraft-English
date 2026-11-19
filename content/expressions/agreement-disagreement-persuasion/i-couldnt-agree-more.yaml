@@ -1,0 +1,29 @@
+slug: i-couldnt-agree-more
+text: I couldn’t agree more
+kind: phrase
+simpleMeaning: I completely agree with you.
+contextualMeaning: Strong, friendly agreement. The speaker adds energy and sides with the other person.
+usageNotes: Use it in speech and dialogue. In formal writing, prefer "I fully agree".
+register: conversational
+level: intermediate
+status: published
+categories:
+  - agreeing
+tags:
+  - situation:agreeing
+searchPhrases:
+  - I completely agree
+  - you’re absolutely right
+  - totally with you
+examples:
+  - text: “The film was too long.” “I couldn’t agree more.”
+    setting: dialogue
+  - text: “We need more time.” “Couldn’t agree more,” said Karim.
+    setting: dialogue
+  - text: I couldn’t agree more with your point about the budget.
+    setting: professional
+relations: []
+mistakes:
+  - wrong: I could agree more.
+    right: I couldn’t agree more.
+    explanation: The negative form carries the strong meaning.

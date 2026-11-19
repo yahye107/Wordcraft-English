@@ -1,0 +1,33 @@
+slug: sauntered
+text: sauntered
+kind: word
+pos: verb (past)
+simpleMeaning: Walked slowly in a relaxed, confident way, often as if nothing worried you.
+contextualMeaning: A stroll with attitude. It can show ease, cool confidence, or a lack of respect.
+usageNotes: Use it for characters who want to look unbothered. It adds personality to the walk.
+register: literary
+level: advanced
+status: published
+categories:
+  - walking-and-moving
+tags:
+  - technique:movement
+  - emotion:confidence
+searchPhrases:
+  - walked in a relaxed confident way
+  - strolled with attitude
+  - walked casually and cool
+examples:
+  - text: Kade sauntered in as if the meeting had not started without him.
+    setting: narration
+  - text: The cat sauntered across the table and knocked off a glass.
+    setting: narration
+  - text: “No hurry,” he said, sauntering to the door.
+    setting: dialogue
+relations:
+  - to: strolled
+    type: related
+mistakes:
+  - wrong: She sauntered in fear through the forest.
+    right: She crept in fear through the forest.
+    explanation: Sauntering is relaxed and confident, not afraid.

@@ -1,0 +1,35 @@
+slug: pondered
+text: pondered
+kind: word
+pos: verb (past)
+simpleMeaning: Thought about something carefully and for some time.
+contextualMeaning: Calm, serious thinking, often about a big question or a choice that has no quick answer.
+usageNotes: 'Pattern: "pondered the question" or "pondered whether…". It sounds thoughtful and slightly formal.'
+register: literary
+level: advanced
+status: published
+categories:
+  - reasoning
+tags:
+  - technique:internal-thought
+searchPhrases:
+  - thought deeply about
+  - thought carefully
+  - considered slowly
+examples:
+  - text: She pondered the offer for a week before replying.
+    setting: narration
+  - text: “I’ve been pondering what you said,” Hal told her.
+    setting: dialogue
+  - text: He pondered whether to tell the truth.
+    setting: narration
+relations:
+  - to: mulled-over
+    type: related
+  - to: brooded
+    type: related
+    note: brooding is unhappy and repeating
+mistakes:
+  - wrong: He pondered quickly and made a snap decision.
+    right: He thought quickly and made a snap decision.
+    explanation: Ponder means slow, careful thought, so it does not fit "quickly".

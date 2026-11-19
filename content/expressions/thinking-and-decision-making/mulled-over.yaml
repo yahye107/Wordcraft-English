@@ -1,0 +1,32 @@
+slug: mulled-over
+text: mulled over
+kind: phrase
+pos: phrasal verb
+simpleMeaning: Thought about something slowly and carefully, often over a period of time.
+contextualMeaning: A relaxed, practical type of thinking. The person is turning a decision around, not suffering over it.
+usageNotes: Use "mull something over" or "mull over something". Good for plans, offers and ideas.
+register: conversational
+level: intermediate
+status: published
+categories:
+  - reasoning
+tags:
+  - technique:internal-thought
+searchPhrases:
+  - thought about for a while
+  - turned an idea over in the mind
+  - considered casually
+examples:
+  - text: I’ll mull it over tonight and give you an answer in the morning.
+    setting: dialogue
+  - text: Ana mulled over the job offer on her walk home.
+    setting: narration
+  - text: The committee mulled over the proposal for several weeks.
+    setting: professional
+relations:
+  - to: pondered
+    type: related
+mistakes:
+  - wrong: He mulled over for the decision.
+    right: He mulled over the decision.
+    explanation: The phrasal verb takes a direct object without "for".

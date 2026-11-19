@@ -1,0 +1,36 @@
+slug: bickered
+text: bickered
+kind: word
+pos: verb (past)
+simpleMeaning: Argued in a repeated, small, irritated way about unimportant things.
+contextualMeaning: Low-level, almost habitual arguing. It is often between people who know each other well.
+usageNotes: Use "bickered about/over something". It can sound affectionate or tiring depending on the scene.
+intensity: 2
+register: neutral
+level: advanced
+status: published
+categories:
+  - arguing
+tags:
+  - situation:conflict
+  - emotion:irritation
+searchPhrases:
+  - argued about small things
+  - kept arguing over little matters
+  - petty arguing
+examples:
+  - text: The old couple bickered all the way to the station.
+    setting: narration
+  - text: “Stop bickering, you two,” Mum said.
+    setting: dialogue
+  - text: The children bickered over who would sit by the window.
+    setting: narration
+relations:
+  - to: squabbled
+    type: related
+  - to: quarrelled
+    type: stronger
+mistakes:
+  - wrong: They bickered about the war and lost their friendship.
+    right: They quarrelled about the war and lost their friendship.
+    explanation: Bicker is for small matters. A serious break needs a serious word.

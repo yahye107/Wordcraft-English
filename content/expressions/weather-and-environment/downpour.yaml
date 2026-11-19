@@ -1,0 +1,32 @@
+slug: downpour
+text: downpour
+kind: word
+pos: noun
+simpleMeaning: A sudden, very heavy fall of rain.
+contextualMeaning: Loud, fast and strong. People run for shelter, streets flood and plans change.
+usageNotes: 'Use it for drama: "caught in a downpour". Often sudden, so it fits an unexpected interruption.'
+register: neutral
+level: intermediate
+status: published
+categories:
+  - weather
+tags:
+  - technique:setting
+searchPhrases:
+  - very heavy rain
+  - sudden heavy rain
+  - rain pouring down
+examples:
+  - text: We were caught in a sudden downpour and ran for the bus stop.
+    setting: narration
+  - text: The downpour drummed on the tin roof.
+    setting: narration
+  - text: “A downpour like this will flood the road,” Dad said.
+    setting: dialogue
+relations:
+  - to: drizzle
+    type: antonym
+mistakes:
+  - wrong: A gentle downpour fell softly.
+    right: A gentle drizzle fell softly.
+    explanation: Downpour is heavy and loud. For soft rain, use drizzle.

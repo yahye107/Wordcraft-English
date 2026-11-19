@@ -1,0 +1,30 @@
+slug: confided-in
+text: confided in
+kind: phrase
+pos: phrasal verb
+simpleMeaning: Told someone private or secret things because you trust them.
+contextualMeaning: Trust at work. It marks closeness between two people.
+usageNotes: 'Pattern: "confided in someone" or "confided that…". The secret can be a worry, a fear or a plan.'
+register: neutral
+level: advanced
+status: published
+categories:
+  - friendship-and-trust
+tags:
+  - situation:trust
+searchPhrases:
+  - shared a secret with
+  - told private things to
+  - trusted someone with a secret
+examples:
+  - text: She confided in her sister about the money problems.
+    setting: narration
+  - text: “I’ve never told anyone this,” he confided.
+    setting: dialogue
+  - text: He had no one to confide in at the new school.
+    setting: narration
+relations: []
+mistakes:
+  - wrong: She confided her sister.
+    right: She confided in her sister.
+    explanation: You confide in a person. You confide a secret to them.

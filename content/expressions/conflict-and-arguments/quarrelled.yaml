@@ -1,0 +1,36 @@
+slug: quarrelled
+text: quarrelled
+kind: word
+pos: verb (past)
+simpleMeaning: Had an angry argument, often with someone close to you.
+contextualMeaning: A serious, personal fight in words. It can damage a relationship. The word sounds a little old-fashioned.
+usageNotes: Often used for family, friends or lovers. British spelling is "quarrelled"; American is "quarreled".
+intensity: 3
+register: formal
+level: intermediate
+status: published
+categories:
+  - arguing
+tags:
+  - situation:conflict
+  - emotion:anger
+searchPhrases:
+  - had an angry fight with words
+  - fell out
+  - had a falling out
+examples:
+  - text: The sisters quarrelled bitterly over their mother’s house.
+    setting: narration
+  - text: “We quarrelled last night,” she admitted.
+    setting: dialogue
+  - text: The neighbours quarrelled about the fence for years.
+    setting: narration
+relations:
+  - to: argued
+    type: related
+  - to: bickered
+    type: related
+mistakes:
+  - wrong: They quarrelled about the weather for fun.
+    right: They chatted about the weather for fun.
+    explanation: A quarrel is angry and serious, not light.

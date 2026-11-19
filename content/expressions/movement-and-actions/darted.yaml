@@ -1,0 +1,30 @@
+slug: darted
+text: darted
+kind: word
+pos: verb (past)
+simpleMeaning: Moved quickly and suddenly in a particular direction.
+contextualMeaning: "Short, quick, light movement, often by something small: eyes, birds, a child."
+usageNotes: 'Common with eyes and small animals: "her eyes darted around the room".'
+register: neutral
+level: intermediate
+status: published
+categories:
+  - quick-movement
+tags:
+  - technique:movement
+searchPhrases:
+  - moved quickly and suddenly
+  - dashed
+  - moved in quick small movements
+examples:
+  - text: A lizard darted under the rock.
+    setting: narration
+  - text: His eyes darted to the door.
+    setting: narration
+  - text: The little boy darted across the garden.
+    setting: narration
+relations: []
+mistakes:
+  - wrong: The elephant darted heavily.
+    right: The elephant lumbered.
+    explanation: Darted is quick and light, not heavy.

@@ -1,0 +1,31 @@
+slug: rippled
+text: rippled
+kind: word
+pos: verb (past)
+simpleMeaning: Formed or moved in small waves on a surface.
+contextualMeaning: A gentle movement across water, but also across grass, cloth, muscles or sound.
+usageNotes: 'Use it to make something still feel alive: "The lake rippled in the breeze". It also works for feelings or laughter spreading.'
+register: neutral
+level: intermediate
+status: published
+categories:
+  - water-and-shore
+tags:
+  - technique:imagery
+  - technique:setting
+searchPhrases:
+  - made small waves
+  - moved in little waves
+  - spread in circles on water
+examples:
+  - text: The pond rippled as the duck swam by.
+    setting: narration
+  - text: A murmur of laughter rippled through the room.
+    setting: narration
+  - text: The wheat rippled in the wind like water.
+    setting: narration
+relations: []
+mistakes:
+  - wrong: The ocean rippled in a violent storm.
+    right: The ocean heaved in a violent storm.
+    explanation: Ripples are small and gentle. A violent sea needs a stronger verb.

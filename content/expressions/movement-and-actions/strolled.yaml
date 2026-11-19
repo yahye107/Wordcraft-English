@@ -1,0 +1,36 @@
+slug: strolled
+text: strolled
+kind: word
+pos: verb (past)
+simpleMeaning: Walked slowly in a relaxed way, with no hurry.
+contextualMeaning: Pleasure or calm. The walker has time and enjoys it.
+usageNotes: Fits parks, streets, evening walks. No sense of goal or hurry.
+register: neutral
+level: intermediate
+status: published
+categories:
+  - walking-and-moving
+tags:
+  - technique:movement
+searchPhrases:
+  - walked slowly for pleasure
+  - walked in a relaxed way
+  - took a leisurely walk
+examples:
+  - text: They strolled along the river after dinner.
+    setting: narration
+  - text: “Let’s stroll back,” Mei said. “There’s no rush.”
+    setting: dialogue
+  - text: He strolled into the office ten minutes late, unbothered.
+    setting: narration
+relations:
+  - to: sauntered
+    type: related
+  - to: strode
+    type: antonym
+  - to: trudged
+    type: antonym
+mistakes:
+  - wrong: He strolled to catch the last bus.
+    right: He hurried to catch the last bus.
+    explanation: A stroll is relaxed. Catching a bus needs urgency.

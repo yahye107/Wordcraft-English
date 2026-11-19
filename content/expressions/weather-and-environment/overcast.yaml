@@ -1,0 +1,31 @@
+slug: overcast
+text: overcast
+kind: word
+pos: adjective
+simpleMeaning: Covered with grey clouds.
+contextualMeaning: A flat, grey day without sun or rain. The light is dull and the mood is quiet or gloomy.
+usageNotes: 'Describes the sky: "an overcast morning". It sets a dull or restful tone.'
+register: neutral
+level: intermediate
+status: published
+categories:
+  - weather
+  - light-and-dark
+tags:
+  - technique:setting
+searchPhrases:
+  - cloudy sky
+  - grey and cloudy
+  - no sun
+examples:
+  - text: It was a cold, overcast afternoon.
+    setting: narration
+  - text: “It’s overcast today, so take a jacket,” Mum said.
+    setting: dialogue
+  - text: The overcast sky made the harbour look grey and flat.
+    setting: narration
+relations: []
+mistakes:
+  - wrong: The sky was overcast with stars.
+    right: The sky was clear and full of stars.
+    explanation: Overcast means clouds cover the sky, so stars cannot be seen.

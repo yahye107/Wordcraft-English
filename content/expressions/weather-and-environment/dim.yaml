@@ -1,0 +1,30 @@
+slug: dim
+text: dim
+kind: word
+pos: adjective
+simpleMeaning: Not bright. There is only a little light.
+contextualMeaning: A soft, low light that makes shapes hard to see. It can feel calm, mysterious or sad.
+usageNotes: Good for rooms, lamps, corridors and memories. "A dim light flickered."
+register: neutral
+level: intermediate
+status: published
+categories:
+  - light-and-dark
+tags:
+  - technique:setting
+searchPhrases:
+  - not bright
+  - low light
+  - faintly lit
+examples:
+  - text: A dim lamp lit the corner of the room.
+    setting: narration
+  - text: In the dim corridor, he could barely see the doors.
+    setting: narration
+  - text: “It’s too dim to read,” Gran said.
+    setting: dialogue
+relations: []
+mistakes:
+  - wrong: The sun was dim at noon in the desert.
+    right: The sun was fierce at noon in the desert.
+    explanation: Dim means low light. A desert noon is very bright.

@@ -1,0 +1,36 @@
+slug: badgered
+text: badgered
+kind: word
+pos: verb (past)
+simpleMeaning: Kept asking or pressing someone until they gave in or got annoyed.
+contextualMeaning: Repeated, annoying pressure. The target feels tired and irritated.
+usageNotes: 'Pattern: "badgered someone into doing something" or "badgered someone for something".'
+intensity: 3
+register: informal
+level: advanced
+status: published
+categories:
+  - persuading
+tags:
+  - situation:persuasion
+  - emotion:irritation
+searchPhrases:
+  - kept asking until someone gave in
+  - nagged
+  - pestered
+examples:
+  - text: The kids badgered their dad until he agreed to a dog.
+    setting: narration
+  - text: “Stop badgering me,” she said. “I’ll tell you tomorrow.”
+    setting: dialogue
+  - text: Reporters badgered the minister for an answer.
+    setting: professional
+relations:
+  - to: coaxed
+    type: antonym
+  - to: persuaded
+    type: related
+mistakes:
+  - wrong: He badgered her with kindness.
+    right: He coaxed her with kindness.
+    explanation: Badger is annoying pressure. Kindness is coaxing.

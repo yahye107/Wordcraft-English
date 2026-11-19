@@ -1,0 +1,37 @@
+slug: brooded
+text: brooded
+kind: word
+pos: verb (past)
+simpleMeaning: Thought for a long time about something that makes you unhappy or angry.
+contextualMeaning: The same sad or angry thought goes round and round. The person is often silent and withdrawn.
+usageNotes: 'Pattern: "brooded over/about something". It adds mood, so use it for dark atmosphere.'
+intensity: 3
+register: literary
+level: advanced
+status: published
+categories:
+  - reasoning
+tags:
+  - technique:internal-thought
+  - emotion:sadness
+  - emotion:resentment
+searchPhrases:
+  - thought unhappily for a long time
+  - dwelt on a problem
+  - sulked and thought
+examples:
+  - text: He brooded over the argument for days.
+    setting: narration
+  - text: She sat brooding by the window while the rain fell.
+    setting: narration
+  - text: “Stop brooding,” Jo said. “It won’t change anything.”
+    setting: dialogue
+relations:
+  - to: pondered
+    type: related
+  - to: mulled-over
+    type: related
+mistakes:
+  - wrong: She brooded happily about her holiday.
+    right: She daydreamed happily about her holiday.
+    explanation: Brooding is always unhappy or angry.

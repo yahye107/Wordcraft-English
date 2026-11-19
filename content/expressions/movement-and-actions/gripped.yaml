@@ -1,0 +1,32 @@
+slug: gripped
+text: gripped
+kind: word
+pos: verb (past)
+simpleMeaning: Held something very tightly.
+contextualMeaning: "Shows strong effort or strong feeling: fear, anger, pain, need."
+usageNotes: Use it to show tension through the hands. "Gripped the wheel / the rail / her arm."
+intensity: 3
+register: neutral
+level: intermediate
+status: published
+categories:
+  - handling-objects
+tags:
+  - technique:movement
+  - emotion:tension
+searchPhrases:
+  - held tightly
+  - took a firm hold
+  - held on hard
+examples:
+  - text: She gripped the railing as the boat tilted.
+    setting: narration
+  - text: He gripped the letter so hard it crumpled.
+    setting: narration
+  - text: “Don’t let go,” she said, gripping his hand.
+    setting: dialogue
+relations: []
+mistakes:
+  - wrong: She gripped the flower gently.
+    right: She held the flower gently.
+    explanation: Grip means tight. A gentle hold is "held" or "cradled".

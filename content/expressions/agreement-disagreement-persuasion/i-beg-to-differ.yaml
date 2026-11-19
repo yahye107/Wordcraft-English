@@ -1,0 +1,29 @@
+slug: i-beg-to-differ
+text: I beg to differ
+kind: phrase
+simpleMeaning: A polite and firm way to say "I disagree".
+contextualMeaning: Courteous on the surface and often a little sharp. It can also sound old-fashioned or ironic.
+usageNotes: Use when you want to disagree without shouting. The tone is cool, formal or witty.
+register: formal
+level: advanced
+status: published
+categories:
+  - disagreeing
+tags:
+  - situation:disagreeing
+searchPhrases:
+  - I don’t agree
+  - politely disagreeing
+  - I see it differently
+examples:
+  - text: “That’s impossible.” “I beg to differ,” said Dr Singh.
+    setting: dialogue
+  - text: “I beg to differ,” she said, “the figures show the opposite.”
+    setting: dialogue
+  - text: With respect, I beg to differ on the second point.
+    setting: professional
+relations: []
+mistakes:
+  - wrong: I begged to differ with him angrily.
+    right: I strongly disagreed with him.
+    explanation: The phrase is polite. It does not suit an angry shout.

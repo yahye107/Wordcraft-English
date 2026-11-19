@@ -1,0 +1,33 @@
+slug: urged
+text: urged
+kind: word
+pos: verb (past)
+simpleMeaning: Strongly encouraged someone to do something.
+contextualMeaning: The speaker is pressing, with energy and concern. It does not guarantee the person will agree.
+usageNotes: 'Pattern: "urged someone to do something". It can be gentle or intense.'
+register: neutral
+level: intermediate
+status: published
+categories:
+  - persuading
+tags:
+  - situation:persuasion
+  - technique:dialogue-tag
+searchPhrases:
+  - strongly advised
+  - pushed someone to
+  - insisted someone should
+examples:
+  - text: “Go now,” she urged. “There’s no time.”
+    setting: dialogue
+  - text: The doctor urged him to rest.
+    setting: narration
+  - text: Friends urged her to apply for the job.
+    setting: everyday
+relations:
+  - to: persuaded
+    type: related
+mistakes:
+  - wrong: She urged him quietly and not at all strongly.
+    right: She encouraged him gently.
+    explanation: Urged implies strong pressing, not a light word.

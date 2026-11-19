@@ -1,0 +1,34 @@
+slug: flushed
+text: flushed
+kind: word
+pos: verb (past)
+simpleMeaning: Became red in the face, because of heat, embarrassment, anger or excitement.
+contextualMeaning: The colour change gives away a feeling. It is quick and visible.
+usageNotes: 'Pair it with the cause: "flushed with embarrassment / with anger / from the heat".'
+intensity: 3
+register: neutral
+level: intermediate
+status: published
+categories:
+  - temperature
+tags:
+  - technique:physical-reaction
+  - emotion:embarrassment
+searchPhrases:
+  - went red
+  - face turned red
+  - blushed
+examples:
+  - text: Her cheeks flushed when he said her name.
+    setting: narration
+  - text: He flushed with anger and left the room.
+    setting: narration
+  - text: The runners were flushed and breathless at the finish.
+    setting: narration
+relations:
+  - to: shivered
+    type: antonym
+mistakes:
+  - wrong: She flushed pale.
+    right: She turned pale.
+    explanation: Flushed means red. Pale is the opposite.

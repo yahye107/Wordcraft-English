@@ -1,0 +1,32 @@
+slug: squabbled
+text: squabbled
+kind: word
+pos: verb (past)
+simpleMeaning: Argued noisily, especially about something unimportant.
+contextualMeaning: Childish or petty fighting. Often noisy, quick and short.
+usageNotes: Used for children, animals and people who are acting small. "Squabble over a toy / over scraps".
+intensity: 2
+register: informal
+level: advanced
+status: published
+categories:
+  - arguing
+tags:
+  - situation:conflict
+searchPhrases:
+  - argued noisily about nothing important
+  - fought over small things
+examples:
+  - text: The gulls squabbled over a chip on the pavement.
+    setting: narration
+  - text: The twins squabbled over the remote control.
+    setting: narration
+  - text: “Don’t squabble,” Gran warned. “There is enough for everyone.”
+    setting: dialogue
+relations:
+  - to: bickered
+    type: related
+mistakes:
+  - wrong: The two nations squabbled and went to war.
+    right: The two nations quarrelled and went to war.
+    explanation: Squabble makes a conflict sound small. A war is not a squabble.

@@ -1,0 +1,35 @@
+slug: trudged
+text: trudged
+kind: word
+pos: verb (past)
+simpleMeaning: Walked slowly and heavily, because you are tired or the way is hard.
+contextualMeaning: Effort and low spirits. Snow, mud, hills and bad days are common companions.
+usageNotes: 'It shows weariness through movement. Often followed by a heavy ground: "trudged through the snow".'
+register: neutral
+level: advanced
+status: published
+categories:
+  - walking-and-moving
+tags:
+  - technique:movement
+  - emotion:tiredness
+searchPhrases:
+  - walked slowly with effort
+  - dragged his feet
+  - walked heavily
+examples:
+  - text: We trudged up the hill with our heavy bags.
+    setting: narration
+  - text: She trudged home in the rain after the long shift.
+    setting: narration
+  - text: “Come on,” he said, trudging on through the mud.
+    setting: dialogue
+relations:
+  - to: strolled
+    type: antonym
+  - to: strode
+    type: antonym
+mistakes:
+  - wrong: He trudged happily along the beach.
+    right: He strolled happily along the beach.
+    explanation: Trudged carries effort and gloom. A happy walk is a stroll.

@@ -1,0 +1,30 @@
+slug: meticulous
+text: meticulous
+kind: word
+pos: adjective
+simpleMeaning: Very careful about small details.
+contextualMeaning: A person or piece of work that is done with great care and attention. Mostly admiring.
+usageNotes: 'Use for planning, records, craft and research: "a meticulous record", "meticulous attention to detail".'
+register: formal
+level: advanced
+status: published
+categories:
+  - admirable-traits
+tags:
+  - technique:characterisation
+searchPhrases:
+  - very careful about details
+  - precise
+  - careful and thorough
+examples:
+  - text: She kept meticulous notes in a small blue book.
+    setting: narration
+  - text: The restorer was meticulous, checking every brush stroke.
+    setting: narration
+  - text: We admire her meticulous research.
+    setting: academic
+relations: []
+mistakes:
+  - wrong: He was meticulous and careless with his work.
+    right: He was meticulous with his work.
+    explanation: Meticulous already means very careful, so careless contradicts it.

@@ -1,0 +1,31 @@
+slug: patched-things-up
+text: patched things up
+kind: idiom
+simpleMeaning: Made a relationship good again after a disagreement.
+contextualMeaning: The fight is over and some trust is restored. It may not be perfect, but it works again.
+usageNotes: 'Change the tense: "They patched things up." Often with "after a fight" or "before the wedding".'
+register: conversational
+level: intermediate
+status: published
+categories:
+  - making-peace
+tags:
+  - situation:reconciliation
+searchPhrases:
+  - made up after a fight
+  - fixed the relationship
+  - made peace
+examples:
+  - text: The two friends patched things up over coffee.
+    setting: narration
+  - text: “Let’s patch things up,” Leo said. “I hate fighting with you.”
+    setting: dialogue
+  - text: She patched things up with her boss before leaving.
+    setting: everyday
+relations:
+  - to: quarrelled
+    type: antonym
+mistakes:
+  - wrong: They patched up things.
+    right: They patched things up. / They patched up their quarrel.
+    explanation: 'With "things" the phrase is split: patched things up.'

@@ -1,0 +1,34 @@
+slug: weighed-up
+text: weighed up
+kind: phrase
+pos: phrasal verb
+simpleMeaning: Considered the good and bad points of something before deciding.
+contextualMeaning: A comparison. There are two or more options and each has costs and benefits.
+usageNotes: Use "weigh up the options/the risks/the pros and cons". It fits practical decisions.
+register: neutral
+level: intermediate
+status: published
+categories:
+  - reasoning
+  - deciding
+tags:
+  - technique:internal-thought
+  - situation:making-choices
+searchPhrases:
+  - compared pros and cons
+  - thought about advantages and disadvantages
+  - balanced the options
+examples:
+  - text: He weighed up the risks before signing the contract.
+    setting: narration
+  - text: “Give me a moment to weigh up the options,” Sofia said.
+    setting: dialogue
+  - text: She weighed up the pros and cons of moving abroad.
+    setting: everyday
+relations:
+  - to: pondered
+    type: related
+mistakes:
+  - wrong: She weighed up the box in her hands.
+    right: She weighed the box in her hands.
+    explanation: '"Weigh up" is about decisions. For physical weight, use "weigh".'

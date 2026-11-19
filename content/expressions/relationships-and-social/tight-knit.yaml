@@ -1,0 +1,31 @@
+slug: tight-knit
+text: tight-knit
+kind: word
+pos: adjective
+simpleMeaning: Very close, with strong bonds between the members.
+contextualMeaning: "A group where people know and support each other: a family, a team, a small town."
+usageNotes: 'Use for groups, not single people: "a tight-knit family/community/team".'
+register: neutral
+level: advanced
+status: published
+categories:
+  - family-ties
+  - friendship-and-trust
+tags:
+  - situation:belonging
+searchPhrases:
+  - very close group
+  - everyone knows everyone
+  - strong bonds
+examples:
+  - text: They grew up in a tight-knit community by the sea.
+    setting: narration
+  - text: “We’re a tight-knit team,” the coach said.
+    setting: dialogue
+  - text: The tight-knit family gathered every Sunday.
+    setting: everyday
+relations: []
+mistakes:
+  - wrong: He is a very tight-knit man.
+    right: He belongs to a tight-knit family.
+    explanation: Tight-knit describes a group, not one person.
