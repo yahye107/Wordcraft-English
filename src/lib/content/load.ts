@@ -8,6 +8,7 @@ import {
   ExpressionFile,
   LessonFile,
   ExerciseFile,
+  PromptFile,
   type CategoryNode,
   type ContentBundle,
 } from './schemas';
@@ -55,7 +56,7 @@ function collectCategorySlugs(nodes: CategoryNode[], seen: Set<string>, errors: 
 /** Read and validate everything under a content directory. Collects every error. */
 export function loadContent(dir: string): { bundle: ContentBundle; errors: ContentError[] } {
   const errors: ContentError[] = [];
-  const bundle: ContentBundle = { categories: [], expressions: [], contrasts: [], lessons: [], exercises: [] };
+  const bundle: ContentBundle = { categories: [], expressions: [], contrasts: [], lessons: [], exercises: [], prompts: [] };
 
   const catFile = path.join(dir, 'categories.yaml');
   if (fs.existsSync(catFile)) {
@@ -121,6 +122,20 @@ export function loadContent(dir: string): { bundle: ContentBundle; errors: Conte
     bundle.exercises.push(x);
   }
 
+  const promptFiles = new Map<string, string>();
+  for (const file of walk(path.join(dir, 'prompts'))) {
+    const x = parseFile(dir, file, PromptFile, errors);
+    if (!x) continue;
+    const rel = path.relative(dir, file).split(path.sep).join('/');
+    const prior = promptFiles.get(x.slug);
+    if (prior) {
+      errors.push({ file: rel, message: `duplicate prompt slug "${x.slug}" (also in ${prior}, ${rel})` });
+      continue;
+    }
+    promptFiles.set(x.slug, rel);
+    bundle.prompts.push(x);
+  }
+
   // Cross-reference checks
   const categorySlugs = new Set<string>();
   collectCategorySlugs(bundle.categories, categorySlugs, errors);
@@ -133,6 +148,11 @@ export function loadContent(dir: string): { bundle: ContentBundle; errors: Conte
     }
     for (const r of e.relations) {
       if (!expressionSlugs.has(r.to)) errors.push({ file: rel, message: `relation to unknown expression "${r.to}"` });
+    }
+  }
+  for (const x of bundle.prompts) {
+    for (const t of x.try) {
+      if (!expressionSlugs.has(t)) errors.push({ file: promptFiles.get(x.slug)!, message: `try is an unknown expression "${t}"` });
     }
   }
   const lessonSlugs = new Set(bundle.lessons.map((l) => l.slug));

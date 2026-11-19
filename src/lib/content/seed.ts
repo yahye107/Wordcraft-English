@@ -78,6 +78,24 @@ function splitExercise(x: ExerciseFile): { payload: unknown; answer: unknown } {
   }
 }
 
+function seedPrompts(db: Db, bundle: ContentBundle): void {
+  const keep = new Set<string>();
+  bundle.prompts.forEach((x, i) => {
+    keep.add(x.slug);
+    db.run(
+      `INSERT INTO writing_prompts (slug, mode, kind, title, situation, constraints_json, try_json, level, sort)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+       ON CONFLICT(slug) DO UPDATE SET mode=excluded.mode, kind=excluded.kind, title=excluded.title,
+         situation=excluded.situation, constraints_json=excluded.constraints_json, try_json=excluded.try_json,
+         level=excluded.level, sort=excluded.sort`,
+      [x.slug, x.mode, x.kind, x.title, x.situation, JSON.stringify(x.constraints), JSON.stringify(x.try), x.level, i],
+    );
+  });
+  for (const row of db.all<{ slug: string }>('SELECT slug FROM writing_prompts')) {
+    if (!keep.has(row.slug)) db.run('DELETE FROM writing_prompts WHERE slug = ?', [row.slug]);
+  }
+}
+
 function seedLessons(db: Db, bundle: ContentBundle): void {
   const keepLessons = new Set<string>();
   for (const l of bundle.lessons) {
@@ -209,6 +227,7 @@ export function seedContent(db: Db, bundle: ContentBundle): SeedResult {
     }
 
     seedLessons(db, bundle);
+    seedPrompts(db, bundle);
 
     return { added, updated, removed };
   });

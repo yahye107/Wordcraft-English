@@ -173,10 +173,26 @@ export const ExerciseFile = z.discriminatedUnion('type', [
 export type ExerciseFile = z.infer<typeof ExerciseFile>;
 export type ExerciseType = ExerciseFile['type'];
 
+export const WritingMode = z.enum(['situation', 'paragraph', 'creative', 'professional']);
+export type WritingMode = z.infer<typeof WritingMode>;
+
+export const PromptFile = z.object({
+  slug,
+  mode: WritingMode,
+  kind: text,
+  title: text,
+  situation: text,
+  constraints: z.array(text).max(5).default([]),
+  try: z.array(slug).max(5).default([]),
+  level: Level,
+});
+export type PromptFile = z.infer<typeof PromptFile>;
+
 export type ContentBundle = {
   categories: CategoryNode[];
   expressions: ExpressionFile[];
   contrasts: ContrastFile[];
   lessons: LessonFile[];
   exercises: ExerciseFile[];
+  prompts: PromptFile[];
 };

@@ -251,4 +251,23 @@ CREATE TABLE review_logs (
 CREATE INDEX idx_logs_entry ON review_logs(entry_id);
 `,
   },
+  {
+    version: 5,
+    name: 'writing_prompts',
+    sql: `
+CREATE TABLE writing_prompts (
+  id INTEGER PRIMARY KEY,
+  slug TEXT NOT NULL UNIQUE,
+  mode TEXT NOT NULL,
+  kind TEXT NOT NULL,
+  title TEXT NOT NULL,
+  situation TEXT NOT NULL,
+  constraints_json TEXT NOT NULL,
+  try_json TEXT NOT NULL,
+  level TEXT NOT NULL,
+  sort INTEGER NOT NULL DEFAULT 0
+);
+CREATE INDEX idx_prompts_mode ON writing_prompts(mode, sort);
+`,
+  },
 ];
