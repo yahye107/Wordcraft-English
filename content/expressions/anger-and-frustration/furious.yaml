@@ -30,6 +30,9 @@ relations:
     note: furious but hidden
   - to: exasperated
     type: weaker
+  - to: composed
+    type: antonym
+    note: calm and in control instead of burning with anger
 mistakes:
   - wrong: I was very furious.
     right: I was furious.

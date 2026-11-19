@@ -28,6 +28,20 @@ function seedCategories(db: Db, nodes: CategoryNode[]): void {
   }
 }
 
+/** Names of a category and all its ancestors, so "sadness" finds entries filed under "disappointment". */
+function categoryNames(db: Db, expressionId: number): string[] {
+  return db
+    .all<{ name: string }>(
+      `WITH RECURSIVE up(id, name, parent_id) AS (
+         SELECT c.id, c.name, c.parent_id FROM expression_categories ec JOIN categories c ON c.id = ec.category_id
+         WHERE ec.expression_id = ?
+         UNION SELECT c.id, c.name, c.parent_id FROM categories c JOIN up ON c.id = up.parent_id)
+       SELECT DISTINCT name FROM up`,
+      [expressionId],
+    )
+    .map((r) => r.name);
+}
+
 function ftsRow(db: Db, id: number, e: ExpressionFile): void {
   db.run('DELETE FROM expressions_fts WHERE rowid = ?', [id]);
   db.run(
@@ -41,7 +55,7 @@ function ftsRow(db: Db, id: number, e: ExpressionFile): void {
       e.usageNotes,
       e.examples.map((x) => x.text).join(' '),
       e.searchPhrases.join(' ; '),
-      e.tags.map((t) => `${tagName(t)} ${t.split(':')[0]}`).join(' '),
+      [...e.tags.map((t) => `${tagName(t)} ${t.split(':')[0]}`), ...categoryNames(db, id)].join(' '),
     ],
   );
 }

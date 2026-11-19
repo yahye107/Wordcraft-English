@@ -31,6 +31,9 @@ relations:
     type: weaker
   - to: content
     type: related
+  - to: despondent
+    type: antonym
+    note: high joy versus low hopelessness
 mistakes:
   - wrong: She felt elated and calm all day.
     right: She felt content and calm all day.
