@@ -488,6 +488,12 @@ code { font-size: 0.9em; padding: 0.1em 0.35em; background: var(--paper); border
 .ann-thought { font-style: italic; color: var(--ink-2); }
 .ann-emotion { color: var(--marker-ink); background: linear-gradient(transparent 0.12em, var(--marker) 0.12em, var(--marker) 0.95em, transparent 0.95em); padding: 0 0.04em; border-radius: 2px; }
 
+.ann-main { font-weight: 600; }
+.ann-sub { text-decoration: underline dashed; text-decoration-thickness: 2px; text-underline-offset: 0.2em; text-decoration-color: var(--cobalt); }
+.ann-part { text-decoration: underline wavy; text-decoration-thickness: 1.5px; text-underline-offset: 0.25em; text-decoration-color: var(--right); }
+.ann-link { color: var(--marker-ink); background: linear-gradient(transparent 0.12em, var(--marker) 0.12em, var(--marker) 0.95em, transparent 0.95em); padding: 0 0.04em; border-radius: 2px; }
+.ann-detail { font-style: italic; box-shadow: inset 2px 0 0 var(--rule); padding-left: 0.3em; }
+
 .legend { margin: 1.25rem 0; padding: 0.9rem 1.1rem; background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius-lg); max-width: 46rem; }
 .legend-title { margin: 0 0 0.4rem; font-weight: 700; font-size: 0.95rem; }
 .legend ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.3rem; font-family: var(--font-serif); }

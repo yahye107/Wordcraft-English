@@ -59,3 +59,26 @@ describe('stripAnnotations', () => {
     expect(stripAnnotations('{speech|“Hi,”} {tag|she said.}')).toBe('“Hi,” she said.');
   });
 });
+
+describe('sentence-structure kinds', () => {
+  it('parses main, sub, part, link and detail', () => {
+    const parts = parseAnnotated('{link|Because} {sub|it rained,} {main|we stayed in,} {part|reading by the fire.} {detail|The window rattled.}');
+    expect(parts.filter((p) => p.kind !== 'plain').map((p) => p.kind)).toEqual(['link', 'sub', 'main', 'part', 'detail']);
+  });
+
+  it('keeps an unknown kind literal next to a new kind', () => {
+    const parts = parseAnnotated('{main|She ran} {clause|and stopped}');
+    expect(parts).toEqual([
+      { text: 'She ran', kind: 'main' },
+      { text: ' {clause|and stopped}', kind: 'plain' },
+    ]);
+  });
+
+  it('does not throw on nested new kinds', () => {
+    expect(() => parseAnnotated('{main|a {sub|b} c}')).not.toThrow();
+  });
+
+  it('keeps the text of new kinds when stripping', () => {
+    expect(stripAnnotations('{link|However,} {main|she stayed.}')).toBe('However, she stayed.');
+  });
+});

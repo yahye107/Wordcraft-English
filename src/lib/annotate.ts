@@ -1,7 +1,21 @@
-export type AnnotationKind = 'plain' | 'speech' | 'tag' | 'beat' | 'thought' | 'emotion';
+export type AnnotationKind =
+  | 'plain'
+  | 'speech'
+  | 'tag'
+  | 'beat'
+  | 'thought'
+  | 'emotion'
+  | 'main'
+  | 'sub'
+  | 'part'
+  | 'link'
+  | 'detail';
 export type Segment = { text: string; kind: AnnotationKind };
 
-const KINDS = new Set<AnnotationKind>(['speech', 'tag', 'beat', 'thought', 'emotion']);
+const KINDS = new Set<AnnotationKind>([
+  'speech', 'tag', 'beat', 'thought', 'emotion',
+  'main', 'sub', 'part', 'link', 'detail',
+]);
 const MAX_KIND_LENGTH = 8;
 
 /**
