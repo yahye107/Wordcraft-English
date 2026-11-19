@@ -1,0 +1,35 @@
+slug: terrified
+text: terrified
+kind: word
+pos: adjective
+simpleMeaning: Extremely afraid.
+contextualMeaning: "Fear at full strength. The body often reacts: shaking, freezing, heart racing, a cry that will not come."
+usageNotes: Use "terrified of" a thing or "terrified that…". It is very strong; for ordinary nerves use "nervous" or "anxious".
+intensity: 5
+register: neutral
+level: intermediate
+status: published
+categories:
+  - fear-and-dread
+tags:
+  - emotion:fear
+searchPhrases:
+  - extremely frightened
+  - scared stiff
+  - frozen with fear
+examples:
+  - text: The boy stood terrified at the top of the stairs.
+    setting: narration
+  - text: “I’m terrified of heights,” Nora said, gripping the rail.
+    setting: dialogue
+  - text: She was terrified that no one would come.
+    setting: narration
+relations:
+  - to: apprehensive
+    type: weaker
+  - to: anxious
+    type: weaker
+mistakes:
+  - wrong: I am terrified about the small test tomorrow.
+    right: I am nervous about the small test tomorrow.
+    explanation: Terrified is extreme. Keep it for real fear.

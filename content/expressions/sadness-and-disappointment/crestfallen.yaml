@@ -1,0 +1,38 @@
+slug: crestfallen
+text: crestfallen
+kind: word
+pos: adjective
+simpleMeaning: Sad and disappointed after a hope fails.
+contextualMeaning: Shows the face and mood dropping at once after bad news. The change is visible.
+usageNotes: Literary. Use it for a sudden letdown that shows in the face, not for long grief.
+intensity: 3
+register: literary
+level: advanced
+status: published
+categories:
+  - disappointment
+tags:
+  - emotion:disappointment
+  - emotion:sadness
+searchPhrases:
+  - let down
+  - deflated
+  - face fell
+  - hopes dashed
+examples:
+  - text: Her face grew crestfallen as she read the letter.
+    setting: narration
+  - text: He looked crestfallen—it was not the news he had hoped for.
+    setting: narration
+  - text: “Don’t be so crestfallen,” she said. “There’s always next year.”
+    setting: dialogue
+relations:
+  - to: despondent
+    type: related
+    note: despondent is long, low-energy sadness
+  - to: heartbroken
+    type: stronger
+mistakes:
+  - wrong: He crestfallen at the result.
+    right: He was crestfallen at the result.
+    explanation: Crestfallen is an adjective. It needs a linking verb such as was or looked.

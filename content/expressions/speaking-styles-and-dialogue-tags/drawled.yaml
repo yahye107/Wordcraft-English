@@ -1,0 +1,31 @@
+slug: drawled
+text: drawled
+kind: word
+pos: verb (past)
+simpleMeaning: Spoke slowly, stretching the vowels, in a relaxed, lazy or sure-of-himself way.
+contextualMeaning: It paints a cool, lazy or arrogant voice. Sometimes it also hints at a regional accent.
+usageNotes: "It shows attitude, so use it when the slowness means something: calm, mockery, boredom. Avoid using it as an accent stereotype."
+register: literary
+level: advanced
+status: published
+categories:
+  - speech-attitude
+tags:
+  - technique:dialogue-tag
+  - emotion:confidence
+searchPhrases:
+  - spoke slowly and lazily
+  - stretched out his words
+  - spoke in a slow relaxed voice
+examples:
+  - text: “Well, aren’t you something,” he drawled.
+    setting: dialogue
+  - text: “No rush,” the cowboy drawled, tipping his hat.
+    setting: dialogue
+  - text: She drawled out the answer, enjoying their impatience.
+    setting: narration
+relations: []
+mistakes:
+  - wrong: “Hurry up!” he drawled.
+    right: “Hurry up!” he barked.
+    explanation: Drawled is slow. An urgent order does not match a drawl.

@@ -1,0 +1,36 @@
+slug: uneasy
+text: uneasy
+kind: word
+pos: adjective
+simpleMeaning: Feeling that something is not right, without knowing exactly what.
+contextualMeaning: A quiet, low alarm. There is no clear danger, only a feeling.
+usageNotes: Good for building suspense because it says "something is wrong" without naming it. Often with "feel/felt uneasy" or "an uneasy silence".
+intensity: 2
+register: neutral
+level: intermediate
+status: published
+categories:
+  - unease
+tags:
+  - emotion:unease
+  - emotion:suspicion
+searchPhrases:
+  - something feels wrong
+  - not comfortable
+  - a bad feeling
+examples:
+  - text: An uneasy silence settled over the dinner table.
+    setting: narration
+  - text: “I don’t know why,” she said, “but I feel uneasy about him.”
+    setting: dialogue
+  - text: The quiet street made him uneasy.
+    setting: narration
+relations:
+  - to: apprehensive
+    type: related
+  - to: terrified
+    type: stronger
+mistakes:
+  - wrong: I was uneasy that the lion attacked me.
+    right: I was terrified when the lion attacked me.
+    explanation: Uneasy is quiet and vague. A real attack needs a stronger word.

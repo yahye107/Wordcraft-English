@@ -1,0 +1,34 @@
+slug: gazed
+text: gazed
+kind: word
+pos: verb (past)
+simpleMeaning: Looked steadily for a long time, often with wonder, love or deep thought.
+contextualMeaning: A stare with feeling in it. It fits views, loved ones and faraway thoughts.
+usageNotes: Use "gazed at/into/out of". It is gentle and often romantic or reflective.
+register: literary
+level: advanced
+status: published
+categories:
+  - eyes-and-gaze
+tags:
+  - emotion:admiration
+  - emotion:longing
+  - technique:facial-expression
+searchPhrases:
+  - looked for a long time with feeling
+  - looked in wonder
+  - looked dreamily
+examples:
+  - text: She gazed at the stars until her tea went cold.
+    setting: narration
+  - text: He gazed into her eyes and forgot what he was going to say.
+    setting: narration
+  - text: The children gazed at the cake with shining eyes.
+    setting: narration
+relations:
+  - to: stared
+    type: related
+mistakes:
+  - wrong: He gazed at the bill in anger.
+    right: He glared at the bill in anger.
+    explanation: Gazed is soft or dreamy. Angry looks are glares.

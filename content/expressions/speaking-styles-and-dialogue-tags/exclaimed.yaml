@@ -1,0 +1,36 @@
+slug: exclaimed
+text: exclaimed
+kind: word
+pos: verb (past)
+simpleMeaning: Said something suddenly and loudly because of surprise, joy or strong feeling.
+contextualMeaning: The speaker is carried by emotion. It usually goes with an exclamation mark.
+usageNotes: Use it sparingly. Too many "exclaimed" tags make dialogue breathless. Let the words and punctuation show the energy, and save the tag for real bursts.
+intensity: 3
+register: neutral
+level: intermediate
+status: published
+categories:
+  - loud-speech
+tags:
+  - emotion:surprise
+  - technique:dialogue-tag
+searchPhrases:
+  - cried out in surprise
+  - said excitedly
+  - called out with feeling
+examples:
+  - text: “It’s snowing!” Pip exclaimed, running to the window.
+    setting: dialogue
+  - text: “Well, I never!” exclaimed the old lady.
+    setting: dialogue
+  - text: He exclaimed in delight when he saw the gift.
+    setting: narration
+relations:
+  - to: remarked
+    type: antonym
+  - to: snapped
+    type: related
+mistakes:
+  - wrong: “I am tired,” she exclaimed sleepily.
+    right: “I am tired,” she said sleepily.
+    explanation: Exclaimed needs energy. Flat or sleepy speech is "said" or "sighed".

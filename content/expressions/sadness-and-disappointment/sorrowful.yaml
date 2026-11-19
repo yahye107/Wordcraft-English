@@ -1,0 +1,36 @@
+slug: sorrowful
+text: sorrowful
+kind: word
+pos: adjective
+simpleMeaning: Showing or feeling deep sadness.
+contextualMeaning: Quiet, serious sadness, often in music, voices, eyes or expressions. It has a solemn, old-fashioned sound.
+usageNotes: Common with "look", "voice", "eyes", "song". It describes how sadness is shown, more than the cause.
+intensity: 4
+register: literary
+level: advanced
+status: published
+categories:
+  - sorrow-and-grief
+tags:
+  - emotion:sadness
+  - emotion:grief
+searchPhrases:
+  - full of sadness
+  - mournful
+  - grieving
+examples:
+  - text: The old man’s sorrowful eyes followed the departing train.
+    setting: narration
+  - text: A sorrowful song drifted from the open window.
+    setting: narration
+  - text: “I am sorry,” she said in a sorrowful voice, and closed the door.
+    setting: dialogue
+relations:
+  - to: heartbroken
+    type: related
+  - to: despondent
+    type: related
+mistakes:
+  - wrong: I felt sorrowful about my low mark.
+    right: I felt disappointed about my low mark.
+    explanation: Sorrowful sounds solemn and heavy. Use disappointed for a bad result.

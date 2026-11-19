@@ -1,0 +1,37 @@
+slug: wistful
+text: wistful
+kind: word
+pos: adjective
+simpleMeaning: Sad in a soft way because you want something you cannot have, or miss the past.
+contextualMeaning: Gentle longing, often with a small smile. It looks back or reaches towards something out of reach.
+usageNotes: 'Fits looks, smiles, voices and sighs: "a wistful smile". Light, not heavy.'
+intensity: 2
+register: literary
+level: advanced
+status: published
+categories:
+  - disappointment
+tags:
+  - emotion:sadness
+  - emotion:longing
+  - emotion:nostalgia
+searchPhrases:
+  - quietly missing something
+  - longing for the past
+  - gently sad
+examples:
+  - text: She gave a wistful smile as she looked at the old photograph.
+    setting: narration
+  - text: “We used to swim here every summer,” he said, wistful.
+    setting: dialogue
+  - text: The tourists were wistful as the ship left the harbour.
+    setting: narration
+relations:
+  - to: sorrowful
+    type: weaker
+  - to: crestfallen
+    type: related
+mistakes:
+  - wrong: He was wistful because his house burned down.
+    right: He was devastated because his house burned down.
+    explanation: Wistful is soft longing. A disaster needs a heavier word.

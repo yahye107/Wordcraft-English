@@ -1,0 +1,31 @@
+slug: shrugged
+text: shrugged
+kind: word
+pos: verb (past)
+simpleMeaning: Lifted and dropped the shoulders to show "I don’t know", "I don’t care" or "it doesn’t matter".
+contextualMeaning: A quick gesture that stands in for words. It can mean doubt, indifference, or a refusal to commit.
+usageNotes: 'Use it to answer without speaking or to add attitude to a short reply: "“Maybe,” she shrugged." Do not overuse; it appears in many first drafts.'
+register: neutral
+level: beginner
+status: published
+categories:
+  - hands-and-gestures
+tags:
+  - technique:body-language
+  - emotion:indifference
+searchPhrases:
+  - lifted shoulders
+  - didn’t know or didn’t care
+  - I don’t know gesture
+examples:
+  - text: “Whatever you want,” he shrugged.
+    setting: dialogue
+  - text: When asked why he was late, Dan only shrugged.
+    setting: narration
+  - text: She shrugged off the criticism and kept working.
+    setting: narration
+relations: []
+mistakes:
+  - wrong: He shrugged his head.
+    right: He shrugged his shoulders. / He shrugged.
+    explanation: It is the shoulders that move, so "shrugged" alone is enough.

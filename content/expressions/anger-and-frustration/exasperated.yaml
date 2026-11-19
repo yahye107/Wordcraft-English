@@ -1,0 +1,37 @@
+slug: exasperated
+text: exasperated
+kind: word
+pos: adjective
+simpleMeaning: Very annoyed, especially because something has gone on for too long or happened again and again.
+contextualMeaning: The anger is mixed with tiredness. The person has tried to stay patient and now cannot.
+usageNotes: "Use it when there is a history: repeated mistakes, repeated questions. Body signs: a long breath, hands thrown up, eyes rolled upwards."
+intensity: 3
+register: neutral
+level: advanced
+status: published
+categories:
+  - irritation
+tags:
+  - emotion:anger
+  - emotion:frustration
+searchPhrases:
+  - out of patience
+  - fed up
+  - at the end of my rope
+  - tired of repeating myself
+examples:
+  - text: “How many times must I explain this?” he said, exasperated.
+    setting: dialogue
+  - text: Mara threw up her hands in exasperation and left the room.
+    setting: narration
+  - text: After the fourth delay, customers grew exasperated with the airline.
+    setting: professional
+relations:
+  - to: irritated
+    type: weaker
+  - to: furious
+    type: stronger
+mistakes:
+  - wrong: I was exasperated by a small noise.
+    right: I was irritated by a small noise.
+    explanation: Exasperated implies built-up patience running out. For one small noise, irritated is enough.

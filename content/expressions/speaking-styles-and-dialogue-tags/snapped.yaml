@@ -1,0 +1,37 @@
+slug: snapped
+text: snapped
+kind: word
+pos: verb (past)
+simpleMeaning: Said something suddenly and sharply, because of anger or irritation.
+contextualMeaning: Short, sharp words. The speaker loses patience, so the line is usually one quick sentence.
+usageNotes: Best with short lines of dialogue. A long, calm explanation cannot be "snapped". The same word also means "broke", so the context matters.
+intensity: 3
+register: neutral
+level: intermediate
+status: published
+categories:
+  - loud-speech
+  - speech-attitude
+tags:
+  - emotion:irritation
+  - technique:dialogue-tag
+searchPhrases:
+  - spoke sharply
+  - said angrily and suddenly
+  - bit someone’s head off
+examples:
+  - text: “I said no!” she snapped.
+    setting: dialogue
+  - text: “Get out of my way,” Rob snapped, pushing past.
+    setting: dialogue
+  - text: He snapped at the waiter and was ashamed a minute later.
+    setting: narration
+relations:
+  - to: exclaimed
+    type: related
+  - to: protested
+    type: related
+mistakes:
+  - wrong: “I will now explain the whole history of the project,” she snapped.
+    right: "“Enough,” she snapped. Then, calmer: “I will explain the whole history of the project.”"
+    explanation: Snapped fits short, sharp words. Long calm speech does not match.

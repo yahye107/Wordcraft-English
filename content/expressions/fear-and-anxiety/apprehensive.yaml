@@ -1,0 +1,38 @@
+slug: apprehensive
+text: apprehensive
+kind: word
+pos: adjective
+simpleMeaning: Worried that something unpleasant may happen.
+contextualMeaning: The fear is about the future. Nothing bad has happened yet, but the person expects it might.
+usageNotes: 'Pattern: "apprehensive about/of something" or "apprehensive that…". Milder than terrified; stronger than curious.'
+intensity: 2
+register: neutral
+level: advanced
+status: published
+categories:
+  - nervousness
+tags:
+  - emotion:fear
+  - emotion:nervousness
+searchPhrases:
+  - worried about what will happen
+  - nervous about the future
+  - expecting something bad
+examples:
+  - text: He felt apprehensive as he walked into the doctor’s office.
+    setting: narration
+  - text: “I’m a little apprehensive,” she admitted. “I’ve never spoken to a crowd this big.”
+    setting: dialogue
+  - text: Investors remain apprehensive about next year’s economy.
+    setting: professional
+relations:
+  - to: uneasy
+    type: related
+  - to: terrified
+    type: stronger
+  - to: anxious
+    type: related
+mistakes:
+  - wrong: I was apprehensive when the dog bit me.
+    right: I was frightened when the dog bit me.
+    explanation: Apprehensive looks forward to a possible problem. It does not fit a danger that is already happening.

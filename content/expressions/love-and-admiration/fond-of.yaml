@@ -1,0 +1,30 @@
+slug: fond-of
+text: fond of
+kind: collocation
+simpleMeaning: Liking someone or something, especially with warm, gentle feelings.
+contextualMeaning: "A comfortable, lasting affection: an old friend, a favourite street, a family habit."
+usageNotes: 'Always "fond of" before a noun or -ing: "fond of her cousin", "fond of reading". Softer than "love".'
+intensity: 2
+register: neutral
+level: beginner
+status: published
+categories:
+  - affection
+tags:
+  - emotion:affection
+searchPhrases:
+  - like very much
+  - care for
+  - warm feelings for
+examples:
+  - text: She was fond of her neighbour’s noisy parrot.
+    setting: narration
+  - text: “I’m very fond of you, you know,” the old man said.
+    setting: dialogue
+  - text: He grew fond of the village and its slow mornings.
+    setting: everyday
+relations: []
+mistakes:
+  - wrong: I am fond to music.
+    right: I am fond of music.
+    explanation: The preposition after fond is always "of".

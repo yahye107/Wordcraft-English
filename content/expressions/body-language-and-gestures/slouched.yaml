@@ -1,0 +1,34 @@
+slug: slouched
+text: slouched
+kind: word
+pos: verb (past)
+simpleMeaning: Sat or stood with the shoulders and back bent forward, in a loose, tired way.
+contextualMeaning: Shows tiredness, boredom, sulking or a lack of respect. The body looks as if it has given up.
+usageNotes: Use "slouched in a chair" or "slouched against the wall". It suggests attitude as well as posture.
+register: neutral
+level: intermediate
+status: published
+categories:
+  - posture
+tags:
+  - technique:body-language
+  - emotion:boredom
+searchPhrases:
+  - sat with a bent back
+  - sat lazily
+  - poor posture
+examples:
+  - text: Max slouched in the back row, scrolling on his phone.
+    setting: narration
+  - text: “Sit up,” said Miss Hart. “Don’t slouch.”
+    setting: dialogue
+  - text: She slouched against the doorframe, bored.
+    setting: narration
+relations:
+  - to: squared-his-shoulders
+    type: antonym
+    note: the opposite posture of readiness
+mistakes:
+  - wrong: He slouched his back in anger.
+    right: He slouched in his chair.
+    explanation: Slouch is already about the back. It also suggests laziness, not anger.

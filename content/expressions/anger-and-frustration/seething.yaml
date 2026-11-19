@@ -1,0 +1,37 @@
+slug: seething
+text: seething
+kind: word
+pos: adjective
+simpleMeaning: Extremely angry but not showing it much.
+contextualMeaning: The anger is kept inside, like water boiling under a lid. The face stays still while the mind burns.
+usageNotes: "Use it when the character cannot or will not shout. Often followed by what the character does to hold it in: clenched teeth, a flat voice."
+intensity: 4
+register: literary
+level: advanced
+status: published
+categories:
+  - rage
+tags:
+  - emotion:anger
+  - technique:suppressed-emotion
+searchPhrases:
+  - angry but hiding it
+  - boiling inside
+  - quietly furious
+examples:
+  - text: He sat seething through the meeting, his pen snapped in two.
+    setting: narration
+  - text: “Of course,” she said, seething behind a polite smile.
+    setting: dialogue
+  - text: The coach was seething at the referee’s decision.
+    setting: everyday
+relations:
+  - to: furious
+    type: related
+  - to: resentful
+    type: related
+    note: resentful is older, slower anger
+mistakes:
+  - wrong: She seethed with loud shouts.
+    right: She seethed in silence.
+    explanation: Seething means held in. If she shouts, use "raged" or "was furious".

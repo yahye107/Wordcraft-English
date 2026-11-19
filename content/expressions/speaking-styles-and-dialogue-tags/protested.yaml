@@ -1,0 +1,35 @@
+slug: protested
+text: protested
+kind: word
+pos: verb (past)
+simpleMeaning: Said something strongly because you disagreed or thought something was unfair.
+contextualMeaning: A reply that objects. The speaker is not agreeing and makes that clear, often with some heat.
+usageNotes: 'Use it after a statement that pushes back: "“But I didn’t do it!” he protested." In reported speech: "She protested that the rule was unfair."'
+intensity: 3
+register: neutral
+level: intermediate
+status: published
+categories:
+  - loud-speech
+  - speech-attitude
+tags:
+  - situation:objecting
+  - technique:dialogue-tag
+searchPhrases:
+  - objected
+  - said it wasn’t fair
+  - argued against something
+examples:
+  - text: “But it’s not fair!” Ellie protested.
+    setting: dialogue
+  - text: “I only borrowed it,” he protested.
+    setting: dialogue
+  - text: Neighbours protested that the new road would be too noisy.
+    setting: narration
+relations:
+  - to: snapped
+    type: related
+mistakes:
+  - wrong: “Thank you very much,” she protested.
+    right: “Thank you very much,” she replied.
+    explanation: Protested always means objecting. It cannot attach to a polite thanks.

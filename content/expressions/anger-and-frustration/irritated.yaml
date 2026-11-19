@@ -1,0 +1,37 @@
+slug: irritated
+text: irritated
+kind: word
+pos: adjective
+simpleMeaning: Slightly angry because something keeps bothering you.
+contextualMeaning: "A small, repeated annoyance: a noise, a delay, a question asked for the third time."
+usageNotes: "Good for low-level anger that is controlled. Often shown by small signs: a sigh, a tapping finger, a short answer."
+intensity: 2
+register: neutral
+level: beginner
+status: published
+categories:
+  - irritation
+tags:
+  - emotion:anger
+searchPhrases:
+  - a bit angry
+  - bothered
+  - getting on my nerves
+examples:
+  - text: She gave an irritated sigh as the printer jammed again.
+    setting: narration
+  - text: “I’ve told you twice,” he said, sounding irritated.
+    setting: dialogue
+  - text: The noise from upstairs left me irritated all evening.
+    setting: everyday
+relations:
+  - to: annoyed
+    type: synonym
+    note: almost the same; annoyed is more common in speech
+  - to: exasperated
+    type: stronger
+    note: irritated after many tries
+mistakes:
+  - wrong: I am very irritated person.
+    right: I am easily irritated.
+    explanation: Irritated describes a feeling, not a kind of person. Use "irritable" for a person with a short temper.

@@ -1,0 +1,35 @@
+slug: stammered
+text: stammered
+kind: word
+pos: verb (past)
+simpleMeaning: Spoke with stops and repeated sounds because of nerves, fear, shock or a speech difficulty.
+contextualMeaning: Control of speech is lost. Often the person is caught out, surprised or afraid.
+usageNotes: Show the stumbling in the dialogue itself ("I—I didn’t mean…") and use "stammered" to confirm it. Treat real speech disorders with respect.
+register: neutral
+level: intermediate
+status: published
+categories:
+  - speech-attitude
+  - quiet-speech
+tags:
+  - emotion:nervousness
+  - technique:dialogue-tag
+searchPhrases:
+  - spoke with stops and repeats
+  - got the words stuck
+  - spoke nervously
+examples:
+  - text: “I—I didn’t mean to,” she stammered.
+    setting: dialogue
+  - text: He stammered an excuse and backed away.
+    setting: narration
+  - text: “W-who’s there?” Tilly stammered.
+    setting: dialogue
+relations:
+  - to: mumbled
+    type: related
+    note: mumbled is unclear; stammered is broken
+mistakes:
+  - wrong: She stammered her speech perfectly.
+    right: She delivered her speech perfectly.
+    explanation: Stammered means broken speech, so it cannot be perfect.

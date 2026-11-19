@@ -1,0 +1,33 @@
+slug: remarked
+text: remarked
+kind: word
+pos: verb (past)
+simpleMeaning: Said something as a comment, often casually, after noticing something.
+contextualMeaning: A calm observation or opinion. It is not a question and not an argument. It suits a cool, polite or dry tone.
+usageNotes: 'Good for witty or understated comments. In reported speech: "He remarked that the room was cold."'
+register: formal
+level: advanced
+status: published
+categories:
+  - speech-attitude
+tags:
+  - technique:dialogue-tag
+searchPhrases:
+  - commented
+  - said as an observation
+  - noted casually
+examples:
+  - text: “Lovely weather for a funeral,” Ivor remarked.
+    setting: dialogue
+  - text: She remarked on how quiet the town had become.
+    setting: narration
+  - text: “You’ve changed your hair,” he remarked.
+    setting: dialogue
+relations:
+  - to: exclaimed
+    type: antonym
+    note: calm versus excited
+mistakes:
+  - wrong: “What time is it?” he remarked.
+    right: “What time is it?” he asked.
+    explanation: A question needs "asked". Remarked is for statements.

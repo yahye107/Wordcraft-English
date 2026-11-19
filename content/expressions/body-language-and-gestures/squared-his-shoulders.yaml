@@ -1,0 +1,32 @@
+slug: squared-his-shoulders
+text: squared his shoulders
+kind: idiom
+simpleMeaning: Pulled the shoulders back and straight to show you are ready to face something difficult.
+contextualMeaning: "A body-language beat before a hard step: a confrontation, a confession, a performance."
+usageNotes: Change the pronoun. It shows resolve. It can be literal (a straightened body) or the sign of a decision.
+register: literary
+level: intermediate
+status: published
+categories:
+  - posture
+tags:
+  - technique:body-language
+  - emotion:determination
+searchPhrases:
+  - stood tall
+  - got ready to face something
+  - prepared to be brave
+examples:
+  - text: Lena squared her shoulders and knocked on the door.
+    setting: narration
+  - text: He squared his shoulders. “I’ll do it,” he said.
+    setting: narration
+  - text: The candidate squared her shoulders before stepping on stage.
+    setting: narration
+relations:
+  - to: slouched
+    type: antonym
+mistakes:
+  - wrong: She squared her shoulders in sadness.
+    right: She squared her shoulders and faced the room.
+    explanation: The gesture shows resolve, not sadness.

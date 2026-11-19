@@ -1,0 +1,36 @@
+slug: despondent
+text: despondent
+kind: word
+pos: adjective
+simpleMeaning: Very sad and without hope or energy.
+contextualMeaning: The person has stopped expecting things to improve. It is a low, heavy, slow sadness.
+usageNotes: Use it for ongoing low mood after repeated failure or loss. Not for a quick reaction.
+intensity: 4
+register: formal
+level: advanced
+status: published
+categories:
+  - sorrow-and-grief
+tags:
+  - emotion:sadness
+  - emotion:hopelessness
+searchPhrases:
+  - lost hope
+  - very low in spirits
+  - no energy or hope
+examples:
+  - text: After months without work, he grew despondent.
+    setting: narration
+  - text: “What’s the point?” she said in a despondent voice.
+    setting: dialogue
+  - text: The farmers were despondent after a third failed harvest.
+    setting: everyday
+relations:
+  - to: crestfallen
+    type: related
+  - to: heartbroken
+    type: related
+mistakes:
+  - wrong: I was despondent for a minute when I dropped my pen.
+    right: I was annoyed for a minute when I dropped my pen.
+    explanation: Despondent is a deep, lasting mood, not a passing reaction.

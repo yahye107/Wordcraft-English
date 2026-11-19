@@ -1,0 +1,34 @@
+slug: bittersweet
+text: bittersweet
+kind: word
+pos: adjective
+simpleMeaning: Both pleasant and painful at the same time.
+contextualMeaning: "A happy moment that carries some sadness: an ending, a memory, a goodbye that comes with pride."
+usageNotes: 'Use it for events and memories more than for people: "a bittersweet victory", "a bittersweet smile". Both feelings must be real.'
+intensity: 3
+register: neutral
+level: intermediate
+status: published
+categories:
+  - mixed-feelings
+tags:
+  - emotion:mixed-feelings
+searchPhrases:
+  - happy and sad at the same time
+  - mixed emotions
+  - joy with a little pain
+examples:
+  - text: Handing over the keys to her first flat was bittersweet; she was proud, and sad to leave.
+    setting: everyday
+  - text: “It’s bittersweet,” Omar said, watching his sister board the plane. “I’m happy for her.”
+    setting: dialogue
+  - text: A bittersweet smile crossed the old coach’s face as the team lifted the trophy.
+    setting: narration
+relations:
+  - to: ambivalent
+    type: related
+    note: bittersweet is one moment with two sides; ambivalent is being pulled two ways
+mistakes:
+  - wrong: I felt bittersweet about the free holiday.
+    right: I felt delighted about the free holiday.
+    explanation: Bittersweet needs a real loss or pain beside the pleasure. If everything is good, use "delighted".

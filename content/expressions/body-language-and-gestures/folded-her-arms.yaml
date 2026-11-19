@@ -1,0 +1,30 @@
+slug: folded-her-arms
+text: folded her arms
+kind: phrase
+simpleMeaning: Placed the arms across the chest.
+contextualMeaning: The gesture can show defence, impatience, stubbornness or simply feeling cold. Context chooses the meaning.
+usageNotes: 'Often used in a standoff: "She folded her arms and waited." Add the reason in the next phrase if it is not obvious.'
+register: neutral
+level: beginner
+status: published
+categories:
+  - posture
+tags:
+  - technique:body-language
+  - emotion:resistance
+searchPhrases:
+  - crossed her arms
+  - closed posture
+  - protective or stubborn pose
+examples:
+  - text: Ruth folded her arms. “I’m not moving.”
+    setting: dialogue
+  - text: He leaned in the doorway, arms folded, as the lecture ran on.
+    setting: narration
+  - text: The child folded her arms and refused to eat.
+    setting: narration
+relations: []
+mistakes:
+  - wrong: She folded her arm.
+    right: She folded her arms.
+    explanation: Both arms are involved, so the noun is plural.

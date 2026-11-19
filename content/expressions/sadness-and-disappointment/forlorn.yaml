@@ -1,0 +1,34 @@
+slug: forlorn
+text: forlorn
+kind: word
+pos: adjective
+simpleMeaning: Looking lonely, sad and left behind.
+contextualMeaning: "A picture of someone or something alone and uncared for: a dog at a gate, a house with no lights."
+usageNotes: Often describes how a person or object looks from the outside. It also hints that help is not coming.
+intensity: 3
+register: literary
+level: literary
+status: published
+categories:
+  - loneliness
+tags:
+  - emotion:loneliness
+  - emotion:sadness
+searchPhrases:
+  - lonely and sad
+  - looking abandoned
+  - left alone
+examples:
+  - text: A forlorn dog sat by the closed shop, waiting.
+    setting: narration
+  - text: She stood forlorn on the platform long after the last train.
+    setting: narration
+  - text: The empty swings looked forlorn in the winter rain.
+    setting: narration
+relations:
+  - to: sorrowful
+    type: related
+mistakes:
+  - wrong: I felt forlorn at the party; it was loud and fun.
+    right: I felt out of place at the party; it was loud and fun.
+    explanation: Forlorn is a heavy word for being alone and abandoned, not for social awkwardness.

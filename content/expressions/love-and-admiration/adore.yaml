@@ -1,0 +1,34 @@
+slug: adore
+text: adore
+kind: word
+pos: verb
+simpleMeaning: To love someone or something very much.
+contextualMeaning: Strong love with joy in it. Used for people, pets, and also things we enjoy greatly.
+usageNotes: 'Stronger than "like" and "love" in many contexts. Common in warm, lively speech: "I adore her", "I adore this song".'
+intensity: 5
+register: conversational
+level: intermediate
+status: published
+categories:
+  - affection
+tags:
+  - emotion:love
+  - emotion:affection
+searchPhrases:
+  - love very much
+  - worship
+  - be crazy about
+examples:
+  - text: The twins adore their grandmother.
+    setting: everyday
+  - text: “I absolutely adore your garden,” said Clara.
+    setting: dialogue
+  - text: He adored her from the first day they met.
+    setting: narration
+relations:
+  - to: fond-of
+    type: weaker
+mistakes:
+  - wrong: I adore to swim.
+    right: I adore swimming.
+    explanation: Adore is followed by a noun or -ing, not "to + verb" in everyday use.

@@ -1,0 +1,36 @@
+slug: smirked
+text: smirked
+kind: word
+pos: verb (past)
+simpleMeaning: Smiled in a self-satisfied or unkind way.
+contextualMeaning: The smile says "I know something you do not" or "I won". It is rarely friendly.
+usageNotes: Signals smugness, mockery or triumph. Do not use it for warm smiles.
+register: neutral
+level: intermediate
+status: published
+categories:
+  - smiles-and-laughter
+  - frowns-and-scowls
+tags:
+  - emotion:smugness
+  - technique:facial-expression
+searchPhrases:
+  - smiled in a smug way
+  - self-satisfied smile
+  - looked pleased at someone’s trouble
+examples:
+  - text: “Nice try,” Kade smirked.
+    setting: dialogue
+  - text: She smirked when the rival tripped on the stage steps.
+    setting: narration
+  - text: A smirk spread across his face as the scores were read.
+    setting: narration
+relations:
+  - to: grinned
+    type: related
+  - to: beamed
+    type: related
+mistakes:
+  - wrong: She smirked with joy at the party.
+    right: She beamed with joy at the party.
+    explanation: A smirk is smug or mocking. Joy needs "beamed" or "grinned".

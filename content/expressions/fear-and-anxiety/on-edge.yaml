@@ -1,0 +1,36 @@
+slug: on-edge
+text: on edge
+kind: idiom
+pos: adjective phrase
+simpleMeaning: Nervous and easily upset, as if anything could set you off.
+contextualMeaning: Tension from stress or waiting. The person jumps at noises and snaps at small things.
+usageNotes: Used with "be/feel/keep someone on edge". It combines nervousness with a short temper.
+intensity: 3
+register: conversational
+level: intermediate
+status: published
+categories:
+  - nervousness
+tags:
+  - emotion:anxiety
+  - emotion:nervousness
+searchPhrases:
+  - jumpy
+  - can’t relax
+  - nervous and irritable
+examples:
+  - text: Everyone was on edge while they waited for the results.
+    setting: everyday
+  - text: “Sorry I snapped,” he said. “I’m just on edge today.”
+    setting: dialogue
+  - text: The long silence kept the soldiers on edge.
+    setting: narration
+relations:
+  - to: anxious
+    type: related
+  - to: uneasy
+    type: related
+mistakes:
+  - wrong: I am at edge.
+    right: I am on edge.
+    explanation: The fixed phrase uses "on".

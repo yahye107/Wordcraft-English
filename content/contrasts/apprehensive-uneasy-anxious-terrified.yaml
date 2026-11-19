@@ -1,0 +1,16 @@
+slug: apprehensive-uneasy-anxious-terrified
+title: Apprehensive, uneasy, anxious, terrified
+explanation: A scale of fear. Uneasy is a quiet sense something is wrong; apprehensive is worry about something coming; anxious is longer, restless worry; terrified is extreme fear.
+members:
+  - expression: uneasy
+    note: A vague feeling that something is off.
+    example: The quiet house made her uneasy.
+  - expression: apprehensive
+    note: Worried about something that may happen.
+    example: He was apprehensive about the exam results.
+  - expression: anxious
+    note: Tense and restless worry that lasts.
+    example: She stayed anxious all week.
+  - expression: terrified
+    note: Extreme fear, usually of a real or serious threat.
+    example: The child was terrified of the dark.

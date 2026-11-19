@@ -1,0 +1,33 @@
+slug: in-awe-of
+text: in awe of
+kind: collocation
+simpleMeaning: Feeling deep respect and wonder for someone or something very great.
+contextualMeaning: Admiration mixed with a little fear or humility. The person feels small next to something larger.
+usageNotes: 'Pattern: "in awe of X" or "stand in awe". It fits great people, great nature and great achievements.'
+intensity: 4
+register: neutral
+level: advanced
+status: published
+categories:
+  - admiration
+tags:
+  - emotion:admiration
+  - emotion:wonder
+searchPhrases:
+  - amazed by someone
+  - deeply impressed
+  - looking up to someone
+examples:
+  - text: The students were in awe of the famous scientist.
+    setting: narration
+  - text: “I’m in awe of what you’ve built,” she told him.
+    setting: dialogue
+  - text: We stood in awe of the mountain at sunrise.
+    setting: narration
+relations:
+  - to: adore
+    type: related
+mistakes:
+  - wrong: He is in awe with her.
+    right: He is in awe of her.
+    explanation: The preposition is "of".

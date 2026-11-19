@@ -1,0 +1,37 @@
+slug: elated
+text: elated
+kind: word
+pos: adjective
+simpleMeaning: Extremely happy and full of energy, usually after something good has happened.
+contextualMeaning: The joy lifts the person up. Often follows a win, good news or relief.
+usageNotes: Stronger than "delighted". It shows a high mood, so it fits sudden good news, not a quiet pleasure.
+intensity: 4
+register: literary
+level: advanced
+status: published
+categories:
+  - delight-and-excitement
+tags:
+  - emotion:happiness
+  - emotion:excitement
+searchPhrases:
+  - over the moon
+  - filled with joy
+  - on top of the world
+  - walking on air
+examples:
+  - text: She was elated when the letter said she had won the scholarship.
+    setting: narration
+  - text: “We did it!” he shouted, elated, as the whistle blew.
+    setting: dialogue
+  - text: The team felt elated after a year of hard work.
+    setting: everyday
+relations:
+  - to: delighted
+    type: weaker
+  - to: content
+    type: related
+mistakes:
+  - wrong: She felt elated and calm all day.
+    right: She felt content and calm all day.
+    explanation: Elated is a high, excited state. For a quiet, steady happiness, use "content".

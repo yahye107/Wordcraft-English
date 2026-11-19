@@ -1,0 +1,36 @@
+slug: furious
+text: furious
+kind: word
+pos: adjective
+simpleMeaning: Extremely angry.
+contextualMeaning: Anger that is hot and obvious or tightly held. The cause feels serious or unfair.
+usageNotes: 'Strong word. Save it for real anger, or the effect is lost. Pair with specifics: "furious with her brother", "furious about the lie".'
+intensity: 5
+register: neutral
+level: intermediate
+status: published
+categories:
+  - rage
+tags:
+  - emotion:anger
+searchPhrases:
+  - extremely angry
+  - in a rage
+  - blind with anger
+examples:
+  - text: Her father was furious when he saw the broken window.
+    setting: narration
+  - text: “I’m furious,” she said quietly, “and I want an answer tonight.”
+    setting: dialogue
+  - text: Residents were furious at the council’s decision to close the library.
+    setting: professional
+relations:
+  - to: seething
+    type: related
+    note: furious but hidden
+  - to: exasperated
+    type: weaker
+mistakes:
+  - wrong: I was very furious.
+    right: I was furious.
+    explanation: Furious already means extremely angry. "Very" is unnecessary; use "absolutely" for emphasis if you need it.

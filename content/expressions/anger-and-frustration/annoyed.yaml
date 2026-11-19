@@ -1,0 +1,35 @@
+slug: annoyed
+text: annoyed
+kind: word
+pos: adjective
+simpleMeaning: A little angry about something that is not what you wanted.
+contextualMeaning: Everyday anger over something small, usually caused by a person or a situation. The word is very common in speech.
+usageNotes: Use "annoyed with" a person and "annoyed at/about" a thing or event. For stronger anger, move up to "exasperated" or "furious".
+intensity: 2
+register: conversational
+level: beginner
+status: published
+categories:
+  - irritation
+tags:
+  - emotion:anger
+searchPhrases:
+  - bothered
+  - fed up a little
+  - cross
+examples:
+  - text: “I’m really annoyed with him,” Priya said. “He cancelled again.”
+    setting: dialogue
+  - text: She looked annoyed when the waiter forgot her order.
+    setting: narration
+  - text: I was annoyed about the late train, but it was not a disaster.
+    setting: everyday
+relations:
+  - to: irritated
+    type: synonym
+  - to: exasperated
+    type: stronger
+mistakes:
+  - wrong: He is annoying with me.
+    right: He is annoyed with me.
+    explanation: -ed describes the person who feels it. -ing describes what causes it ("He is annoying").

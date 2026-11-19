@@ -1,0 +1,36 @@
+slug: content
+text: content
+kind: word
+pos: adjective
+simpleMeaning: Happy and satisfied in a quiet way, without wanting more.
+contextualMeaning: "Not excitement. This is settled happiness: a warm room, a finished job, a simple life."
+usageNotes: Often "content with something" or "looked content". As an adjective after a verb (not before a noun).
+intensity: 2
+register: neutral
+level: intermediate
+status: published
+categories:
+  - contentment
+tags:
+  - emotion:contentment
+  - emotion:calm
+searchPhrases:
+  - quietly happy
+  - satisfied with life
+  - at peace
+  - needing nothing more
+examples:
+  - text: The cat lay in the sun, perfectly content.
+    setting: narration
+  - text: “I’m content,” Grandpa said. “I have my garden and my books.”
+    setting: dialogue
+  - text: She was content with a small salary and a quiet life.
+    setting: everyday
+relations:
+  - to: elated
+    type: related
+    note: content is calm; elated is high-energy
+mistakes:
+  - wrong: She is a content woman.
+    right: She is a contented woman. / She is content.
+    explanation: Before a noun use "contented"; "content" usually comes after a verb.

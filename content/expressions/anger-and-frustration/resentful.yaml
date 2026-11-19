@@ -1,0 +1,34 @@
+slug: resentful
+text: resentful
+kind: word
+pos: adjective
+simpleMeaning: Feeling bitter and angry because you think you were treated unfairly.
+contextualMeaning: A slow anger that stays. Often about being overlooked, blamed, or asked to do more than your share.
+usageNotes: 'Pattern: "resentful of/towards someone", "resentful that…". It suggests a long-term feeling, not a reaction in the moment.'
+intensity: 3
+register: neutral
+level: advanced
+status: published
+categories:
+  - resentment
+tags:
+  - emotion:resentment
+  - emotion:anger
+searchPhrases:
+  - holding a grudge
+  - bitter about unfair treatment
+  - angry for a long time
+examples:
+  - text: She grew resentful of her sister, who always got the praise.
+    setting: narration
+  - text: “You’re still resentful, aren’t you?” he asked. “After all these years.”
+    setting: dialogue
+  - text: Staff felt resentful that managers kept the bonuses.
+    setting: professional
+relations:
+  - to: seething
+    type: related
+mistakes:
+  - wrong: He was resentful about the sudden rain.
+    right: He was annoyed about the sudden rain.
+    explanation: Resentment needs an unfair treatment and time. Weather is just annoying.

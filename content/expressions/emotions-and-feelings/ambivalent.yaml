@@ -1,0 +1,34 @@
+slug: ambivalent
+text: ambivalent
+kind: word
+pos: adjective
+simpleMeaning: Having two opposite feelings about something and not being able to choose between them.
+contextualMeaning: 'Not "I don’t care". The person cares, but pulls two ways: part of them wants it, part of them does not.'
+usageNotes: The pattern is "ambivalent about/towards something". Do not use it to mean indifferent.
+intensity: 2
+register: formal
+level: advanced
+status: published
+categories:
+  - mixed-feelings
+tags:
+  - emotion:mixed-feelings
+searchPhrases:
+  - can’t make up my mind
+  - torn between two feelings
+  - not sure how I feel
+examples:
+  - text: "He felt ambivalent about the promotion: more money, but longer hours."
+    setting: everyday
+  - text: “I’m ambivalent about moving,” Lena admitted. “I love the city, but I need a change.”
+    setting: dialogue
+  - text: Critics were ambivalent about the film, praising its look and doubting its story.
+    setting: academic
+relations:
+  - to: bittersweet
+    type: related
+    note: one moment with two sides
+mistakes:
+  - wrong: I am ambivalent; I don’t care at all.
+    right: I am indifferent; I don’t care at all.
+    explanation: Ambivalent means torn between feelings. Indifferent means not caring.

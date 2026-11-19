@@ -1,0 +1,34 @@
+slug: fidgeted
+text: fidgeted
+kind: word
+pos: verb (past)
+simpleMeaning: Made small, restless movements because you were nervous, bored or impatient.
+contextualMeaning: The body cannot stay quiet. The reader sees nerves without being told.
+usageNotes: 'Often followed by what is being touched: "fidgeted with his tie". Good to replace "she was nervous".'
+register: neutral
+level: intermediate
+status: published
+categories:
+  - nervous-habits
+tags:
+  - technique:body-language
+  - emotion:nervousness
+  - emotion:boredom
+searchPhrases:
+  - moved restlessly
+  - couldn’t sit still
+  - played with things nervously
+examples:
+  - text: Anya fidgeted with her ring while the interviewer read her file.
+    setting: narration
+  - text: The little boy fidgeted through the long speeches.
+    setting: narration
+  - text: “Stop fidgeting,” his mother murmured.
+    setting: dialogue
+relations:
+  - to: clenched
+    type: related
+mistakes:
+  - wrong: She fidgeted the pen.
+    right: She fidgeted with the pen.
+    explanation: Fidget takes "with" before the object.

@@ -1,0 +1,35 @@
+slug: grinned
+text: grinned
+kind: word
+pos: verb (past)
+simpleMeaning: Smiled widely, showing teeth.
+contextualMeaning: An open, cheerful smile. It can be friendly, playful or proud.
+usageNotes: Use it for energy and warmth. If the smile is smug, choose "smirked"; if it glows with joy, "beamed".
+register: neutral
+level: beginner
+status: published
+categories:
+  - smiles-and-laughter
+tags:
+  - emotion:happiness
+  - technique:facial-expression
+searchPhrases:
+  - smiled widely
+  - big smile
+  - smiled with teeth showing
+examples:
+  - text: “Told you so,” Jonah grinned.
+    setting: dialogue
+  - text: She grinned at him across the crowded room.
+    setting: narration
+  - text: The boys grinned at each other, plotting the prank.
+    setting: narration
+relations:
+  - to: beamed
+    type: related
+  - to: smirked
+    type: related
+mistakes:
+  - wrong: She grinned a sad smile.
+    right: She gave a sad smile.
+    explanation: A grin is a happy, wide smile. Do not pair it with sadness.

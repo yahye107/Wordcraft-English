@@ -1,0 +1,31 @@
+slug: relieved
+text: relieved
+kind: word
+pos: adjective
+simpleMeaning: Happy because something bad did not happen, or a worry has ended.
+contextualMeaning: "Relief always follows worry. The body often shows it: a long breath, shoulders dropping, a laugh."
+usageNotes: Use "relieved that…" or "relieved to hear". It needs an earlier fear, so set that up first.
+intensity: 2
+register: neutral
+level: beginner
+status: published
+categories:
+  - relief-and-gratitude
+tags:
+  - emotion:relief
+searchPhrases:
+  - glad it’s over
+  - no longer worried
+  - let out a breath
+examples:
+  - text: She sank into the chair, relieved that the test was over.
+    setting: narration
+  - text: “Thank goodness,” he said, visibly relieved. “I thought we’d missed it.”
+    setting: dialogue
+  - text: I was so relieved to hear that everyone was safe.
+    setting: everyday
+relations: []
+mistakes:
+  - wrong: I was relieved to win the surprise prize.
+    right: I was thrilled to win the surprise prize.
+    explanation: You can be relieved only after worry. Surprise good luck is better called thrilled or delighted.

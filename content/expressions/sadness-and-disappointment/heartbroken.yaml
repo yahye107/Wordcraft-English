@@ -1,0 +1,36 @@
+slug: heartbroken
+text: heartbroken
+kind: word
+pos: adjective
+simpleMeaning: Extremely sad, especially because of the end of a love or a loss.
+contextualMeaning: A deep, personal pain. Often about love, but also a pet’s death or a dream lost.
+usageNotes: Strong. Do not use it for small letdowns. It is also used lightly in speech ("I’m heartbroken I missed it"), but in writing keep it for real pain.
+intensity: 5
+register: neutral
+level: intermediate
+status: published
+categories:
+  - sorrow-and-grief
+tags:
+  - emotion:sadness
+  - emotion:grief
+searchPhrases:
+  - crushed by sadness
+  - devastated by a loss
+  - cried for days
+examples:
+  - text: She was heartbroken when her old dog died.
+    setting: narration
+  - text: “I’m heartbroken,” he whispered. “I never thought she would leave.”
+    setting: dialogue
+  - text: The village was heartbroken by the loss of its only school.
+    setting: everyday
+relations:
+  - to: crestfallen
+    type: weaker
+  - to: despondent
+    type: related
+mistakes:
+  - wrong: I was heartbroken because the film was boring.
+    right: I was disappointed because the film was boring.
+    explanation: Heartbroken is for deep loss. A boring film is a disappointment.

@@ -1,0 +1,32 @@
+slug: glanced
+text: glanced
+kind: word
+pos: verb (past)
+simpleMeaning: Looked quickly and then looked away.
+contextualMeaning: A very short look. It may check the time, notice something, or avoid longer eye contact.
+usageNotes: Use "glanced at/up/over". The brevity can show nerves, boredom or secrecy.
+register: neutral
+level: beginner
+status: published
+categories:
+  - eyes-and-gaze
+tags:
+  - technique:facial-expression
+searchPhrases:
+  - looked quickly
+  - took a quick look
+  - looked for a moment
+examples:
+  - text: She glanced at the clock and sighed.
+    setting: narration
+  - text: He glanced up when the door opened.
+    setting: narration
+  - text: Ben glanced over his shoulder to see if anyone had followed him.
+    setting: narration
+relations:
+  - to: stared
+    type: related
+mistakes:
+  - wrong: She glanced at the painting for an hour.
+    right: She gazed at the painting for an hour.
+    explanation: Glanced means very short. A long look is a stare or gaze.

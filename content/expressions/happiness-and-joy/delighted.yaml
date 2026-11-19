@@ -1,0 +1,35 @@
+slug: delighted
+text: delighted
+kind: word
+pos: adjective
+simpleMeaning: Very pleased and happy about something.
+contextualMeaning: Open, warm happiness at news, a gift, a visit or a success. It is polite as well as strong, so it fits both speech and writing.
+usageNotes: 'Common phrases: "delighted to meet you", "delighted with the result". In formal writing it replaces "very happy".'
+intensity: 3
+register: neutral
+level: intermediate
+status: published
+categories:
+  - delight-and-excitement
+tags:
+  - emotion:happiness
+searchPhrases:
+  - very pleased
+  - really happy
+  - thrilled with
+examples:
+  - text: “I’d be delighted to come,” said Mrs Okoye.
+    setting: dialogue
+  - text: The children were delighted with their new puppy.
+    setting: narration
+  - text: We are delighted to announce the opening of our new branch.
+    setting: professional
+relations:
+  - to: elated
+    type: stronger
+  - to: content
+    type: weaker
+mistakes:
+  - wrong: I am delighted for the news.
+    right: I am delighted by/at/with the news.
+    explanation: 'Use "by", "at" or "with" after delighted, or "to + verb": "delighted to hear".'

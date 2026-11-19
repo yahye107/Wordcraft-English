@@ -1,0 +1,34 @@
+slug: smitten
+text: smitten
+kind: word
+pos: adjective
+simpleMeaning: Suddenly and strongly attracted to someone.
+contextualMeaning: The early, giddy stage of attraction. The person becomes silly, shy and happy.
+usageNotes: Often "smitten with someone". It is light and a little humorous, not for deep, long love.
+intensity: 4
+register: informal
+level: advanced
+status: published
+categories:
+  - attraction
+tags:
+  - emotion:attraction
+  - emotion:love
+searchPhrases:
+  - in love at first sight
+  - crushing on
+  - head over heels
+examples:
+  - text: Tom was completely smitten with the new librarian.
+    setting: narration
+  - text: “You’re smitten,” Ravi teased. “You’ve smiled at your phone for an hour.”
+    setting: dialogue
+  - text: She was smitten by the puppy the moment she saw it.
+    setting: everyday
+relations:
+  - to: adore
+    type: related
+mistakes:
+  - wrong: They were smitten for ten years.
+    right: They had been in love for ten years.
+    explanation: Smitten describes the beginning of attraction, not a long relationship.

@@ -1,0 +1,36 @@
+slug: thrilled
+text: thrilled
+kind: word
+pos: adjective
+simpleMeaning: Very excited and pleased.
+contextualMeaning: Energetic, bright happiness. In speech it is friendly and warm.
+usageNotes: Use "thrilled to" or "thrilled with/about". Good for news, invitations and achievements.
+intensity: 4
+register: conversational
+level: intermediate
+status: published
+categories:
+  - delight-and-excitement
+tags:
+  - emotion:excitement
+  - emotion:happiness
+searchPhrases:
+  - really excited
+  - buzzing
+  - can’t wait
+examples:
+  - text: “I’m thrilled you could come!” she said, hugging them at the door.
+    setting: dialogue
+  - text: He was thrilled to be chosen for the national team.
+    setting: narration
+  - text: We’re thrilled with the early results of the trial.
+    setting: professional
+relations:
+  - to: delighted
+    type: related
+  - to: elated
+    type: related
+mistakes:
+  - wrong: I am thrilling about the trip.
+    right: I am thrilled about the trip.
+    explanation: '-ed describes how you feel. "Thrilling" describes the thing: "The trip is thrilling".'

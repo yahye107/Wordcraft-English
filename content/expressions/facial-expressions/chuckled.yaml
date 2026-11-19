@@ -1,0 +1,33 @@
+slug: chuckled
+text: chuckled
+kind: word
+pos: verb (past)
+simpleMeaning: Laughed quietly, usually with the mouth closed.
+contextualMeaning: A soft, low laugh. The person is amused, not roaring with laughter.
+usageNotes: Use it for gentle amusement or private jokes. It often follows a mild surprise or a kind remark.
+register: neutral
+level: intermediate
+status: published
+categories:
+  - smiles-and-laughter
+tags:
+  - emotion:amusement
+  - technique:facial-expression
+searchPhrases:
+  - laughed quietly
+  - small laugh
+  - laughed softly to himself
+examples:
+  - text: Grandpa chuckled and shook his head.
+    setting: narration
+  - text: “That’s one way to put it,” she chuckled.
+    setting: dialogue
+  - text: He chuckled at the cartoon in the newspaper.
+    setting: everyday
+relations:
+  - to: grinned
+    type: related
+mistakes:
+  - wrong: The audience chuckled loudly for five minutes.
+    right: The audience roared with laughter for five minutes.
+    explanation: A chuckle is quiet and short. Big, loud laughter needs a bigger word.

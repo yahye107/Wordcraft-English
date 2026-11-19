@@ -1,0 +1,36 @@
+slug: anxious
+text: anxious
+kind: word
+pos: adjective
+simpleMeaning: Worried and tense, often with a restless body.
+contextualMeaning: A longer, more physical worry than apprehensive. The mind keeps running and the body cannot settle.
+usageNotes: 'Use "anxious about/for" and show it through the body: pacing, checking a phone, not eating. Also means "eager" in "anxious to begin", but that sense is formal.'
+intensity: 3
+register: neutral
+level: intermediate
+status: published
+categories:
+  - nervousness
+tags:
+  - emotion:anxiety
+  - emotion:nervousness
+searchPhrases:
+  - worried and tense
+  - can’t relax
+  - on pins and needles
+examples:
+  - text: Mia paced the hallway, anxious for news from the hospital.
+    setting: narration
+  - text: “I can’t sit still,” he said. “I’m too anxious.”
+    setting: dialogue
+  - text: Parents grew anxious as the storm kept the bus from arriving.
+    setting: everyday
+relations:
+  - to: apprehensive
+    type: related
+  - to: terrified
+    type: stronger
+mistakes:
+  - wrong: I am anxious to my exam.
+    right: I am anxious about my exam.
+    explanation: Use "about" for the cause of worry.

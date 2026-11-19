@@ -1,0 +1,34 @@
+slug: a-knot-in-the-stomach
+text: a knot in her stomach
+kind: idiom
+simpleMeaning: A tight, uncomfortable feeling in the stomach caused by worry or fear.
+contextualMeaning: A way to show nervousness through the body instead of saying "she was nervous".
+usageNotes: 'Change the pronoun and verb to fit: "a knot formed in his stomach", "her stomach tied itself in knots". Good for showing, not telling.'
+intensity: 3
+register: literary
+level: intermediate
+status: published
+categories:
+  - nervousness
+  - pain-and-discomfort
+tags:
+  - emotion:anxiety
+  - technique:physical-reaction
+searchPhrases:
+  - nervous feeling in the stomach
+  - butterflies
+  - stomach tight with worry
+examples:
+  - text: A knot twisted in her stomach as the principal’s door opened.
+    setting: narration
+  - text: He felt a knot in his stomach every time the phone rang.
+    setting: narration
+  - text: “I have a knot in my stomach,” Ana whispered. “What if they say no?”
+    setting: dialogue
+relations:
+  - to: anxious
+    type: related
+mistakes:
+  - wrong: She had a knot in her head.
+    right: She had a knot in her stomach.
+    explanation: The fear idiom is about the stomach.

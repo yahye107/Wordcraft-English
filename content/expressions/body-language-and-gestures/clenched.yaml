@@ -1,0 +1,35 @@
+slug: clenched
+text: clenched
+kind: word
+pos: verb (past)
+simpleMeaning: Closed or pressed something tightly together, such as a fist or the teeth.
+contextualMeaning: Tension from anger, determination, pain or fear. The person holds feelings in through the body.
+usageNotes: 'Common partners: fists, jaw, teeth. "Clenched his jaw" shows anger being controlled.'
+intensity: 3
+register: neutral
+level: intermediate
+status: published
+categories:
+  - nervous-habits
+tags:
+  - technique:body-language
+  - emotion:anger
+  - emotion:tension
+searchPhrases:
+  - squeezed tightly
+  - gripped fists
+  - jaw tight
+examples:
+  - text: He clenched his fists but kept his voice level.
+    setting: narration
+  - text: She clenched her jaw and said nothing.
+    setting: narration
+  - text: Clenching his teeth, he lifted the heavy box.
+    setting: narration
+relations:
+  - to: fidgeted
+    type: related
+mistakes:
+  - wrong: He clenched his hands in the air happily.
+    right: He raised his hands in the air happily.
+    explanation: Clenched is tight and tense. Happy hands are raised, waved or thrown up.

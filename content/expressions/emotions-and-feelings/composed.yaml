@@ -1,0 +1,33 @@
+slug: composed
+text: composed
+kind: word
+pos: adjective
+simpleMeaning: Calm and in control of your feelings, especially in a hard moment.
+contextualMeaning: The person may feel strong emotion inside but shows none. It suggests discipline, not coldness.
+usageNotes: 'Usually with a verb such as "stayed", "remained" or "looked". It fits pressure: a speech, bad news, an emergency.'
+intensity: 1
+register: neutral
+level: intermediate
+status: published
+categories:
+  - calm-and-composure
+tags:
+  - emotion:calm
+  - technique:body-language
+searchPhrases:
+  - stayed calm
+  - kept her cool
+  - didn’t show emotion
+  - in control of feelings
+examples:
+  - text: Though her hands shook, she remained composed throughout the interview.
+    setting: narration
+  - text: The pilot’s voice was composed as he announced the delay.
+    setting: narration
+  - text: “Stay composed,” the coach told them. “We’ve practised this.”
+    setting: dialogue
+relations: []
+mistakes:
+  - wrong: She composed when she heard the news.
+    right: She stayed composed when she heard the news.
+    explanation: Composed is an adjective. It needs a verb such as stayed, remained or looked.

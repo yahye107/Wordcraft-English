@@ -1,0 +1,36 @@
+slug: glared
+text: glared
+kind: word
+pos: verb (past)
+simpleMeaning: Looked at someone for a long moment with an angry face.
+contextualMeaning: Anger shown through the eyes alone. The look is hard and direct.
+usageNotes: 'Pattern: "glared at someone". The person needs not speak. A glare can silence a room.'
+intensity: 4
+register: neutral
+level: intermediate
+status: published
+categories:
+  - eyes-and-gaze
+tags:
+  - emotion:anger
+  - technique:facial-expression
+searchPhrases:
+  - looked angrily
+  - angry stare
+  - shot a dirty look
+examples:
+  - text: Lena glared at her brother until he gave back the phone.
+    setting: narration
+  - text: “Don’t,” she said, glaring at him.
+    setting: dialogue
+  - text: The driver glared through the windscreen at the cyclist.
+    setting: narration
+relations:
+  - to: stared
+    type: related
+  - to: glanced
+    type: related
+mistakes:
+  - wrong: She glared happily at the baby.
+    right: She gazed happily at the baby.
+    explanation: Glare is angry. A happy long look is a gaze.

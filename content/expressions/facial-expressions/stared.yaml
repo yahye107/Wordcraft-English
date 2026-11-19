@@ -1,0 +1,34 @@
+slug: stared
+text: stared
+kind: word
+pos: verb (past)
+simpleMeaning: Looked at something for a long time without looking away.
+contextualMeaning: The look is fixed. The reason can be shock, curiosity, rudeness, or being lost in thought.
+usageNotes: Often "stared at" or "stared into space". The emotion comes from context, not the word.
+register: neutral
+level: beginner
+status: published
+categories:
+  - eyes-and-gaze
+tags:
+  - technique:facial-expression
+searchPhrases:
+  - looked for a long time
+  - fixed eyes on
+  - looked without blinking
+examples:
+  - text: He stared at the letter, unable to read past the first line.
+    setting: narration
+  - text: “Don’t stare,” Mum whispered.
+    setting: dialogue
+  - text: She stared out of the window for most of the journey.
+    setting: everyday
+relations:
+  - to: glared
+    type: related
+  - to: gazed
+    type: related
+mistakes:
+  - wrong: He stared at his watch very quickly.
+    right: He glanced at his watch.
+    explanation: A stare is long. A quick look is a glance.

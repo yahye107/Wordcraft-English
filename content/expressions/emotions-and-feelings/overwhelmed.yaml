@@ -1,0 +1,32 @@
+slug: overwhelmed
+text: overwhelmed
+kind: word
+pos: adjective
+simpleMeaning: Feeling that something is too big or too strong to cope with.
+contextualMeaning: It can be bad (too much work, grief) or good (overwhelmed with gratitude). The person feels flooded.
+usageNotes: 'Name the cause: "overwhelmed by the crowd", "overwhelmed with gratitude". Works for positive and negative feelings.'
+intensity: 4
+register: neutral
+level: intermediate
+status: published
+categories:
+  - emotional-reactions
+tags:
+  - emotion:overwhelm
+searchPhrases:
+  - too much to handle
+  - can’t cope
+  - swamped by feelings
+  - flooded with emotion
+examples:
+  - text: “I’m overwhelmed,” she said, looking at the pile of unread messages.
+    setting: dialogue
+  - text: Overwhelmed by the crowd’s cheering, he forgot his speech.
+    setting: narration
+  - text: We were overwhelmed with gratitude when the neighbours brought food.
+    setting: everyday
+relations: []
+mistakes:
+  - wrong: I was overwhelmed of work.
+    right: I was overwhelmed by work.
+    explanation: Use "by" for the cause or "with" for the feeling. Not "of".

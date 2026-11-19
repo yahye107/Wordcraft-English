@@ -1,0 +1,36 @@
+slug: beamed
+text: beamed
+kind: word
+pos: verb (past)
+simpleMeaning: Smiled brightly, as if the face is giving off light.
+contextualMeaning: Joy or pride that fills the whole face. Common for parents, winners and happy children.
+usageNotes: Use it for glowing, sincere happiness. It is gentle and positive, never cold.
+register: neutral
+level: intermediate
+status: published
+categories:
+  - smiles-and-laughter
+tags:
+  - emotion:joy
+  - emotion:pride
+  - technique:facial-expression
+searchPhrases:
+  - smiled brightly
+  - glowed with happiness
+  - smiled proudly
+examples:
+  - text: Mum beamed as her daughter walked across the stage.
+    setting: narration
+  - text: “It’s a girl!” the nurse beamed.
+    setting: dialogue
+  - text: He beamed at the little crowd that had come to cheer him.
+    setting: narration
+relations:
+  - to: grinned
+    type: related
+  - to: smirked
+    type: related
+mistakes:
+  - wrong: He beamed at his enemy’s defeat.
+    right: He smirked at his enemy’s defeat.
+    explanation: "Beamed is warm. Pleasure at someone’s defeat is smug: smirked."
