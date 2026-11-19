@@ -1,0 +1,14 @@
+slug: s6-3-build-the-sentence
+lesson: describing-environments
+level: intermediate
+prompt: Put the pieces in order.
+explanation: Subject, then verb phrase, then the detail that carries the sense.
+type: reorder
+fragments:
+  - The kitchen
+  - smelled of
+  - burnt sugar.
+accepted:
+  - - 0
+    - 1
+    - 2

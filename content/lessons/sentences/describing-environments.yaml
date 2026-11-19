@@ -1,0 +1,52 @@
+slug: describing-environments
+lab: sentence
+title: Describing environments
+summary: Build a place from the senses, move from wide to close, and let the setting match the mood.
+level: intermediate
+sort: 6
+sections:
+  - heading: Use the senses, not just sight
+    paragraphs:
+      - Most first drafts describe only what is seen. Add sound, smell, touch or taste and the place comes alive.
+    bullets:
+      - "Sight: colour, shape, light"
+      - "Sound: a drip, a hum, distant traffic"
+      - "Smell: burnt sugar, wet wool, cut grass"
+      - "Touch: cold rail, rough wall, damp air"
+      - "Taste: salt in the air, dust on the tongue"
+    examples:
+      - text: "{detail|The kitchen smelled of burnt sugar and wet wool.}"
+        note: Two smells tell us it is cold and someone has been cooking.
+      - text: "{detail|Somewhere a tap dripped, slow as a clock.}"
+        note: A sound sets the quiet and the time.
+  - heading: Go from wide to close
+    paragraphs:
+      - Start with the whole view and then move in, as a camera would. This guides the reader’s eye so the place does not feel like a list.
+    examples:
+      - text: "{main|Fog lay over the harbour.} {main|Closer in, the masts creaked.} {detail|A gull stood on a post, one eye open.}"
+        note: Wide view, then the boats, then one small bird.
+  - heading: Choose one detail per sense
+    paragraphs:
+      - Too many details blur together. Pick one strong detail for each sense you use.
+    examples:
+      - text: "{main|The market was loud.} {detail|A man shouted prices over the hiss of frying onions.}"
+        note: One sound and one smell, joined in a single picture.
+  - heading: Let the place reflect the mood
+    paragraphs:
+      - The same room can feel warm or threatening depending on which details you choose.
+    examples:
+      - text: "{main|The attic was quiet,} {detail|full of soft light and the smell of old books.}"
+        note: Warm details for a safe mood.
+      - text: "{main|The attic was silent,} {detail|every shadow pooled in the corners like spilled ink.}"
+        note: The same room made uneasy by different details.
+  - heading: Use it in a new situation
+    paragraphs:
+      - A railway platform.
+    examples:
+      - text: "{main|The platform emptied slowly.} {detail|A paper cup rolled in the wind and stopped at her feet.}"
+        note: A single moving object shows the emptiness and the wind.
+related:
+  - overcast
+  - dim
+  - drizzle
+  - windswept

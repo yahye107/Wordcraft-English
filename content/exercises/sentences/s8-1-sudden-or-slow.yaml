@@ -1,0 +1,18 @@
+slug: s8-1-sudden-or-slow
+lesson: thoughts-and-realisations
+level: advanced
+prompt: Does each sentence suggest a sudden or a slow realisation?
+explanation: Short, sharp sentences feel sudden. Longer, building sentences feel slow.
+type: identify
+items:
+  - text: Then she saw it. The key was in her hand.
+    answer: sudden
+  - text: The truth came to him slowly, piece by piece.
+    answer: slow
+  - text: "It hit him all at once: the door had never been locked."
+    answer: sudden
+  - text: Little by little, the pattern became clear.
+    answer: slow
+choices:
+  - sudden
+  - slow

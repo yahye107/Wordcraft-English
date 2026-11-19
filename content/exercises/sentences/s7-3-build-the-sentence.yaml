@@ -1,0 +1,14 @@
+slug: s7-3-build-the-sentence
+lesson: emotion-through-physical-reaction
+level: intermediate
+prompt: Put the pieces in order.
+explanation: The reaction comes first and the event that caused it follows in a clause.
+type: reorder
+fragments:
+  - His mouth
+  - went dry
+  - as he turned the paper over.
+accepted:
+  - - 0
+    - 1
+    - 2

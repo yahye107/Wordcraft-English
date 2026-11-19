@@ -1,0 +1,12 @@
+slug: s7-2-embarrassment
+lesson: emotion-through-physical-reaction
+level: intermediate
+prompt: Which sentence shows embarrassment through the body?
+explanation: A hot face is a physical sign. The others only name the feeling.
+type: choose
+options:
+  - Her face grew hot as the laughter rose.
+  - She was embarrassed.
+  - She felt very embarrassed indeed.
+  - Embarrassment filled her.
+answer: 0

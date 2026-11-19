@@ -1,0 +1,14 @@
+slug: s8-4-build-the-moment
+lesson: thoughts-and-realisations
+level: advanced
+prompt: Put the pieces in order.
+explanation: The turning point comes first as a short sentence. The surprising fact follows.
+type: reorder
+fragments:
+  - Then
+  - she saw it.
+  - The key was in her hand.
+accepted:
+  - - 0
+    - 1
+    - 2

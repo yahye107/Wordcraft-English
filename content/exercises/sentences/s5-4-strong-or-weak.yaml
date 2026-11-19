@@ -1,0 +1,18 @@
+slug: s5-4-strong-or-weak
+lesson: describing-movement
+level: intermediate
+prompt: Does each sentence use a strong verb or a weak verb with an adverb?
+explanation: A strong verb carries the manner. A weak verb needs an adverb to do the same job.
+type: identify
+items:
+  - text: She trudged up the hill.
+    answer: strong verb
+  - text: She walked slowly up the hill.
+    answer: weak verb
+  - text: He darted across the road.
+    answer: strong verb
+  - text: He went quickly across the road.
+    answer: weak verb
+choices:
+  - strong verb
+  - weak verb

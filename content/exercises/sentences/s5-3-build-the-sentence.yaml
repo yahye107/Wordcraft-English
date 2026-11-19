@@ -1,0 +1,14 @@
+slug: s5-3-build-the-sentence
+lesson: describing-movement
+level: intermediate
+prompt: Put the pieces in order.
+explanation: The main clause comes first, then the participial phrase that shows how.
+type: reorder
+fragments:
+  - The boy darted across the yard,
+  - dodging
+  - the puddles.
+accepted:
+  - - 0
+    - 1
+    - 2

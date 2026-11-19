@@ -1,0 +1,18 @@
+slug: s7-1-tells-or-shows
+lesson: emotion-through-physical-reaction
+level: intermediate
+prompt: Does each sentence tell the feeling or show it through the body?
+explanation: Telling names the feeling. Showing gives a body detail the reader can picture.
+type: identify
+items:
+  - text: She was frightened.
+    answer: tells
+  - text: Her hands shook as she opened the door.
+    answer: shows
+  - text: He felt angry.
+    answer: tells
+  - text: His jaw tightened as he read the message.
+    answer: shows
+choices:
+  - tells
+  - shows

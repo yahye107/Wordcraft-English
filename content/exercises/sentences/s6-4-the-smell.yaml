@@ -1,0 +1,14 @@
+slug: s6-4-the-smell
+lesson: describing-environments
+level: intermediate
+prompt: "The market was loud: a man shouted prices over the hiss of frying ___."
+explanation: The sound of frying adds a second sense and makes the noise feel real.
+type: fill_blank
+accepted:
+  - onions
+  - fish
+  - meat
+  - oil
+  - food
+  - garlic
+  - peppers

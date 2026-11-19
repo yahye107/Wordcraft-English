@@ -1,0 +1,41 @@
+slug: thoughts-and-realisations
+lab: sentence
+title: Thoughts and realisations
+summary: Show the moment of understanding through sentence shape, not through the word “realised”.
+level: advanced
+sort: 8
+sections:
+  - heading: A sudden realisation
+    paragraphs:
+      - A sudden realisation suits short sentences that arrive one after another. The sentence itself feels like a jolt.
+    examples:
+      - text: "{main|Then she saw it.} {main|The key had been in her hand all along.}"
+        note: Two short sentences, the second carrying the surprise.
+  - heading: A slow realisation
+    paragraphs:
+      - A slow realisation suits a longer sentence that builds, with phrases and clauses that add pieces one at a time.
+    examples:
+      - text: "{main|The truth came to him slowly,} {part|piece by piece,} {sub|until the whole picture was clear.}"
+        note: The sentence grows the way the understanding grows.
+  - heading: Show the thought, not the label
+    paragraphs:
+      - “She realised that…” tells the reader what happens inside. Instead, show what she sees or notices and let the reader make the connection.
+    examples:
+      - text: "{main|The name on the envelope was not hers.} {main|It was her mother’s, in her father’s handwriting.}"
+        note: The reader works out the secret at the same moment as the character.
+  - heading: Follow the realisation with a reaction
+    paragraphs:
+      - A small physical reaction after the moment makes it feel real.
+    examples:
+      - text: "{main|He read the line again.} {detail|The paper trembled very slightly.}"
+        note: The trembling paper shows the shock without naming it.
+  - heading: Use it in a new situation
+    paragraphs:
+      - A shared misunderstanding.
+    examples:
+      - text: "{main|The silence in the room changed.} {main|They had been talking about two different houses.}"
+        note: A change in atmosphere, then the fact that explains it.
+related:
+  - it-dawned-on-her
+  - the-penny-dropped
+  - pondered

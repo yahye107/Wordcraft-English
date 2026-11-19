@@ -1,0 +1,12 @@
+slug: s8-2-show-not-name
+lesson: thoughts-and-realisations
+level: advanced
+prompt: Which version shows a realisation rather than naming it?
+explanation: The first version gives a concrete fact the reader can work out. The others only say a realisation happened.
+type: choose
+options:
+  - The name on the envelope was her mother’s, in her father’s handwriting.
+  - She realised something important.
+  - She understood at last.
+  - She had a sudden realisation.
+answer: 0

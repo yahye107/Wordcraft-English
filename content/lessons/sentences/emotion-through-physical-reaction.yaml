@@ -1,0 +1,54 @@
+slug: emotion-through-physical-reaction
+lab: sentence
+title: Emotion through physical reaction
+summary: Swap the feeling word for a body detail, and put it inside a clause or phrase.
+level: intermediate
+sort: 7
+sections:
+  - heading: Replace the feeling word
+    paragraphs:
+      - “She was nervous” names the feeling. A body detail lets the reader feel it instead.
+    examples:
+      - text: "{main|She was nervous.}"
+        note: "Told: the reader is informed but not moved."
+      - text: "{main|A knot formed in her stomach} {sub|as the door opened.}"
+        note: "Shown: the reader feels the tension."
+  - heading: Body details that fit
+    paragraphs:
+      - Choose a detail that really belongs to the feeling.
+    bullets:
+      - "Fear: a dry mouth, a racing heart, cold hands."
+      - "Anger: a tight jaw, a hot face, clenched fists."
+      - "Joy: light feet, a laugh that escapes, a wide grin."
+      - "Sadness: a tight throat, heavy limbs, a look away."
+    examples:
+      - text: "{main|Her face grew hot} {sub|as the laughter rose around her.}"
+        note: A hot face shows embarrassment without naming it.
+  - heading: Put the reaction in a clause or phrase
+    paragraphs:
+      - A subordinate clause or a participial phrase lets the reaction sit inside the sentence about the event, so it does not feel added on.
+    examples:
+      - text: "{sub|When he heard her name,} {main|his heart thumped against his ribs.}"
+        note: A time clause leads to the reaction.
+      - text: "{main|Dan sat very still,} {part|his fingers curling into his palms.}"
+        note: A phrase shows tension in the hands.
+  - heading: One reaction is enough
+    paragraphs:
+      - One clear reaction does more than three. Choose the one the reader can picture most easily.
+    examples:
+      - text: "{main|The letter shook in her hand.}"
+        note: One detail. The reader understands without being told.
+  - heading: Use it in a new situation
+    paragraphs:
+      - An exam hall.
+    examples:
+      - text: "{main|His mouth went dry} {sub|as he turned the paper over.}"
+        note: A reaction inside a time clause.
+      - text: "{part|Gripping the edge of the desk,} {main|Priya read the first question.}"
+        note: A phrase shows tension before the main action.
+related:
+  - clenched
+  - shivered
+  - flushed
+  - throbbed
+  - a-knot-in-the-stomach

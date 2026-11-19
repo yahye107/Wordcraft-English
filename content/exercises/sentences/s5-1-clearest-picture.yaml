@@ -1,0 +1,12 @@
+slug: s5-1-clearest-picture
+lesson: describing-movement
+level: intermediate
+prompt: Which sentence gives the clearest picture?
+explanation: Darted is a strong verb that already says quick and sudden. The others need extra words or say very little.
+type: choose
+options:
+  - He went quickly across the room.
+  - He darted across the room.
+  - He moved across the room.
+  - He was fast across the room.
+answer: 1

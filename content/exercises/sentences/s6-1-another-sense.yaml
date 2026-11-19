@@ -1,0 +1,12 @@
+slug: s6-1-another-sense
+lesson: describing-environments
+level: intermediate
+prompt: Which sentence uses a sense other than sight?
+explanation: Smell is a sense other than sight. The other sentences give size, colour or position.
+type: choose
+options:
+  - The kitchen smelled of burnt sugar.
+  - The kitchen was big.
+  - The kitchen was white.
+  - The kitchen was on the left.
+answer: 0

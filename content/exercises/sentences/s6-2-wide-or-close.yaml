@@ -1,0 +1,18 @@
+slug: s6-2-wide-or-close
+lesson: describing-environments
+level: intermediate
+prompt: Is each sentence a wide view or a close detail?
+explanation: A wide view shows the whole place. A close detail shows one small thing.
+type: identify
+items:
+  - text: Fog lay over the harbour.
+    answer: wide view
+  - text: A gull stood on a post, one eye open.
+    answer: close detail
+  - text: The whole valley glittered under frost.
+    answer: wide view
+  - text: A paper cup rolled to her feet.
+    answer: close detail
+choices:
+  - wide view
+  - close detail

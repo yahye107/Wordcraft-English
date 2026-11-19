@@ -1,0 +1,50 @@
+slug: describing-movement
+lab: sentence
+title: Describing movement
+summary: Pick a strong verb, add direction and one telling detail, and match the sentence to the speed.
+level: intermediate
+sort: 5
+sections:
+  - heading: Choose a strong verb
+    paragraphs:
+      - "A weak verb needs an adverb to help it: “walked slowly”. A strong verb carries the picture by itself: “trudged”. Look for the verb that already says how."
+    examples:
+      - text: "{main|She walked slowly up the hill.}"
+        note: Clear, but flat. The adverb does the work.
+      - text: "{main|She trudged up the hill.} {detail|Her bag dragged at her shoulder.}"
+        note: One strong verb and one detail give a picture and a feeling.
+  - heading: Add direction and manner
+    paragraphs:
+      - A movement sentence is clearer when it says where the person goes and how. A participial phrase is a natural way to add the manner.
+    examples:
+      - text: "{main|The boy darted across the yard,} {part|dodging the puddles.}"
+        note: Direction in the main clause, manner in the phrase.
+      - text: "{main|The old man edged along the wall,} {detail|one hand always on the bricks.}"
+        note: The detail shows caution.
+  - heading: One telling detail
+    paragraphs:
+      - One small detail makes movement feel real. Choose something the reader can see or hear, not a list.
+    examples:
+      - text: "{main|She crept down the stairs,} {detail|skipping the third step that always creaked.}"
+        note: The skipped step shows she knows the house and is trying not to be heard.
+  - heading: Match the speed to the sentence
+    paragraphs:
+      - Fast movement suits short sentences. Slow movement suits longer ones that move at the same pace.
+    examples:
+      - text: "{main|He ran.} {main|The gate slammed behind him.}"
+        note: Two short sentences feel quick.
+      - text: "{main|The procession moved slowly through the narrow street,} {part|pausing at every doorway.}"
+        note: A long sentence with a pause in it feels slow.
+  - heading: Use it in a new situation
+    paragraphs:
+      - The same techniques with a ferry and a child.
+    examples:
+      - text: "{main|The ferry wallowed across the bay,} {part|rolling gently from side to side.}"
+        note: A strong verb and a phrase for the manner.
+      - text: "{main|A child skipped ahead} {part|swinging her lunch box.}"
+        note: A short, light sentence for a light movement.
+related:
+  - strolled
+  - trudged
+  - darted
+  - gripped
