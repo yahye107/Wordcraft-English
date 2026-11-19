@@ -1,0 +1,12 @@
+slug: my-best-friend
+mode: paragraph
+kind: description
+title: My best friend
+situation: Write a paragraph about your best friend. Say who they are, what they are like, and one small thing that shows it.
+constraints:
+  - About 80 words.
+try:
+  - fond-of
+  - easygoing
+  - tight-knit
+level: beginner

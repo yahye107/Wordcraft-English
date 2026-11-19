@@ -1,0 +1,11 @@
+slug: email-declining-an-offer
+mode: professional
+kind: email
+title: Email declining an offer
+situation: A company offered you a job and you have decided not to take it. Write an email that says no politely and keeps the door open.
+constraints:
+  - Thank them in the first sentence.
+try:
+  - however
+  - i-look-forward-to-hearing-from-you
+level: intermediate

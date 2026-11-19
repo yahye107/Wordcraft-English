@@ -1,0 +1,12 @@
+slug: an-unexpected-visitor
+mode: situation
+kind: scene
+title: An unexpected visitor
+situation: It is late at night and someone knocks on your door. You are not expecting anyone. Describe the seconds before you decide to open it.
+constraints:
+  - Slow the moment down with sentence length.
+try:
+  - apprehensive
+  - hesitated
+  - a-heartbeat-later
+level: advanced

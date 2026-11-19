@@ -1,0 +1,12 @@
+slug: a-quiet-market-morning
+mode: situation
+kind: scene
+title: A quiet market morning
+situation: It is early and the market has not opened yet. Stalls are half set up and the light is low. Describe the place so a reader can picture it.
+constraints:
+  - Use at least three different senses.
+try:
+  - dim
+  - gleaming
+  - weathered
+level: intermediate

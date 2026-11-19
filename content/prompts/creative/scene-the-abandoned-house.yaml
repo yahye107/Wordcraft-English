@@ -1,0 +1,12 @@
+slug: scene-the-abandoned-house
+mode: creative
+kind: fictional scene
+title: The abandoned house
+situation: Two friends enter an abandoned house at dusk. Describe the first minutes inside, so the reader feels something is wrong.
+constraints:
+  - Build suspense without naming a monster or a danger.
+try:
+  - gingerly
+  - dim
+  - a-heartbeat-later
+level: advanced

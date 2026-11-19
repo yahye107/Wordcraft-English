@@ -1,0 +1,12 @@
+slug: waiting-for-the-bus
+mode: situation
+kind: scene
+title: Waiting for the bus
+situation: You are alone at a bus stop on a cold, grey morning. The bus is ten minutes late and your hands are freezing. Describe the next few minutes.
+constraints:
+  - Use at least one detail you can feel or hear.
+try:
+  - overcast
+  - shivered
+  - glanced
+level: beginner

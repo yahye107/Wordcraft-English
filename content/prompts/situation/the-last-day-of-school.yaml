@@ -1,0 +1,12 @@
+slug: the-last-day-of-school
+mode: situation
+kind: scene
+title: The last day of school
+situation: It is the last day before everyone goes their separate ways. You are in the empty classroom after the others have left. Describe the moment.
+constraints:
+  - Show two feelings that pull against each other.
+try:
+  - bittersweet
+  - wistful
+  - tight-knit
+level: intermediate

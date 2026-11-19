@@ -1,0 +1,12 @@
+slug: scene-the-argument-in-the-kitchen
+mode: creative
+kind: dialogue scene
+title: The argument in the kitchen
+situation: Two brothers argue in the kitchen about who forgot to lock the door. Write the scene as dialogue with action.
+constraints:
+  - Use at most two dialogue tags, and show the rest with actions.
+try:
+  - snapped
+  - muttered
+  - folded-her-arms
+level: intermediate

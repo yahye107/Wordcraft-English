@@ -1,0 +1,12 @@
+slug: article-a-local-festival
+mode: professional
+kind: article
+title: A local festival
+situation: Write a short news article about a festival in your town. Say what it was, who came and what people liked.
+constraints:
+  - Start with the most important fact.
+try:
+  - vast
+  - delighted
+  - meanwhile
+level: beginner

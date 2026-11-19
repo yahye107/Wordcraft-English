@@ -71,3 +71,18 @@ members:                      # at least 2, all must be existing expression slug
 4. **Mistakes learners actually make.** Wrong word choice, wrong register, wrong grammar pattern, or a mismatch between the word and its context. Explain why, not only what.
 5. **Simple English.** Explanations should be easier to read than the word being explained.
 6. **Honest levels.** `beginner` is words a reader of simple novels knows; `literary` is rare, formal or poetic.
+
+## Writing prompts
+
+Prompts for the Writing Studio live in `content/prompts/<mode>/<slug>.yaml`. The mode is one of `situation`, `paragraph`, `creative` or `professional`.
+
+```yaml
+slug: waiting-for-the-bus
+mode: situation
+kind: scene            # a free label: scene, email, story, character, report, article ...
+title: Waiting for the bus
+situation: A specific situation with a who, a where and a what (at least 60 characters).
+constraints: [Use at least one detail you can feel or hear.]   # 0 to 5
+try: [overcast, shivered, glanced]                             # 2 to 4 expression slugs that must exist
+level: beginner
+```

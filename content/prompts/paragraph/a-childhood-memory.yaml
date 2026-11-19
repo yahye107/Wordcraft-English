@@ -1,0 +1,12 @@
+slug: a-childhood-memory
+mode: paragraph
+kind: memory
+title: A childhood memory
+situation: Choose one clear memory from when you were small. Write a paragraph that makes the reader feel they were there.
+constraints:
+  - Include at least one smell or sound.
+try:
+  - wistful
+  - bittersweet
+  - content
+level: intermediate

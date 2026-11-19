@@ -1,0 +1,12 @@
+slug: the-power-cut
+mode: situation
+kind: scene
+title: The power cut
+situation: The whole house goes dark in the middle of dinner. Nobody speaks for a moment. Describe what happens next.
+constraints:
+  - Include one sound and one movement.
+try:
+  - abruptly
+  - uneasy
+  - gingerly
+level: intermediate

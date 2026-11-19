@@ -1,0 +1,12 @@
+slug: academic-remote-work
+mode: professional
+kind: academic paragraph
+title: Remote work and productivity
+situation: Write one academic paragraph about whether working from home makes people more productive. State a claim, give evidence and consider a counter-argument.
+constraints:
+  - Use a hedging phrase for the claim.
+try:
+  - it-could-be-argued-that
+  - nevertheless
+  - in-light-of
+level: advanced

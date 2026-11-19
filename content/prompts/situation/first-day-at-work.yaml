@@ -1,0 +1,12 @@
+slug: first-day-at-work
+mode: situation
+kind: scene
+title: The first day at work
+situation: It is your first day in a new job. You are standing outside the office door and have not yet gone in. Describe what you notice, and how your body feels.
+constraints:
+  - Show the nervousness without using the word nervous.
+try:
+  - apprehensive
+  - fidgeted
+  - glanced
+level: beginner

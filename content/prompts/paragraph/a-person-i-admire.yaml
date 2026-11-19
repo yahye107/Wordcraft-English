@@ -1,0 +1,12 @@
+slug: a-person-i-admire
+mode: paragraph
+kind: description
+title: A person I admire
+situation: Write a paragraph about someone you admire and the reason. Be specific about what they have done or how they behave.
+constraints:
+  - Give one example, not only opinions.
+try:
+  - in-awe-of
+  - astute
+  - meticulous
+level: intermediate

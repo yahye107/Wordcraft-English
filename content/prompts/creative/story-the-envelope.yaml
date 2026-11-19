@@ -1,0 +1,12 @@
+slug: story-the-envelope
+mode: creative
+kind: story
+title: The envelope
+situation: A girl finds an envelope under her door with a name on it that is not hers. Write the opening of the story, about 150 words.
+constraints:
+  - End on a line that makes the reader want more.
+try:
+  - it-dawned-on-her
+  - little-did-she-know
+  - hesitated
+level: intermediate

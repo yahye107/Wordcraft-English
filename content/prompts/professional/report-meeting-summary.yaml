@@ -1,0 +1,12 @@
+slug: report-meeting-summary
+mode: professional
+kind: report
+title: Meeting summary
+situation: Write a short summary of a team meeting where three decisions were made. Make it easy for someone who was not there to follow.
+constraints:
+  - List the decisions clearly.
+try:
+  - moreover
+  - therefore
+  - i-would-recommend
+level: intermediate

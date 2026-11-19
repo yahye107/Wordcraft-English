@@ -1,0 +1,12 @@
+slug: character-the-shopkeeper
+mode: creative
+kind: character
+title: The shopkeeper
+situation: Describe a shopkeeper who has run the same small shop for forty years. Show what kind of person they are through how they look and what they do.
+constraints:
+  - Do not say what kind of person they are. Show it.
+try:
+  - weathered
+  - meticulous
+  - stubborn
+level: intermediate

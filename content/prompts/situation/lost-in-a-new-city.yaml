@@ -1,0 +1,12 @@
+slug: lost-in-a-new-city
+mode: situation
+kind: scene
+title: Lost in a new city
+situation: You are lost in a city you do not know. Your phone has died and the street signs are in a language you cannot read. Describe how you search for a way out.
+constraints:
+  - Show how you feel through what you do.
+try:
+  - bewildered
+  - anxious
+  - trudged
+level: intermediate

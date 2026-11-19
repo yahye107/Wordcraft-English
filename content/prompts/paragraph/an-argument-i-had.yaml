@@ -1,0 +1,12 @@
+slug: an-argument-i-had
+mode: paragraph
+kind: reflection
+title: An argument I had
+situation: Write a paragraph about a small argument you had with someone close to you, and how it ended.
+constraints:
+  - Show the order of events clearly.
+try:
+  - bickered
+  - conceded
+  - patched-things-up
+level: intermediate

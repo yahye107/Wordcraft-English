@@ -1,0 +1,12 @@
+slug: a-storm-arrives
+mode: situation
+kind: scene
+title: A storm arrives
+situation: A storm is coming in over a small harbour. Fishing boats are rushing back. Describe the change in the weather and the place.
+constraints:
+  - Use one comparison that is fresh and specific.
+try:
+  - downpour
+  - windswept
+  - rippled
+level: advanced

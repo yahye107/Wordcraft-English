@@ -1,0 +1,12 @@
+slug: a-good-surprise
+mode: paragraph
+kind: memory
+title: A good surprise
+situation: Write a paragraph about a time something good happened that you did not expect.
+constraints:
+  - Say how you felt through what you did.
+try:
+  - delighted
+  - thrilled
+  - relieved
+level: beginner

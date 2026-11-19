@@ -1,0 +1,12 @@
+slug: character-the-new-teacher
+mode: creative
+kind: character
+title: The new teacher
+situation: A new teacher walks into a class on the first day. Describe them so the reader knows at once what they are like.
+constraints:
+  - Use one gesture and one detail of clothing.
+try:
+  - self-assured
+  - sheepish
+  - easygoing
+level: beginner

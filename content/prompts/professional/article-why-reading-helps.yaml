@@ -1,0 +1,12 @@
+slug: article-why-reading-helps
+mode: professional
+kind: article
+title: Why reading helps
+situation: Write a short article for a school magazine on why reading stories helps people write better. Give at least two reasons.
+constraints:
+  - Give an example for each reason.
+try:
+  - moreover
+  - however
+  - it-could-be-argued-that
+level: intermediate

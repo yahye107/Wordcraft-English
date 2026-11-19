@@ -1,0 +1,13 @@
+slug: email-late-delivery
+mode: professional
+kind: email
+title: Email about a late delivery
+situation: An order you paid for has not arrived and it is a week late. Write a polite email to the shop asking what is happening and when it will come.
+constraints:
+  - Keep it under 120 words.
+  - Be polite but clear.
+try:
+  - i-hope-this-email-finds-you-well
+  - please-find-attached
+  - i-look-forward-to-hearing-from-you
+level: beginner

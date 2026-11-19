@@ -1,0 +1,12 @@
+slug: report-a-site-visit
+mode: professional
+kind: report
+title: Report on a site visit
+situation: You visited a building that needs repairs. Write a short report that says what you found and what you recommend.
+constraints:
+  - Use clear headings or short labelled sections.
+try:
+  - in-light-of
+  - consequently
+  - i-would-recommend
+level: intermediate
