@@ -474,5 +474,11 @@ code { font-size: 0.9em; padding: 0.1em 0.35em; background: var(--paper); border
 .contrast-note { margin: 0.15rem 0 0.35rem; color: var(--ink-2); }
 
 .mistake { padding: 0.85rem 1rem; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--surface); margin-bottom: 0.8rem; }
+.searchform { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; margin: 1.5rem 0 1rem; max-width: 46rem; }
+.searchform input[type='search'] { flex: 1 1 18rem; width: auto; }
+.checkline { display: inline-flex; align-items: center; gap: 0.5rem; flex-basis: 100%; color: var(--ink-2); font-size: 0.95rem; }
+.checkline input { width: 1.1rem; height: 1.1rem; }
+.resultgroup { margin-top: 1.75rem; }
+.resultgroup h2 { margin-bottom: 0.25rem; }
 .mistake .sentence { margin: 0 0 0.2rem; }
 .mistake p.muted { margin: 0.3rem 0 0; font-size: 0.95rem; }
