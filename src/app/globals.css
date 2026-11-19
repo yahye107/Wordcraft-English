@@ -558,3 +558,14 @@ fieldset { border: 0; margin: 0 0 0.75rem; padding: 0; min-width: 0; }
 .lesson-nav { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem; margin-top: 2.5rem; }
 .mistake .sentence { margin: 0 0 0.2rem; }
 .mistake p.muted { margin: 0.3rem 0 0; font-size: 0.95rem; }
+
+/* ---------- Notebook ---------- */
+
+.notebook-actions { margin: 1rem 0 1.5rem; align-items: center; }
+.entry-list { list-style: none; padding: 0; margin: 0 0 1.5rem; display: grid; gap: 0.75rem; max-width: 46rem; }
+.entry-row { display: grid; gap: 0.3rem; padding: 0.9rem 1.1rem; background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius-lg); color: var(--ink); text-decoration: none; transition: border-color 150ms ease, transform 160ms var(--ease-out); }
+.entry-row:active { transform: scale(0.99); }
+@media (hover: hover) and (pointer: fine) { .entry-row:hover { border-color: var(--cobalt); } }
+.examples .row { align-items: center; justify-content: space-between; flex-wrap: nowrap; }
+.examples .row .sentence { margin: 0; }
+.notebook-page .panel { max-width: 46rem; }

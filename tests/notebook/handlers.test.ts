@@ -20,6 +20,7 @@ function setup(): Db {
 const req = (body: unknown, method = 'POST') =>
   new Request('http://localhost/api/x', { method, body: typeof body === 'string' ? body : JSON.stringify(body), headers: { 'Content-Type': 'application/json' } });
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const json = async (r: Response) => (await r.json()) as Record<string, any>;
 
 describe('add and save', () => {

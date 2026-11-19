@@ -6,6 +6,8 @@ import LevelBadge, { RegisterBadge } from "@/components/LevelBadge";
 import IntensityMeter from "@/components/IntensityMeter";
 import Highlighted from "@/components/Highlighted";
 import ContrastGroup from "@/components/ContrastGroup";
+import SaveButton from "@/components/notebook/SaveButton";
+import { getEntryForSlug } from "@/lib/notebook/entries";
 
 export const dynamic = "force-dynamic";
 
@@ -32,8 +34,10 @@ export async function generateMetadata(props: PageProps<"/e/[slug]">) {
 
 export default async function ExpressionPage(props: PageProps<"/e/[slug]">) {
   const { slug } = await props.params;
-  const e = getExpression(getDb(), slug);
+  const db = getDb();
+  const e = getExpression(db, slug);
   if (!e) notFound();
+  const saved = getEntryForSlug(db, slug);
 
   const settings = [...new Set(e.examples.map((x) => x.setting))];
   const relationTypes = [...new Set(e.relations.map((r) => r.type))];
@@ -58,15 +62,7 @@ export default async function ExpressionPage(props: PageProps<"/e/[slug]">) {
           <LevelBadge level={e.level} />
           <RegisterBadge register={e.register} />
           <IntensityMeter value={e.intensity} />
-          <button
-            className="btn secondary small"
-            type="button"
-            disabled
-            aria-disabled="true"
-            title="The notebook arrives in a later phase"
-          >
-            Save to notebook
-          </button>
+          <SaveButton slug={e.slug} entryId={saved?.id ?? null} />
         </div>
       </header>
 

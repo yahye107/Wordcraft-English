@@ -1,6 +1,11 @@
 import Link from "next/link";
+import { getDb } from "@/lib/db";
+import { countDue } from "@/lib/notebook/review";
+
+export const dynamic = "force-dynamic";
 
 export default function Dashboard() {
+  const due = countDue(getDb());
   return (
     <>
       <h1>From a plain thought to a written sentence</h1>
@@ -21,6 +26,12 @@ export default function Dashboard() {
       </figure>
 
       <div className="tiles">
+        {due > 0 && (
+          <Link href="/notebook/review" className="tile">
+            <h3>{due} {due === 1 ? "card" : "cards"} to review</h3>
+            <p>A few minutes of review keeps your words fresh.</p>
+          </Link>
+        )}
         <Link href="/explore" className="tile">
           <h3>Explore expressions</h3>
           <p>Browse by feeling, action or situation, and see how near-synonyms differ.</p>
