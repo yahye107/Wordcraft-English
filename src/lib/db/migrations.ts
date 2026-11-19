@@ -330,4 +330,12 @@ CREATE TABLE model_versions (
 );
 `,
   },
+  {
+    version: 7,
+    name: 'revision_extra',
+    sql: `
+-- Strengths, overall comment and next step from the tutor, kept as JSON so a reload shows them again.
+ALTER TABLE writing_revisions ADD COLUMN extra_json TEXT;
+`,
+  },
 ];

@@ -13,6 +13,9 @@ export type Revision = {
   createdAt: string;
   issues: StoredIssue[];
   modelVersion: string | null;
+  strengths: string[];
+  overall: string | null;
+  nextStep: string | null;
 };
 
 export type Session = {
@@ -60,6 +63,19 @@ type IssueRow = {
   hint1: string; hint2: string; hint3: string; alternatives_json: string; hint_level_shown: number; resolved: number;
 };
 
+function extraOf(json: string | null): { strengths: string[]; overall: string | null; nextStep: string | null } {
+  try {
+    const x = json ? (JSON.parse(json) as { strengths?: string[]; overall?: string; nextStep?: string }) : {};
+    return {
+      strengths: Array.isArray(x.strengths) ? x.strengths.map(String) : [],
+      overall: x.overall ? String(x.overall) : null,
+      nextStep: x.nextStep ? String(x.nextStep) : null,
+    };
+  } catch {
+    return { strengths: [], overall: null, nextStep: null };
+  }
+}
+
 export function getSession(db: Db, id: number): Session | undefined {
   const s = db.get<{ id: number; mode: Mode; prompt_slug: string | null; title: string; created_at: string }>(
     'SELECT id, mode, prompt_slug, title, created_at FROM writing_sessions WHERE id = ?',
@@ -68,8 +84,8 @@ export function getSession(db: Db, id: number): Session | undefined {
   if (!s) return undefined;
 
   const revisions = db
-    .all<{ id: number; version: number; text: string; word_count: number; ai_used: number; ai_note: string | null; created_at: string }>(
-      'SELECT id, version, text, word_count, ai_used, ai_note, created_at FROM writing_revisions WHERE session_id = ? ORDER BY version',
+    .all<{ id: number; version: number; text: string; word_count: number; ai_used: number; ai_note: string | null; created_at: string; extra_json: string | null }>(
+      'SELECT id, version, text, word_count, ai_used, ai_note, created_at, extra_json FROM writing_revisions WHERE session_id = ? ORDER BY version',
       [id],
     )
     .map((r) => ({
@@ -103,6 +119,7 @@ export function getSession(db: Db, id: number): Session | undefined {
           resolved: i.resolved === 1,
         })),
       modelVersion: db.get<{ text: string }>('SELECT text FROM model_versions WHERE revision_id = ?', [r.id])?.text ?? null,
+      ...extraOf(r.extra_json),
     }));
 
   return { id: s.id, mode: s.mode, promptSlug: s.prompt_slug, title: s.title, createdAt: s.created_at, revisions };
