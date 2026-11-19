@@ -12,7 +12,7 @@ The ui-ux-pro-max search suggested claymorphism with a playful kids' font pair. 
 
 | Role | Light | Dark |
 | --- | --- | --- |
-| Paper (page) | `#F4F6F8` cool paper, not cream | `#0F1622` |
+| Paper (page) | `#FFFFFF` white (soft tint `#F4F6F8` for fills) | none: light only |
 | Surface | `#FFFFFF` | `#172131` |
 | Ink (text) | `#16202F` | `#E9EEF5` |
 | Ink 2 (muted) | `#4A5668` | `#A3AFC2` |
