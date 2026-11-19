@@ -22,15 +22,17 @@ function NavLink({ item, pathname }: { item: NavItem; pathname: string }) {
 
 export default function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  useEffect(() => {
-    setMenuOpen(false);
-  }, [pathname]);
+  // The menu is open "for" one path; navigating to another path closes it with no effect needed.
+  const [openFor, setOpenFor] = useState<string | null>(null);
+  const menuOpen = openFor === pathname;
+  const setMenuOpen = (open: boolean | ((o: boolean) => boolean)) => {
+    const next = typeof open === "function" ? open(menuOpen) : open;
+    setOpenFor(next ? pathname : null);
+  };
 
   useEffect(() => {
     if (!menuOpen) return;
-    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setMenuOpen(false);
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpenFor(null);
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [menuOpen]);

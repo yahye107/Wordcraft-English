@@ -30,6 +30,8 @@ export default async function SearchPage(props: PageProps<"/search">) {
   const db = getDb();
 
   const hasQuery = q.trim().length > 0;
+  // The form was submitted with nothing (or only spaces) in it
+  const submittedBlank = !hasQuery && sp.q !== undefined;
   const parsed = hasQuery ? (smartWanted && smartAvailable ? await translateQuery(db, q) : parseQuery(q)) : null;
   const results: SearchResult[] = parsed && !parsed.empty ? searchExpressions(db, parsed) : [];
 
@@ -80,9 +82,9 @@ export default async function SearchPage(props: PageProps<"/search">) {
         </p>
       )}
 
-      {!hasQuery && <Suggestions />}
+      {!hasQuery && !submittedBlank && <Suggestions />}
 
-      {hasQuery && parsed?.empty && (
+      {(submittedBlank || (hasQuery && parsed?.empty)) && (
         <div className="panel" role="status">
           <p><strong>Try describing a feeling or a situation.</strong></p>
           <p className="muted">For example, “nervous before a speech” or “walking slowly because you are tired”.</p>

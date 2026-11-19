@@ -69,8 +69,7 @@ describe('seedContent', () => {
   it('removing an expression from the bundle deletes it and its children', () => {
     const db = dbWithSentinel();
     seedContent(db, bundleOf(TWO));
-    const { 'expressions/sadness/deflated.yaml': _gone, 'contrasts/sad-pair.yaml': _c, ...rest } = TWO;
-    const only = { ...rest, 'expressions/sadness/crestfallen.yaml': expressionYaml() };
+    const only = { 'expressions/sadness/crestfallen.yaml': expressionYaml() };
     const result = seedContent(db, bundleOf(only));
     expect(result.removed).toBe(1);
     expect(db.all("SELECT 1 FROM expressions WHERE slug='deflated'")).toHaveLength(0);

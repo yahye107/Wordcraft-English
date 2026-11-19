@@ -10,7 +10,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "content:validate": "tsx scripts/content-validate.ts",
-    "content:seed": "tsx scripts/content-seed.ts"
+    "content:seed": "tsx scripts/content-seed.ts",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.10.0",
@@ -22,6 +23,7 @@
     "zod": "^4.6.7"
   },
   "devDependencies": {
+    "@playwright/test": "^1.65.1",
     "@types/node": "^24.19.2",
     "@types/react": "^19",
     "@types/react-dom": "^19",

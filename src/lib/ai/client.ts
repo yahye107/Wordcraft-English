@@ -41,7 +41,8 @@ export function aiConfigured(): boolean {
 async function callModel(req: AiRequest): Promise<AiResponse> {
   if (process.env.WORDCRAFT_AI_MOCK === '1' && mockResponder) return mockResponder(req);
 
-  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+  // Short timeout and one retry: a page waiting on the model must not hang for minutes.
+  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY, timeout: 30_000, maxRetries: 1 });
   const res = await client.messages.create({
     model: req.model,
     max_tokens: req.maxTokens,
