@@ -270,4 +270,64 @@ CREATE TABLE writing_prompts (
 CREATE INDEX idx_prompts_mode ON writing_prompts(mode, sort);
 `,
   },
+  {
+    version: 6,
+    name: 'writing_sessions',
+    sql: `
+-- Learner data. The prompt slug is kept as text with no foreign key.
+CREATE TABLE writing_sessions (
+  id INTEGER PRIMARY KEY,
+  mode TEXT NOT NULL,
+  prompt_slug TEXT,
+  title TEXT NOT NULL,
+  created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now'))
+);
+
+CREATE TABLE writing_revisions (
+  id INTEGER PRIMARY KEY,
+  session_id INTEGER NOT NULL REFERENCES writing_sessions(id) ON DELETE CASCADE,
+  version INTEGER NOT NULL,
+  text TEXT NOT NULL,
+  text_hash TEXT NOT NULL,
+  word_count INTEGER NOT NULL,
+  ai_used INTEGER NOT NULL DEFAULT 0,
+  ai_note TEXT,
+  created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')),
+  UNIQUE (session_id, version)
+);
+CREATE INDEX idx_revisions_session ON writing_revisions(session_id);
+
+CREATE TABLE feedback_items (
+  id INTEGER PRIMARY KEY,
+  revision_id INTEGER NOT NULL REFERENCES writing_revisions(id) ON DELETE CASCADE,
+  source TEXT NOT NULL,
+  category TEXT NOT NULL,
+  key TEXT NOT NULL,
+  quote TEXT NOT NULL,
+  why TEXT NOT NULL,
+  hint1 TEXT NOT NULL,
+  hint2 TEXT NOT NULL,
+  hint3 TEXT NOT NULL,
+  alternatives_json TEXT NOT NULL DEFAULT '[]',
+  hint_level_shown INTEGER NOT NULL DEFAULT 1,
+  resolved INTEGER NOT NULL DEFAULT 0
+);
+CREATE INDEX idx_feedback_revision ON feedback_items(revision_id);
+
+CREATE TABLE weakness_stats (
+  category TEXT NOT NULL,
+  key TEXT NOT NULL,
+  count INTEGER NOT NULL DEFAULT 0,
+  last_seen TEXT NOT NULL,
+  PRIMARY KEY (category, key)
+);
+
+CREATE TABLE model_versions (
+  id INTEGER PRIMARY KEY,
+  revision_id INTEGER NOT NULL UNIQUE REFERENCES writing_revisions(id) ON DELETE CASCADE,
+  text TEXT NOT NULL,
+  created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now'))
+);
+`,
+  },
 ];
