@@ -338,4 +338,21 @@ CREATE TABLE model_versions (
 ALTER TABLE writing_revisions ADD COLUMN extra_json TEXT;
 `,
   },
+  {
+    version: 8,
+    name: 'novel_analyses',
+    sql: `
+-- Learner data: passages the learner pasted and their analyses. Never touched by content seeding.
+CREATE TABLE novel_analyses (
+  id INTEGER PRIMARY KEY,
+  excerpt TEXT NOT NULL,
+  excerpt_hash TEXT NOT NULL UNIQUE,
+  source_title TEXT,
+  result_json TEXT NOT NULL,
+  ai_used INTEGER NOT NULL DEFAULT 0,
+  ai_note TEXT,
+  created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now'))
+);
+`,
+  },
 ];
