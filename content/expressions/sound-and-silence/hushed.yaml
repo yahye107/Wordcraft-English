@@ -1,0 +1,33 @@
+slug: hushed
+text: hushed
+kind: word
+pos: adjective
+simpleMeaning: Very quiet, because people are being careful or something serious is happening.
+contextualMeaning: A hushed place or voice shows respect, secrecy or tension. It is quiet on purpose, not by accident.
+usageNotes: Use it for voices, crowds and rooms. People speak in hushed tones when they are afraid to be heard or do not want to wake someone.
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - quiet-and-silence
+tags:
+  - technique:setting
+  - technique:sound
+searchPhrases:
+  - spoken very quietly
+  - everyone went quiet
+  - whispering so no one hears
+examples:
+  - text: A hushed crowd waited for the judge to speak.
+    setting: narration
+  - text: “Keep your voice down,” she said in a hushed tone.
+    setting: dialogue
+  - text: They talked in hushed voices so the baby would not wake.
+    setting: everyday
+relations:
+  - to: deafening
+    type: antonym
+mistakes:
+  - wrong: They spoke hushed.
+    right: They spoke in hushed voices.
+    explanation: Hushed describes voices or tones, so it needs a noun after it.

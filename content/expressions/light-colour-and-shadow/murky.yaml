@@ -1,0 +1,35 @@
+slug: murky
+text: murky
+kind: word
+pos: adjective
+simpleMeaning: Dark, cloudy and hard to see through.
+contextualMeaning: Murky water, murky light and murky motives all suggest something unclear and possibly dirty or dangerous.
+usageNotes: Use murky for water, fog and light. For ideas and secrets it means unclear, often because someone is hiding something.
+register: neutral
+level: advanced
+status: draft
+categories:
+  - shadow-and-darkness
+tags:
+  - technique:setting
+  - technique:imagery
+searchPhrases:
+  - cloudy water
+  - dark and unclear
+  - hard to see through
+examples:
+  - text: The pond was murky and green.
+    setting: narration
+  - text: I could not see the bottom of the murky river.
+    setting: everyday
+  - text: The murky past of the company worried the investors.
+    setting: academic
+relations:
+  - to: vivid
+    type: antonym
+  - to: faded
+    type: related
+mistakes:
+  - wrong: The glass of clear water was murky.
+    right: The pond water was murky.
+    explanation: Murky means cloudy and dirty, so it does not suit clear water.

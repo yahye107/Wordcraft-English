@@ -1,0 +1,33 @@
+slug: shrill
+text: shrill
+kind: word
+pos: adjective
+simpleMeaning: High, sharp and unpleasant to listen to.
+contextualMeaning: A shrill sound cuts through a room. It can show panic, anger or a machine that will not stop.
+usageNotes: Use it for whistles, alarms, cries and angry voices. It is almost always negative. For a pleasant high sound use clear or bright.
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - loud-and-harsh-sounds
+tags:
+  - technique:sound
+  - emotion:tension
+searchPhrases:
+  - high and sharp sound
+  - piercing noise
+  - a voice that hurts the ears
+examples:
+  - text: A shrill whistle made everyone turn.
+    setting: narration
+  - text: The alarm clock was shrill and impossible to ignore.
+    setting: everyday
+  - text: “Stop it!” she cried in a shrill voice.
+    setting: dialogue
+relations:
+  - to: muffled
+    type: antonym
+mistakes:
+  - wrong: She sang in a shrill, beautiful way.
+    right: She sang in a clear, beautiful voice.
+    explanation: Shrill is unpleasant, so it does not go with beautiful.

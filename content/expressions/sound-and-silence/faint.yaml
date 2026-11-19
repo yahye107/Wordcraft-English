@@ -1,0 +1,33 @@
+slug: faint
+text: faint
+kind: word
+pos: adjective
+simpleMeaning: Very weak or quiet, and hard to notice.
+contextualMeaning: A faint sound, light or smell is almost not there. It makes the reader lean in and pay attention.
+usageNotes: Use faint for sounds, smells, lights and smiles. It is a gentle, safe word for something small that you can only just notice.
+register: neutral
+level: beginner
+status: draft
+categories:
+  - quiet-and-silence
+tags:
+  - technique:sound
+  - technique:imagery
+searchPhrases:
+  - hard to hear
+  - almost silent
+  - very weak sound
+examples:
+  - text: A faint knock came from the back door.
+    setting: narration
+  - text: I could hear faint music from the flat next door.
+    setting: everyday
+  - text: “Did you hear that?” he whispered. “It was very faint.”
+    setting: dialogue
+relations:
+  - to: deafening
+    type: weaker
+mistakes:
+  - wrong: The sound was faintly.
+    right: The sound was faint.
+    explanation: "Faint is an adjective. Faintly is the adverb, used with a verb: it faintly rang."

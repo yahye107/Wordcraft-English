@@ -1,0 +1,35 @@
+slug: muffled
+text: muffled
+kind: word
+pos: adjective
+simpleMeaning: Made quieter and less clear because something is covering or blocking it.
+contextualMeaning: A muffled sound seems to come through a wall, a pillow or a coat. It often makes a scene feel secret or far away.
+usageNotes: Use it for voices, shouts and music heard through something. It is about clarity as well as volume.
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - quiet-and-silence
+tags:
+  - technique:sound
+  - technique:setting
+searchPhrases:
+  - sound through a wall
+  - a voice you cannot hear clearly
+  - dull quiet noise
+examples:
+  - text: Muffled voices came through the wall.
+    setting: narration
+  - text: Her answer was muffled by the scarf over her mouth.
+    setting: everyday
+  - text: He heard the muffled thump of music from the flat above.
+    setting: narration
+relations:
+  - to: shrill
+    type: antonym
+  - to: echoed
+    type: related
+mistakes:
+  - wrong: Her muffled voice was high and clear.
+    right: Her shrill voice was high and clear.
+    explanation: Muffled means dull and unclear, so it cannot describe a clear, high sound.

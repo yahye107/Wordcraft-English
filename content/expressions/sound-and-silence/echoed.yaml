@@ -1,0 +1,35 @@
+slug: echoed
+text: echoed
+kind: word
+pos: verb (past)
+simpleMeaning: Made a sound that bounced back and was heard again.
+contextualMeaning: Echoed fills a big, empty or hard-walled place with sound. It also shows how empty a place feels.
+usageNotes: "Use it for footsteps, voices and shouts in halls, caves and empty rooms. It also works for ideas that stay in the mind: his words echoed in her head."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - sounds-things-make
+tags:
+  - technique:sound
+  - technique:setting
+searchPhrases:
+  - sound bounced back
+  - repeated in an empty room
+  - heard again and again
+examples:
+  - text: Their footsteps echoed along the empty corridor.
+    setting: narration
+  - text: Our shouts echoed across the valley when we reached the top.
+    setting: everyday
+  - text: The teacher’s last words echoed in his head all evening.
+    setting: narration
+relations:
+  - to: muffled
+    type: related
+  - to: creaked
+    type: related
+mistakes:
+  - wrong: His voice echo in the hall.
+    right: His voice echoed in the hall.
+    explanation: Use the past form echoed for something that already happened.

@@ -1,0 +1,35 @@
+slug: dazzling
+text: dazzling
+kind: word
+pos: adjective
+simpleMeaning: So bright that it is hard to look at, or so beautiful that it surprises you.
+contextualMeaning: Dazzling works for strong light, and for people or performances that take your breath away.
+usageNotes: "Use it for bright light or for something impressive: a dazzling smile, a dazzling win. The verb dazzled means the light or beauty stops you seeing clearly."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - light-and-glow
+tags:
+  - technique:imagery
+  - emotion:admiration
+searchPhrases:
+  - too bright to look at
+  - amazingly beautiful
+  - blinding light
+examples:
+  - text: The snow was dazzling in the morning sun.
+    setting: narration
+  - text: She gave us a dazzling smile.
+    setting: everyday
+  - text: “That was a dazzling performance,” the critic said.
+    setting: dialogue
+relations:
+  - to: pitch-black
+    type: antonym
+  - to: glinted
+    type: stronger
+mistakes:
+  - wrong: The lamp was dazzled.
+    right: The lamp was dazzling.
+    explanation: Dazzling describes the light. Dazzled describes the person who is hit by it.

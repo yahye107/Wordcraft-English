@@ -1,0 +1,35 @@
+slug: creaked
+text: creaked
+kind: word
+pos: verb (past)
+simpleMeaning: Made a long, thin squeaking sound, like old wood or a hinge.
+contextualMeaning: Creaking tells the reader that a thing is old, heavy or tired. It is also a classic way to build fear in a quiet house.
+usageNotes: Use it for floors, stairs, doors, chairs and beds. It is a sound of age and weight. For a high metal squeak, squealed fits better.
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - sounds-things-make
+tags:
+  - technique:sound
+  - technique:suspense
+searchPhrases:
+  - old wood sound
+  - squeaky door noise
+  - floorboard noise
+examples:
+  - text: The old stairs creaked under his weight.
+    setting: narration
+  - text: The door creaked open and everyone looked up.
+    setting: everyday
+  - text: “This bed creaks every time I turn over,” she complained.
+    setting: dialogue
+relations:
+  - to: rumbled
+    type: related
+  - to: echoed
+    type: related
+mistakes:
+  - wrong: The floor creaked like a bell.
+    right: The floor creaked like an old chair.
+    explanation: A creak is low and wooden, so compare it to wooden things, not to a ringing bell.

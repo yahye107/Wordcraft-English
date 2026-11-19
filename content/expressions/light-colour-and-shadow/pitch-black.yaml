@@ -1,0 +1,35 @@
+slug: pitch-black
+text: pitch-black
+kind: word
+pos: adjective
+simpleMeaning: Completely dark, with no light at all.
+contextualMeaning: Pitch-black is the darkest dark. It makes the reader feel blind and a little afraid.
+usageNotes: Use it for nights, rooms and tunnels. It is stronger than dark, so keep it for when nothing at all can be seen.
+register: neutral
+level: beginner
+status: draft
+categories:
+  - shadow-and-darkness
+tags:
+  - technique:setting
+  - technique:imagery
+searchPhrases:
+  - completely dark
+  - no light at all
+  - so dark you cannot see
+examples:
+  - text: The cellar was pitch-black.
+    setting: narration
+  - text: It was pitch-black when we left the cinema.
+    setting: everyday
+  - text: “I can’t see a thing,” he said. “It’s pitch-black in here.”
+    setting: dialogue
+relations:
+  - to: dazzling
+    type: antonym
+  - to: shadowy
+    type: stronger
+mistakes:
+  - wrong: The room was a little pitch-black.
+    right: The room was pitch-black.
+    explanation: Pitch-black already means completely dark, so it cannot be a little.

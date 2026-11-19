@@ -1,0 +1,32 @@
+slug: you-could-hear-a-pin-drop
+text: you could hear a pin drop
+kind: idiom
+simpleMeaning: The room was so silent that even the smallest sound would be heard.
+contextualMeaning: A fixed expression for total silence, usually after something shocking, serious or awkward.
+usageNotes: "Say it about a group of people: a class, a meeting or a crowd. It is a cliché in writing, so use it in dialogue or an everyday voice, not as your main image."
+register: informal
+level: intermediate
+status: draft
+categories:
+  - quiet-and-silence
+tags:
+  - technique:setting
+  - technique:sound
+searchPhrases:
+  - complete silence in a room
+  - very quiet and tense
+  - nobody said anything
+examples:
+  - text: When the teacher walked in, you could hear a pin drop.
+    setting: everyday
+  - text: After the news, the room went so quiet you could hear a pin drop.
+    setting: narration
+  - text: “It was so silent,” Dan said, “you could hear a pin drop.”
+    setting: dialogue
+relations:
+  - to: deafening
+    type: antonym
+mistakes:
+  - wrong: You could hear a pin drops.
+    right: You could hear a pin drop.
+    explanation: "After could, the verbs stay in their base form: hear, drop."

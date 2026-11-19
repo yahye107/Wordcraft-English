@@ -337,3 +337,78 @@ categories:
       - slug: time-and-transition
         name: Time and scene transitions
         description: Moving through time and place.
+  - slug: sound-and-silence
+    name: Sound and silence
+    description: What a place or a voice sounds like, from a hush to a roar.
+    children:
+      - slug: quiet-and-silence
+        name: Quiet and silence
+        description: Hush, stillness and sounds you can hardly hear.
+      - slug: loud-and-harsh-sounds
+        name: Loud and harsh sounds
+        description: Noise that fills a room or hurts the ears.
+      - slug: sounds-things-make
+        name: Sounds things make
+        description: Creaks, rumbles and echoes from floors, doors and weather.
+  - slug: light-colour-and-shadow
+    name: Light, colour and shadow
+    description: How light falls, how colours look and how darkness feels.
+    children:
+      - slug: light-and-glow
+        name: Light and glow
+        description: Flames, flashes, shine and brightness.
+      - slug: colour-and-fading
+        name: Colour and fading
+        description: Strong colours and colours that wear away.
+      - slug: shadow-and-darkness
+        name: Shadow and darkness
+        description: Dark places, dim corners and what hides in them.
+  - slug: time-pace-and-waiting
+    name: Time, pace and waiting
+    description: How fast or slow time feels, and what waiting is like.
+    children:
+      - slug: time-passing
+        name: Time passing
+        description: Hours that crawl and days that vanish.
+      - slug: speed-and-suddenness
+        name: Speed and suddenness
+        description: Things that happen fast or without warning.
+      - slug: waiting-and-delay
+        name: Waiting and delay
+        description: Holding on, putting off and being kept waiting.
+  - slug: humour-irony-and-sarcasm
+    name: Humour, irony and sarcasm
+    description: Jokes, teasing and saying one thing while meaning another.
+    children:
+      - slug: joking-and-teasing
+        name: Joking and teasing
+        description: Light fun, from kind teasing to unkind mockery.
+      - slug: dry-and-ironic-humour
+        name: Dry and ironic humour
+        description: Calm, clever humour that does not shout.
+  - slug: honesty-lies-and-secrets
+    name: Honesty, lies and secrets
+    description: Telling the truth, hiding it and keeping things back.
+    children:
+      - slug: telling-the-truth
+        name: Telling the truth
+        description: Being open, sincere and straight.
+      - slug: lies-and-evasion
+        name: Lies and evasion
+        description: Not telling the truth, or dodging the question.
+      - slug: keeping-secrets
+        name: Keeping secrets
+        description: Hiding something, and the moment it comes out.
+  - slug: memory-and-nostalgia
+    name: Memory and nostalgia
+    description: Remembering, forgetting and missing the past.
+    children:
+      - slug: remembering
+        name: Remembering
+        description: Calling the past back to mind.
+      - slug: forgetting-and-fading
+        name: Forgetting and fading
+        description: Memories that blur, slip away or will not stay.
+      - slug: nostalgia-and-regret
+        name: Nostalgia and regret
+        description: Missing the past, with warmth or with pain.

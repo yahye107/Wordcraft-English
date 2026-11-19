@@ -1,0 +1,33 @@
+slug: rumbled
+text: rumbled
+kind: word
+pos: verb (past)
+simpleMeaning: Made a deep, low, rolling sound.
+contextualMeaning: Rumbled is a low sound you feel as well as hear. It suits thunder, engines, trains and empty stomachs.
+usageNotes: "Use it for deep sounds that roll on. It often builds tension: thunder rumbled before the storm. Do not use it for sharp or high sounds."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - sounds-things-make
+tags:
+  - technique:sound
+  - technique:setting
+searchPhrases:
+  - deep rolling sound
+  - thunder noise
+  - low noise of a heavy engine
+examples:
+  - text: Thunder rumbled in the distance.
+    setting: narration
+  - text: My stomach rumbled all through the meeting.
+    setting: everyday
+  - text: A heavy truck rumbled down the narrow road.
+    setting: narration
+relations:
+  - to: creaked
+    type: related
+mistakes:
+  - wrong: The thunder rumbled sharply.
+    right: The thunder rumbled in the distance.
+    explanation: Rumbled is low and rolling. Sharp is the opposite, so the two do not go together.

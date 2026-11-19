@@ -1,0 +1,35 @@
+slug: faded
+text: faded
+kind: word
+pos: adjective
+simpleMeaning: Lost colour or brightness over time.
+contextualMeaning: Faded things show age, sun and wear. In stories they often stand for old memories and old love.
+usageNotes: "Use it for cloth, paint, photos and flowers. It also works for feelings and hopes that grew weaker: her excitement faded."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - colour-and-fading
+tags:
+  - technique:imagery
+  - emotion:nostalgia
+searchPhrases:
+  - lost its colour
+  - old and washed out
+  - became less bright
+examples:
+  - text: The faded curtains still hung in the window.
+    setting: narration
+  - text: My jeans have faded in the wash.
+    setting: everyday
+  - text: Her smile faded when she saw the bill.
+    setting: narration
+relations:
+  - to: vivid
+    type: antonym
+  - to: murky
+    type: related
+mistakes:
+  - wrong: The paint was faded new.
+    right: The paint had faded.
+    explanation: Faded describes something that has already lost its colour, so it cannot be new.

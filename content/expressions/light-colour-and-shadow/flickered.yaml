@@ -1,0 +1,33 @@
+slug: flickered
+text: flickered
+kind: word
+pos: verb (past)
+simpleMeaning: Shone unsteadily, going bright and dim again and again.
+contextualMeaning: "A flickering light feels unstable and a little frightening: candles, old bulbs, fire, a screen about to die."
+usageNotes: "Use it for small, unsteady lights. Flickered also works for expressions: a smile flickered across her face means it came and went quickly."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - light-and-glow
+tags:
+  - technique:imagery
+  - technique:suspense
+searchPhrases:
+  - light going on and off
+  - unsteady candle light
+  - shone weakly and shook
+examples:
+  - text: The candle flickered and went out.
+    setting: narration
+  - text: The lights flickered during the storm.
+    setting: everyday
+  - text: A doubtful smile flickered across his face.
+    setting: narration
+relations:
+  - to: glinted
+    type: related
+mistakes:
+  - wrong: The sun flickered over the field.
+    right: The sun blazed over the field.
+    explanation: Flickered is weak and unsteady. The sun is strong and steady, so blazed or shone fits.

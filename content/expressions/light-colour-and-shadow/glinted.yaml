@@ -1,0 +1,34 @@
+slug: glinted
+text: glinted
+kind: word
+pos: verb (past)
+simpleMeaning: Gave off small, quick flashes of light.
+contextualMeaning: A glint is the quick flash from metal, glass, water or an eye. It adds a sharp, bright detail.
+usageNotes: "Use it for small bright points of light: a knife, a coin, a tear. Glinted in his eyes can also show a hint of mischief or danger."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - light-and-glow
+tags:
+  - technique:imagery
+searchPhrases:
+  - small flash of light
+  - shiny metal catching the sun
+  - sparkled for a second
+examples:
+  - text: The knife glinted in the firelight.
+    setting: narration
+  - text: "Something glinted in the grass: it was a ring."
+    setting: narration
+  - text: Her ring glinted every time she waved her hand.
+    setting: everyday
+relations:
+  - to: dazzling
+    type: weaker
+  - to: flickered
+    type: related
+mistakes:
+  - wrong: The moon glinted all night.
+    right: The moon shone all night.
+    explanation: A glint is a quick flash, not a long steady light.

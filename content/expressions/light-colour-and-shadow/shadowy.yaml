@@ -1,0 +1,35 @@
+slug: shadowy
+text: shadowy
+kind: word
+pos: adjective
+simpleMeaning: Full of shadows, so that things are hard to see clearly.
+contextualMeaning: A shadowy place or figure feels mysterious or dangerous because you cannot see it clearly.
+usageNotes: Use shadowy for corners, streets and figures. It suggests mystery or secrecy. For a person it can also mean a hidden, secret past.
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - shadow-and-darkness
+tags:
+  - technique:setting
+  - technique:suspense
+searchPhrases:
+  - dark and hard to see
+  - mysterious dark figure
+  - full of shadows
+examples:
+  - text: A shadowy figure waited at the end of the street.
+    setting: narration
+  - text: We walked home through the shadowy back streets.
+    setting: everyday
+  - text: In the shadowy corner of the room, something moved.
+    setting: narration
+relations:
+  - to: pitch-black
+    type: weaker
+  - to: cast-a-shadow
+    type: related
+mistakes:
+  - wrong: The sunny beach was shadowy.
+    right: The tree-lined path was shadowy.
+    explanation: Shadowy suggests darkness and mystery, so it does not suit a bright, sunny place.

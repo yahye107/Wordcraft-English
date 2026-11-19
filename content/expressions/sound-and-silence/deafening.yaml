@@ -1,0 +1,37 @@
+slug: deafening
+text: deafening
+kind: word
+pos: adjective
+simpleMeaning: So loud that you can hardly hear anything else.
+contextualMeaning: Deafening is the top of the scale for loud. Writers use it when one noise takes over the whole scene.
+usageNotes: Use it for applause, engines, thunder or crowds. Do not use it for a voice that is only a little loud; it sounds like exaggeration.
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - loud-and-harsh-sounds
+tags:
+  - technique:sound
+  - technique:setting
+searchPhrases:
+  - extremely loud
+  - so loud it hurts
+  - a noise you cannot talk over
+examples:
+  - text: The applause was deafening.
+    setting: narration
+  - text: The music was so deafening that we had to shout.
+    setting: everyday
+  - text: A deafening roar rose from the stadium.
+    setting: narration
+relations:
+  - to: hushed
+    type: antonym
+  - to: faint
+    type: stronger
+  - to: you-could-hear-a-pin-drop
+    type: antonym
+mistakes:
+  - wrong: The noise was deafened.
+    right: The noise was deafening.
+    explanation: Deafening describes the noise. Deafened describes the person who hears it.

@@ -1,0 +1,32 @@
+slug: cast-a-shadow
+text: cast a shadow
+kind: collocation
+simpleMeaning: Made a dark shape on the ground by blocking light, or made a happy event feel sadder.
+contextualMeaning: Literally, a tall object blocks the light and leaves a shadow. Figuratively, bad news casts a shadow over a happy time.
+usageNotes: "Use it for tall things and for moods: the old oak cast a long shadow; the accident cast a shadow over the holiday. The past tense is cast, not casted."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - shadow-and-darkness
+tags:
+  - technique:imagery
+  - technique:setting
+searchPhrases:
+  - made a dark shape
+  - spoiled the mood of an event
+  - blocked the sun
+examples:
+  - text: The old oak cast a long shadow across the lawn.
+    setting: narration
+  - text: The bad news cast a shadow over our holiday.
+    setting: everyday
+  - text: The tower cast a shadow over the whole village.
+    setting: narration
+relations:
+  - to: shadowy
+    type: related
+mistakes:
+  - wrong: The tower casted a long shadow.
+    right: The tower cast a long shadow.
+    explanation: Cast does not change in the past tense. There is no word casted.

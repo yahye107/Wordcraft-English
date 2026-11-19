@@ -1,0 +1,35 @@
+slug: vivid
+text: vivid
+kind: word
+pos: adjective
+simpleMeaning: Very bright and clear, so that you see or feel it strongly.
+contextualMeaning: Vivid covers strong colours, and also clear memories or descriptions that feel real.
+usageNotes: Use it for colours, dreams, memories and writing. A vivid description lets the reader see the scene as if it were in front of them.
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - colour-and-fading
+tags:
+  - technique:imagery
+  - technique:characterisation
+searchPhrases:
+  - very bright colour
+  - clear and detailed
+  - a strong picture in the mind
+examples:
+  - text: She wore a vivid red scarf.
+    setting: narration
+  - text: I have a vivid memory of that day.
+    setting: everyday
+  - text: The writer gives a vivid description of the harbour at dawn.
+    setting: academic
+relations:
+  - to: faded
+    type: antonym
+  - to: murky
+    type: antonym
+mistakes:
+  - wrong: The colour was vivid and dull.
+    right: The colour was vivid and bright.
+    explanation: Vivid means strong and clear, so it cannot go with dull.
