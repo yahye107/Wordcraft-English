@@ -1,4 +1,4 @@
-export type ExerciseKind = 'choose' | 'fill_blank' | 'identify' | 'fix_punctuation' | 'free_write';
+export type ExerciseKind = 'choose' | 'fill_blank' | 'identify' | 'fix_punctuation' | 'reorder' | 'free_write';
 
 export type StoredExercise = {
   slug: string;
@@ -84,6 +84,23 @@ export function checkAnswer(ex: StoredExercise, answer: unknown): CheckResult {
       if (wrong.length === 0) return verdict(true, ex.explanation);
       const list = wrong.length === 1 ? `item ${wrong[0]}` : `items ${wrong.slice(0, -1).join(', ')} and ${wrong[wrong.length - 1]}`;
       return { ok: true, correct: false, feedback: `Not quite. Look again at ${list}. ${ex.explanation}` };
+    }
+
+    case 'reorder': {
+      const fragments = (payload.fragments as string[]) ?? [];
+      const accepted = (key.accepted as number[][]) ?? [];
+      const n = fragments.length;
+      const order = isObject(answer) ? answer.order : undefined;
+      const valid =
+        Array.isArray(order) &&
+        order.length === n &&
+        order.every((x) => Number.isInteger(x) && x >= 0 && x < n) &&
+        new Set(order).size === n;
+      if (!valid) return bad(`Use every fragment once: send { "order": [...] } with ${n} different numbers.`);
+      const given = order as number[];
+      const right = accepted.some((a) => a.length === given.length && a.every((x, i) => x === given[i]));
+      const expected = accepted[0]?.map((i) => fragments[i]).join(' ');
+      return verdict(right, ex.explanation, expected);
     }
 
     case 'free_write': {

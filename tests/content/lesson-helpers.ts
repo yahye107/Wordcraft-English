@@ -21,6 +21,7 @@ export const exerciseYaml = (type: string, over: Record<string, unknown> = {}) =
     fill_blank: { type: 'fill_blank', prompt: '“Go,” she ___.', accepted: ['said'] },
     identify: { type: 'identify', prompt: 'Label each.', items: [{ text: 'She said.', answer: 'tag' }, { text: 'She smiled.', answer: 'beat' }], choices: ['tag', 'beat'] },
     fix_punctuation: { type: 'fix_punctuation', prompt: 'Fix it.', broken: '“Go” she said', accepted: ['“Go,” she said.'] },
+    reorder: { type: 'reorder', prompt: 'Put in order.', fragments: ['she said', '“Go,”', 'quietly.'], accepted: [[1, 0, 2]] },
     free_write: { type: 'free_write', prompt: 'Write a line.', checklist: ['a', 'b', 'c'], sample: 'Sample.' },
   };
   return JSON.stringify({ ...base, ...byType[type], ...over });

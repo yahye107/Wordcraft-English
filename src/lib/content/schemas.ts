@@ -138,6 +138,23 @@ const FixPunctuationExercise = z.object({
   accepted: z.array(text).min(1),
 });
 
+const ReorderExercise = z
+  .object({
+    ...exerciseBase,
+    type: z.literal('reorder'),
+    fragments: z.array(text).min(3).max(8),
+    accepted: z.array(z.array(z.number().int())).min(1),
+  })
+  .superRefine((e, ctx) => {
+    const n = e.fragments.length;
+    e.accepted.forEach((order, i) => {
+      const ok = order.length === n && new Set(order).size === n && order.every((x) => x >= 0 && x < n);
+      if (!ok) {
+        ctx.addIssue({ code: 'custom', path: ['accepted', i], message: `an accepted ordering must use every fragment (0 to ${n - 1}) exactly once` });
+      }
+    });
+  });
+
 const FreeWriteExercise = z.object({
   ...exerciseBase,
   type: z.literal('free_write'),
@@ -150,6 +167,7 @@ export const ExerciseFile = z.discriminatedUnion('type', [
   FillBlankExercise,
   IdentifyExercise,
   FixPunctuationExercise,
+  ReorderExercise,
   FreeWriteExercise,
 ]);
 export type ExerciseFile = z.infer<typeof ExerciseFile>;

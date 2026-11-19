@@ -71,6 +71,8 @@ function splitExercise(x: ExerciseFile): { payload: unknown; answer: unknown } {
       return { payload: { items: x.items.map((i) => i.text), choices: x.choices }, answer: { answers: x.items.map((i) => i.answer) } };
     case 'fix_punctuation':
       return { payload: { broken: x.broken }, answer: { accepted: x.accepted } };
+    case 'reorder':
+      return { payload: { fragments: x.fragments }, answer: { accepted: x.accepted } };
     case 'free_write':
       return { payload: { checklist: x.checklist }, answer: x.sample ? { sample: x.sample } : {} };
   }

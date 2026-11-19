@@ -104,4 +104,12 @@ describe('seeding lessons and exercises', () => {
     expect(body.related).toEqual(['crestfallen']);
     expect(row.sort).toBe(1);
   });
+
+  it('splits a reorder exercise into fragments and accepted orderings', () => {
+    const db = setup();
+    seedContent(db, bundleOf({ ...BASE, 'exercises/dialogue/ex-reorder.yaml': exerciseYaml('reorder') }));
+    const row = db.get<{ payload_json: string; answer_json: string }>("SELECT payload_json, answer_json FROM exercises WHERE slug='ex-reorder'")!;
+    expect(JSON.parse(row.payload_json)).toEqual({ fragments: ['she said', '“Go,”', 'quietly.'] });
+    expect(JSON.parse(row.answer_json)).toEqual({ accepted: [[1, 0, 2]] });
+  });
 });

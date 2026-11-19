@@ -22,6 +22,11 @@ const free: StoredExercise = {
   payload: { checklist: ['a', 'b', 'c'] }, answer: { sample: 'A sample line.' },
 };
 
+const reorder: StoredExercise = {
+  slug: 'r', type: 'reorder', explanation: 'The speech comes first, then the tag.',
+  payload: { fragments: ['she said', '“Go,”', 'quietly.'] }, answer: { accepted: [[1, 0, 2], [1, 2, 0]] },
+};
+
 const ok = (r: ReturnType<typeof checkAnswer>) => {
   if (!r.ok) throw new Error(`expected ok, got error: ${r.error}`);
   return r;
@@ -125,5 +130,26 @@ describe('invalid input', () => {
     expect(checkAnswer(fill, null).ok).toBe(false);
     expect(checkAnswer(fill, {}).ok).toBe(false);
     expect(checkAnswer(fill, 'said').ok).toBe(false);
+  });
+});
+
+describe('reorder', () => {
+  it('accepts the first correct order and any other accepted order', () => {
+    expect(ok(checkAnswer(reorder, { order: [1, 0, 2] })).correct).toBe(true);
+    expect(ok(checkAnswer(reorder, { order: [1, 2, 0] })).correct).toBe(true);
+  });
+
+  it('marks a wrong order incorrect and shows the expected text', () => {
+    const r = ok(checkAnswer(reorder, { order: [0, 1, 2] }));
+    expect(r.correct).toBe(false);
+    expect(r.expected).toBe('“Go,” she said quietly.');
+  });
+
+  it('rejects repeats, missing, out-of-range, wrong length and non-integers', () => {
+    for (const order of [[1, 1, 2], [0, 1], [0, 1, 5], [0, 1, 2, 3], [0, 1, 1.5], ['a', 'b', 'c']]) {
+      expect(checkAnswer(reorder, { order }).ok, JSON.stringify(order)).toBe(false);
+    }
+    expect(checkAnswer(reorder, { order: 'abc' }).ok).toBe(false);
+    expect(checkAnswer(reorder, null).ok).toBe(false);
   });
 });

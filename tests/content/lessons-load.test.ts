@@ -71,4 +71,24 @@ describe('lessons and exercises', () => {
     const e = errorsOf({ 'lessons/dialogue/copy.yaml': lessonYaml() });
     expect(e.some((x) => /duplicate lesson/i.test(x.message))).toBe(true);
   });
+
+  it('a valid reorder exercise loads', () => {
+    const { errors } = loadContent(makeContentDir({ ...BASE, 'exercises/dialogue/ex-reorder.yaml': exerciseYaml('reorder') }));
+    expect(errors).toEqual([]);
+  });
+
+  it('a reorder with fewer than 3 fragments is an error', () => {
+    const e = errorsOf({ 'exercises/dialogue/ex-reorder.yaml': exerciseYaml('reorder', { fragments: ['a', 'b'], accepted: [[0, 1]] }) });
+    expect(e.length).toBeGreaterThan(0);
+  });
+
+  it('an accepted ordering that skips a fragment is an error', () => {
+    const e = errorsOf({ 'exercises/dialogue/ex-reorder.yaml': exerciseYaml('reorder', { accepted: [[0, 1]] }) });
+    expect(e.some((x) => /every fragment/i.test(x.message))).toBe(true);
+  });
+
+  it('an accepted ordering with a repeated index is an error', () => {
+    const e = errorsOf({ 'exercises/dialogue/ex-reorder.yaml': exerciseYaml('reorder', { accepted: [[0, 0, 2]] }) });
+    expect(e.some((x) => /every fragment/i.test(x.message))).toBe(true);
+  });
 });
