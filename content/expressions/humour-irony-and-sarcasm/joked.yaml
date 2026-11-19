@@ -1,0 +1,33 @@
+slug: joked
+text: joked
+kind: word
+pos: verb (past)
+simpleMeaning: Said something funny and not serious.
+contextualMeaning: A joke can lift the mood or hide nerves. A joke that is not understood can sound rude.
+usageNotes: "Use it for light remarks: he joked that he would eat the whole cake. For a quick funny line, cracked a joke is also common."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - joking-and-teasing
+tags:
+  - technique:humour
+  - technique:dialogue-tag
+searchPhrases:
+  - said something funny
+  - was not serious
+  - made a funny comment
+examples:
+  - text: He joked that he would eat the whole cake.
+    setting: narration
+  - text: We joked about it later, but it was not funny at the time.
+    setting: everyday
+  - text: “I only joked,” she said. “I did not mean it.”
+    setting: dialogue
+relations:
+  - to: cracked-a-joke
+    type: synonym
+mistakes:
+  - wrong: He joked me about my shoes.
+    right: He joked with me about my shoes.
+    explanation: Joke needs with before the person you share the joke with.

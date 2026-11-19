@@ -1,0 +1,34 @@
+slug: poked-fun-at
+text: poked fun at
+kind: phrase
+simpleMeaning: Made jokes about someone or something, often in an unkind way.
+contextualMeaning: "Stronger than teased: it can sound like mocking, especially if the other person is not laughing."
+usageNotes: Use it when the humour is at someone’s expense. The fixed form is poke fun at, with at.
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - joking-and-teasing
+tags:
+  - technique:humour
+  - situation:conflict
+searchPhrases:
+  - made fun of
+  - laughed at in an unkind way
+  - mocked lightly
+examples:
+  - text: The other children poked fun at his accent.
+    setting: narration
+  - text: My friends poked fun at my terrible singing.
+    setting: everyday
+  - text: The cartoon poked fun at the minister all week.
+    setting: professional
+relations:
+  - to: teased
+    type: stronger
+  - to: mocked
+    type: weaker
+mistakes:
+  - wrong: They poked fun of him.
+    right: They poked fun at him.
+    explanation: "The preposition is at: poke fun at."

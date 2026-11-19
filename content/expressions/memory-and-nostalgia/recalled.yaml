@@ -1,0 +1,33 @@
+slug: recalled
+text: recalled
+kind: word
+pos: verb (past)
+simpleMeaning: Remembered something and described it or thought about it.
+contextualMeaning: Recalled suggests effort or a clear picture. It is a little more formal than remembered.
+usageNotes: "Use it for facts, events and details: she recalled the colour of the door. For ordinary memories, remembered is simpler."
+register: formal
+level: intermediate
+status: draft
+categories:
+  - remembering
+tags:
+  - technique:internal-thought
+  - technique:time
+searchPhrases:
+  - remembered clearly
+  - brought to mind
+  - thought back to
+examples:
+  - text: She recalled the smell of her grandmother’s kitchen.
+    setting: narration
+  - text: Can you recall where you left your keys?
+    setting: everyday
+  - text: Witnesses recalled hearing a loud noise at midnight.
+    setting: academic
+relations:
+  - to: forgot
+    type: antonym
+mistakes:
+  - wrong: He recalled me of the day.
+    right: He reminded me of the day.
+    explanation: Recall means you remember. Remind means you make someone else remember.

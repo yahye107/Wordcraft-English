@@ -1,0 +1,33 @@
+slug: ironic
+text: ironic
+kind: word
+pos: adjective
+simpleMeaning: Odd or funny because the result is the opposite of what you would expect.
+contextualMeaning: Irony is the gap between what is expected and what happens. A fire station that burns down is ironic.
+usageNotes: "Use ironic for real events that turn out the opposite way. It is not the same as bad luck: it needs a surprising opposite."
+register: neutral
+level: advanced
+status: draft
+categories:
+  - dry-and-ironic-humour
+tags:
+  - technique:humour
+  - technique:contrast
+searchPhrases:
+  - the opposite of what you expect
+  - funny because it is unexpected
+  - bitterly funny twist
+examples:
+  - text: It’s ironic that the fire station burned down.
+    setting: everyday
+  - text: There was something ironic in her thanking him for the lesson.
+    setting: narration
+  - text: It is ironic that a book about silence made so much noise.
+    setting: academic
+relations:
+  - to: wry
+    type: related
+mistakes:
+  - wrong: It’s ironic that it rained on my birthday.
+    right: It’s unlucky that it rained on my birthday.
+    explanation: Rain on a birthday is only bad luck. Ironic needs a surprising opposite.

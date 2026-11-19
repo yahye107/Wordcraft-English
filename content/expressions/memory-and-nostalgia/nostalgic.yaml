@@ -1,0 +1,35 @@
+slug: nostalgic
+text: nostalgic
+kind: word
+pos: adjective
+simpleMeaning: Feeling warm and a little sad when you think about the past.
+contextualMeaning: Nostalgia mixes pleasure and loss. The past looks better because it is gone.
+usageNotes: "Use it for people, songs, smells and places: the song made him nostalgic. Add for to say what you miss: nostalgic for the old days."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - nostalgia-and-regret
+tags:
+  - emotion:nostalgia
+  - emotion:sadness
+searchPhrases:
+  - missing the past
+  - sentimental about old times
+  - warm and sad about memories
+examples:
+  - text: The old photos made me feel nostalgic.
+    setting: everyday
+  - text: He grew nostalgic for the town he had left.
+    setting: narration
+  - text: The film is nostalgic for a simpler age.
+    setting: academic
+relations:
+  - to: reminisced
+    type: related
+  - to: haunted-by
+    type: antonym
+mistakes:
+  - wrong: I am nostalgic of my childhood.
+    right: I am nostalgic for my childhood.
+    explanation: Use for after nostalgic, not of.

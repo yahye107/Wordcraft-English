@@ -1,0 +1,32 @@
+slug: haunted-by
+text: haunted by
+kind: phrase
+simpleMeaning: Unable to stop thinking about something painful from the past.
+contextualMeaning: Haunted turns a memory into a ghost that will not leave. It is darker than nostalgic.
+usageNotes: "Use it for guilt, fear and bad memories: he was haunted by the accident. It is followed by the cause, with by."
+register: neutral
+level: advanced
+status: draft
+categories:
+  - nostalgia-and-regret
+tags:
+  - emotion:fear
+  - emotion:regret
+searchPhrases:
+  - cannot forget a bad memory
+  - a memory that will not go away
+  - troubled by the past
+examples:
+  - text: He was haunted by the sound of the crash.
+    setting: narration
+  - text: She is still haunted by what she saw that night.
+    setting: everyday
+  - text: The poet is haunted by memories of war.
+    setting: academic
+relations:
+  - to: nostalgic
+    type: antonym
+mistakes:
+  - wrong: She was haunted of her mistakes.
+    right: She was haunted by her mistakes.
+    explanation: Use by after haunted, not of.

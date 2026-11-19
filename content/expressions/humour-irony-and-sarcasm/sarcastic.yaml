@@ -1,0 +1,35 @@
+slug: sarcastic
+text: sarcastic
+kind: word
+pos: adjective
+simpleMeaning: Saying the opposite of what you mean, to make fun of someone or show anger.
+contextualMeaning: Sarcasm sounds friendly but is meant to sting. In speech the tone shows it; in writing you need a tag or a beat.
+usageNotes: Use it for voices and remarks. In dialogue, add a tag such as she said sarcastically so the reader hears the tone.
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - joking-and-teasing
+tags:
+  - technique:humour
+  - technique:dialogue-tag
+searchPhrases:
+  - saying the opposite to be unkind
+  - mean joking tone
+  - pretending to praise
+examples:
+  - text: “Great job,” he said in a sarcastic voice, looking at the broken plate.
+    setting: dialogue
+  - text: Don’t be so sarcastic with your sister.
+    setting: everyday
+  - text: Her sarcastic reply made him blush.
+    setting: narration
+relations:
+  - to: mocked
+    type: related
+  - to: sincere
+    type: antonym
+mistakes:
+  - wrong: He was sarcasm to me.
+    right: He was sarcastic to me.
+    explanation: Sarcasm is a noun. Sarcastic is the adjective.

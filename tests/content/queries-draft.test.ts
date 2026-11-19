@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { getExpression, getContrastGroup } from '@/lib/content/queries';
+import { getCategory, getCategoryTree, getExpression, getContrastGroup } from '@/lib/content/queries';
 import { getAreaCoverage } from '@/lib/content/review';
 import { contrastYaml, library, yamlEntry } from './review-helpers';
 
@@ -49,5 +49,54 @@ describe('getAreaCoverage', () => {
 
   it('is empty for an empty library', () => {
     expect(getAreaCoverage(library({}).db)).toEqual([{ slug: 'sadness', name: 'Sadness', published: 0, draft: 0, total: 0 }]);
+  });
+});
+
+describe('categories with nothing a learner can see', () => {
+  const CATEGORIES = `categories:
+  - slug: sadness
+    name: Sadness
+    description: Feelings of loss.
+    children:
+      - slug: disappointment
+        name: Disappointment
+        description: When hopes are not met.
+      - slug: loneliness
+        name: Loneliness
+        description: Being alone.
+  - slug: ghosts
+    name: Ghosts
+    description: Things that haunt.
+    children:
+      - slug: haunting
+        name: Haunting
+        description: Ghostly goings-on.
+`;
+  const lib = () =>
+    library({
+      'categories.yaml': CATEGORIES,
+      'expressions/sadness/live.yaml': yamlEntry({ slug: 'live', status: 'published' }),
+      'expressions/ghosts/ghost.yaml': yamlEntry({ slug: 'ghost', status: 'draft' }).replace('  - disappointment', '  - haunting'),
+    });
+
+  it('are left out of the explore tree, top level and sub level', () => {
+    const { db } = lib();
+    const tree = getCategoryTree(db);
+    expect(tree.map((c) => c.slug)).toEqual(['sadness']);
+    expect(tree[0].children.map((c) => c.slug)).toEqual(['disappointment']);
+  });
+
+  it('have no category page for learners, and drop out of a visible parent’s subcategory list', () => {
+    const { db } = lib();
+    expect(getCategory(db, 'ghosts')).toBeUndefined();
+    expect(getCategory(db, 'haunting')).toBeUndefined();
+    expect(getCategory(db, 'sadness')!.children.map((c) => c.slug)).toEqual(['disappointment']);
+  });
+
+  it('show up again, as a category, once an entry is published', () => {
+    const { db } = lib();
+    db.run("UPDATE expressions SET status = 'published' WHERE slug = 'ghost'");
+    expect(getCategoryTree(db).map((c) => c.slug)).toEqual(['sadness', 'ghosts']);
+    expect(getCategory(db, 'haunting')?.slug).toBe('haunting');
   });
 });

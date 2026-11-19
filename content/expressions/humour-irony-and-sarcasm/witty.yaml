@@ -1,0 +1,33 @@
+slug: witty
+text: witty
+kind: word
+pos: adjective
+simpleMeaning: Quick and clever in a funny way.
+contextualMeaning: A witty person finds amusing, smart things to say at just the right moment.
+usageNotes: "Use it for people, remarks and writing. Witty means clever funny, not only silly funny: it needs thought."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - dry-and-ironic-humour
+tags:
+  - technique:humour
+  - technique:characterisation
+searchPhrases:
+  - clever and funny
+  - good at funny remarks
+  - quick humour
+examples:
+  - text: She is witty and always has an answer ready.
+    setting: everyday
+  - text: A witty remark broke the silence.
+    setting: narration
+  - text: The play is full of witty dialogue.
+    setting: academic
+relations:
+  - to: wry
+    type: related
+mistakes:
+  - wrong: His witty talk was cruel and stupid.
+    right: His cruel talk was not witty.
+    explanation: Witty means clever and funny, so it does not go with stupid.

@@ -1,0 +1,33 @@
+slug: rang-a-bell
+text: rang a bell
+kind: idiom
+simpleMeaning: Sounded slightly familiar, so you half remember it.
+contextualMeaning: "When something rings a bell, you do not remember fully: you only feel you have heard it before."
+usageNotes: "Use it for names, faces and stories: that name rings a bell. It is informal and everyday."
+register: conversational
+level: intermediate
+status: draft
+categories:
+  - remembering
+tags:
+  - technique:internal-thought
+searchPhrases:
+  - sounds familiar
+  - half remembered
+  - I think I know it
+examples:
+  - text: The name rang a bell, but he could not remember why.
+    setting: narration
+  - text: Does that address ring a bell?
+    setting: everyday
+  - text: “It rang a bell,” she said, “but I can’t place it.”
+    setting: dialogue
+relations:
+  - to: came-flooding-back
+    type: weaker
+  - to: jogged-her-memory
+    type: related
+mistakes:
+  - wrong: The name rang me a bell.
+    right: The name rang a bell.
+    explanation: The name rings the bell. There is no me.

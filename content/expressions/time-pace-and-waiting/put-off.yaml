@@ -1,0 +1,32 @@
+slug: put-off
+text: put off
+kind: phrase
+simpleMeaning: Delayed something until a later time.
+contextualMeaning: Putting a job off shows worry, laziness or hope that it will go away. The job usually gets harder.
+usageNotes: "Use it for tasks and talks you are avoiding: I put off the dentist for months. After put off, use the -ing form of the next verb."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - waiting-and-delay
+tags:
+  - technique:pacing
+  - situation:making-choices
+searchPhrases:
+  - delayed doing something
+  - did it later than planned
+  - avoided a job
+examples:
+  - text: I put off calling the dentist for months.
+    setting: everyday
+  - text: He put off the hard conversation until it was too late.
+    setting: narration
+  - text: Please do not put off sending the report.
+    setting: professional
+relations:
+  - to: rushed
+    type: antonym
+mistakes:
+  - wrong: I put off to call him.
+    right: I put off calling him.
+    explanation: After put off, use the -ing form.

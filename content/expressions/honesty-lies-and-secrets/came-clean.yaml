@@ -1,0 +1,34 @@
+slug: came-clean
+text: came clean
+kind: phrase
+simpleMeaning: Told the truth about something that you had hidden.
+contextualMeaning: "Coming clean has relief in it: the secret is out and the pressure is gone."
+usageNotes: "Use it when someone finally explains what really happened: she came clean about the missing money. It is followed by about or to."
+register: conversational
+level: intermediate
+status: draft
+categories:
+  - telling-the-truth
+tags:
+  - technique:characterisation
+  - situation:conflict
+searchPhrases:
+  - finally told the truth
+  - stopped hiding something
+  - owned up
+examples:
+  - text: In the end, he came clean about the missing money.
+    setting: everyday
+  - text: She came clean to her mother that night.
+    setting: narration
+  - text: “It’s time to come clean,” he said.
+    setting: dialogue
+relations:
+  - to: kept-a-secret
+    type: antonym
+  - to: confessed
+    type: related
+mistakes:
+  - wrong: He came clean the truth.
+    right: He came clean about the truth.
+    explanation: Came clean is followed by about or to, not by the thing directly.

@@ -1,0 +1,34 @@
+slug: came-flooding-back
+text: came flooding back
+kind: phrase
+simpleMeaning: Returned to your mind suddenly and strongly.
+contextualMeaning: Used when a smell, a song or a place brings a whole memory back at once.
+usageNotes: "Use it for memories and feelings: it all came flooding back. The memory is the subject, not the person."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - remembering
+tags:
+  - technique:internal-thought
+  - emotion:nostalgia
+searchPhrases:
+  - remembered everything at once
+  - memories returned
+  - a rush of memories
+examples:
+  - text: The moment she smelled the sea, it all came flooding back.
+    setting: narration
+  - text: As we walked through the school gate, the memories came flooding back.
+    setting: everyday
+  - text: “It’s all coming back,” he whispered.
+    setting: dialogue
+relations:
+  - to: forgot
+    type: antonym
+  - to: rang-a-bell
+    type: stronger
+mistakes:
+  - wrong: I came flooding back the memories.
+    right: The memories came flooding back.
+    explanation: The memories are the subject of came flooding back.

@@ -1,0 +1,34 @@
+slug: a-white-lie
+text: a white lie
+kind: collocation
+simpleMeaning: A small, kind lie told to avoid hurting someone.
+contextualMeaning: White lies protect feelings, such as saying you love a gift you dislike. Many people think they are harmless.
+usageNotes: Use it for polite untruths. It is not an excuse for serious lies; for those use lie or lied.
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - lies-and-evasion
+tags:
+  - technique:characterisation
+  - situation:social
+searchPhrases:
+  - kind small lie
+  - a lie to be polite
+  - harmless untruth
+examples:
+  - text: I told a white lie and said I loved the soup.
+    setting: everyday
+  - text: It was only a white lie, but it felt heavy in her chest.
+    setting: narration
+  - text: “A white lie never hurt anyone,” he said.
+    setting: dialogue
+relations:
+  - to: lied
+    type: weaker
+  - to: fibbed
+    type: synonym
+mistakes:
+  - wrong: She told a white lying.
+    right: She told a white lie.
+    explanation: Lie is the noun here. Lying is the -ing form of the verb.

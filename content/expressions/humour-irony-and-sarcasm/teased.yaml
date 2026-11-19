@@ -1,0 +1,33 @@
+slug: teased
+text: teased
+kind: word
+pos: verb (past)
+simpleMeaning: Made friendly fun of someone, usually in a light way.
+contextualMeaning: Teasing can be kind or unkind. The tone and the friendship decide whether it is play or cruelty.
+usageNotes: Use it for friends and family joking about each other. To show it was unkind, add a word such as cruelly or constantly.
+register: neutral
+level: beginner
+status: draft
+categories:
+  - joking-and-teasing
+tags:
+  - technique:humour
+  - technique:characterisation
+searchPhrases:
+  - made fun of in a friendly way
+  - joked about someone
+  - played a joke on
+examples:
+  - text: My brother teased me about my new haircut.
+    setting: everyday
+  - text: The boys teased her until she laughed.
+    setting: narration
+  - text: “I only teased him,” Mum said. “He knows I love him.”
+    setting: dialogue
+relations:
+  - to: poked-fun-at
+    type: weaker
+mistakes:
+  - wrong: They teased with me.
+    right: They teased me.
+    explanation: Tease takes the person directly, with no with.

@@ -1,0 +1,34 @@
+slug: blurted-out
+text: blurted out
+kind: phrase
+simpleMeaning: Said something suddenly, without thinking, often something you meant to keep quiet.
+contextualMeaning: The mouth moves faster than the mind. It shows nerves, excitement or loss of control.
+usageNotes: Use it for sudden speech that surprises the speaker as well as the listener. It often follows a long silence or a strong feeling.
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - keeping-secrets
+tags:
+  - technique:dialogue-tag
+  - emotion:nervousness
+searchPhrases:
+  - said it without thinking
+  - spoke before thinking
+  - could not stop talking
+examples:
+  - text: He blurted out the answer before anyone else could speak.
+    setting: narration
+  - text: I blurted out the secret and instantly wished I hadn’t.
+    setting: everyday
+  - text: “I love you,” she blurted out, and then she covered her mouth.
+    setting: dialogue
+relations:
+  - to: evasive
+    type: antonym
+  - to: let-it-slip
+    type: related
+mistakes:
+  - wrong: He blurted the truth out slowly.
+    right: He blurted out the truth.
+    explanation: Blurted out is sudden, so it does not go with slowly.

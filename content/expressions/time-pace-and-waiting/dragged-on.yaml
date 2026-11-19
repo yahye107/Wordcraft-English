@@ -1,0 +1,32 @@
+slug: dragged-on
+text: dragged on
+kind: phrase
+simpleMeaning: Lasted much longer than it should, in a boring or tiring way.
+contextualMeaning: Used when a meeting, a day or an argument feels too long. It shows boredom or impatience.
+usageNotes: "Use it for events whose end seems far away: lessons, speeches, illnesses. It is informal and a little negative."
+register: informal
+level: intermediate
+status: draft
+categories:
+  - time-passing
+tags:
+  - technique:pacing
+  - technique:time
+searchPhrases:
+  - lasted too long
+  - felt never-ending
+  - boring and slow
+examples:
+  - text: The meeting dragged on until after seven.
+    setting: everyday
+  - text: The afternoon dragged on and the clock barely moved.
+    setting: narration
+  - text: “I thought that film would never end,” she said. “It really dragged on.”
+    setting: dialogue
+relations:
+  - to: flew-by
+    type: antonym
+mistakes:
+  - wrong: The movie dragged on quickly.
+    right: The movie dragged on for hours.
+    explanation: Dragged on means slow and long, so it does not go with quickly.

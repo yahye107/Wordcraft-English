@@ -75,7 +75,22 @@ export function getCategoryTree(db: Db): CategoryWithCount[] {
       children: build(c.id),
     }));
 
-  return build(null);
+  // A category with nothing a learner can see (for example one that so far holds only drafts) is left out.
+  const prune = (nodes: CategoryWithCount[]): CategoryWithCount[] =>
+    nodes.filter((n) => n.expressionCount > 0).map((n) => ({ ...n, children: prune(n.children) }));
+  return prune(build(null));
+}
+
+function visibleCategorySlugs(db: Db): Set<string> {
+  const out = new Set<string>();
+  const walk = (nodes: CategoryWithCount[]) => {
+    for (const n of nodes) {
+      out.add(n.slug);
+      walk(n.children);
+    }
+  };
+  walk(getCategoryTree(db));
+  return out;
 }
 
 export type CategoryDetail = {
@@ -87,15 +102,16 @@ export type CategoryDetail = {
 };
 
 export function getCategory(db: Db, slug: string): CategoryDetail | undefined {
+  const visible = visibleCategorySlugs(db);
+  if (!visible.has(slug)) return undefined;
   const c = db.get<CatRow>('SELECT id, slug, name, description, parent_id FROM categories WHERE slug = ?', [slug]);
   if (!c) return undefined;
   const parent = c.parent_id
     ? db.get<{ slug: string; name: string }>('SELECT slug, name FROM categories WHERE id = ?', [c.parent_id])
     : undefined;
-  const children = db.all<{ slug: string; name: string }>(
-    'SELECT slug, name FROM categories WHERE parent_id = ? ORDER BY sort, name',
-    [c.id],
-  );
+  const children = db
+    .all<{ slug: string; name: string }>('SELECT slug, name FROM categories WHERE parent_id = ? ORDER BY sort, name', [c.id])
+    .filter((child) => visible.has(child.slug));
   return { slug: c.slug, name: c.name, description: c.description, parent, children };
 }
 

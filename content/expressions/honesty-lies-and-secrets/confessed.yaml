@@ -1,0 +1,35 @@
+slug: confessed
+text: confessed
+kind: word
+pos: verb (past)
+simpleMeaning: Admitted that you did something wrong or had kept something secret.
+contextualMeaning: Confessing is serious. It often comes with relief, shame or fear.
+usageNotes: "Use it for crimes, wrongs and personal secrets: he confessed to breaking the window. For small things, admitted is lighter."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - telling-the-truth
+tags:
+  - technique:characterisation
+  - situation:conflict
+searchPhrases:
+  - admitted a wrong
+  - told the truth about a crime
+  - owned up
+examples:
+  - text: He confessed that he had broken the window.
+    setting: narration
+  - text: She confessed to eating the last biscuit.
+    setting: everyday
+  - text: “I have a confession,” he said. “I confessed to the wrong person.”
+    setting: dialogue
+relations:
+  - to: lied
+    type: antonym
+  - to: came-clean
+    type: related
+mistakes:
+  - wrong: He confessed me his secret.
+    right: He confessed his secret to me.
+    explanation: Confess takes the secret as its object and uses to for the listener.

@@ -1,0 +1,35 @@
+slug: fibbed
+text: fibbed
+kind: word
+pos: verb (past)
+simpleMeaning: Told a small, unimportant lie.
+contextualMeaning: Fib is a light, almost friendly word for a lie, often used for children or small untruths.
+usageNotes: Use it for small lies. For a serious lie, lied is the better word.
+register: neutral
+level: beginner
+status: draft
+categories:
+  - lies-and-evasion
+tags:
+  - technique:characterisation
+  - technique:humour
+searchPhrases:
+  - told a small lie
+  - said something not quite true
+  - a harmless untruth
+examples:
+  - text: My son fibbed about brushing his teeth.
+    setting: everyday
+  - text: She fibbed and said she had already eaten.
+    setting: narration
+  - text: “I fibbed a little,” he admitted. “I was not tired at all.”
+    setting: dialogue
+relations:
+  - to: lied
+    type: weaker
+  - to: a-white-lie
+    type: synonym
+mistakes:
+  - wrong: He fibbed a big lie.
+    right: He told a big lie.
+    explanation: Fib means a small lie, so it does not go with big.

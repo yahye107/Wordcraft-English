@@ -1,0 +1,33 @@
+slug: reminisced
+text: reminisced
+kind: word
+pos: verb (past)
+simpleMeaning: Talked or thought about pleasant things from the past.
+contextualMeaning: Reminiscing is warm and slow. It usually happens with old friends, old photos or old songs.
+usageNotes: "Use it for people looking back together: they reminisced about their school days. It is followed by about, not of."
+register: neutral
+level: advanced
+status: draft
+categories:
+  - remembering
+tags:
+  - emotion:nostalgia
+  - technique:time
+searchPhrases:
+  - talked about the good old days
+  - looked back fondly
+  - shared old memories
+examples:
+  - text: We reminisced about our school days over coffee.
+    setting: everyday
+  - text: The two old soldiers reminisced late into the night.
+    setting: narration
+  - text: Participants reminisced about the town as it had been in the 1950s.
+    setting: academic
+relations:
+  - to: nostalgic
+    type: related
+mistakes:
+  - wrong: They reminisced the old days.
+    right: They reminisced about the old days.
+    explanation: Reminisce needs about before the thing you remember.

@@ -1,0 +1,32 @@
+slug: little-by-little
+text: little by little
+kind: phrase
+simpleMeaning: Slowly and in small steps.
+contextualMeaning: It describes change that is so slow you hardly notice it, such as healing or learning.
+usageNotes: "Use it for gradual change: little by little, she got stronger. It is warm and hopeful. For one small move after another, one step at a time also fits."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - time-passing
+tags:
+  - technique:pacing
+  - technique:time
+searchPhrases:
+  - slowly, step by step
+  - gradually
+  - bit by bit
+examples:
+  - text: Little by little, my English is getting better.
+    setting: everyday
+  - text: Little by little, the fear left her.
+    setting: narration
+  - text: “Little by little,” the doctor said, “you will get your strength back.”
+    setting: dialogue
+relations:
+  - to: all-of-a-sudden
+    type: antonym
+mistakes:
+  - wrong: Little by little he jumped over the wall.
+    right: Little by little he climbed the wall.
+    explanation: Little by little describes slow change, so it cannot describe one quick action like a jump.

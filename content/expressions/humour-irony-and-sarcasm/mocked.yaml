@@ -1,0 +1,35 @@
+slug: mocked
+text: mocked
+kind: word
+pos: verb (past)
+simpleMeaning: Laughed at someone in a cruel way, often by copying them.
+contextualMeaning: Mocking is unkind. It hurts because the person is the target of the joke.
+usageNotes: Use it for cruel humour, such as copying someone’s voice or actions. It is stronger than teased and stronger than poked fun at.
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - joking-and-teasing
+tags:
+  - technique:humour
+  - situation:conflict
+searchPhrases:
+  - made fun of cruelly
+  - copied someone to laugh at them
+  - laughed at someone unkindly
+examples:
+  - text: The boys mocked his stammer until he stopped speaking.
+    setting: narration
+  - text: The older girls mocked her accent on the bus.
+    setting: everyday
+  - text: “Stop mocking me,” she said quietly.
+    setting: dialogue
+relations:
+  - to: poked-fun-at
+    type: stronger
+  - to: sarcastic
+    type: related
+mistakes:
+  - wrong: He mocked to me.
+    right: He mocked me.
+    explanation: Mock takes the person directly, with no to.

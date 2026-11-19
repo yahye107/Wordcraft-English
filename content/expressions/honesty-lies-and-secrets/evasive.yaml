@@ -1,0 +1,35 @@
+slug: evasive
+text: evasive
+kind: word
+pos: adjective
+simpleMeaning: Not answering a question clearly, because you want to hide something.
+contextualMeaning: An evasive person changes the subject, gives half answers or looks away. The reader senses a secret.
+usageNotes: Use it for answers, replies, looks and people. It does not mean lying; it means avoiding the truth.
+register: neutral
+level: advanced
+status: draft
+categories:
+  - lies-and-evasion
+tags:
+  - technique:characterisation
+  - technique:suspense
+searchPhrases:
+  - avoiding the question
+  - giving unclear answers
+  - not wanting to say
+examples:
+  - text: “Where were you?” “Out,” he said, evasive as ever.
+    setting: dialogue
+  - text: Her answers were evasive and short.
+    setting: narration
+  - text: The company gave an evasive answer when asked about the delay.
+    setting: professional
+relations:
+  - to: sincere
+    type: antonym
+  - to: blurted-out
+    type: antonym
+mistakes:
+  - wrong: She was evasion about the money.
+    right: She was evasive about the money.
+    explanation: Evasion is a noun. Evasive is the adjective.

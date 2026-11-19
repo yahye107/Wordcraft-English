@@ -1,0 +1,35 @@
+slug: deadpan
+text: deadpan
+kind: word
+pos: adjective
+simpleMeaning: Said in a very serious voice, with no sign that it is a joke.
+contextualMeaning: Deadpan humour works because the face and voice stay flat while the words are funny.
+usageNotes: "Use it for jokes told with a straight face. It can describe a voice, a look or a person: she was completely deadpan."
+register: neutral
+level: advanced
+status: draft
+categories:
+  - dry-and-ironic-humour
+tags:
+  - technique:humour
+  - technique:dialogue-tag
+searchPhrases:
+  - joking with a straight face
+  - funny but serious voice
+  - no smile when joking
+examples:
+  - text: “I love Mondays,” he said, completely deadpan.
+    setting: dialogue
+  - text: “Lovely weather,” she said in a deadpan voice as the rain poured down.
+    setting: narration
+  - text: His deadpan jokes make people laugh before they notice.
+    setting: everyday
+relations:
+  - to: wry
+    type: related
+  - to: tongue-in-cheek
+    type: related
+mistakes:
+  - wrong: She laughed deadpan.
+    right: She spoke in a deadpan voice.
+    explanation: Deadpan means serious and flat, so it cannot go with laughed.

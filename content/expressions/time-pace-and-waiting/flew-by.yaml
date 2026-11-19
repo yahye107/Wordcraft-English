@@ -1,0 +1,32 @@
+slug: flew-by
+text: flew by
+kind: phrase
+simpleMeaning: Passed very quickly.
+contextualMeaning: Time flew by describes happy or busy hours that seem to vanish.
+usageNotes: "Use it for time: the weekend flew by. It is positive or neutral, and it often means you were enjoying yourself."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - time-passing
+tags:
+  - technique:pacing
+  - technique:time
+searchPhrases:
+  - time went quickly
+  - days passed fast
+  - the hours disappeared
+examples:
+  - text: The weekend flew by and soon it was Monday.
+    setting: everyday
+  - text: The summer flew by in a blur of picnics and late nights.
+    setting: narration
+  - text: “Is it six already?” she asked. “The day just flew by.”
+    setting: dialogue
+relations:
+  - to: dragged-on
+    type: antonym
+mistakes:
+  - wrong: The time flied by.
+    right: The time flew by.
+    explanation: The past tense of fly is flew, not flied.

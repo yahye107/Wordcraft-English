@@ -1,0 +1,37 @@
+slug: wry
+text: wry
+kind: word
+pos: adjective
+simpleMeaning: Showing a dry, slightly ironic humour, often with a small twist of the mouth.
+contextualMeaning: A wry smile or comment shows that someone sees the funny or sad side of a situation without making a show of it.
+usageNotes: Use it with smile, grin, comment or humour. It is quiet and knowing, never loud. It suits characters who are clever and a little tired.
+register: neutral
+level: advanced
+status: draft
+categories:
+  - dry-and-ironic-humour
+tags:
+  - technique:humour
+  - technique:facial-expression
+searchPhrases:
+  - dry humour
+  - smiling with a twist
+  - funny in a quiet knowing way
+examples:
+  - text: She gave a wry smile and shook her head.
+    setting: narration
+  - text: He made another wry comment about the weather.
+    setting: everyday
+  - text: The author’s wry humour runs through every chapter.
+    setting: academic
+relations:
+  - to: ironic
+    type: related
+  - to: deadpan
+    type: related
+  - to: witty
+    type: related
+mistakes:
+  - wrong: He gave a wry, loud laugh.
+    right: He gave a wry, quiet laugh.
+    explanation: Wry humour is quiet, so it does not go with loud.

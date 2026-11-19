@@ -1,0 +1,32 @@
+slug: tongue-in-cheek
+text: tongue-in-cheek
+kind: idiom
+simpleMeaning: Meant as a joke, although it may sound serious.
+contextualMeaning: A tongue-in-cheek remark looks serious on the surface but is really playful. The reader or listener must notice the joke.
+usageNotes: Use it for speeches, advice, headlines and writing that pretend to be serious. Add a hint, such as a smile, so people do not believe it.
+register: neutral
+level: advanced
+status: draft
+categories:
+  - dry-and-ironic-humour
+tags:
+  - technique:humour
+  - technique:contrast
+searchPhrases:
+  - joking while sounding serious
+  - not meant seriously
+  - playful but straight-faced
+examples:
+  - text: His tongue-in-cheek speech had the whole room laughing.
+    setting: narration
+  - text: It was a tongue-in-cheek reply; he did not mean it.
+    setting: everyday
+  - text: The article gives tongue-in-cheek advice on how to waste time.
+    setting: academic
+relations:
+  - to: deadpan
+    type: related
+mistakes:
+  - wrong: She said it in a tongue-in-cheek seriously.
+    right: She said it with her tongue in her cheek.
+    explanation: Tongue-in-cheek describes the tone. It is not an adverb, so it cannot follow said it.

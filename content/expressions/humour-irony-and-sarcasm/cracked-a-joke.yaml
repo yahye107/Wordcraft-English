@@ -1,0 +1,32 @@
+slug: cracked-a-joke
+text: cracked a joke
+kind: phrase
+simpleMeaning: Told a joke, often to lighten the mood.
+contextualMeaning: Cracked a joke often appears in tense moments, when someone tries to make people relax.
+usageNotes: Use it for quick, spoken humour. The verb in this fixed phrase is crack, not make or say.
+register: conversational
+level: beginner
+status: draft
+categories:
+  - joking-and-teasing
+tags:
+  - technique:humour
+  - technique:dialogue-tag
+searchPhrases:
+  - told a funny story
+  - made people laugh
+  - lightened the mood with a joke
+examples:
+  - text: He cracked a joke to break the tension.
+    setting: narration
+  - text: She cracked a joke and everybody laughed.
+    setting: everyday
+  - text: “He cracked a joke at the worst possible moment,” she told me.
+    setting: dialogue
+relations:
+  - to: joked
+    type: synonym
+mistakes:
+  - wrong: He broke a joke.
+    right: He cracked a joke.
+    explanation: The verb in this phrase is crack.

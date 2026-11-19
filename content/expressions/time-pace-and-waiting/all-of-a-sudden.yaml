@@ -1,0 +1,32 @@
+slug: all-of-a-sudden
+text: all of a sudden
+kind: phrase
+simpleMeaning: Without any warning; very quickly and unexpectedly.
+contextualMeaning: A common way to start a surprise in a story. It tells the reader that calm has just ended.
+usageNotes: "Use it at the start of a sentence or in the middle: all of a sudden the lights went out. In formal writing use suddenly or without warning."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - speed-and-suddenness
+tags:
+  - technique:pacing
+  - technique:suspense
+searchPhrases:
+  - without warning
+  - out of nowhere
+  - suddenly happened
+examples:
+  - text: All of a sudden the lights went out.
+    setting: narration
+  - text: We were laughing, and all of a sudden she burst into tears.
+    setting: everyday
+  - text: “All of a sudden,” he said, “the whole room went quiet.”
+    setting: dialogue
+relations:
+  - to: little-by-little
+    type: antonym
+mistakes:
+  - wrong: All of sudden the door opened.
+    right: All of a sudden the door opened.
+    explanation: "The fixed phrase needs the word a: all of a sudden."

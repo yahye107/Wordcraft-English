@@ -1,0 +1,35 @@
+slug: lingered
+text: lingered
+kind: word
+pos: verb (past)
+simpleMeaning: Stayed somewhere, or lasted, a little longer than expected.
+contextualMeaning: People linger when they do not want to leave. Smells, sounds and feelings can linger too.
+usageNotes: "Use it for people who stay and for things that remain: the smell of smoke lingered. It is gentle and a little sad."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - waiting-and-delay
+tags:
+  - technique:pacing
+  - emotion:nostalgia
+searchPhrases:
+  - stayed a bit longer
+  - did not want to leave
+  - stayed in the air
+examples:
+  - text: She lingered at the door, not ready to say goodbye.
+    setting: narration
+  - text: The smell of fresh bread lingered in the kitchen.
+    setting: everyday
+  - text: A doubt lingered in the back of his mind.
+    setting: narration
+relations:
+  - to: rushed
+    type: antonym
+  - to: bided-her-time
+    type: related
+mistakes:
+  - wrong: He lingered quickly out of the room.
+    right: He lingered in the room.
+    explanation: Lingered means to stay longer than needed, so it does not go with quickly.

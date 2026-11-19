@@ -1,0 +1,35 @@
+slug: sincere
+text: sincere
+kind: word
+pos: adjective
+simpleMeaning: Honest and meaning what you say or feel.
+contextualMeaning: A sincere person does not pretend. Sincere thanks, a sincere apology or a sincere smile feels real.
+usageNotes: Use it for apologies, thanks, wishes and people. It is warm. The opposite is insincere, or not honest.
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - telling-the-truth
+tags:
+  - emotion:trust
+  - technique:characterisation
+searchPhrases:
+  - honest and real
+  - meaning what you say
+  - not pretending
+examples:
+  - text: Please accept my sincere thanks.
+    setting: everyday
+  - text: Her smile was warm and sincere.
+    setting: narration
+  - text: “I’m sincere,” he said. “I really am sorry.”
+    setting: dialogue
+relations:
+  - to: evasive
+    type: antonym
+  - to: sarcastic
+    type: antonym
+mistakes:
+  - wrong: He was a sincerely person.
+    right: He was a sincere person.
+    explanation: Sincere is the adjective; sincerely is the adverb.

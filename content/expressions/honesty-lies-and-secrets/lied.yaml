@@ -1,0 +1,37 @@
+slug: lied
+text: lied
+kind: word
+pos: verb (past)
+simpleMeaning: Said something that you know is not true.
+contextualMeaning: "Lying is deliberate: the speaker knows the truth. It is stronger and more serious than a mistake."
+usageNotes: Use it for deliberate untruths. The past tense is lied, and the pattern is lie to someone, not lie someone.
+register: neutral
+level: beginner
+status: draft
+categories:
+  - lies-and-evasion
+tags:
+  - technique:characterisation
+  - situation:conflict
+searchPhrases:
+  - did not tell the truth
+  - said something false
+  - deceived someone
+examples:
+  - text: He lied about where he had been last night.
+    setting: everyday
+  - text: She lied so smoothly that nobody doubted her.
+    setting: narration
+  - text: “You lied to me,” she said quietly.
+    setting: dialogue
+relations:
+  - to: fibbed
+    type: stronger
+  - to: confessed
+    type: antonym
+  - to: a-white-lie
+    type: stronger
+mistakes:
+  - wrong: He lied me about the money.
+    right: He lied to me about the money.
+    explanation: Lie needs to before the person.

@@ -1,0 +1,37 @@
+slug: forgot
+text: forgot
+kind: word
+pos: verb (past)
+simpleMeaning: Did not remember something, or failed to do it because you did not remember.
+contextualMeaning: Forgetting is human and common. In stories it can be funny, sad or a clue.
+usageNotes: "Use it for facts, jobs and people: she forgot her keys. The past tense is forgot; the past participle is forgotten."
+register: neutral
+level: beginner
+status: draft
+categories:
+  - forgetting-and-fading
+tags:
+  - technique:internal-thought
+  - technique:humour
+searchPhrases:
+  - could not remember
+  - did not remember to do it
+  - it slipped away
+examples:
+  - text: I forgot my umbrella on the train.
+    setting: everyday
+  - text: He forgot his lines halfway through the play.
+    setting: narration
+  - text: “I’m sorry,” she said. “I forgot your birthday.”
+    setting: dialogue
+relations:
+  - to: recalled
+    type: antonym
+  - to: came-flooding-back
+    type: antonym
+  - to: slipped-her-mind
+    type: synonym
+mistakes:
+  - wrong: I have forgot his name.
+    right: I have forgotten his name.
+    explanation: After have, use the past participle forgotten.

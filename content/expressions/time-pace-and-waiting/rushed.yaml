@@ -1,0 +1,35 @@
+slug: rushed
+text: rushed
+kind: word
+pos: verb (past)
+simpleMeaning: Moved or did something very fast because there was not enough time.
+contextualMeaning: Rushed shows hurry and often stress. A rushed job may be careless.
+usageNotes: Use it for people and tasks. As an adjective, a rushed meal means eaten too fast, and a rushed decision may be a mistake.
+register: neutral
+level: beginner
+status: draft
+categories:
+  - speed-and-suddenness
+tags:
+  - technique:pacing
+  - technique:movement
+searchPhrases:
+  - hurried
+  - did it too fast
+  - went quickly in a panic
+examples:
+  - text: She rushed to the station but missed the train.
+    setting: everyday
+  - text: He rushed through breakfast and ran out of the door.
+    setting: narration
+  - text: The decision was rushed, and several errors were made.
+    setting: academic
+relations:
+  - to: put-off
+    type: antonym
+  - to: lingered
+    type: antonym
+mistakes:
+  - wrong: He rushed to home.
+    right: He rushed home.
+    explanation: Home does not need to after rushed.

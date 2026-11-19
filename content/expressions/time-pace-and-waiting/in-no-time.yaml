@@ -1,0 +1,32 @@
+slug: in-no-time
+text: in no time
+kind: phrase
+simpleMeaning: Very quickly; in a very short time.
+contextualMeaning: "Often used to reassure someone: you will be fluent in no time. It makes a long task feel short."
+usageNotes: "Use it for jobs and journeys that are done fast: we were home in no time. It is friendly and informal."
+register: conversational
+level: beginner
+status: draft
+categories:
+  - speed-and-suddenness
+tags:
+  - technique:pacing
+  - technique:time
+searchPhrases:
+  - very quickly
+  - almost at once
+  - in a few minutes
+examples:
+  - text: Don’t worry, we’ll be there in no time.
+    setting: everyday
+  - text: The fire spread in no time.
+    setting: narration
+  - text: “Give me the tools,” he said. “I’ll fix it in no time.”
+    setting: dialogue
+relations:
+  - to: at-a-snails-pace
+    type: antonym
+mistakes:
+  - wrong: We finished in no times.
+    right: We finished in no time.
+    explanation: Time stays singular in this phrase.

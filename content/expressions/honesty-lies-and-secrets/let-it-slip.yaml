@@ -1,0 +1,34 @@
+slug: let-it-slip
+text: let it slip
+kind: phrase
+simpleMeaning: Said something secret by accident.
+contextualMeaning: Letting a secret slip is an accident, not a decision. The listener usually reacts at once.
+usageNotes: "Use it for careless speech: she let the date slip. The forms are let it slip, and let something slip."
+register: neutral
+level: intermediate
+status: draft
+categories:
+  - keeping-secrets
+tags:
+  - technique:suspense
+  - technique:characterisation
+searchPhrases:
+  - told a secret by mistake
+  - did not mean to say it
+  - accidentally revealed
+examples:
+  - text: He let it slip that the party was on Friday.
+    setting: narration
+  - text: I didn’t mean to let it slip, but I told her about the gift.
+    setting: everyday
+  - text: “You let it slip,” she said. “Now he knows.”
+    setting: dialogue
+relations:
+  - to: kept-a-secret
+    type: antonym
+  - to: blurted-out
+    type: related
+mistakes:
+  - wrong: He let slipped the secret.
+    right: He let the secret slip.
+    explanation: "Let does not change: let, let, let."

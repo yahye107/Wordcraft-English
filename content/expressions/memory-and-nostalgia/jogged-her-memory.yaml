@@ -1,0 +1,34 @@
+slug: jogged-her-memory
+text: jogged her memory
+kind: phrase
+simpleMeaning: Helped her remember something she had half forgotten.
+contextualMeaning: A small clue, such as a word or a photo, gives memory a push. It does not hand over the whole memory.
+usageNotes: "Use it when a hint brings back a detail: the photograph jogged his memory. The subject is the hint, not the person."
+register: neutral
+level: advanced
+status: draft
+categories:
+  - remembering
+tags:
+  - technique:internal-thought
+  - technique:suspense
+searchPhrases:
+  - helped me remember
+  - gave me a clue to remember
+  - reminded me a little
+examples:
+  - text: The old photograph jogged her memory.
+    setting: narration
+  - text: A smell of coal smoke jogged his memory of the old station.
+    setting: narration
+  - text: “Maybe this will jog your memory,” the detective said.
+    setting: dialogue
+relations:
+  - to: rang-a-bell
+    type: related
+  - to: slipped-her-mind
+    type: antonym
+mistakes:
+  - wrong: The photo jogged her memories.
+    right: The photo jogged her memory.
+    explanation: The fixed phrase uses the singular memory.

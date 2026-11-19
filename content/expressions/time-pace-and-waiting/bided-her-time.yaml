@@ -1,0 +1,32 @@
+slug: bided-her-time
+text: bided her time
+kind: idiom
+simpleMeaning: Waited patiently for the right moment to act.
+contextualMeaning: "Someone who bides their time is not idle: they are planning. It suggests patience with a purpose."
+usageNotes: Use it for characters who wait for a chance, often in a tense plot. Bide is old-fashioned, so it gives a literary tone.
+register: literary
+level: advanced
+status: draft
+categories:
+  - waiting-and-delay
+tags:
+  - technique:pacing
+  - technique:characterisation
+searchPhrases:
+  - waited for the right moment
+  - patient and planning
+  - waited quietly before acting
+examples:
+  - text: He bided his time until the guards changed shifts.
+    setting: narration
+  - text: She bided her time and waited for the manager to leave.
+    setting: everyday
+  - text: For months the clerk bided his time, saying nothing.
+    setting: narration
+relations:
+  - to: lingered
+    type: related
+mistakes:
+  - wrong: She bided for her time.
+    right: She bided her time.
+    explanation: "There is no for: bide your time."

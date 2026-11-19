@@ -1,0 +1,32 @@
+slug: at-a-snails-pace
+text: at a snail’s pace
+kind: idiom
+simpleMeaning: Extremely slowly.
+contextualMeaning: "A playful, slightly critical way to say that something moves too slowly: traffic, queues, work."
+usageNotes: Use it for cars, lines, progress and slow walkers. It sounds humorous, so it suits everyday talk and light narration more than formal writing.
+register: informal
+level: intermediate
+status: draft
+categories:
+  - speed-and-suddenness
+tags:
+  - technique:pacing
+  - technique:humour
+searchPhrases:
+  - very slowly
+  - as slow as a snail
+  - moving too slowly
+examples:
+  - text: The traffic moved at a snail’s pace.
+    setting: everyday
+  - text: The old man walked at a snail’s pace along the path.
+    setting: narration
+  - text: The project is progressing at a snail’s pace.
+    setting: academic
+relations:
+  - to: in-no-time
+    type: antonym
+mistakes:
+  - wrong: He ran at a snail’s pace.
+    right: He walked at a snail’s pace.
+    explanation: A snail is very slow, so the phrase does not suit a quick action like running.

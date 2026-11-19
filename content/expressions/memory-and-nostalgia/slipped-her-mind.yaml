@@ -1,0 +1,34 @@
+slug: slipped-her-mind
+text: slipped her mind
+kind: idiom
+simpleMeaning: Was forgotten without any bad intention.
+contextualMeaning: "A polite, light way to say you forgot: it slipped my mind. It sounds less careless than I forgot."
+usageNotes: "Use it for small jobs or facts: your birthday slipped my mind. It is informal and soft."
+register: conversational
+level: beginner
+status: draft
+categories:
+  - forgetting-and-fading
+tags:
+  - technique:internal-thought
+  - situation:social
+searchPhrases:
+  - I forgot it
+  - it escaped my memory
+  - I did not remember
+examples:
+  - text: The meeting slipped my mind; I’m so sorry.
+    setting: everyday
+  - text: Her promise slipped her mind completely.
+    setting: narration
+  - text: “It slipped my mind,” he said. “I’ll do it now.”
+    setting: dialogue
+relations:
+  - to: jogged-her-memory
+    type: antonym
+  - to: forgot
+    type: synonym
+mistakes:
+  - wrong: It slipped out of my mind.
+    right: It slipped my mind.
+    explanation: The fixed phrase has no out of.

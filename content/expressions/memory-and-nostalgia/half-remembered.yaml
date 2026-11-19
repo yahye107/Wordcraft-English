@@ -1,0 +1,33 @@
+slug: half-remembered
+text: half-remembered
+kind: word
+pos: adjective
+simpleMeaning: Not fully remembered; only partly clear in the mind.
+contextualMeaning: A half-remembered song or dream feels out of reach, which gives a story a dreamy, uncertain mood.
+usageNotes: "Use it before a noun: a half-remembered tune, a half-remembered face. It suggests that the memory is partly lost."
+register: neutral
+level: advanced
+status: draft
+categories:
+  - forgetting-and-fading
+tags:
+  - technique:imagery
+  - technique:internal-thought
+searchPhrases:
+  - partly remembered
+  - vague memory
+  - blurry in the mind
+examples:
+  - text: He hummed a half-remembered song under his breath.
+    setting: narration
+  - text: I have a half-remembered idea of what he said.
+    setting: everyday
+  - text: The poem begins with a half-remembered dream.
+    setting: academic
+relations:
+  - to: vivid
+    type: antonym
+mistakes:
+  - wrong: The song was half-remembering.
+    right: The song was half-remembered.
+    explanation: It is a past participle, so use -ed, not -ing.

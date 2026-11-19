@@ -29,6 +29,8 @@ relations:
     type: antonym
   - to: murky
     type: antonym
+  - to: half-remembered
+    type: antonym
 mistakes:
   - wrong: The colour was vivid and dull.
     right: The colour was vivid and bright.
