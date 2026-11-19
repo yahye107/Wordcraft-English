@@ -25,6 +25,7 @@ export default defineConfig({
     env: {
       WORDCRAFT_DB: 'data/e2e.sqlite',
       ANTHROPIC_API_KEY: 'sk-ant-e2e-fake-key-for-tests-only',
+      WORDCRAFT_AI_MOCK: 'fixture',
     },
   },
 });

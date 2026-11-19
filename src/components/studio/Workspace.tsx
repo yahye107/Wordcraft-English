@@ -96,7 +96,7 @@ export default function Workspace({ sessionId, mode, maxChars, prompt, revisions
         </section>
       )}
 
-      <section className="stack" aria-label="Your writing">
+      <section className="stack" aria-label="Writing area">
         <div className="field">
           <label htmlFor={`${id}-t`}>Your writing</label>
           <textarea
