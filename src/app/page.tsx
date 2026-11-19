@@ -31,7 +31,7 @@ export default function Dashboard() {
         </Link>
         <Link href="/labs" className="tile">
           <h3>Labs</h3>
-          <p>Dialogue and sentence construction, with exercises. Coming soon.</p>
+          <p>Dialogue and sentence construction, with lessons and exercises you can check.</p>
         </Link>
       </div>
     </>

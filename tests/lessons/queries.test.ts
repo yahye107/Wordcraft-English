@@ -119,3 +119,48 @@ describe('submitAnswer', () => {
     expect(db.get<{ n: number }>('SELECT COUNT(*) n FROM exercise_attempts')!.n).toBe(0);
   });
 });
+
+describe('two labs', () => {
+  function twoLabs(): Db {
+    const { bundle, errors } = loadContent(
+      makeContentDir({
+        'categories.yaml': CATEGORIES_YAML,
+        'expressions/sadness/crestfallen.yaml': expressionYaml(),
+        'lessons/dialogue/d1.yaml': lessonYaml({ slug: 'd1', title: 'D1', sort: 1 }),
+        'lessons/dialogue/d2.yaml': lessonYaml({ slug: 'd2', title: 'D2', sort: 2 }),
+        'lessons/sentences/s1.yaml': lessonYaml({ slug: 's1', title: 'S1', lab: 'sentence', sort: 1 }),
+        'lessons/sentences/s2.yaml': lessonYaml({ slug: 's2', title: 'S2', lab: 'sentence', sort: 2 }),
+        'exercises/dialogue/e1.yaml': exerciseYaml('choose', { slug: 'e1', lesson: 'd1' }),
+        'exercises/sentences/e2.yaml': exerciseYaml('choose', { slug: 'e2', lesson: 's1' }),
+        'exercises/sentences/e3.yaml': exerciseYaml('choose', { slug: 'e3', lesson: 's1' }),
+      }),
+    );
+    expect(errors).toEqual([]);
+    const db = openDb(':memory:');
+    migrate(db);
+    seedContent(db, bundle);
+    return db;
+  }
+
+  it("listLessons keeps each lab's lessons and counts apart", () => {
+    const db = twoLabs();
+    const d = listLessons(db, 'dialogue');
+    const s = listLessons(db, 'sentence');
+    expect(d.map((l) => l.slug)).toEqual(['d1', 'd2']);
+    expect(s.map((l) => l.slug)).toEqual(['s1', 's2']);
+    expect(d[0].exerciseCount).toBe(1);
+    expect(s[0].exerciseCount).toBe(2);
+    submitAnswer(db, 'e2', { choice: 0 });
+    expect(listLessons(db, 'dialogue')[0].doneCount).toBe(0);
+    expect(listLessons(db, 'sentence')[0].doneCount).toBe(1);
+  });
+
+  it('prev and next stay inside the lab', () => {
+    const db = twoLabs();
+    expect(getLesson(db, 's2')!.next).toBeUndefined();
+    expect(getLesson(db, 's2')!.prev?.slug).toBe('s1');
+    expect(getLesson(db, 'd1')!.prev).toBeUndefined();
+    expect(getLesson(db, 'd1')!.next?.slug).toBe('d2');
+    expect(getLesson(db, 's1')!.lab).toBe('sentence');
+  });
+});
