@@ -2,6 +2,7 @@ import { z } from 'zod';
 import type { Db } from '@/lib/db';
 import { AiUnavailableError, askClaude } from '@/lib/ai/client';
 import { CATEGORIES, type Issue } from './limits';
+import { lcs, wordList as words } from '@/lib/text/lcs';
 import { TUTOR_SYSTEM, buildTutorUserMessage } from './tutor-prompt';
 
 const MAX_HINT = 240;
@@ -28,22 +29,6 @@ const ReplySchema = z.object({
   nextStep: z.string().default(''),
 });
 export type TutorReply = z.infer<typeof ReplySchema>;
-
-const words = (s: string) => (s.toLowerCase().match(/[\p{L}\p{M}'’-]+/gu) ?? []).map((w) => w.replace(/’/g, "'"));
-
-/** Length of the longest common subsequence of two word lists. */
-function lcs(a: string[], b: string[]): number {
-  const prev = new Array<number>(b.length + 1).fill(0);
-  for (let i = 1; i <= a.length; i++) {
-    let diag = 0;
-    for (let j = 1; j <= b.length; j++) {
-      const up = prev[j];
-      prev[j] = a[i - 1] === b[j - 1] ? diag + 1 : Math.max(prev[j], prev[j - 1]);
-      diag = up;
-    }
-  }
-  return prev[b.length];
-}
 
 /** A field "looks like a rewrite" when it contains most of the learner's words in order. */
 function looksLikeRewrite(learner: string[], field: string): boolean {

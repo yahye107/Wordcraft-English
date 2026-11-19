@@ -59,6 +59,28 @@ function fixtureResponse(req: AiRequest): AiResponse {
       : [];
     return { text: JSON.stringify({ issues, strengths: ['You wrote something real.'], overall: 'A fixed test overall comment.', nextStep: 'Change your opening.' }), ...usage };
   }
+  if (req.feature === 'novel-analysis') {
+    const passage = /<<<PASSAGE\n([\s\S]*?)\nPASSAGE>>>/.exec(req.user)?.[1] ?? '';
+    const first = passage.trim().split(/\s+/)[0] ?? '';
+    return {
+      text: JSON.stringify({
+        vocabulary: first ? [{ quote: first, meaning: 'A fixed test meaning for the first word.' }] : [],
+        structure: 'A fixed test note about how the sentences are built.',
+        grammar: [],
+        dialogue: null,
+        descriptive: 'A fixed test note about the description.',
+        emotion: null,
+        whyNatural: 'A fixed test note about why this sounds natural.',
+        technique: { name: 'Fixture technique', how: 'Choose one small detail and let it carry the feeling.' },
+        example: {
+          situation: 'A baker opens her shop before sunrise.',
+          text: 'The oven ticked as it cooled, and the first loaves sat steaming on the rack.',
+        },
+        tryIt: 'Write two sentences about your own morning. Use one detail from the senses.',
+      }),
+      ...usage,
+    };
+  }
   if (req.feature === 'model-version') {
     return { text: JSON.stringify({ text: 'This is one possible version of your writing for the test.' }), ...usage };
   }
