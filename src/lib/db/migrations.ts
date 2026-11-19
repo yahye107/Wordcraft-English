@@ -355,4 +355,16 @@ CREATE TABLE novel_analyses (
 );
 `,
   },
+  {
+    version: 9,
+    name: 'activity_indexes',
+    sql: `
+-- Indexes only: the dashboard and history read recent learner activity by date.
+CREATE INDEX IF NOT EXISTS idx_attempts_created ON exercise_attempts(created_at);
+CREATE INDEX IF NOT EXISTS idx_review_logs_reviewed ON review_logs(reviewed_at);
+CREATE INDEX IF NOT EXISTS idx_revisions_created ON writing_revisions(created_at);
+CREATE INDEX IF NOT EXISTS idx_novel_created ON novel_analyses(created_at);
+CREATE INDEX IF NOT EXISTS idx_notebook_created ON notebook_entries(created_at);
+`,
+  },
 ];
