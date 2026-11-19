@@ -1,0 +1,12 @@
+slug: l1-5-write-a-short-exchange
+lesson: what-dialogue-tags-do
+level: beginner
+prompt: Write four lines of dialogue between two friends deciding what to eat. Use “said” at least once and give each line at most one tag.
+explanation: Check each line against the list. If a line has two tags, remove one.
+type: free_write
+checklist:
+  - Each line of speech has its own quotation marks.
+  - Each line has no more than one tag.
+  - You used “said” at least once.
+  - When a tag follows the speech, a comma sits inside the closing quote.
+sample: “What do you want for dinner?” Jo asked. “Anything but rice,” Sam said. “We had it yesterday.” “Noodles, then.” “Noodles,” Sam agreed.

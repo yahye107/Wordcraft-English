@@ -1,0 +1,12 @@
+slug: l4-2-third-voice
+lesson: dialogue-without-tags
+level: intermediate
+prompt: A third person joins a tag-free exchange. What should you do?
+explanation: Alternating turns only work for two speakers. A third voice needs a tag or a beat to keep things clear.
+type: choose
+options:
+  - Keep going with no tags
+  - Add a tag or a beat so the reader knows who speaks
+  - Remove the third person
+  - Put the lines in italics
+answer: 1

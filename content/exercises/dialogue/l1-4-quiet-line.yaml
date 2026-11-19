@@ -1,0 +1,12 @@
+slug: l1-4-quiet-line
+lesson: what-dialogue-tags-do
+level: beginner
+prompt: Which version suits an ordinary, quiet line of speech best?
+explanation: Said stays out of the way. “Exclaimed loudly” and “declared dramatically” shout for attention, and “sighed” is not a speech verb.
+type: choose
+options:
+  - “I’m tired,” she exclaimed loudly.
+  - “I’m tired,” she said.
+  - “I’m tired,” she declared dramatically.
+  - “I’m tired,” she sighed.
+answer: 1

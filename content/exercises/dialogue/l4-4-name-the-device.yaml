@@ -1,0 +1,8 @@
+slug: l4-4-name-the-device
+lesson: dialogue-without-tags
+level: intermediate
+prompt: A short action that shows who is speaking without a speech verb is called an action ___.
+explanation: An action beat shows the speaker through what they do, so no speech verb is needed.
+type: fill_blank
+accepted:
+  - beat

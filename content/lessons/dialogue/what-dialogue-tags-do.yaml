@@ -1,0 +1,47 @@
+slug: what-dialogue-tags-do
+lab: dialogue
+title: What dialogue tags do
+summary: A tag tells the reader who is speaking. Learn why “said” is usually the best one.
+level: beginner
+sort: 1
+sections:
+  - heading: A tag tells the reader who is speaking
+    paragraphs:
+      - A dialogue tag is a short phrase, such as “she said” or “Omar asked”, that sits next to a line of speech. Its only job is to tell the reader who is speaking.
+      - Without a tag, the reader has to guess. With one, the reader knows at once and keeps reading.
+    examples:
+      - text: "{speech|“I can’t find my keys,”} {tag|Maya said.}"
+        note: The tag names the speaker. The reader never has to wonder.
+      - text: "{tag|Omar asked,} {speech|“Did you check the car?”}"
+        note: A tag can come first. Then the comma goes after the tag.
+  - heading: Said is almost invisible
+    paragraphs:
+      - Readers hardly notice the word “said”. Their eyes pass over it and stay on the words that were spoken. That is why professional writers use it so often.
+      - Stronger tags such as “snapped” or “whispered” work like a spotlight. They pull the eye away from the speech. Use them when the way of speaking really matters.
+    examples:
+      - text: "{speech|“We’re late again,”} {tag|Dana said.}"
+        note: Plain and quiet. The speech stays in front.
+      - text: "{speech|“We’re late again,”} {tag|Dana announced dramatically.}"
+        note: Too much. The tag and the adverb now compete with the words spoken.
+  - heading: When a tag is worth using
+    paragraphs:
+      - You do not need a tag on every line. Add one when the reader could lose track of who is speaking.
+    bullets:
+      - At the start of an exchange, to say who speaks first.
+      - When a new person joins the conversation.
+      - After a long speech, before another voice replies.
+      - When the way of speaking changes the meaning, as in a whisper or a snap.
+  - heading: One tag is enough
+    paragraphs:
+      - Each line of speech needs at most one tag. Two tags that say the same thing only slow the reader down.
+    examples:
+      - text: "{speech|“Let’s begin,”} {tag|the teacher said.}"
+        note: One tag. Clear.
+      - text: "{speech|“It’s too late,”} {tag|Rhea whispered,} {speech|“we should go.”}"
+        note: A tag in the middle of one speech is still one tag. It also shows a pause.
+related:
+  - whispered
+  - snapped
+  - protested
+  - remarked
+  - exclaimed

@@ -1,0 +1,11 @@
+slug: l2-3-fix-smiled
+lesson: tags-and-action-beats
+level: beginner
+prompt: Smiling is an action, not a way of speaking. Rewrite the line so it is correct.
+explanation: Either make “She smiled.” a beat in its own sentence, or use a real tag such as “she said” and add the smile after it.
+type: fix_punctuation
+broken: “Thank you” she smiled.
+accepted:
+  - “Thank you.” She smiled.
+  - “Thank you,” she said, smiling.
+  - “Thank you,” she said with a smile.

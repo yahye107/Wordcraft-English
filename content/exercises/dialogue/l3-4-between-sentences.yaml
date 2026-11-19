@@ -1,0 +1,8 @@
+slug: l3-4-between-sentences
+lesson: where-beats-go
+level: intermediate
+prompt: A beat in the middle of speech goes between two full ___ of speech.
+explanation: Split the speech between sentences. If the same sentence continues, use a tag with lower case instead.
+type: fill_blank
+accepted:
+  - sentences

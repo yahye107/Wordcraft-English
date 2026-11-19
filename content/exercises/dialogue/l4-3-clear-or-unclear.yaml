@@ -1,0 +1,18 @@
+slug: l4-3-clear-or-unclear
+lesson: dialogue-without-tags
+level: intermediate
+prompt: Is it clear who is speaking in each situation?
+explanation: Turns, voice and one clear opening can carry two speakers. More speakers, or a long gap, need a tag or beat.
+type: identify
+items:
+  - text: Two people trade six short lines with no tags, after a clear opening.
+    answer: clear
+  - text: Three people speak in quick lines with no tags and no beats.
+    answer: unclear
+  - text: A long speech is followed by one short untagged reply, and a third person is in the room.
+    answer: unclear
+  - text: A beat names the first speaker, then two people take turns.
+    answer: clear
+choices:
+  - clear
+  - unclear

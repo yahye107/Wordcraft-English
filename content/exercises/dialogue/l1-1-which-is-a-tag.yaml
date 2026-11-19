@@ -1,0 +1,12 @@
+slug: l1-1-which-is-a-tag
+lesson: what-dialogue-tags-do
+level: beginner
+prompt: Which line contains a dialogue tag?
+explanation: A tag is a speech verb such as said that names the speaker. “She waved” is an action, so it is a beat, not a tag.
+type: choose
+options:
+  - “Come here,” she said.
+  - “Come here.” She waved.
+  - She waved her hand.
+  - She walked to the door.
+answer: 0

@@ -1,0 +1,19 @@
+slug: l3-1-where-is-the-beat
+lesson: where-beats-go
+level: intermediate
+prompt: Where does the beat sit in each line?
+explanation: Find the action sentence and see whether it comes before the speech, after it, or between two parts of it.
+type: identify
+items:
+  - text: Rina frowned. “That’s not what we agreed.”
+    answer: before
+  - text: “That’s not what we agreed.” Rina frowned.
+    answer: after
+  - text: “I know.” Rina frowned. “But things changed.”
+    answer: in the middle
+  - text: “Fine.” Rina shrugged.
+    answer: after
+choices:
+  - before
+  - after
+  - in the middle

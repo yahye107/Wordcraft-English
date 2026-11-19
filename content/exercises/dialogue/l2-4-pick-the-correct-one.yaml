@@ -1,0 +1,12 @@
+slug: l2-4-pick-the-correct-one
+lesson: tags-and-action-beats
+level: beginner
+prompt: Which line is punctuated correctly?
+explanation: A question mark replaces the comma, and the tag stays in lower case. The other versions break one of those rules.
+type: choose
+options:
+  - “Where are you going?” he asked.
+  - “Where are you going,” he asked.
+  - “Where are you going?” He asked.
+  - “Where are you going?”, he asked.
+answer: 0

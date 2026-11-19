@@ -1,0 +1,17 @@
+slug: l3-5-write-three-positions
+lesson: where-beats-go
+level: intermediate
+prompt: Write a short exchange between two characters arguing over a missing phone. Include one beat before speech, one after speech and one in the middle of a speaker’s lines.
+explanation: Look at each beat in turn. Whose action is it, and whose paragraph is it in?
+type: free_write
+checklist:
+  - Each beat is its own sentence with a capital letter.
+  - Each speaker has their own paragraph (use a blank line between them).
+  - A beat never sits next to the other character’s speech.
+  - The beat in the middle comes between two full sentences of speech.
+sample: |-
+  Kai checked his pockets again. “It was right here.”
+
+  “You always say that.” Dev folded his arms.
+
+  “I mean it.” Kai dropped to his knees. “Look under the sofa.”

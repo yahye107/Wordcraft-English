@@ -1,0 +1,12 @@
+slug: l4-1-after-the-first-tag
+lesson: dialogue-without-tags
+level: intermediate
+prompt: You open with one tag. Two people then trade short lines. What is the safest next step?
+explanation: With two speakers and clear turns, the reader can follow without tags. Extra tags and adverbs only slow the pace.
+type: choose
+options:
+  - Tag every line
+  - Drop the tags and let the turns alternate
+  - Add an adverb to each line
+  - Switch to very long speeches
+answer: 1

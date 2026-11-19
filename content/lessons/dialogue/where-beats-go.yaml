@@ -1,0 +1,47 @@
+slug: where-beats-go
+lab: dialogue
+title: Where beats go
+summary: Put a beat before, after or in the middle of speech, and keep each speaker in their own paragraph.
+level: intermediate
+sort: 3
+sections:
+  - heading: A beat before the speech
+    paragraphs:
+      - Put a beat first when you want the action to happen before the words. The beat also tells the reader who is about to speak, so no tag is needed.
+    examples:
+      - text: "{beat|Lena set down her cup.} {speech|“We need to talk.”}"
+        note: The action comes first and names the speaker. The speech follows in the same paragraph.
+      - text: "{beat|He kicked the door shut.} {speech|“Not here.”}"
+        note: The beat shows the mood before a single word is spoken.
+  - heading: A beat after the speech
+    paragraphs:
+      - A beat after the speech works like a pause or a reaction. The reader hears the words and then sees what the body does with them.
+    examples:
+      - text: "{speech|“We need to talk.”} {beat|Lena set down her cup.}"
+        note: The words land first, and the small action gives them weight.
+      - text: "{speech|“I’m fine.”} {beat|Her voice cracked on the last word.}"
+        note: A beat can contradict the words. That is how subtext begins.
+  - heading: A beat in the middle
+    paragraphs:
+      - To break up a long speech, split it between two sentences and put the beat in the gap. End the first sentence with its own full stop and start the next with a capital letter.
+      - If one sentence continues after the break, use a tag instead, and keep the second part in lower case.
+    examples:
+      - text: "{speech|“I know.”} {beat|Ben rubbed his neck.} {speech|“I should have called.”}"
+        note: Two sentences of speech with a beat between them. One speaker owns all three parts.
+      - text: "{speech|“I know,”} {tag|Ben said,} {speech|“but I was busy.”}"
+        note: One sentence split by a tag. Note the lower case “but”.
+  - heading: One paragraph for each speaker
+    paragraphs:
+      - When a new person speaks, start a new paragraph. A beat belongs to the paragraph of the person who performs it. If you put one character’s action next to another character’s speech, the reader will think the action belongs to the speaker.
+    examples:
+      - text: |-
+          {beat|Tom looked at the door.} {speech|“I’m leaving.”}
+
+          {speech|“Now?”} {tag|Mia asked.}
+        note: Two paragraphs, two speakers. Tom’s action and Tom’s words stay together.
+      - text: "{beat|Tom looked at the door. Mia sighed.} {speech|“I’m leaving.”}"
+        note: Confusing. Who speaks, Tom or Mia? Keep each character’s action in their own paragraph.
+related:
+  - shrugged
+  - clenched
+  - fidgeted

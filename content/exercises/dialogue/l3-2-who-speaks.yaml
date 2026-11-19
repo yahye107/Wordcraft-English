@@ -1,0 +1,11 @@
+slug: l3-2-who-speaks
+lesson: where-beats-go
+level: intermediate
+prompt: Tom looked at the door. Mia sighed. “I’m leaving.” Who is speaking?
+explanation: Two characters act in one paragraph, so the reader cannot tell who owns the speech. Give each character their own paragraph.
+type: choose
+options:
+  - Tom
+  - Mia
+  - It is unclear, because two people act in one paragraph
+answer: 2

@@ -1,0 +1,9 @@
+slug: l2-2-fix-the-comma
+lesson: tags-and-action-beats
+level: beginner
+prompt: The speaker is named with a tag. Correct the punctuation.
+explanation: When a tag follows speech, end the speech with a comma inside the quotes and write the tag in lower case.
+type: fix_punctuation
+broken: “Come inside.” she said.
+accepted:
+  - “Come inside,” she said.

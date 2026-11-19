@@ -1,0 +1,18 @@
+slug: l1-3-tag-or-beat
+lesson: what-dialogue-tags-do
+level: beginner
+prompt: Does each line name the speaker with a tag, or show an action with a beat?
+explanation: A tag uses a speech verb (said, called). A beat describes an action (grabbed, hurried).
+type: identify
+items:
+  - text: “Let’s go,” Dan said.
+    answer: tag
+  - text: Dan grabbed his coat.
+    answer: beat
+  - text: “Wait for me,” she called.
+    answer: tag
+  - text: She hurried after him.
+    answer: beat
+choices:
+  - tag
+  - beat

@@ -1,0 +1,18 @@
+slug: l2-1-tag-or-beat
+lesson: tags-and-action-beats
+level: beginner
+prompt: Label each line.
+explanation: A tag uses a speech verb. A beat is an action with no speech verb.
+type: identify
+items:
+  - text: “I’ll be late,” Ana said.
+    answer: tag
+  - text: Ana checked her watch.
+    answer: beat
+  - text: “Don’t wait for me,” Ana whispered.
+    answer: tag
+  - text: Ana picked up her bag.
+    answer: beat
+choices:
+  - tag
+  - beat

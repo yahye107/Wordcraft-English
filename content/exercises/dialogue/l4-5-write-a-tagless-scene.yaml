@@ -1,0 +1,23 @@
+slug: l4-5-write-a-tagless-scene
+lesson: dialogue-without-tags
+level: intermediate
+prompt: Write a six-line exchange between a customer and a shopkeeper. Name the first speaker with a tag or a beat, then use no tags at all.
+explanation: Read only the speech and ask yourself whether you can still tell who is talking.
+type: free_write
+checklist:
+  - The first speaker is named by one tag or one beat.
+  - Each speaker has their own paragraph.
+  - The customer and the shopkeeper sound different.
+  - A reader can follow who speaks without any more tags.
+sample: |-
+  The shopkeeper looked up from his newspaper. “We close in five minutes.”
+
+  “I only need one thing.”
+
+  “Which is?”
+
+  “A birthday card. Something not too silly.”
+
+  “Third shelf, left.”
+
+  “Perfect. Thank you.”

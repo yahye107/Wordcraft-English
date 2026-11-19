@@ -1,0 +1,12 @@
+slug: l1-2-fill-the-tag
+lesson: what-dialogue-tags-do
+level: beginner
+prompt: “The train is late again,” Omar ___.
+explanation: Said is the safest tag. Muttered, complained or grumbled also work when you want to show annoyance, but each one draws more attention.
+type: fill_blank
+accepted:
+  - said
+  - muttered
+  - complained
+  - grumbled
+  - sighed that

@@ -1,0 +1,9 @@
+slug: l3-3-split-with-a-beat
+lesson: where-beats-go
+level: intermediate
+prompt: Ben speaks twice with a beat between. Fix the punctuation.
+explanation: The beat is its own sentence, so it needs a full stop. The speech that follows begins with a capital letter and its own quotation marks.
+type: fix_punctuation
+broken: “I know.” Ben rubbed his neck “I should have called.”
+accepted:
+  - “I know.” Ben rubbed his neck. “I should have called.”

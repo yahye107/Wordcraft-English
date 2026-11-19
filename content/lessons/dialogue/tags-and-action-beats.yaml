@@ -1,0 +1,49 @@
+slug: tags-and-action-beats
+lab: dialogue
+title: Tags and action beats
+summary: Two ways to attach speech to a speaker, and the punctuation each one needs.
+level: beginner
+sort: 2
+sections:
+  - heading: Tags and beats do the same job in different ways
+    paragraphs:
+      - "A tag is a speech verb: said, asked, replied. A beat is a small action, such as a nod, a glance or a step. A beat also shows who is speaking, because the reader assumes the person who acts is the one who talks."
+      - A tag tells us who. A beat shows who, and also what the character is doing or feeling.
+    examples:
+      - text: "{speech|“I’m ready,”} {tag|she said.}"
+        note: "A tag: a speech verb."
+      - text: "{speech|“I’m ready.”} {beat|She picked up her bag.}"
+        note: "A beat: an action. It also tells us who spoke."
+  - heading: Punctuation when a tag follows the speech
+    paragraphs:
+      - End the speech with a comma, not a full stop, and keep the comma inside the quotation marks. Then write the tag in lower case, because it belongs to the same sentence.
+    bullets:
+      - "Right: “I’m ready,” she said."
+      - "Wrong: “I’m ready.” She said. The full stop ends the sentence, so “She” looks like the start of a new one."
+      - "A question mark or exclamation mark replaces the comma, and the tag still starts in lower case: “Are you ready?” she asked."
+    examples:
+      - text: "{speech|“Are you ready?”} {tag|she asked.}"
+        note: The question mark replaces the comma. The tag is still lower case.
+      - text: "{speech|“Stop right there!”} {tag|he shouted.}"
+        note: The same rule applies to an exclamation mark.
+  - heading: Punctuation for an action beat
+    paragraphs:
+      - A beat is not part of the speech sentence. It is a sentence of its own. End the speech with a full stop, a question mark or an exclamation mark, then begin the beat with a capital letter.
+    examples:
+      - text: "{speech|“I’m ready.”} {beat|She picked up her bag.}"
+        note: Full stop inside the quote, then a new sentence.
+      - text: "{speech|“Where are you going?”} {beat|He didn’t look up.}"
+        note: A question, then a beat. The beat starts with a capital letter.
+  - heading: Why “smiled” cannot be a tag
+    paragraphs:
+      - A tag must be something people do with their voice. You can say, ask, whisper or shout words. You cannot smile, nod, sigh or shrug words. Those are actions, so they belong in beats.
+      - If you want the action, give it its own sentence, or join it to a real tag with an “-ing” phrase.
+    examples:
+      - text: "{speech|“Thank you.”} {beat|She smiled.}"
+        note: The action is a beat in its own sentence.
+      - text: "{speech|“Thank you,”} {tag|she said,} {beat|smiling.}"
+        note: Or keep a real tag and add the action after it.
+related:
+  - shrugged
+  - fidgeted
+  - muttered

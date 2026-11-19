@@ -1,0 +1,61 @@
+slug: dialogue-without-tags
+lab: dialogue
+title: Dialogue without tags
+summary: Let turns, voice and a single beat show who is speaking, and know when a tag should return.
+level: intermediate
+sort: 4
+sections:
+  - heading: Let the alternating lines do the work
+    paragraphs:
+      - When only two people talk, readers assume the speakers take turns. After you show who speaks first, you can drop the tags and the exchange stays clear.
+    examples:
+      - text: |-
+          {speech|“Did you eat?”} {tag|Mum asked.}
+
+          {speech|“Not yet.”}
+
+          {speech|“There’s rice in the pot.”}
+
+          {speech|“Thanks.”}
+        note: One tag at the start. After that, the turns alternate and the reader keeps up.
+  - heading: Voice and content show who speaks
+    paragraphs:
+      - Each person should sound different. A teacher might use full sentences and give instructions. A child might use short words and ask questions. When the words fit the person, you rarely need a tag.
+    examples:
+      - text: |-
+          {speech|“Please open your books to page twelve.”}
+
+          {speech|“Do we need a pencil?”}
+
+          {speech|“Yes, and a calm voice.”}
+        note: The teacher and the student sound different, so the reader always knows who is who.
+  - heading: Ground the reader with a beat
+    paragraphs:
+      - A short beat can anchor a speaker without a speech verb. It also gives the scene something to see.
+    examples:
+      - text: |-
+          {beat|Nadia checked the oven.} {speech|“Ten more minutes.”}
+
+          {speech|“I’m starving.”}
+
+          {speech|“Then set the table.”}
+        note: One beat names Nadia. The next two lines follow from the turns.
+  - heading: When to bring a tag back
+    paragraphs:
+      - Tags are tools for clarity. Drop them when the scene is clear and add them back the moment it is not.
+    bullets:
+      - A third person starts to speak.
+      - A speech is long and the next reply could belong to someone else.
+      - Several lines have passed and the reader may lose track.
+      - The way of speaking matters, as in a whisper or a snap.
+    examples:
+      - text: |-
+          {speech|“Who took the last slice?”}
+
+          {speech|“Not me.”}
+
+          {speech|“Not me either,”} {tag|Joss said.} {speech|“Ask Pita.”}
+        note: A third voice enters, so a tag returns to keep the speakers clear.
+related:
+  - drawled
+  - stammered
