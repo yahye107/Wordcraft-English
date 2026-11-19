@@ -1,7 +1,7 @@
 import type { Db } from '@/lib/db';
 import { addCustom, addExample, deleteEntry, deleteExample, saveFromLibrary, updateEntry } from './entries';
 import { createCollection, deleteCollection, renameCollection, setEntryCollections } from './collections';
-import { importFile } from './importer';
+import { importFile, parseObsidianNotes } from './importer';
 import { gradeCard } from './review';
 import { LIMITS, type Fail } from './limits';
 import type { Grade } from '@/lib/srs/schedule';
@@ -100,6 +100,11 @@ export async function handleDeleteCollection(db: Db, id: number): Promise<Respon
 export async function handleImport(db: Db, request: Request): Promise<Response> {
   const body = await readBody(request, MAX_IMPORT_BODY);
   if (body instanceof Response) return body;
+  if (body.dryRun === true) {
+    if (typeof body.text !== 'string') return err(400, 'Send the notes as text.');
+    if (body.text.length > LIMITS.importChars) return err(400, 'That file is too large (limit 1 MB).');
+    return Response.json({ ok: true, dryRun: true, found: parseObsidianNotes(body.text).length, added: 0, skipped: 0, linked: 0 });
+  }
   const r = importFile(db, body.text);
   return r.ok ? Response.json(r) : failed(r);
 }

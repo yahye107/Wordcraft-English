@@ -94,6 +94,14 @@ describe('import and review', () => {
     expect(await json(await h.handleImport(db, req({ text })))).toMatchObject({ added: 0, skipped: 1 });
   });
 
+  it('a dry run reports how many notes were found and adds nothing', async () => {
+    const db = setup();
+    const text = '> [!PDF|note] [[B.pdf#page=1|B, p.1]]\n> > frightened\n> afraid\n';
+    const res = await json(await h.handleImport(db, req({ text, dryRun: true })));
+    expect(res).toMatchObject({ ok: true, found: 1, added: 0, dryRun: true });
+    expect(db.get<{ n: number }>('SELECT COUNT(*) n FROM notebook_entries')!.n).toBe(0);
+  });
+
   it('refuses an import with no text', async () => {
     expect((await h.handleImport(setup(), req({}))).status).toBe(400);
   });
