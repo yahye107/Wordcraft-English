@@ -28,3 +28,12 @@ export type Issue = {
 };
 
 export type StoredIssue = Issue & { id: number; hintLevelShown: number; resolved: boolean };
+
+export const MODE_BLURB: Record<Mode, string> = {
+  sentence: 'Write one sentence and learn how to make it clearer and more natural.',
+  vocabulary: 'Find a more exact word for one you use too often, and see how the options differ.',
+  situation: 'Describe a specific situation in your own words.',
+  paragraph: 'Write a paragraph that uses words and ideas you have been learning.',
+  creative: 'Practise stories, character descriptions, conversations and scenes.',
+  professional: 'Write emails, reports, articles and academic paragraphs.',
+};
