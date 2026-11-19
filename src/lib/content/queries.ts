@@ -77,6 +77,27 @@ export function getCategoryTree(db: Db): CategoryWithCount[] {
   return build(null);
 }
 
+export type CategoryDetail = {
+  slug: string;
+  name: string;
+  description: string;
+  parent?: { slug: string; name: string };
+  children: { slug: string; name: string }[];
+};
+
+export function getCategory(db: Db, slug: string): CategoryDetail | undefined {
+  const c = db.get<CatRow>('SELECT id, slug, name, description, parent_id FROM categories WHERE slug = ?', [slug]);
+  if (!c) return undefined;
+  const parent = c.parent_id
+    ? db.get<{ slug: string; name: string }>('SELECT slug, name FROM categories WHERE id = ?', [c.parent_id])
+    : undefined;
+  const children = db.all<{ slug: string; name: string }>(
+    'SELECT slug, name FROM categories WHERE parent_id = ? ORDER BY sort, name',
+    [c.id],
+  );
+  return { slug: c.slug, name: c.name, description: c.description, parent, children };
+}
+
 type ExprRow = {
   slug: string; text: string; simple_meaning: string; level: Level; register: Register;
   intensity: number | null; kind: string;

@@ -248,7 +248,7 @@ a {
     var(--marker) 0.95em,
     transparent 0.95em
   );
-  padding: 0 0.12em;
+  padding: 0 0.04em;
   border-radius: 2px;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
@@ -399,3 +399,80 @@ input[type='text'], input[type='search'], input[type='number'], input:not([type]
 .wrong-text { color: var(--wrong); font-weight: 600; }
 .panel + .panel, .panel + form { margin-top: 1.25rem; }
 code { font-size: 0.9em; padding: 0.1em 0.35em; background: var(--paper); border-radius: 4px; }
+
+/* ---------- Library ---------- */
+
+.breadcrumb { margin: 0 0 1rem; font-size: 0.95rem; color: var(--ink-2); }
+.breadcrumb a { color: var(--ink-2); }
+
+.badges { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin: 0.5rem 0 0; }
+.btn.small { min-height: 36px; padding: 0 0.8rem; font-size: 0.9rem; }
+
+.meter { display: inline-flex; gap: 3px; align-items: center; margin-left: 0.15rem; }
+.meter .dot { width: 8px; height: 8px; border-radius: 50%; border: 1.5px solid var(--ink-2); }
+.meter .dot.on { background: var(--ink); border-color: var(--ink); }
+
+.chips { display: flex; flex-wrap: wrap; gap: 0.5rem; list-style: none; padding: 0; margin: 0 0 1rem; }
+.chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 0.85rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.92rem;
+  text-decoration: none;
+  transition: border-color 150ms ease, transform 160ms var(--ease-out);
+}
+.chip:active { transform: scale(0.97); }
+.chip[aria-current='true'] { background: var(--marker); border-color: var(--marker); color: var(--marker-ink); font-weight: 600; }
+@media (hover: hover) and (pointer: fine) { .chip:hover { border-color: var(--cobalt); } }
+
+.catgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.catcard { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius-lg); padding: 1.1rem 1.25rem; }
+.catcard h2 { font-size: 1.15rem; margin-bottom: 0.3rem; }
+.catcard h2 a { color: var(--ink); text-decoration: none; }
+.catcard h2 a:hover { text-decoration: underline; }
+.catcard p { margin: 0 0 0.5rem; font-size: 0.95rem; }
+.catcard .count { font-size: 0.85rem; color: var(--ink-2); }
+.catcard .chips { margin: 0.5rem 0 0; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: 1rem; margin-top: 1rem; }
+.xcard {
+  display: grid;
+  gap: 0.35rem;
+  align-content: start;
+  padding: 1rem 1.15rem;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-lg);
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color 150ms ease, transform 160ms var(--ease-out);
+}
+.xcard:active { transform: scale(0.985); }
+.xcard-text { font-family: var(--font-serif); font-size: 1.3rem; font-weight: 600; }
+.xcard-meaning { color: var(--ink-2); font-size: 0.95rem; }
+@media (hover: hover) and (pointer: fine) { .xcard:hover { border-color: var(--cobalt); } }
+
+.entry { max-width: 46rem; }
+.entry section { margin-top: 2.25rem; }
+.entry h2 { border-top: 1px solid var(--rule); padding-top: 1rem; }
+.entry h3 { font-family: var(--font-ui); font-size: 0.95rem; font-weight: 700; margin: 1.1rem 0 0.35rem; color: var(--ink-2); }
+.sentence { font-family: var(--font-serif); font-size: 1.12rem; line-height: 1.65; margin: 0 0 0.35rem; max-width: var(--measure); }
+.examples, .rel-list, .mistakes, .contrast-list { list-style: none; padding: 0; margin: 0; }
+.examples li { margin-bottom: 0.75rem; }
+.rel-list li { margin-bottom: 0.3rem; }
+
+.contrast { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius-lg); padding: 1rem 1.25rem; margin-top: 1rem; }
+.entry .contrast h3 { font-family: var(--font-serif); font-size: 1.1rem; color: var(--ink); margin-top: 0; }
+.contrast-list li { padding: 0.85rem 0; border-top: 1px solid var(--rule); }
+.contrast-list li.current { box-shadow: inset 3px 0 0 var(--marker); padding-left: 0.85rem; }
+.contrast-word { font-weight: 600; }
+.contrast-note { margin: 0.15rem 0 0.35rem; color: var(--ink-2); }
+
+.mistake { padding: 0.85rem 1rem; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--surface); margin-bottom: 0.8rem; }
+.mistake .sentence { margin: 0 0 0.2rem; }
+.mistake p.muted { margin: 0.3rem 0 0; font-size: 0.95rem; }

@@ -3,7 +3,7 @@ import { openDb, type Db } from '@/lib/db';
 import { migrate } from '@/lib/db/migrate';
 import { loadContent } from '@/lib/content/load';
 import { seedContent } from '@/lib/content/seed';
-import { getCategoryTree, listExpressions, getExpression, getContrastGroup } from '@/lib/content/queries';
+import { getCategoryTree, listExpressions, getExpression, getContrastGroup, getCategory } from '@/lib/content/queries';
 import { makeContentDir, CATEGORIES_YAML, expressionYaml } from './helpers';
 
 function seeded(): Db {
@@ -97,5 +97,20 @@ describe('getContrastGroup', () => {
     const g = getContrastGroup(seeded(), 'pair')!;
     expect(g.members[0]).toMatchObject({ slug: 'crestfallen', note: 'face' });
     expect(getContrastGroup(seeded(), 'nope')).toBeUndefined();
+  });
+});
+
+describe('getCategory', () => {
+  it('returns a category with its parent and children', () => {
+    const db = seeded();
+    const top = getCategory(db, 'sadness')!;
+    expect(top.parent).toBeUndefined();
+    expect(top.children.map((c) => c.slug)).toEqual(['disappointment']);
+    const sub = getCategory(db, 'disappointment')!;
+    expect(sub.parent).toEqual({ slug: 'sadness', name: 'Sadness' });
+  });
+
+  it('returns undefined for an unknown slug', () => {
+    expect(getCategory(seeded(), 'nope')).toBeUndefined();
   });
 });
