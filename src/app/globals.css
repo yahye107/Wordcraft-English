@@ -575,3 +575,7 @@ fieldset { border: 0; margin: 0 0 0.75rem; padding: 0; min-width: 0; }
 .history .sentence { white-space: pre-wrap; }
 .prompt-list li { max-width: 46rem; }
 .prompt-list h2 { margin-bottom: 0.4rem; }
+.spark { color: var(--cobalt); display: block; margin: 0.5rem 0 1rem; }
+.table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.table th, .table td { text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid var(--rule); }
+.history-link { display: grid; gap: 0.3rem; color: var(--ink); text-decoration: none; }
