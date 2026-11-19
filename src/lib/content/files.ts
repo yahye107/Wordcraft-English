@@ -24,8 +24,15 @@ const SLUG_LINE = /^slug:[ \t]*['"]?([^'"\s#]+)['"]?[ \t]*(?:#.*)?$/m;
 const SLUG_OK = /^[a-z0-9][a-z0-9-]*$/;
 const STATUS_LINE = /^status:[ \t]*['"]?(draft|published)['"]?[ \t]*(?:#.*)?$/m;
 
-/** SHA-1 of the file text with line endings normalised, so a CRLF copy of a file has the same fingerprint. */
-export const fingerprintOf = (text: string): string => createHash('sha1').update(text.replace(/\r\n/g, '\n')).digest('hex');
+// The whole line, including its line break, so a file with the line and one without it hash the same.
+const STATUS_LINE_ALL = new RegExp(`${STATUS_LINE.source}\\n?`, 'gm');
+
+/**
+ * SHA-1 of the file text with line endings normalised and the `status:` line left out. A CRLF copy has the same
+ * fingerprint, and publishing or un-publishing an entry does not count as editing it.
+ */
+export const fingerprintOf = (text: string): string =>
+  createHash('sha1').update(text.replace(/\r\n/g, '\n').replace(STATUS_LINE_ALL, '')).digest('hex');
 
 /**
  * Every content file's kind, slug, status and fingerprint, found without parsing each file as full YAML: the

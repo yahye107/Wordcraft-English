@@ -99,6 +99,15 @@ describe('indexContentFiles', () => {
   });
 });
 
+describe('fingerprints and status', () => {
+  it('ignores the status line, so publishing or moving back to draft does not count as an edit', () => {
+    const doc = (extra: string, meaning = 'One thing.') => `slug: x\n${extra}level: beginner\nsimpleMeaning: ${meaning}\n`;
+    expect(fingerprintOf(doc(`status: draft\n`))).toBe(fingerprintOf(doc(`status: published\n`)));
+    expect(fingerprintOf(doc(`status: draft\n`))).toBe(fingerprintOf(doc('')));
+    expect(fingerprintOf(doc(''))).not.toBe(fingerprintOf(doc('', 'Two things.')));
+  });
+});
+
 describe('migration 10 (content_reviews)', () => {
   it('creates the table and rejects an unknown verdict', () => {
     const db = openDb(':memory:');
