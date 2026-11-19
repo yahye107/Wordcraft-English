@@ -18,6 +18,9 @@ const CONTENT_TABLES = [
   'expressions_fts',
   'settings',
   'ai_usage',
+  'notebook_entries',
+  'srs_cards',
+  'review_logs',
 ];
 
 function fresh() {

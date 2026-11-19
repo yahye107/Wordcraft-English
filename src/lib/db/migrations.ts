@@ -190,4 +190,65 @@ CREATE TABLE exercise_attempts (
 CREATE INDEX idx_attempts_exercise ON exercise_attempts(exercise_slug);
 `,
   },
+  {
+    version: 4,
+    name: 'notebook',
+    sql: `
+-- Learner data. No foreign keys to content tables: the expression slug is kept as plain text.
+CREATE TABLE notebook_entries (
+  id INTEGER PRIMARY KEY,
+  kind TEXT NOT NULL,
+  expression_slug TEXT,
+  text TEXT NOT NULL,
+  my_meaning TEXT NOT NULL DEFAULT '',
+  my_notes TEXT NOT NULL DEFAULT '',
+  source TEXT,
+  created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now'))
+);
+CREATE UNIQUE INDEX uq_entries_slug ON notebook_entries(expression_slug) WHERE expression_slug IS NOT NULL;
+CREATE UNIQUE INDEX uq_entries_text ON notebook_entries(lower(trim(text))) WHERE kind IN ('custom','import');
+
+CREATE TABLE notebook_examples (
+  id INTEGER PRIMARY KEY,
+  entry_id INTEGER NOT NULL REFERENCES notebook_entries(id) ON DELETE CASCADE,
+  text TEXT NOT NULL,
+  created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now'))
+);
+CREATE INDEX idx_nbex_entry ON notebook_examples(entry_id);
+
+CREATE TABLE collections (
+  id INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  created_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now'))
+);
+CREATE UNIQUE INDEX uq_collections_name ON collections(lower(name));
+
+CREATE TABLE entry_collections (
+  entry_id INTEGER NOT NULL REFERENCES notebook_entries(id) ON DELETE CASCADE,
+  collection_id INTEGER NOT NULL REFERENCES collections(id) ON DELETE CASCADE,
+  PRIMARY KEY (entry_id, collection_id)
+);
+
+CREATE TABLE srs_cards (
+  entry_id INTEGER PRIMARY KEY REFERENCES notebook_entries(id) ON DELETE CASCADE,
+  ease REAL NOT NULL,
+  interval_days INTEGER NOT NULL,
+  reps INTEGER NOT NULL,
+  lapses INTEGER NOT NULL,
+  due_at TEXT NOT NULL,
+  last_reviewed_at TEXT
+);
+CREATE INDEX idx_srs_due ON srs_cards(due_at);
+
+CREATE TABLE review_logs (
+  id INTEGER PRIMARY KEY,
+  entry_id INTEGER NOT NULL REFERENCES notebook_entries(id) ON DELETE CASCADE,
+  grade TEXT NOT NULL,
+  prev_interval INTEGER NOT NULL,
+  new_interval INTEGER NOT NULL,
+  reviewed_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now'))
+);
+CREATE INDEX idx_logs_entry ON review_logs(entry_id);
+`,
+  },
 ];
