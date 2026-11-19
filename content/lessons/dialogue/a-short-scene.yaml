@@ -35,6 +35,14 @@ sections:
       - The drawled tag and the exaggerated phrase signal sarcasm.
       - A single thought shows what Nia feels without a speech.
       - A short beat and plain speech end the scene with the apology.
+    examples:
+      - text: |-
+          {speech|“Mum will—”}
+
+          {speech|“Mum won’t find out.”}
+        note: A dash cuts Nia off, and the reply arrives with no tag at all.
+      - text: "{speech|“Oh, I’m thrilled,”} {tag|he drawled.} {speech|“Nothing makes my evening like broken china.”}"
+        note: One tag and one exaggerated phrase are enough to signal sarcasm.
   - heading: Try it yourself
     paragraphs:
       - "Choose a situation and write your own scene of eight to twelve lines. Plan the order: who speaks first, where the beats go, where hesitation or sarcasm appears, and where one thought would help. Then check your scene against the notes above."
